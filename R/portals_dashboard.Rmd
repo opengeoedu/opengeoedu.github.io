@@ -1,5 +1,5 @@
 ---
-title: "Open Data Portals"
+title: "Open Data Portale"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
