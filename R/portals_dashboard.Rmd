@@ -1,0 +1,49 @@
+---
+title: "Open Data Portals"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: scroll
+---
+
+```{r setup, include=FALSE}
+library(leaflet)
+library(flexdashboard)
+library(DT)
+library(htmltools)
+portale <- read.csv("../data/portale_geocoded.csv")
+portale$Link <- paste0("<a href=\"",htmlEscape(portale$URL),"\" target=\"_blank\">",htmlEscape(portale$Titel),"</a>")
+portale$popup <- paste0("<a href=\"",htmlEscape(portale$URL),"\" target=\"_blank\">",htmlEscape(portale$Titel),"</a><br>", htmlEscape(portale$Beschreibung))
+source("create_map_function.R")
+
+#Column {data-width=650}
+#Column {data-width=350}
+```
+
+
+
+-----------------------------------------------------------------------
+
+### Leaflet
+
+```{r}
+m <- createMap(portale)
+m
+```
+
+
+-----------------------------------------------------------------------
+
+### Übersicht
+
+```{r}
+#DT::datatable(portale[c("Link","Beschreibung","Ort","Land","Bezug", "Lizenz")], escape = FALSE, options = list(
+#  bPaginate = TRUE
+#))
+
+DT::datatable(portale[c("Link","Beschreibung","Ort","Bezug")], escape = FALSE, options = list(
+  bPaginate = TRUE
+))
+```
+
+
