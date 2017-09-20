@@ -4,7 +4,10 @@ createMap <- function(portale) {
   names(colorlf) <- categories
   
   m <-
-    leaflet(data = portale) %>% addProviderTiles(providers$Stamen.TonerBackground) %>% addLegend(
+    leaflet(data = portale)  %>% 
+  #  addProviderTiles(providers$Stamen.TonerBackground) %>% 
+    addProviderTiles(providers$Stamen.TonerLite) %>% 
+    addLegend(
       colors = colorlf,
       values = categories,
       labels = categories,
