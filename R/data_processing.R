@@ -9,7 +9,7 @@ if(FALSE){
   devtools::install_github("rstudio/crosstalk")
   #system dependencies libssl-dev  libcurl4-openssl-dev
 }
-portale <- read.csv("data/portale_geocoded.csv")
+portale <- read.csv("data/portale_geocoded2.csv")
 
 
 library(ggmap)
@@ -23,12 +23,12 @@ for(i in 1:dim(portale)[1]){
   }
 }
 
-write.csv(portale, file = "portale_geocoded.csv")
+write.csv(portale, file = "data/portale_geocoded2.csv")
 #------------------------------
 
 #produce output in differnent formates
 #--------------------
-portale <- read.csv("portale_geocoded.csv")
+portale <- read.csv("data/portale_geocoded2.csv")
 library(rgdal)
 library(sp)
 library(ggmap)

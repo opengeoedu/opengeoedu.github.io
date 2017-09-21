@@ -1,0 +1,85 @@
+"","X.2","X.1","X","URL","Titel","Land","lat","lon","Beschreibung","Ort","Bezug","Staatlich_Öffentlich","Geoportal","Lizenz"
+"1",1,12,12,"http://offenedaten.aachen.de/","Aachen Open Data","Deutschland",50.7753,6.0839,"","Aachen","kommunal","ja","",NA
+"2",2,56,56,"https://opendata.bayern.de/","Open Data Portal des Freistaats Bayern","Deutschland",48.7904472,11.4978895,"","Bayern","regional","ja","",NA
+"3",3,52,52,"http://daten.berlin.de/","Offene Daten Berlin","Deutschland",52.5200066,13.404954,"","Berlin","regional","ja","",NA
+"4",4,13,13,"https://www.bochum.de/opendata","Bochum Open Data","Deutschland",51.4818,7.2162,"","Bochum","kommunal","ja","",NA
+"5",5,8,8,"https://opendata.bonn.de/","Open Data Katalog Bonn","Deutschland",50.73743,7.0982068,"","Bonn","kommunal","ja","",NA
+"6",6,14,14,"http://www.braunschweig.de/leben/stadtplanung_bauen/geoinformationen/opengeodata.html","Braunschweig Open GeoData","Deutschland",52.2689,10.5268,"","Braunschweig","kommunal","ja","",NA
+"7",7,58,58,"http://transparenz.bremen.de/","Transparenzportal Bremen","Deutschland",53.0792962,8.8016936,"","Bremen","regional","ja","",NA
+"8",8,41,41,"http://portal.chemnitz.opendata.arcgis.com/","Open Data Stadt Chemnitz","Deutschland",50.8325,12.9253,"","Chemnitz","ja","ja","",NA
+"9",9,15,15,"http://dblp.org/","DBLP computer science bibliography","Deutschland",49.5308783,6.8972197,"","Deutschland","national","nein","",NA
+"10",10,16,16,"http://destatis.de/","Destatis - Statistisches Bundesamt","Deutschland",52.5243681651,13.4105300903,"","Deutschland","national","ja","",NA
+"11",11,17,17,"http://data.deutschebahn.com/","Deutsche Bahn Open Data","Deutschland",52.5243681651,13.4105300903,"","Deutschland","national","nein","",NA
+"12",12,18,18,"http://opendata.esri-de.opendata.arcgis.com/","Esri Deutschland Open Data Portal(HTML Version)","Deutschland",52.5243681651,13.4105300903,"","Deutschland","national","nein","",NA
+"13",13,19,19,"http://sdw.ecb.europa.eu/","European Central Bank - Statistical Data Warehouse","Deutschland",50.1109,8.6821,"","Deutschland","national","ja","",NA
+"14",14,38,38,"http://offenedaten.de/","Offenedaten.de","Deutschland",52.5243681651,13.4105300903,"","Deutschland","national","nein","",NA
+"15",15,39,39,"https://www.offenesdatenportal.de/","Offenesdatenportal.de","Deutschland",52.5243681651,13.4105300903,"","Deutschland","kommunal","nein","",NA
+"16",16,46,46,"http://segelflug.de/vereine/welt2000/","Welt 2000 Airports/waypoints","Deutschland",52.5243681651,13.4105300903,"","Deutschland","international","nein","",NA
+"17",17,47,47,"http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div?gdz_spr=deu&gdz_akt_zeile=5&gdz_anz_zeile=0&gdz_user_id=0","Bundesamt für Kartographie und Geodäsie","Deutschland",51.165691,10.451526,"Freie Daten und Dienste des BKG","Deutschland","national","ja","ja",NA
+"18",18,48,48,"https://code-de.org/","CODE-DE","Deutschland",51.165691,10.451526,"Copernicus Data and Exploitation Platform – Deutschland","Deutschland","national","teilweise","ja",NA
+"19",19,49,49,"http://www.geoportal.de/","Geoportal.de - Geodaten aus Deutschland – GDI-DE","Deutschland",51.165691,10.451526,"","Deutschland","national","ja","ja",NA
+"20",20,50,50,"https://www.govdata.de/","GovData - das Datenportal für Deutschland","Deutschland",51.165691,10.451526,"","Deutschland","national","ja","",NA
+"21",21,51,51,"https://www.mcloud.de/","mCloud","Deutschland",51.165691,10.451526,"Die mCLOUD ist eine Rechercheplattform zu offenen Daten aus dem Bereich Mobilität und angrenzender Themen. ","Deutschland","national","ja","",NA
+"22",22,42,42,"http://opengeodatalandkreisdiepholz-geoweb-diepholz.opendata.arcgis.com/","Open Geodata Landkreis Diepholz","Deutschland",52.7195263,8.7462162,"","Diepholz","kommunal","ja","",NA
+"23",23,60,60,"https://open-data.europa.eu/de/about","Offenes Datenportal der EU","Europa",48.5948367,7.7719195,"","Europa","international","ja","",NA
+"24",24,7,7,"http://www.offenedaten.frankfurt.de/about","offenedaten.frankfurt.de","Deutschland",50.1109221,8.6821267,"","Frankfurt am Main","kommunal","ja","",NA
+"25",25,20,20,"http://fritz.freiburg.de/","Freiburg FRITZ Online Statistics","Deutschland",47.9990077,7.8421043,"","Freiburg im Breisgau","kommunal","Ja","",NA
+"26",26,2,2,"https://opendata.gelsenkirchen.de/","Offene Daten Gelsenkirchen","Deutschland",51.517744,7.0857172,"","Gelsenkirchen","kommunal","ja","",NA
+"27",27,80,80,"http://data.tpg.ch/","Open Data TPG","Schweiz",46.2050241,6.1090692,"","Genf","regional","nein","",NA
+"28",28,81,81,"http://ge.ch/sitg/sitg_catalog/sitg_donnees","Sitg Geneva's Territorial Information System","Schweiz",46.2,6.15,"","Genf","regional","nein","ja",NA
+"29",29,84,84,"https://www.wmo.int/","Weltorganisation für Meteorologie","Schweiz",46.2,6.15,"","Genf","international","nein","",NA
+"30",30,65,65,"http://data.graz.gv.at/","Graz Open Data","Österreich",47.0666667,15.45,"","Graz","kommunal","ja","",NA
+"31",31,21,21,"http://www.daten.halle.de/","Halle an der Saale Open Data","Deutschland",51.4969802,11.9688029,"","Halle an der Saale","kommunal","ja","",NA
+"32",32,59,59,"http://daten.hamburg.de/","Transparenzportal Hamburg","Deutschland",53.5510846,9.9936819,"","Hamburg","regional","ja","",NA
+"33",33,11,11,"https://www.opendata-hro.de/","OpenData.HRO","Deutschland",54.0924406,12.0991466,"","Hansestadt Rostock","kommunal","ja","",NA
+"34",34,22,22,"http://www.herne.de/kommunen/herne/ttw.nsf/id/DE_Open-Data","Herne Open Data","Deutschland",51.5369,7.2009,"","Herne","kommunal","ja","",NA
+"35",35,24,24,"http://opendata.jena.de/","Jena OpenData","Deutschland",50.9279397,11.5881048,"","Jena","kommunal","ja","",NA
+"36",36,67,67,"http://data.ktn.gv.at/","Kärnten Open Data","Österreich",46.722203,14.1805882,"","Kärnten","regional","ja","",NA
+"37",37,28,28,"https://www.offenesdatenportal.de/organization/kreis-kleve","Kreis Kleve Open Data","Deutschland",51.7867,6.1295,"","Kleve","kommunal","ja","",NA
+"38",38,44,44,"https://www.offenesdatenportal.de/organization/stadt-kleve","Stadt Kleve Open Data","Deutschland",51.3388,6.5853,"","Kleve","kommunal","ja","",NA
+"39",39,4,4,"https://www.offenedaten-koeln.de/","Offene Daten Köln","Deutschland",50.937531,6.9602786,"","Köln","kommunal","ja","",NA
+"40",40,27,27,"https://www.offenesdatenportal.de/organization/krefeld","Krefeld Open Data","Deutschland",51.3388,6.5853,"","Krefeld","kommunal","ja","",NA
+"41",41,30,30,"https://opendata.leipzig.de/de/dataset","Leipzig Open Data","Deutschland",51.3397,12.3731,"","Leibzig","kommunal","ja","",NA
+"42",42,69,69,"http://data.linz.gv.at/","Linz Open Data","Österreich",48.3063888888,14.286111111,"","Linz","kommunal","ja","",NA
+"43",43,9,9,"https://open.lklg.net/","Open Data Portal Lüneburg","Deutschland",53.2464214,10.4115179,"","Lüneburg","kommunal","ja","",NA
+"44",44,31,31,"https://www.magdeburg.de/Start/B%C3%BCrger-Stadt/Verwaltung-Service/Offene-Verwaltungsdaten/index.php?La=1&NavID=37.906&object=tx%7C37.12808.1&kat=&kuo=2&sub=0","Magdeburg Open Data","Deutschland",52.1205,11.6276,"","Magdeburg","kommunal","ja","",NA
+"45",45,40,40,"https://opendata.mannheim.de/","Open Data der Stadt Mannheim","Deutschland",49.48423,8.475242,"","Mannheim","ja","ja","",NA
+"46",46,32,32,"https://opendata.meerbusch.de/","Meerbusch Open Data","Deutschland",51.2843756,6.5887419,"","Meerbusch","kommunal","ja","",NA
+"47",47,33,33,"http://stadt.mittenwalde.opendata.arcgis.com/","Mittenwalde Open Data","Deutschland",52.2318752045,13.5303585205,"","Mittenwalde","kommunal","ja","",NA
+"48",48,5,5,"http://offenedaten.moers.de/","Offene Daten Moers","Deutschland",51.4516041,6.6408148,"","Moers","kommunal","ja","",NA
+"49",49,35,35,"https://www.moenchengladbach.de/de/aktuell-aktiv/open-data/","Mönchengladbach Open Data","Deutschland",51.1805,6.4428,"","Mönchengladbach","kommunal","ja","",NA
+"50",50,36,36,"https://geo.muelheim-ruhr.de/open-data/13819","Mülheim an der Ruhr Open Data","Deutschland",51.4186,6.8845,"","Mülheim an der Ruhr","kommunal","ja","",NA
+"51",51,10,10,"https://www.opengov-muenchen.de/","Open-Data-Portal München","Deutschland",48.1351253,11.5819805,"","München","kommunal","ja","",NA
+"52",52,37,37,"http://www.stadt-muenster.de/katasteramt/geodatenmanagement/open-data.html","Münster GeoData","Deutschland",51.9607,7.6261,"","Münster (Westf.)","kommunal","ja","",NA
+"53",53,23,23,"http://iatiregistry.org/","Iati Registry","Deutschland",52.5243681651,13.4105300903,"",NA,"international","nein","",NA
+"54",54,25,25,"https://transparenz.karlsruhe.de/","Karlsruhe Open Data","Deutschland",49.0069,8.4037,"",NA,"kommunal","ja","",NA
+"55",55,71,71,"http://opendataportal.at/","Open Data Portal Austria","Österreich",48.2018644,16.3533064,"",NA,"national","nein","",NA
+"56",56,70,70,"http://data.noe.gv.at/","Niederösterreich (lower Austria) Open Data","Österreich",48.3333,15.75,"","Niederösterreich","regional","ja","",NA
+"57",57,26,26,"https://www.offenesdatenportal.de/organization/krzn","Kommunales Rechenzentrum Niederrhein","Deutschland",51.4958,6.5321,"","Niederrhein","kommunal","ja","",NA
+"58",58,3,3,"http://offenedaten.kdvz-frechen.de/","Offene Daten kdvz Rhein-Erft-Rur","Deutschland",51.4332367,7.6615938,"Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stadt Bergheim, Gemeinde Langerwehe, Gemeinde Hürtgenwald, Gemeinde Vettweiß, Stadt Jülich, Gemeinde Merzenich, Stadt Wesseling, Stadt Heimbach, Gemeinde Kreuzau, Stadt Linnich, Stadt Bad Münstereifel, Gemeinde Titz, Stadt Bedburg","Nordrhein-Westfalen","kommunal","ja","",NA
+"59",59,55,55,"https://open.nrw/de/dat_kat","Open Data | Open.NRW","Deutschland",51.4332367,7.6615938,"","Nordrhein-Westfalen","regional","ja","",NA
+"60",60,61,61,"http://data.gv.at/","Austrian Government Open Data","Österreich",48.2,16.35,"","Österreich","national","ja","",NA
+"61",61,62,62,"http://basemap.at/","Austrian Ogd Basemap","Österreich",48.2,16.35,"","Österreich","national","ja","ja",NA
+"62",62,63,63,"http://umweltbundesamt.at/opendata/","Umweltbundesamt: OpenData Portal","Österreich",48.2,16.35,"","Österreich","national","ja","",NA
+"63",63,64,64,"https://www.geologie.ac.at/en/","Geologische Bundesanstalt","Österreich",48.2,16.35,"","Österreich","national","ja","ja",NA
+"64",64,66,66,"http://inspire.gv.at/","INSPIRE Austria","Österreich",48.2099296,16.3807722,"","Österreich","national","nein","ja",NA
+"65",65,68,68,"http://data.reeep.org/","Linked Clean Energy Data - Data.reegle.info","Österreich",48.2208286,16.2399771,"","Österreich","international","nein","",NA
+"66",66,73,73,"http://statistik.at/","Statistik Austria","Österreich",48.2,16.35,"","Österreich","national","nein","",NA
+"67",67,76,76,"http://zamg.ac.at/","Zentralanstalt Für Meteorologie und Geodynamik","Österreich",48.2,16.35,"","Österreich","national","ja","ja",NA
+"68",68,57,57,"https://daten.rlp.de/","Open-Government-Data-Portal Rheinland-Pfalz","Deutschland",50.118346,7.3089527,"","Rheinland-Pfalz","regional","ja","",NA
+"69",69,54,54,"http://www.opendata.sachsen.de/Daten_finden.htm","Open Data - Verfügbare Datenbestände des Freistaats Sachsen","Deutschland",51.1045407,13.2017384,"","Sachsen","regional","ja","",NA
+"70",70,43,43,"https://offenedaten.de/organization/salzgitter","Salzgitter","Deutschland",52.1379,10.3899,"","Salzgitter","kommunal","ja","",NA
+"71",71,77,77,"http://bis.org/statistics/","Bank For International Settlements Statistics","Schweiz",47.5667,7.6,"","Schweiz","international","nein","",NA
+"72",72,78,78,"http://opendata.cern.ch/","Cern Open Data","Schweiz",46.2342,6.0528,"","Schweiz","international","nein","",NA
+"73",73,79,79,"http://meteoswiss.ch/","Meteoswiss","Schweiz",46.8333,8.3333,"","Schweiz","national","ja","",NA
+"74",74,82,82,"http://www.bfs.admin.ch/","Bundesamt für Statistik","Schweiz",46.8333,8.3333,"","Schweiz","national","ja","",NA
+"75",75,83,83,"https://opendata.swiss","opendata.swiss","Schweiz",46.8333,8.3333,"opendata.swiss ist das Portal für Schweizer Open Government Data (OGD). Hier können Sie Schweizer Behördendaten kostenlos herunterladen.","Schweiz","national","ja","",NA
+"76",76,53,53,"http://www.geoportal-th.de/de-de/downloadbereiche/downloadoffenegeodatenth%C3%BCringen.aspx","Offene Geodaten Thüringen","Deutschland",51.0109892,10.845346,"","Thüringen","regional","ja","ja",NA
+"77",77,74,74,"http://data.tirol.gv.at/","Tirol Data Portal","Österreich",47.25,11.3333333,"","Tirol","regional","ja","",NA
+"78",78,1,1,"http://daten.ulm.de/","daten.ulm.de","Deutschland",48.4010822,9.9876076,"","Ulm","kommunal","ja","",NA
+"79",79,29,29,"https://www.offenesdatenportal.de/organization/kreis-viersen","Kreis Viersen Open Data","Deutschland",51.2555,6.3965,"","Viersen","kommunal","ja","",NA
+"80",80,75,75,"http://data.vorarlberg.gv.at/","Vorarlberg Open Data","Österreich",47.25,9.9166667,"","Voralberg","regional","ja","",NA
+"81",81,45,45,"https://www.offenesdatenportal.de/organization/stadt-wesel","Stadt Wesel am Rhein Open Data","Deutschland",51.6643,6.6296,"","Wesel","kommunal","ja","",NA
+"82",82,72,72,"http://data.wien.gv.at/","Open Government Data Wien","Österreich",48.2084877602,16.3720750809,"","Wien","regional","ja","",NA
+"83",83,6,6,"https://www.offenedaten-wuppertal.de/","Offene Daten Wuppertal","Deutschland",51.2562128,7.1507636,"","Wuppertal","kommunal","ja","",NA
+"84",84,85,85,"https://data.stadt-zuerich.ch/","Zurich Open Data","Schweiz",47.3667,8.55,"","Zürich","kommunal","ja","",NA
