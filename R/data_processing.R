@@ -23,7 +23,7 @@ for(i in 1:dim(portale)[1]){
   }
 }
 
-write.csv(portale2, file = "data/portale_geocoded2.csv")
+
 
 library(xml2)
 
@@ -62,23 +62,23 @@ sapply(portale$URL, function(url) {
   invisible()
 })
 
-portale[, c("html_title", "meta_description", "meta_author")] <- webmeta
+portale2 <- portale
+portale2[, c("html_title", "meta_description", "meta_author")] <- webmeta
 write.csv(portale2, file = "data/portale_geocoded_webmeta.csv")
 
 
-portale <- read.csv("data/portale_geocoded2.csv", as.is = TRUE)
 for(i in 1:dim(portale)[1]){
   if(portale[i,]$Beschreibung == "" || length(portale[i,]$Beschreibung) == 0){
     portale[i,]$Beschreibung <- portale2[i,]$meta_description
   }
 }
 
-write.csv(portale, file = "data/portale_geocoded2.csv")
+
 #------------------------------
 
 #produce output in differnent formates
 #--------------------
-portale <- read.csv("data/portale_geocoded2.csv")
+#portale <- read.csv("data/portale_geocoded2.csv")
 library(rgdal)
 library(sp)
 library(ggmap)
@@ -89,3 +89,4 @@ coordinates(portale.sp) <- ~lon + lat
 plot(portale.sp)
 writeOGR(portale.sp, dsn = "out_geodata/portale.geojson", layer = "portale", driver = "GeoJSON", overwrite_layer = TRUE)
 writeOGR(portale.sp, dsn = "out_geodata/portale.shp", layer = "portale", driver = "ESRI Shapefile", overwrite_layer = TRUE)
+write.csv(portale, file = "data/portale_geocoded2.csv")
