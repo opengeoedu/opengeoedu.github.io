@@ -1,6 +1,7 @@
 library(RCurl)
-
+library(urltools)
 library(reticulate)
+library(stringr)
 
 unorm <- import("url_normalize")
 url_normalize <- function(str) as.character(sapply(as.character(str), unorm$url_normalize, USE.NAMES = FALSE, simplify = TRUE))
