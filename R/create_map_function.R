@@ -1,10 +1,12 @@
+library(leaflet)
+
 createMap <- function(portale) {
   categories <- c("international","national","regional","kommunal")
   colorlf <- c("green", "yellow", "blue", "brown")
   names(colorlf) <- categories
   
   m <-
-    leaflet(data = portale)  %>% 
+    leaflet(data = portale, options = list(preferCanvas = TRUE))  %>% 
   #  addProviderTiles(providers$Stamen.TonerBackground) %>% 
     #addProviderTiles(providers$Esri.WorldGrayCanvas) %>% 
     addProviderTiles(providers$CartoDB.PositronNoLabels) %>% 
@@ -38,9 +40,10 @@ createMap <- function(portale) {
         group = category,
         color =  colorlf[[category]],
         label = htmlEscape(group$Titel),
-        clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf)),
+      #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
+      clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE),
         clusterId = category,
-        labelOptions = labelOptions()
+        labelOptions = labelOptions(noHide = TRUE)#, className = "needAbsolute",offset= c(-8, -8))
       )
     # m <<- addCircleMarkers(m, group$lon, group$lat, popup = group$popup, group = category, color =  colormarker[[category]], label = group$Titel)
     #m <<- addAwesomeMarkers(m, group$lon, group$lat, popup = group$popup, group = category, label = group$Titel)

@@ -18,7 +18,7 @@ library(leaflet)
 library(htmltools)
 
 
-portale <- read.csv("data/portale_geocoded2.csv")
+portale <- read.csv("out_geodata/portale_shifted.csv")
 portale$Link <- paste0("<a href=\"",htmlEscape(portale$URL),"\" target=\"_blank\">",htmlEscape(portale$Titel),"</a>")
 portale$popup <- paste0("<a href=\"",htmlEscape(portale$URL),"\" target=\"_blank\">",htmlEscape(portale$Titel),"</a><br>", htmlEscape(portale$Beschreibung))
 source("R/create_map_function.R")
