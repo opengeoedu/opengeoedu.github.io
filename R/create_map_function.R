@@ -1,9 +1,11 @@
 library(leaflet)
+library(leaflet.extras)
 
 createMap <- function(portale) {
   categories <- c("international","national","regional","kommunal")
   colorlf <- c("green", "yellow", "blue", "brown")
   names(colorlf) <- categories
+  #portale$searchmeta <- paste(portale$Titel, portale$Ort, sep = " | ")
   
   m <-
     leaflet(data = portale, options = list(preferCanvas = TRUE))  %>% 
@@ -15,7 +17,9 @@ createMap <- function(portale) {
       values = categories,
       labels = categories,
       title = "Open Data Portale"
-    )
+    ) %>%
+    addResetMapButton()
+    
   
   
   
@@ -40,10 +44,11 @@ createMap <- function(portale) {
         group = category,
         color =  colorlf[[category]],
         label = htmlEscape(group$Titel),
+        #options = markerOptions(alt = group$searchmeta),
       #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
       clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE),
         clusterId = category,
-        labelOptions = labelOptions(noHide = TRUE)#, className = "needAbsolute",offset= c(-8, -8))
+        labelOptions = labelOptions(noHide = FALSE)#, className = "needAbsolute",offset= c(-8, -8))
       )
     # m <<- addCircleMarkers(m, group$lon, group$lat, popup = group$popup, group = category, color =  colormarker[[category]], label = group$Titel)
     #m <<- addAwesomeMarkers(m, group$lon, group$lat, popup = group$popup, group = category, label = group$Titel)
@@ -55,5 +60,7 @@ createMap <- function(portale) {
     addLayersControl(m,
                      overlayGroups = levels(portale$Bezug),
                      options = layersControlOptions())
+  
+  m <- addSearchFeatures(m, targetGroups = levels(portale$Bezug), options = searchFeaturesOptions(openPopup = TRUE, zoom = 8, propertyName = "title"))
   return(m)
 }

@@ -9,6 +9,7 @@ if(FALSE){
   install.packages("rgdal")
   install.packages("htmltools")
   devtools::install_github("rstudio/crosstalk")
+  devtools::install_github('bhaskarvk/leaflet.extras')
   #system dependencies libssl-dev  libcurl4-openssl-dev
 }
 portale <- read.csv("data/portale_geocoded2.csv", as.is = TRUE)
@@ -109,7 +110,7 @@ rcs <- round(coordinates(portale.gk3)/RDIST)*RDIST
 rcpairs <- as.factor(paste(rcs[,"lat"], rcs[,"lon"]))
 overlaps <- levels(rcpairs)[table(rcpairs) > 1]
 
-sapply(overlapps, function(overlap){
+sapply(overlaps, function(overlap){
   #find the ids of overlapping points
   point_ids <- which(rcpairs == overlap)
   x0 <- mean(coordinates(portale.gk3)[point_ids[1], 1]) # approximate center of the coordinates
