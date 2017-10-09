@@ -41,14 +41,15 @@ createMap <- function(portale) {
         group$lon,
         group$lat,
         popup = group$popup,
+        popupOptions = popupOptions(),
         group = category,
         color =  colorlf[[category]],
-        label = htmlEscape(group$Titel),
+        label = htmlEscape(paste(group$Titel, "|", group$Ort)),
         #options = markerOptions(alt = group$searchmeta),
       #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
       clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE),
         clusterId = category,
-        labelOptions = labelOptions(noHide = FALSE)#, className = "needAbsolute",offset= c(-8, -8))
+        labelOptions = labelOptions(noHide = FALSE)#, className = "needAbsolute",offset= c(-8, -8)),
       )
     # m <<- addCircleMarkers(m, group$lon, group$lat, popup = group$popup, group = category, color =  colormarker[[category]], label = group$Titel)
     #m <<- addAwesomeMarkers(m, group$lon, group$lat, popup = group$popup, group = category, label = group$Titel)
@@ -61,6 +62,17 @@ createMap <- function(portale) {
                      overlayGroups = levels(portale$Bezug),
                      options = layersControlOptions())
   
-  m <- addSearchFeatures(m, targetGroups = levels(portale$Bezug), options = searchFeaturesOptions(openPopup = TRUE, zoom = 8, propertyName = "title"))
+  sdf <- function(text, x){
+    print(paste("They called me with", text))
+    return(c("1","2","3"))
+  }
+  
+  sdf <- function(textSearch, allRecords){
+    JS('alert("HEY!");')
+    cat(paste("They called me with", textSearch))
+    return(allRecords[1])
+  }
+  
+  m <- addSearchFeatures(m, targetGroups = levels(portale$Bezug), options = searchFeaturesOptions(openPopup = TRUE, propertyName = "label"))
   return(m)
 }
