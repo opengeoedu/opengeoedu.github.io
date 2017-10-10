@@ -59,7 +59,7 @@ createMap <- function(portale) {
     ) %>%
     addResetMapButton() %>%
     
-    addControl(paste0("<img src=\"/",pchIcons(col = "grey"), "\"></img> Geodateninfrastruktur (GDI)</b>"),position = "topright")
+    addControl(paste0("<img src=\"/",pchIcons(col = "grey"), "\"></img><b>GDI</b>"),position = "topright")
   
  
     
