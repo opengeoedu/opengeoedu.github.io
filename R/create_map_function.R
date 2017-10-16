@@ -50,7 +50,7 @@ createMap <- function(portale) {
     leaflet(data = portale, options = list(preferCanvas = TRUE))  %>% 
   #  addProviderTiles(providers$Stamen.TonerBackground) %>% 
     #addProviderTiles(providers$Esri.WorldGrayCanvas) %>% 
-    addProviderTiles(providers$CartoDB.PositronNoLabels) %>% 
+    addProviderTiles(providers$CartoDB.Positron) %>% 
     addLegend(
       colors = colorlf,
       values = categories,

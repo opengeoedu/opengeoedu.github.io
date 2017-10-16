@@ -7,6 +7,7 @@ if(FALSE){
   install.packages("rgdal")
   install.packages("htmltools")
   devtools::install_github("rstudio/crosstalk")
+  devtools::install_github("rstudio/DT")
   #system dependencies libssl-dev  libcurl4-openssl-dev
 }
 
