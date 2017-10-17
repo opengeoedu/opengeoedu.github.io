@@ -18,18 +18,32 @@ library(crosstalk)
 portale <- read.csv("../out_geodata/portale_shifted.csv")
 portale$Link <- paste0("<a href=\"",htmlEscape(portale$URL),"\" target=\"_blank\">",htmlEscape(portale$Titel),"</a>")
 portale$popup <- paste0("<a href=\"",htmlEscape(portale$URL),"\" target=\"_blank\">",htmlEscape(portale$Titel),"</a><br>", htmlEscape(portale$Beschreibung))
+portale$GDI <- portale$GDI == "ja"
+portale$Typ <- as.factor(portale$GDI)
+levels(portale$Typ) <- c("GDI", "Open Data Portal")
 
-sd <- SharedData$new(portale)
+sd <- SharedData$new(portale, group = "portale")
+sd_table <- SharedData$new(portale[c("Link","Beschreibung","Ort","Bezug")], group = "portale")
+
+
 #Column {data-width=650}
 #Column {data-width=350}
 #-----------------------------------------------------------------------
 ```
 
-Row {data-height=20 data-width=800}
+Row {data-height=150 data-width=800}
 -----------------------------------------------------------------------
 
-
+### Filter
 ```{r, fig.height=2}
+
+ bscols(widths = c(3, NA),filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE),
+ filter_checkbox("bezug_check", "Bezug", sd, ~Bezug, inline = TRUE))
+# m))
+
+ #, 
+    #    DT::datatable(sd_table, escape = FALSE, options = list(
+     #      bPaginate = TRUE))
 
 ```
 
@@ -41,8 +55,14 @@ Row {.tabset .tabset-fade data-height=800}
 
 ```{r, fig.width=10, fig.height=8}
 
-source("create_map_function.R")
+source("create_map_function_crosstalk.R")
 m <- createMap(portale)
+#filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE)
+#m
+# bscols(list(filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE),
+# filter_checkbox("bezug_check", "Bezug", sd, ~Bezug, inline = TRUE),
+# m))
+
 m
 ```
 
@@ -54,9 +74,42 @@ m
 #  bPaginate = TRUE
 #))
 
-DT::datatable(portale[c("Link","Beschreibung","Ort","Bezug")], escape = FALSE, options = list(
+DT::datatable(sd_table, escape = FALSE, options = list(
   bPaginate = TRUE
 ))
+```
+
+### Test
+
+```{r, fig.width=10, fig.height=8}
+
+
+testfun <- function(){
+  testfun2 <- function(t){
+  sdx_regional <- SharedData$new(portale[portale$Bezug == "regional" & portale$GDI,], group = "portale")
+      sdx_regional_gdi <- SharedData$new(portale[portale$Bezug == "regional" & !portale$GDI,], group = "portale")
+    sdx_komm <- SharedData$new(portale[portale$Bezug == "kommunal",], group = "portale")
+    m2 <- leaflet(sd) %>% addProviderTiles(providers$CartoDB.Positron) %>% addMarkers(data = sdx_regional, label =  ~Titel, popup = ~Titel) %>% addCircleMarkers(data = sdx_komm, label = ~Titel)
+    
+    m2 <<- leaflet(sd) %>% addProviderTiles(providers$CartoDB.Positron) %>% addCircleMarkers(data=sdx_regional, color="red", label =  ~Titel, popup = ~Titel)%>% addCircleMarkers(data=sdx_regional_gdi, label =  ~Titel, popup = ~Titel)
+    
+    rm("sdx_regional_gdi","sdx_komm", "sdx_regional")
+    print(ls())
+  }
+  sapply("test",testfun2)
+m2
+}
+m2 <- testfun()
+m2
+
+
+# bscols(widths = c(NA,7),
+#        list(
+#          filter_checkbox("bezug_check", "Bezug", sd, ~Bezug, inline = TRUE),
+#          filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE),
+#        m2)
+#        
+# )
 ```
 
 
