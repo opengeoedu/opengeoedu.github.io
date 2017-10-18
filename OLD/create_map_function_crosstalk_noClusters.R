@@ -43,17 +43,17 @@ pchIcons <- function(col, width = 35, height = 35, pch = 24, file_prefix="gdi-ic
 group_gdi <- NULL
 group_nogdi <- NULL
 
-createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, layerControls = TRUE) {
+createMap <- function(portale, crosstalk_group = "portale") {
   categories <- c("international","national","regional","kommunal")
   colorlf <- c("green", "yellow", "blue", "brown")
   names(colorlf) <- categories
   #portale$searchmeta <- paste(portale$Titel, portale$Ort, sep = " | ")
-  
-  portale_shared <- SharedData$new(portale, group = crosstalk_group)
+
+  portale_shared <- SharedData$new(portale, group = "portale")
   
   m <-
     leaflet(data = portale_shared, options = list(preferCanvas = TRUE))  %>% 
-    #  addProviderTiles(providers$Stamen.TonerBackground) %>% 
+  #  addProviderTiles(providers$Stamen.TonerBackground) %>% 
     #addProviderTiles(providers$Esri.WorldGrayCanvas) %>% 
     addProviderTiles(providers$CartoDB.Positron) %>% 
     addLegend(
@@ -66,9 +66,11 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
     
     addControl(paste0("<img src=\"/",pchIcons(col = "grey"), "\"></img><b>GDI</b>"),position = "topright")
   
-  
-  
+ 
+    
   sapply(categories, function(category) {
+    group <- portale[portale$Bezug == category,]
+    group$label = htmlEscape(paste(group$Titel, "|", group$Ort))
     cf <- paste0(
       "function (cluster) {
       var childCount = cluster.getChildCount();",
@@ -81,66 +83,61 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
     
     iconfile <- pchIcons(colorlf[[category]])
     
-    group_nogdi <<- SharedData$new(portale[portale$Bezug==category & !portale$GDI,], group = crosstalk_group)
-    group_gdi <<- SharedData$new(portale[portale$Bezug==category & portale$GDI,], group = crosstalk_group)
-    
-    clusterOptions <- NULL
-    if(clustering)
-      clusterOptions <- markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE)
+    group_nogdi <<- SharedData$new(group[!group$GDI,], group = "portale")
+    group_gdi <<- SharedData$new( group[group$GDI,], group = "portale")
     
     if(dim(group_gdi$data())[1]>0)
       m <<-
-      addMarkers(
-        m,
-        ~lon,
-        ~lat,
-        popup = ~popup,
-        popupOptions = popupOptions(),
-        group = category,
-        icon =  ~ icons(
-          iconUrl = iconfile,
-          iconWidth = 30,
-          iconHeight = 30
-        ),
-        #color =  colorlf[[category]],
-        label = ~label,
-        #options = markerOptions(alt = group$searchmeta),
-        #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
-        clusterOptions = clusterOptions,
-        clusterId = category,
-        labelOptions = labelOptions(noHide = FALSE),#, className = "needAbsolute",offset= c(-8, -8)),
-        data =  group_gdi
-      )
+        addMarkers(
+          m,
+          ~lon,
+          ~lat,
+          popup = ~popup,
+          popupOptions = popupOptions(),
+          group = category,
+          icon =  ~ icons(
+            iconUrl = iconfile,
+            iconWidth = 30,
+            iconHeight = 30
+          ),
+          #color =  colorlf[[category]],
+          label = ~label,
+          #options = markerOptions(alt = group$searchmeta),
+          #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
+          #clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE),
+          clusterId = category,
+          labelOptions = labelOptions(noHide = FALSE),#, className = "needAbsolute",offset= c(-8, -8)),
+          data =  group_gdi
+        )
     
     if(dim(group_nogdi$data())[1]>0)
       m <<-
-      addCircleMarkers(
-        m,
-        ~lon,
-        ~lat,
-        popup = ~popup,
-        popupOptions = popupOptions(),
-        group = category,
-        color =  colorlf[[category]],
-        label = ~label,
-        #options = markerOptions(alt = group$searchmeta),
+        addCircleMarkers(
+          m,
+          ~lon,
+          ~lat,
+          popup = ~popup,
+          popupOptions = popupOptions(),
+          group = category,
+          color =  colorlf[[category]],
+          label = ~label,
+          #options = markerOptions(alt = group$searchmeta),
         #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
-        clusterOptions = clusterOptions,
-        clusterId = category,
-        labelOptions = labelOptions(noHide = FALSE),#, className = "needAbsolute",offset= c(-8, -8)),
-        data = group_nogdi
-      )
-    # m <<- addCircleMarkers(m, group$lon, group$lat, popup = group$popup, group = category, color =  colormarker[[category]], label = group$Titel)
-    #m <<- addAwesomeMarkers(m, group$lon, group$lat, popup = group$popup, group = category, label = group$Titel)
-    
-    invisible()
-  })
+       # clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE),
+          clusterId = category,
+          labelOptions = labelOptions(noHide = FALSE),#, className = "needAbsolute",offset= c(-8, -8)),
+          data = group_nogdi
+        )
+      # m <<- addCircleMarkers(m, group$lon, group$lat, popup = group$popup, group = category, color =  colormarker[[category]], label = group$Titel)
+      #m <<- addAwesomeMarkers(m, group$lon, group$lat, popup = group$popup, group = category, label = group$Titel)
+       
+       invisible()
+     })
   
-  if(layerControls)
-    m <-
-      addLayersControl(m,
-                       overlayGroups = levels(portale$Bezug),
-                       options = layersControlOptions())
+  m <-
+    addLayersControl(m,
+                     overlayGroups = levels(portale$Bezug),
+                     options = layersControlOptions())
   
   
   ## some test functions
