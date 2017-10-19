@@ -51,6 +51,9 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
   
   portale_shared <- SharedData$new(portale, group = crosstalk_group)
   
+  gdi_legend = paste0("<img src=\"/",pchIcons(col = "grey"), "\"></img> GDI")
+  odp_legend = paste0("<img src=\"/",pchIcons(file_prefix = "portals_", col = "grey", pch = 21), "\"></img> Open Data Portale")
+  
   m <-
     leaflet(data = portale_shared, options = list(preferCanvas = TRUE))  %>% 
     #  addProviderTiles(providers$Stamen.TonerBackground) %>% 
@@ -60,11 +63,10 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
       colors = colorlf,
       values = categories,
       labels = categories,
-      title = "Open Data Portale"
+      title = "Legende"
     ) %>%
     addResetMapButton() %>%
-    
-    addControl(paste0("<img src=\"/",pchIcons(col = "grey"), "\"></img><b>GDI</b>"),position = "topright")
+    addControl(paste(gdi_legend, odp_legend, sep="<br/>\n"),position = "topright")
   
   
   

@@ -17,6 +17,7 @@ if(FALSE){
 #----------------------------------
 library(leaflet)
 library(htmltools)
+library(htmlwidgets)
 
 
 portale <- read.csv("out_geodata/portale_shifted.csv")

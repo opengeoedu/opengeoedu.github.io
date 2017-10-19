@@ -82,5 +82,15 @@ DT::datatable(sd_table, escape = FALSE, options = list(
 ```
 
 
+### Daten
 
+Die dargestellten Geodaten zu den Open Data Portalen und GDIs in Deutschland, Österreich und Schweiz können in verschiedenen Dateiformaten herunterladen werden. Beachten Sie, dass die Koordinaten sich überlappender Punkte zwecks besserer Darstellung leicht verschoben wurden. Alle Koordinaten sind in Längen- und Breitengerade angegeben (Tabellenspalten mit Namen "lon" und "lat") und beziehen sich auf das Datum WGS84.
+
+* [CSV Tabelle](https://opengeoedu.github.io/out_geodata/portale_shifted.csv)
+* [geojson](https://opengeoedu.github.io/out_geodata/portale_shifted.geojson)
+* [ESRI Shapefile (ZIP-Archiv)](https://opengeoedu.github.io/out_geodata/portale_shifted-ESRI-Shapefile.zip)
+
+Die geokodierten Rohdaten (mit überlappenden Koordinaten) sind als CSV-Tabelle verfügbar:
+
+* [Rohdaten (CSV Tabelle)](https://opengeoedu.github.io/data/portale_geocoded2.csv)
 
