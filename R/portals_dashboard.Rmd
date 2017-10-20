@@ -19,7 +19,9 @@ library(crosstalk)
 #portale <- read.csv("../data/portale_geocoded2.csv")
 portale <- read.csv("../out_geodata/portale_shifted.csv")
 portale$Link <- paste0("<a href=\"",htmlEscape(portale$URL),"\" target=\"_blank\">",htmlEscape(portale$Titel),"</a>")
+
 portale$popup <- paste0("<a href=\"",htmlEscape(portale$URL),"\" target=\"_blank\">",htmlEscape(portale$Titel),"</a><br>", htmlEscape(portale$Beschreibung))
+portale$Bezug <- factor(portale$Bezug, levels=c("international","national","regional","kommunal"), ordered = TRUE)
 portale$label = htmlEscape(paste(portale$Titel, "|", portale$Ort))
 portale$GDI <- portale$GDI == "ja"
 portale$Typ <- as.factor(portale$GDI)
