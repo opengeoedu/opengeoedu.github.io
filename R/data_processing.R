@@ -140,5 +140,11 @@ portale.lonlat.shifted <- spTransform(portale.gk3.shifted, CRS("+proj=longlat +d
 write.csv(as.data.frame(portale.lonlat.shifted), "out_geodata/portale_shifted.csv", row.names = FALSE)
 writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.geojson", layer = "portale", driver = "GeoJSON", overwrite_layer = TRUE)
 writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.shp", layer = "portale", driver = "ESRI Shapefile", overwrite_layer = TRUE)
+writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.sql", layer = "portale", driver = "PostgreSQL", overwrite_layer = TRUE)
+writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.kml", layer = "portale", driver = "KML", overwrite_layer = TRUE)
+writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.gml", layer = "portale", driver = "GML", overwrite_layer = TRUE)
+writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.gpkg", layer = "portale", driver = "GPKG", overwrite_layer = TRUE)
+
+writeOGR(portale.lonlat.shifted, dsn = "/home/matthias/test_out/portale_shifted.gpkg", layer = "portale", driver = "GPKG", overwrite_layer = TRUE)
 zip("out_geodata/portale_shifted-ESRI-Shapefile.zip", files = paste0("out_geodata/portale_shifted",c(".shp",".shx",".dbf", ".prj")))
 
