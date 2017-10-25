@@ -1,18 +1,6 @@
 FETCH_WEBMETA = FALSE
 
-if(FALSE){
-  install.packages("devtools")
-  devtools::install_github("hrbrmstr/nominatim")
-  install.packages("leafletR")
-  install.packages("ggmap")
-  #install.packages("leaflet")
-  devtools::install_github("rstudio/leaflet")
-  install.packages("rgdal")
-  install.packages("htmltools")
-  devtools::install_github("rstudio/crosstalk")
-  devtools::install_github('bhaskarvk/leaflet.extras')
-  #system dependencies libssl-dev  libcurl4-openssl-dev
-}
+
 portale <- read.csv("data/portale_geocoded2.csv", as.is = TRUE)
 
 

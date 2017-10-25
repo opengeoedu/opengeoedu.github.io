@@ -40,16 +40,16 @@ pchIcons <- function(col, width = 35, height = 35, pch = 24, file_prefix="gdi-ic
   files
 }
 
-group_gdi <- NULL
-group_nogdi <- NULL
 
-createMap <- function(portale, crosstalk_group = "portale") {
+createMap <- function(portale, crosstalk_group = "portale", portale_shared = SharedData$new(portale, group = crosstalk_group) ) {
   categories <- c("international","national","regional","kommunal")
   colorlf <- c("green", "yellow", "blue", "brown")
   names(colorlf) <- categories
+  
+  portale$label = htmlEscape(paste(portale$Titel, "|", portale$Ort))
   #portale$searchmeta <- paste(portale$Titel, portale$Ort, sep = " | ")
 
-  portale_shared <- SharedData$new(portale, group = "portale")
+ # portale_shared <- SharedData$new(portale, group = "portale")
   
   m <-
     leaflet(data = portale_shared, options = list(preferCanvas = TRUE))  %>% 
@@ -63,14 +63,79 @@ createMap <- function(portale, crosstalk_group = "portale") {
       title = "Open Data Portale"
     ) %>%
     addResetMapButton() %>%
-    
     addControl(paste0("<img src=\"/",pchIcons(col = "grey"), "\"></img><b>GDI</b>"),position = "topright")
   
- 
+  #  sdx_regional_gdi <- SharedData$new(portale[portale$Bezug == "regional" & !portale$GDI,], group = "portale")
+   # sdx_regional <- SharedData$new(portale[portale$Bezug == "regional" & portale$GDI,], group = "portale")
+
+  #  m <- addCircleMarkers(m, data=sdx_regional, color="red", label =  ~Titel, popup = ~Titel)%>% addCircleMarkers(data=sdx_regional_gdi, label =  ~Titel, popup = ~Titel)
     
+  # sapply(categories, function(category) {
+  #   cf <- paste0(
+  #     "function (cluster) {
+  #     var childCount = cluster.getChildCount();",
+  #     "var c = '",
+  #     colorlf[[category]],
+  #     "';",
+  #     "return new L.DivIcon({ html: '<div style=\"background-color:'+c+'\"><span>' + childCount + '</span></div>', className: 'marker-cluster', iconSize: new L.Point(40, 40) });
+  # }"
+  #   )
+  #   
+  #   iconfile <- pchIcons(colorlf[[category]])
+  #   
+  #   group_nogdi <<- SharedData$new(portale[portale$Bezug == category & !portale$GDI,], group = "portale")
+  #   group_gdi <<- SharedData$new(portale[portale$Bezug == category & portale$GDI,], group = "p")
+  #   
+  #   if(dim(group_gdi$data())[1]>0)
+  #     m <<-
+  #       addMarkers(
+  #         m,
+  #         ~lon,
+  #         ~lat,
+  #         popup = ~popup,
+  #         popupOptions = popupOptions(),
+  #         group = category,
+  #         icon =  ~ icons(
+  #           iconUrl = iconfile,
+  #           iconWidth = 30,
+  #           iconHeight = 30
+  #         ),
+  #         #color =  colorlf[[category]],
+  #         label = ~label,
+  #         #options = markerOptions(alt = group$searchmeta),
+  #         #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
+  #         clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE),
+  #         clusterId = category,
+  #         labelOptions = labelOptions(noHide = FALSE),#, className = "needAbsolute",offset= c(-8, -8)),
+  #         data =  group_gdi
+  #       )
+  #   
+  #   if(dim(group_nogdi$data())[1]>0)
+  #     m <<-
+  #       addCircleMarkers(
+  #         m,
+  #         ~lon,
+  #         ~lat,
+  #         popup = ~popup,
+  #         popupOptions = popupOptions(),
+  #         group = category,
+  #         color =  colorlf[[category]],
+  #         label = ~label,
+  #         #options = markerOptions(alt = group$searchmeta),
+  #       #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
+  #       clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE),
+  #         clusterId = category,
+  #         labelOptions = labelOptions(noHide = FALSE),#, className = "needAbsolute",offset= c(-8, -8)),
+  #         data = group_nogdi
+  #       )
+  #     # m <<- addCircleMarkers(m, group$lon, group$lat, popup = group$popup, group = category, color =  colormarker[[category]], label = group$Titel)
+  #     #m <<- addAwesomeMarkers(m, group$lon, group$lat, popup = group$popup, group = category, label = group$Titel)
+  #      
+  #      invisible()
+  #    })
+  
+  
   sapply(categories, function(category) {
-    group <- portale[portale$Bezug == category,]
-    group$label = htmlEscape(paste(group$Titel, "|", group$Ort))
     cf <- paste0(
       "function (cluster) {
       var childCount = cluster.getChildCount();",
@@ -80,12 +145,12 @@ createMap <- function(portale, crosstalk_group = "portale") {
       "return new L.DivIcon({ html: '<div style=\"background-color:'+c+'\"><span>' + childCount + '</span></div>', className: 'marker-cluster', iconSize: new L.Point(40, 40) });
   }"
     )
-    
+
     iconfile <- pchIcons(colorlf[[category]])
-    
-    group_nogdi <<- SharedData$new(group[!group$GDI,], group = "portale")
-    group_gdi <<- SharedData$new( group[group$GDI,], group = "p")
-    
+
+    group_nogdi <<- SharedData$new(portale[portale$Bezug == category & !portale$GDI,], group = "portale")
+    group_gdi <<- SharedData$new(portale[portale$Bezug == category & portale$GDI,], group = "portale")
+
     if(dim(group_gdi$data())[1]>0)
       m <<-
         addMarkers(
@@ -104,12 +169,13 @@ createMap <- function(portale, crosstalk_group = "portale") {
           label = ~label,
           #options = markerOptions(alt = group$searchmeta),
           #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
-          clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE),
+        #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE),
+        clusterOptions = markerClusterOptions(),
           clusterId = category,
           labelOptions = labelOptions(noHide = FALSE),#, className = "needAbsolute",offset= c(-8, -8)),
           data =  group_gdi
         )
-    
+
     if(dim(group_nogdi$data())[1]>0)
       m <<-
         addCircleMarkers(
@@ -123,14 +189,15 @@ createMap <- function(portale, crosstalk_group = "portale") {
           label = ~label,
           #options = markerOptions(alt = group$searchmeta),
         #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
-        clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE),
+        #clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE),
           clusterId = category,
+          clusterOptions = markerClusterOptions(),
           labelOptions = labelOptions(noHide = FALSE),#, className = "needAbsolute",offset= c(-8, -8)),
           data = group_nogdi
         )
       # m <<- addCircleMarkers(m, group$lon, group$lat, popup = group$popup, group = category, color =  colormarker[[category]], label = group$Titel)
       #m <<- addAwesomeMarkers(m, group$lon, group$lat, popup = group$popup, group = category, label = group$Titel)
-       
+
        invisible()
      })
   
