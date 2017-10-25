@@ -1,0 +1,5 @@
+Thank you, I can do it something like this: 1. Import new geojson to temp_table. 2. 
+
+Run Query: 
+DELETE FROM main_table; 
+INSERT INTO main_table (cartodb_id, the_geom, attributes) SELECT cartodb_id, the_geom, attributes FROM tmp_table; 

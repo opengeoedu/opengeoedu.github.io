@@ -1,0 +1,76 @@
+---
+title: "Crosstalk / Marker Clustering integration"
+output: html_document
+---
+Setup sample data and libraries
+```{r setup, include=FALSE}
+library(crosstalk)
+library(leaflet)
+library(DT)
+
+# Wrap data frame in SharedData
+sd <- SharedData$new(quakes[sample(nrow(quakes), 12),])
+```
+
+## Not working: Crosstalk + Marker Clustering
+
+R/crosstalk does not work together with the leaflet Marker Clustering:
+
+```{r}
+# Use SharedData like a dataframe with Crosstalk-enabled widgets
+bscols(
+  # Create a filter input
+  filter_slider("mag", "Magnitude", sd, column=~mag, step=0.1, width=250),
+  leaflet(sd) %>% addTiles() %>% addMarkers( clusterOptions = markerClusterOptions()),
+  datatable(sd, extensions="Scroller", style="bootstrap", class="compact", width="100%",
+            options=list(deferRender=TRUE, scrollY=300, scroller=TRUE))
+)
+```
+
+## Working example
+
+For comparism, this example without clustering works just fine
+
+```{r}
+ group = rep(sort(c('green', 'red', 'orange')), each = 4)
+
+# Use SharedData like a dataframe with Crosstalk-enabled widgets
+bscols(
+  # Create a filter input
+  filter_slider("mag", "Magnitude", sd, column=~mag, step=0.1, width=250),
+  leaflet(sd) %>% addTiles() %>% 
+    addMarkers(
+      icon = ~ icons(
+        iconUrl = sprintf('http://leafletjs.com/examples/custom-icons/leaf-%s.png', group),
+        shadowUrl = 'http://leafletjs.com/examples/custom-icons/leaf-shadow.png',
+        iconWidth = 38, iconHeight = 95, shadowWidth = 50, shadowHeight = 64,
+        iconAnchorX = 22, iconAnchorY = 94, shadowAnchorX = 4, shadowAnchorY = 62,
+        popupAnchorX = -3, popupAnchorY = -76
+    )),
+  datatable(sd, extensions="Scroller", style="bootstrap", class="compact", width="100%",
+            options=list(deferRender=TRUE, scrollY=300, scroller=TRUE))
+)
+```
+
+## Working example
+
+For comparism, this example without clustering works just fine
+
+```{r}
+# Use SharedData like a dataframe with Crosstalk-enabled widgets
+bscols(
+  # Create a filter input
+  filter_slider("mag", "Magnitude", sd, column=~mag, step=0.1, width=250),
+  leaflet(sd) %>% addTiles() %>% addMarkers(),
+  datatable(sd, extensions="Scroller", style="bootstrap", class="compact", width="100%",
+            options=list(deferRender=TRUE, scrollY=300, scroller=TRUE))
+)
+```
+
+## Session information
+
+
+```{r}
+sessionInfo()
+devtools::session_info()
+```

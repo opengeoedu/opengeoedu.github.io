@@ -15,6 +15,7 @@ if(FALSE){
   devtools::install_github("rstudio/flexdashboard")
   devtools::install_github('bhaskarvk/leaflet.extras')
   install.packages("rmarkdown")
+  install.packages("xml2")
   #system dependencies: libssl-dev  libcurl4-openssl-dev  pandoc
 }
 

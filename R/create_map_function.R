@@ -1,6 +1,7 @@
 library(leaflet)
 library(leaflet.extras)
 library(RColorBrewer)
+library(crosstalk)
 
 
 # helper function that creates triangular icon files in differnet colors in folder tempicon
@@ -39,32 +40,37 @@ pchIcons <- function(col, width = 35, height = 35, pch = 24, file_prefix="gdi-ic
   files
 }
 
+group_gdi <- NULL
+group_nogdi <- NULL
 
-createMap <- function(portale) {
+createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, layerControls = TRUE) {
   categories <- c("international","national","regional","kommunal")
   colorlf <- c("green", "yellow", "blue", "brown")
   names(colorlf) <- categories
   #portale$searchmeta <- paste(portale$Titel, portale$Ort, sep = " | ")
   
+  portale_shared <- SharedData$new(portale, group = crosstalk_group)
+  
+  gdi_legend = paste0("<img src=\"/",pchIcons(col = "grey"), "\"></img> GDI")
+  odp_legend = paste0("<img src=\"/",pchIcons(file_prefix = "portals_", col = "grey", pch = 21), "\"></img> Open Data Portale")
+  
   m <-
-    leaflet(data = portale, options = list(preferCanvas = TRUE))  %>% 
-  #  addProviderTiles(providers$Stamen.TonerBackground) %>% 
+    leaflet(data = portale_shared, options = list(preferCanvas = TRUE))  %>% 
+    #  addProviderTiles(providers$Stamen.TonerBackground) %>% 
     #addProviderTiles(providers$Esri.WorldGrayCanvas) %>% 
     addProviderTiles(providers$CartoDB.Positron) %>% 
     addLegend(
       colors = colorlf,
       values = categories,
       labels = categories,
-      title = "Open Data Portale"
+      title = "Legende"
     ) %>%
     addResetMapButton() %>%
-    
-    addControl(paste0("<img src=\"/",pchIcons(col = "grey"), "\"></img><b>GDI</b>"),position = "topright")
+    addControl(paste(gdi_legend, odp_legend, sep="<br/>\n"),position = "topright")
   
- 
-    
+  
+  
   sapply(categories, function(category) {
-    group <- portale[portale$Bezug == category,]
     cf <- paste0(
       "function (cluster) {
       var childCount = cluster.getChildCount();",
@@ -77,14 +83,20 @@ createMap <- function(portale) {
     
     iconfile <- pchIcons(colorlf[[category]])
     
-    group_nogdi <- group[group$GDI != "ja",]
-    group <-  group[group$GDI == "ja",]
-    m <<-
+    group_nogdi <<- SharedData$new(portale[portale$Bezug==category & !portale$GDI,], group = crosstalk_group)
+    group_gdi <<- SharedData$new(portale[portale$Bezug==category & portale$GDI,], group = crosstalk_group)
+    
+    clusterOptions <- NULL
+    if(clustering)
+      clusterOptions <- markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE)
+    
+    if(dim(group_gdi$data())[1]>0)
+      m <<-
       addMarkers(
         m,
-        group$lon,
-        group$lat,
-        popup = group$popup,
+        ~lon,
+        ~lat,
+        popup = ~popup,
         popupOptions = popupOptions(),
         group = category,
         icon =  ~ icons(
@@ -93,53 +105,57 @@ createMap <- function(portale) {
           iconHeight = 30
         ),
         #color =  colorlf[[category]],
-        label = htmlEscape(paste(group$Titel, "|", group$Ort)),
+        label = ~label,
         #options = markerOptions(alt = group$searchmeta),
         #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
-        clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE),
+        clusterOptions = clusterOptions,
         clusterId = category,
-        labelOptions = labelOptions(noHide = FALSE)#, className = "needAbsolute",offset= c(-8, -8)),
+        labelOptions = labelOptions(noHide = FALSE),#, className = "needAbsolute",offset= c(-8, -8)),
+        data =  group_gdi
       )
     
-    group <- group_nogdi
-    
-    m <<-
+    if(dim(group_nogdi$data())[1]>0)
+      m <<-
       addCircleMarkers(
         m,
-        group$lon,
-        group$lat,
-        popup = group$popup,
+        ~lon,
+        ~lat,
+        popup = ~popup,
         popupOptions = popupOptions(),
         group = category,
         color =  colorlf[[category]],
-        label = htmlEscape(paste(group$Titel, "|", group$Ort)),
+        label = ~label,
         #options = markerOptions(alt = group$searchmeta),
-      #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
-      clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE),
+        #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
+        clusterOptions = clusterOptions,
         clusterId = category,
-        labelOptions = labelOptions(noHide = FALSE)#, className = "needAbsolute",offset= c(-8, -8)),
+        labelOptions = labelOptions(noHide = FALSE),#, className = "needAbsolute",offset= c(-8, -8)),
+        data = group_nogdi
       )
     # m <<- addCircleMarkers(m, group$lon, group$lat, popup = group$popup, group = category, color =  colormarker[[category]], label = group$Titel)
     #m <<- addAwesomeMarkers(m, group$lon, group$lat, popup = group$popup, group = category, label = group$Titel)
-     
-     invisible()
-   })
+    
+    invisible()
+  })
   
-  m <-
-    addLayersControl(m,
-                     overlayGroups = levels(portale$Bezug),
-                     options = layersControlOptions())
+  if(layerControls)
+    m <-
+      addLayersControl(m,
+                       overlayGroups = levels(portale$Bezug),
+                       options = layersControlOptions())
   
-  sdf <- function(text, x){
-    print(paste("They called me with", text))
-    return(c("1","2","3"))
-  }
   
-  sdf <- function(textSearch, allRecords){
-    JS('alert("HEY!");')
-    cat(paste("They called me with", textSearch))
-    return(allRecords[1])
-  }
+  ## some test functions
+  # sdf <- function(text, x){
+  #   print(paste("They called me with", text))
+  #   return(c("1","2","3"))
+  # }
+  # 
+  # sdf <- function(textSearch, allRecords){
+  #   JS('alert("HEY!");')
+  #   cat(paste("They called me with", textSearch))
+  #   return(allRecords[1])
+  # }
   
   m <- addSearchFeatures(m, targetGroups = levels(portale$Bezug), options = searchFeaturesOptions(openPopup = TRUE, propertyName = "label"))
   return(m)

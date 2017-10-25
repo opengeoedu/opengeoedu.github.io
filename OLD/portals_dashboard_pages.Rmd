@@ -1,0 +1,97 @@
+---
+title: "Open Data Portale"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+    logo: ../oge_logo/icon_scaled.jpg
+    favicon: ../oge_logo/icon_scaled.jpg
+---
+
+```{r setup, include=FALSE}
+library(leaflet)
+library(flexdashboard)
+library(DT)
+library(htmltools)
+library(crosstalk)
+#portale <- read.csv("../data/portale_geocoded2.csv")
+portale <- read.csv("../out_geodata/portale_shifted.csv")
+portale$Link <- paste0("<a href=\"",htmlEscape(portale$URL),"\" target=\"_blank\">",htmlEscape(portale$Titel),"</a>")
+portale$popup <- paste0("<a href=\"",htmlEscape(portale$URL),"\" target=\"_blank\">",htmlEscape(portale$Titel),"</a><br>", htmlEscape(portale$Beschreibung))
+portale$GDI <- portale$GDI == "ja"
+portale$Typ <- as.factor(portale$GDI)
+levels(portale$Typ) <- c("Open Data Portal","GDI")
+
+sd <- SharedData$new(portale, group = "portale")
+sd_table <- SharedData$new(portale[c("Link","Beschreibung","Ort","Bezug")], group = "portale")
+
+
+#Column {data-width=650}
+#Column {data-width=350}
+#-----------------------------------------------------------------------
+```
+Karte
+===========================================
+
+Row {data-height=150 data-width=800}
+-----------------------------------------------------------------------
+
+```{r, fig.height=2}
+
+ bscols(widths = c(NA, NA),
+        filter_checkbox("bezug_portal", "Filter Portal-Art", sd, ~Typ, inline = TRUE),
+        filter_checkbox("bezug_check", "Filter Bezug", sd, ~Bezug, inline = TRUE))
+# m))
+
+ #, 
+    #    DT::datatable(sd_table, escape = FALSE, options = list(
+     #      bPaginate = TRUE))
+
+```
+
+Row { data-height=800}
+-----------------------------------------------------------------------
+
+
+```{r, fig.width=10, fig.height=8}
+
+source("create_map_function_crosstalk_noClusters.R")
+m <- createMap(portale)
+#filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE)
+#m
+# bscols(list(filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE),
+# filter_checkbox("bezug_check", "Bezug", sd, ~Bezug, inline = TRUE),
+# m))
+
+m
+```
+
+
+Tabelle
+===========================================
+```{r, fig.height=2}
+
+ bscols(widths = c(NA, NA),
+        filter_checkbox("bezug_portal", "Filter Portal-Art", sd, ~Typ, inline = TRUE),
+        filter_checkbox("bezug_check", "Filter Bezug", sd, ~Bezug, inline = TRUE))
+# m))
+
+ #, 
+    #    DT::datatable(sd_table, escape = FALSE, options = list(
+     #      bPaginate = TRUE))
+
+```
+
+```{r, fig.width=10, fig.height=8}
+#DT::datatable(portale[c("Link","Beschreibung","Ort","Land","Bezug", "Lizenz")], escape = FALSE, options = list(
+#  bPaginate = TRUE
+#))
+
+DT::datatable(sd_table, escape = FALSE, options = list(
+  bPaginate = TRUE
+))
+```
+
+
+
+

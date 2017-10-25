@@ -2,11 +2,9 @@ FETCH_WEBMETA = FALSE
 
 
 portale <- read.csv("data/portale_geocoded2.csv", as.is = TRUE)
-
-
 library(ggmap)
 
-
+#dp geocoding if coordinates are missing
 for(i in 1:dim(portale)[1]){
   if(is.null(portale[i,]$lat) || is.na(portale[i,]$lat) || !is.numeric(portale[i,]$lat)){
     loc <- geocode(paste0(portale[i,]$Ort,", ", portale[i,]$Land));loc
@@ -16,7 +14,9 @@ for(i in 1:dim(portale)[1]){
 }
 
 
-
+#-------------------------------------------
+# Optionally fetch web meta information (actually not very effective)
+#-------------------------------------------
 library(xml2)
 
 if(FETCH_WEBMETA){
@@ -58,7 +58,7 @@ if(FETCH_WEBMETA){
   
   portale2 <- portale
   portale2[, c("html_title", "meta_description", "meta_author")] <- webmeta
-  write.csv(portale2, file = "data/portale_geocoded_webmeta.csv")
+  write.csv(portale2, file = "data/portale_geocoded_webmeta.csv", row.names = FALSE)
   
   
   for(i in 1:dim(portale)[1]){
@@ -70,7 +70,7 @@ if(FETCH_WEBMETA){
 
 #------------------------------
 
-#produce output in differnent formates
+#produce output in various formats
 #--------------------
 #portale <- read.csv("data/portale_geocoded2.csv")
 library(rgdal)
@@ -84,14 +84,17 @@ proj4string(portale.sp) <- CRS("+proj=longlat +datum=WGS84")
 #plot(portale.sp)
 writeOGR(portale.sp, dsn = "out_geodata/portale.geojson", layer = "portale", driver = "GeoJSON", overwrite_layer = TRUE)
 writeOGR(portale.sp, dsn = "out_geodata/portale.shp", layer = "portale", driver = "ESRI Shapefile", overwrite_layer = TRUE)
-write.csv(portale, file = "data/portale_geocoded2.csv")
+write.csv(portale, file = "data/portale_geocoded2.csv", row.names = FALSE)
 
 portale.gk3 <- spTransform(portale.sp, CRS("+init=epsg:31467")) #GK Zone 3
 portale.gk3.shifted <- as.data.frame(portale.gk3)
 
 
-#rounded coordinates
 
+#--------------
+# Shift coordinates of overlapping points (re-positioning at an imaginary circle around the center)
+#--------------
+#rounded coordinates prcision
 RDIST <- 10000
 rcs <- round(coordinates(portale.gk3)/RDIST)*RDIST
 
@@ -120,8 +123,14 @@ proj4string(portale.gk3.shifted) <- CRS("+init=epsg:31467")
 #plot(portale.gk3.shifted)
 
 portale.lonlat.shifted <- spTransform(portale.gk3.shifted, CRS("+proj=longlat +datum=WGS84"))
-write.csv(as.data.frame(portale.lonlat.shifted), "out_geodata/portale_shifted.csv")
+write.csv(as.data.frame(portale.lonlat.shifted), "out_geodata/portale_shifted.csv", row.names = FALSE)
 writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.geojson", layer = "portale", driver = "GeoJSON", overwrite_layer = TRUE)
 writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.shp", layer = "portale", driver = "ESRI Shapefile", overwrite_layer = TRUE)
+writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.sql", layer = "portale", driver = "PostgreSQL", overwrite_layer = TRUE)
+writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.kml", layer = "portale", driver = "KML", overwrite_layer = TRUE)
+writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.gml", layer = "portale", driver = "GML", overwrite_layer = TRUE)
+writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.gpkg", layer = "portale", driver = "GPKG", overwrite_layer = TRUE)
 
+writeOGR(portale.lonlat.shifted, dsn = "/home/matthias/test_out/portale_shifted.gpkg", layer = "portale", driver = "GPKG", overwrite_layer = TRUE)
+zip("out_geodata/portale_shifted-ESRI-Shapefile.zip", files = paste0("out_geodata/portale_shifted",c(".shp",".shx",".dbf", ".prj")))
 
