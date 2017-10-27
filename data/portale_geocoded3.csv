@@ -184,23 +184,85 @@ https://www.opengov-muenchen.de/,Open-Data-Portal München der Landeshauptstadt 
 http://www.stadt-muenster.de/katasteramt/geodatenmanagement/open-data.html,Münster GeoData,"Stadt Münster
 48127 Münster",Deutschland,"„Die Stadt Münster beteiligt sich am Wettbewerb ""Apps für Deutschland"". Sie stellt dazu Datensätze über Spielplätze und Sportstätten als offene Daten zur Verfügung. Die Daten werden mit Stand Dezember 2011 bereitgestellt. Es kommt die Lizenz Creative Commons Namensnennung 3.0 zur Anwendung.“
 (Quelle: Stadt Münster, abgerufen am 26.10.2017)",Münster (Westf.),kommunal,ja,,,51.9607,7.6261
-http://iatiregistry.org/,Iati Registry,,Deutschland,,Berlin,international,nein,,,52.5243681651,13.4105300903
-https://transparenz.karlsruhe.de/,Karlsruhe Open Data,,Deutschland,,Karlsruhe,kommunal,ja,,,49.0069,8.4037
-https://www.offenesdatenportal.de/organization/krzn,Kommunales Rechenzentrum Niederrhein,,Deutschland,,Niederrhein,kommunal,ja,,,51.4958,6.5321
-https://www.geodaten.niedersachsen.de,GDI Niedersachsen,,Deutschland,,Niedersachsen,regional,ja,ja,ja,52.6367036,9.8450766
-https://www.geoportal.nrw/,GDI NRW,,Deutschland,,Nordrhein-Westfalen,regional,ja,ja,ja,51.4332367,7.6615938
-http://offenedaten.kdvz-frechen.de/,Offene Daten kdvz Rhein-Erft-Rur,,Deutschland,"Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stadt Bergheim, Gemeinde Langerwehe, Gemeinde Hürtgenwald, Gemeinde Vettweiß, Stadt Jülich, Gemeinde Merzenich, Stadt Wesseling, Stadt Heimbach, Gemeinde Kreuzau, Stadt Linnich, Stadt Bad Münstereifel, Gemeinde Titz, Stadt Bedburg",Nordrhein-Westfalen,kommunal,ja,,,51.4332367,7.6615938
-https://open.nrw/,Open Data | Open.NRW,,Deutschland,"Open.NRW unterstützt Verwaltungen, Bürgerinnen und Bürger sowie weitere externe Akteure bei dem offenen Austausch und der Zusammenarbeit.",Nordrhein-Westfalen,regional,ja,,,51.4332367,7.6615938
-http://www.geoportal.rlp.de/,GDI Rhein­land-Pfalz,,Deutschland,,Rhein­land-Pfalz,regional,ja,ja,ja,50.118346,7.3089527
-https://daten.rlp.de/,Open-Government-Data-Portal Rheinland-Pfalz,,Deutschland,,Rheinland-Pfalz,regional,ja,,,50.118346,7.3089527
-http://geoportal.saarland.de/,GDI Saarland,,Deutschland,,Saarland,regional,ja,ja,ja,49.3964234,7.0229607
-http://www.gdi.sachsen.de/,GDI Sachsen,,Deutschland,,Sachsen,regional,ja,ja,ja,51.1045407,13.2017384
-http://www.opendata.sachsen.de,Open Data - Verfügbare Datenbestände des Freistaats Sachsen,,Deutschland,Inhalte des OpenData Projektes,Sachsen,regional,ja,,,51.1045407,13.2017384
-http://www.lvermgeo.sachsen-anhalt.de/de/main.htm,GDI Sachsen-Anhalt,,Deutschland,,Sachsen-Anhalt,regional,ja,ja,ja,51.9502649,11.6922734
-https://offenedaten.de/organization/salzgitter,Salzgitter,,Deutschland,,Salzgitter,kommunal,ja,,,52.1379,10.3899
-http://www.gdi-sh.de/,GDI Schleswig-Holstein,,Deutschland,Einheitlicher Ansprechpartner,Schleswig-Holstein,regional,ja,ja,ja,54.2193672,9.6961167
-http://www.geoportal-th.de/,GDI Thüringen,,Deutschland,,Thüringen,regional,ja,ja,ja,51.0109892,10.845346
-http://daten.ulm.de/,daten.ulm.de,,Deutschland,,Ulm,kommunal,ja,,,48.4010822,9.9876076
+http://iatiregistry.org/,Iati Registry,,Deutschland,Das internationale Datenportal der „International Aid Transparency Initiative“ (IATI) enthält offene Daten zur Entwicklungszusammenarbeit verschiedener Länder. Zu den Datenanbietern gehört unter anderem das Das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ),Berlin,international,nein,,,52.5243681651,13.4105300903
+https://transparenz.karlsruhe.de/,Karlsruhe Open Data,"Stadt Karlsruhe
+Karl-Friedrich-Str. 10
+76133 Karlsruhe ",Deutschland,"Zentrale Anlaufstelle für offene Daten und Dokumente der Stadt Karlsruhe:
+
+„Auf diesem Portal finden Sie sowohl Dokumente und Berichte, als auch maschinenlesbare Datensätze (""open data""). Diese Informationen dürfen Sie - unter einigen wenigen Bedingungen - kostenfrei weitergeben, bearbeiten und auch kommerziell nutzen. Wir freuen uns, wenn daraus interessante Projekte entstehen - und wenn Sie uns von Ihrem Projekt erzählen. Das Informationsangebot wird laufend erweitert.“
+(Quelle: Stadt Karlsruhe, abgerufen am 27.10.2017)
+",Karlsruhe,kommunal,ja,,,49.0069,8.4037
+https://www.offenesdatenportal.de/organization/krzn,Kommunales Rechenzentrum Niederrhein,"Zweckverband Kommunales Rechenzentrum Niederrhein (KRZN)
+Friedrich-Heinrich-Allee 130
+47475 Kamp-Lintfort
+Deutschland",Deutschland,"Offene Daten des Kommunalen Rechenzentrums Niederrhein (KRZN) mit Sitz in Kamp-Lintfort. Das KRZN ist ein kommunaler Zweckverband un IT-Dienster für Stadt Bottrop, Stadt Krefeld, Kreis Kleve, Kreis Viersen und Kreis Wesel. 25 Datensätze gruppiert nach den Themen „Wirtschaft und Arbeit“, „Öffentliche Verwaltung“ und „Geographie, Geologie und Geobasisdaten“ (Stand: 27.10.2017)",Niederrhein,kommunal,ja,ja,,51.4958,6.5321
+https://www.geodaten.niedersachsen.de,GDI Niedersachsen,"Landesamt für Geoinformation und Landesvermessung Niedersachsen (LGLN)
+Landesvermessung und Geobasisinformation
+Podbielskistraße 331
+30659 Hannover",Deutschland,"Informationsplattform zum Thema Geodaten des Landes Niedersachsen. 
+
+Ansprechpartner für das Geoportal und die Geodateninfrastruktur des Landes ist die Koordinierungsstelle GDI-NI beim Landesamt für Geoinformation und Landesvermessung Niedersachsen (LGLN) - Landesvermessung und Geobasisinformation mit Sitz in Hannover. (Stand: 27.10.2017)",Niedersachsen,regional,ja,ja,ja,52.6367036,9.8450766
+https://www.geoportal.nrw/,GDI NRW,"Geschäftsstelle IMA GDI.NRW
+c/o Bezirksregierung Köln,
+Abteilung 7 / Geobasis NRW
+Muffendorfer Str. 19-21
+53177 Bonn ",Deutschland,"Die Geodateninfrastruktur des Landes Nordrhein-Westfalen besteht seit 1999 und hat sich die Aktivierung des Geodatenmarktes sowie die verbesserte Verfügbarkeit und Nutzbarkeit der behördlichen und privaten Geodaten zum Ziel gesetzt. An der Realisierung der GDI sind das Land NRW, Kommunen, IT-Unternehmen und Nutzer von Geoinformationen beteiligt.
+(Stand: 27.10.2017)",Nordrhein-Westfalen,regional,ja,ja,ja,51.4332367,7.6615938
+http://offenedaten.kdvz-frechen.de/,Offene Daten kdvz Rhein-Erft-Rur,"Kommunale Datenverarbeitungzentrale Rhein-Erft-Rur
+Der Verbandsvorsteher
+Bonnstraße 16-18
+50226 Frechen",Deutschland,"Im Rahmen des Pilotprojektes „Kommunales Open Government in NRW“ realisiert die kdvz Rhein-Erft-Ruhr gemeinsam mit 24 Kommunen und der Open Knowledge Foundation ein sog. „interkommunales Transparenzportal für Gremiendaten“.
+
+Die beteiligten Kommunen sind:
+Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stadt Bergheim, Gemeinde Langerwehe, Gemeinde Hürtgenwald, Gemeinde Vettweiß, Stadt Jülich, Gemeinde Merzenich, Stadt Wesseling, Stadt Heimbach, Gemeinde Kreuzau, Stadt Linnich, Stadt Bad Münstereifel, Gemeinde Titz, Stadt Bedburg
+(Stand: 27.10.2017)",Nordrhein-Westfalen,kommunal,ja,,,51.4332367,7.6615938
+https://open.nrw/,Open Data | Open.NRW,"Ministerium des Innern des Landes Nordrhein-Westfalen
+Friedrichstraße 62-80
+40217 Düsseldorf",Deutschland,"Open.NRW unterstützt Verwaltungen, Bürgerinnen und Bürger des Landes Nordrhein-Westfalen sowie weitere externe Akteure bei dem offenen Austausch und der Zusammenarbeit. Das Landesportal vereint offene Datensätze von Städten und Kommunen und beinhaltet zudem Geobasisdaten. (Stand: 27.10.2017)",Nordrhein-Westfalen,regional,ja,ja,,51.4332367,7.6615938
+http://www.geoportal.rlp.de/,GDI Rhein­land-Pfalz,"Landesamt für Vermessung und Geobasisinformation Rheinland-Pfalz
+Von-Kuhl-Str. 49
+56070 Koblenz",Deutschland,"Über das GeoPortal.rlp können Geodaten des Landes Rheinland-Pfalz zentral gesucht und visualisiert werden. Es handelt sich um ein Projekt des Lenkungsausschuss für Geodateninfrastruktur Rheinland-Pfalz, dessen Mitglieder Vertreter der Staatskanzlei, der Ministerien und der kommunalen Spitzenverbände sind. Das Portal selbst ist als Open-Source Projekt realisiert, wovon ausgewählte Komponenten unter anderem als LiveCD heruntergeladen werden können. (Stand: 27.10.2017)",Rhein­land-Pfalz,regional,ja,ja,ja,50.118346,7.3089527
+https://daten.rlp.de/,Open-Government-Data-Portal Rheinland-Pfalz  (OGDP-RP),"Ministerium des Innern und für Sport des Landes Rheinland-Pfalz
+Schillerplatz 3 – 5
+55116 Mainz",Deutschland,"Das Portal bietet einen einheitlichen, zentralen Zugang zu Verwaltungsdaten der rheinland-pfälzischen Landesbehörden und Kommunen. Unbedingt zu beachten ist, dass neben den offenen Daten hier auch Daten mit eingeschränkten Lizenzbedingungen angeboten werden, obgleich die Verwendung offener Lizenzen und maschinenlesbarer Rohdaten allgemein angestrebt wird. (Stand: 27.10.2017)",Rheinland-Pfalz,regional,ja,,,50.118346,7.3089527
+http://geoportal.saarland.de/,GeoPortal Saarland (GDI-SL),"Landesamt für Vermessung, Geoinformation und Landentwicklung (LVGL)
+
+Zentrale Stelle Geodateninfrastruktur Saarland
+Von der Heydt 22
+
+66115 Saarbrücken",Deutschland,"Das GeoPortal Saarland ist die Informations- und Interaktionsplattform der Geodateninfrastruktur Saarland (GDI-SL). Mithilfe von Netzwerk- und Geodiensten ermöglicht diese einen zentralen Zugang zu raumbezogenen Informationen im Saarland.
+
+Die Daten werden je zu verschiedenen Nutzungsbedingungen angeboten, einige davon sind frei, andere sind Zugangsbeschränkt. Zu beachten ist dabei die Legende der Inhaltsübersicht und die genauen Angaben in den Metadaten.
+
+(Stand: 27.10.2017)",Saarland,regional,ja,ja,ja,49.3964234,7.0229607
+http://www.gdi.sachsen.de/,GDI Sachsen,"Staatsbetrieb Geobasisinformation und Vermessung Sachsen
+Olbrichtplatz 3, 01099 Dresden",Deutschland,"Die Geodateninfrastruktur Sachsen hat das Ziel, digitalen, raumbezogenen Daten aus der Wirtschaft und öffentlichen Verwaltung des Landes einem breiten Nutzerkreis zugänglich zu machen. Die suche nach Geodaten wird über den Metadatenkatalog GeoMIS.Sachsen und das Geoportal Sachsenatlas ermöglicht. 
+(Stand: 27.10.2017)",Sachsen,regional,ja,ja,ja,51.1045407,13.2017384
+http://www.opendata.sachsen.de,Open Data - Verfügbare Datenbestände des Freistaats Sachsen,"Staatsbetrieb Sächsische Informatik Dienste
+Riesaer Straße 7
+Haus D
+01129 Dresden",Deutschland,"Im Zuge des Projektes „Open Government Data“ wird angestrebt, die Transparenz staatlichen handelns zu erhöhen, in dem mehr Daten aus dem staatlichen Bereich publiziert werden. 
+
+Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen werden könnten. Die Nutzungsbedingungen und Urheberrechtsfragen sind aber bislang noch nicht einheitlich geregelt.
+(Stand: 27.10.2017)",Sachsen,regional,ja,,,51.1045407,13.2017384
+http://www.lvermgeo.sachsen-anhalt.de/de/main.htm,GDI Sachsen-Anhalt / LvermGeo,"Landesamt für Vermessung und Geoinformation Sachsen-Anhalt (LVermGeo)
+Otto-von-Guericke-Straße 15
+39104 Magdeburg",Deutschland,"Die Website des Landesamt für Vermessung und Geoinformation Sachsen-Anhalt umfasst Zugänge zu Diensten der Geodateninfrastruktur Sachsenanhalt (GDI-LSA) sowie einen Geodatenviewer. Viele der angebotenen Dienste und Daten sind käuflich zu erwerben oder unterliegen Nutzungsbeschränkungen.
+(Stand: 27.10.2017)",Sachsen-Anhalt,regional,ja,ja,ja,51.9502649,11.6922734
+https://offenedaten.de/organization/salzgitter,Salzgitter,"Stadt Salzgitter
+Joachim-Campe-Straße 6 - 8
+38226 Salzgitter",Deutschland,"Sie Stadt Sapzgitter stellt auf diesem Portal 9 offene Datensätze aus den Kategorien „Öffentliche Verwaltung“, „Kultur, Freizeit, Sport und Tourismus“, sowie „Geographie, Geologie und Geobasisdaten“ zur Verfügung. (Stand: 27.10.2017)",Salzgitter,kommunal,ja,,,52.1379,10.3899
+http://www.gdi-sh.de/,GDI Schleswig-Holstein,"Düsternbrooker Weg 92
+24105 Kiel",Deutschland,"Die Geodateninfrastruktur Schleswig-Holstein ermöglicht unter der Leitung des Lenkungsgremiums LG GDI-SH den Zugriff auf Geodaten des Landes Schleswig-Holstein. Die website umfasst ein Geoportal, welches das suchen und Betrachten von Geodaten, nach Themen unterteilt, ermöglicht. Zudem werden kommerzielle Dienste angeboten. (Stand: 27.10.2017)",Schleswig-Holstein,regional,ja,ja,ja,54.2193672,9.6961167
+http://www.geoportal-th.de/,GDI Thüringen,"Landesamt für Vermessung und Geoinformation
+Hohenwindenstr. 13 a
+D-99086 Erfurt",Deutschland,"Die Geodateninfrastruktur (GDI) des Landes Thüringen ermöglicht den zugriff auf Geodaten und Dienste des Landes. Neben einem umfrangreichen Downloadbereich von offenen Geodaten ist der Zugriff auf eine Metadatensuche, Web-Viewer, Geoproxy und OGC-Dienste sowie versichiedene Temenbereiche möglich. (Stand: 27.10.2017)",Thüringen,regional,ja,ja,ja,51.0109892,10.845346
+http://www.geoportal-th.de/de-de/downloadbereiche/downloadoffenegeodatenth%C3%BCringen.aspx,Download Offene Geodaten Thüringen,"Landesamt für Vermessung und Geoinformation
+Hohenwindenstr. 13 a
+D-99086 Erfurt",Deutschland,"Teil des Geoportal-Th und der GDI-Th ist ein Downloadbereich, in dem eine Vielzahl von Geodaten ohne Zugangsbeschränkung genutzt und heruntergeladen werden können. Zu beachten ist, dass die Datenlizenz einen Quellenvermerk vorschreibt. (Stand: 27.10.2017)",Thüringen,regional,ja,ja,,,
+http://daten.ulm.de/,daten.ulm.de,"Stadt Ulm
+Marktplatz 1
+89073 Ulm",Deutschland,"„daten.ulm.de ist eine Infoplattform für (offene) Geodaten und offene statistische Daten der Stadt Ulm.  Welche Geodaten und Karten gibt es bei der Stadt Ulm in welcher Aktualität? Wer ist Ansprechpartner? Welche offenen Daten kann ich sofort herunterladen und weiterverwenden?  Stöbern Sie einfach im thematisch gegliederten Datenkatalog, dessen Angebot sukzessive ausgebaut wird.“ (Quelle: daten.ulm, abgerufen am 27.10.2017)",Ulm,kommunal,ja,,,48.4010822,9.9876076
 https://www.offenesdatenportal.de/organization/kreis-viersen,Kreis Viersen Open Data,,Deutschland,,Viersen,kommunal,ja,,,51.2555,6.3965
 https://www.offenesdatenportal.de/organization/stadt-wesel,Stadt Wesel am Rhein Open Data,,Deutschland,,Wesel,kommunal,ja,,,51.6643,6.6296
 https://www.offenedaten-wuppertal.de/,Offene Daten Wuppertal,,Deutschland,,Wuppertal,kommunal,ja,,,51.2562128,7.1507636
