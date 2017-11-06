@@ -1,0 +1,103 @@
+---
+title: "Open Data Portale"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+    logo: oge_logo/icon_scaled.jpg
+    favicon: oge_logo/icon_scaled.jpg
+    theme: cerulean
+runtime: shiny
+
+  
+---
+
+```{r setup, include=FALSE}
+library(leaflet)
+library(flexdashboard)
+library(DT)
+library(htmltools)
+library(crosstalk)
+#portale <- read.csv("../data/portale_geocoded2.csv")
+portale <- read.csv("out_geodata/portale_shifted.csv")
+portale$Link <- paste0("<a href=\"",htmlEscape(portale$URL),"\" target=\"_blank\">",htmlEscape(portale$Titel),"</a>")
+
+portale$popup <- paste0("<a href=\"",htmlEscape(portale$URL),"\" target=\"_blank\">",htmlEscape(portale$Titel),"</a><br>", htmlEscape(portale$Beschreibung))
+portale$Bezug <- factor(portale$Bezug, levels=c("international","national","regional","kommunal"), ordered = TRUE)
+portale$label = htmlEscape(paste(portale$Titel, "|", portale$Ort))
+portale$GDI <- portale$GDI == "ja"
+portale$Typ <- as.factor(portale$GDI)
+levels(portale$Typ) <- c("Open Data Portal","GDI")
+
+sd <- SharedData$new(portale, group = "portale")
+sd_table <- SharedData$new(portale[c("Link","Beschreibung","Ort","Bezug")], group = "portale")
+
+
+#Column {data-width=650}
+#Column {data-width=350}
+#-----------------------------------------------------------------------
+```
+
+
+```{r background="white"}
+
+ bscols(widths = c(1,NA,NA),
+        HTML("&nbsp;"),
+        filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE),
+        filter_checkbox("bezug_check", "Räumlicher Bezug", sd, ~Bezug, inline = TRUE))
+# m))
+
+ #, 
+    #    DT::datatable(sd_table, escape = FALSE, options = list(
+     #      bPaginate = TRUE))
+
+```
+
+Row {.tabset .tabset-fade data-height=800}
+-----------------------------------------------------------------------
+
+
+### Karte 
+
+```{r, fig.width=10, fig.height=8}
+
+source("R/create_map_function.R")
+m <- createMap(portale, clustering = FALSE, layerControls=FALSE)
+#filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE)
+#m
+# bscols(list(filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE),
+# filter_checkbox("bezug_check", "Bezug", sd, ~Bezug, inline = TRUE),
+# m))
+
+m
+```
+
+
+### Tabelle
+
+```{r, fig.width=10, fig.height=8}
+#DT::datatable(portale[c("Link","Beschreibung","Ort","Land","Bezug", "Lizenz")], escape = FALSE, options = list(
+#  bPaginate = TRUE
+#))
+
+DT::datatable(sd_table, escape = FALSE, options = list(
+  bPaginate = TRUE
+))
+```
+
+
+### Daten
+
+Die dargestellten Geodaten zu den Open Data Portalen und GDIs in Deutschland, Österreich und Schweiz können in verschiedenen Dateiformaten herunterladen werden. Beachten Sie, dass die Koordinaten sich überlappender Punkte zwecks besserer Darstellung leicht verschoben wurden. Alle Koordinaten sind in Längen- und Breitengerade angegeben (Tabellenspalten mit Namen "lon" und "lat") und beziehen sich auf das Datum WGS84.
+
+* [CSV Tabelle](https://opengeoedu.github.io/out_geodata/portale_shifted.csv)
+* [geojson](https://opengeoedu.github.io/out_geodata/portale_shifted.geojson)
+* [GeoPackage](https://opengeoedu.github.io/out_geodata/portale_shifted.gpkg)
+* [Geography Markup Language (GML)](https://opengeoedu.github.io/out_geodata/portale_shifted.gml)
+* [Keyhole Markup Language (KML)](https://opengeoedu.github.io/out_geodata/portale_shifted.kml)
+* [ESRI Shapefile (ZIP-Archiv)](https://opengeoedu.github.io/out_geodata/portale_shifted-ESRI-Shapefile.zip)
+
+Die geokodierten Rohdaten (mit überlappenden Koordinaten) sind als CSV-Tabelle verfügbar:
+
+* [Rohdaten (CSV Tabelle)](https://opengeoedu.github.io/data/portale_geocoded2.csv)
+
