@@ -1,12 +1,13 @@
 URL,Titel,Adresse_Herausgeber,Land,Beschreibung,Ort,Bezug,Staatlich_Öffentlich,Geodaten,GDI,lat,lon
 http://offenedaten.aachen.de/,Aachen Open Data,"Stadt Aachen
 Markt
-52058 Aachen",Deutschland,Open Data Portal der Stadt Aachen,Aachen,kommunal,ja,,,50.7753,6.0839
+52058 Aachen",Deutschland,Open Data Portal der Stadt Aachen mit über 70 Datensätzen von verschiedenen Organisationen einschließlich der Stadt Stolberg und der Gemeinde Roetgen (Stand: 7.11.2017),Aachen,kommunal,ja,,,50.7753,6.0839
 http://www.geoportal-bw.de,GDI Baden-Württemberg,"Landesamt für Geoinformation und Landentwicklung Baden-Württemberg
 Büchsenstraße 54
-70174 Stuttgart",Deutschland,"„Das Geoportal ist die amtliche Informations- und Kommunikationsplattform rund um die Geodaten im Land. Es dient als zentraler Zugangsknoten zur Geodateninfrastruktur Baden-Württemberg. Es informiert über aktuelle Entwicklungen und Projekte, es stellt Basiswissen für die Allgemeinheit und Detailwissen für Fachanwender bereit und erlaubt die Suche von Geodaten und ihre Darstellung in interaktiven Karten sowie den Zugriff auf Geodaten für Verwaltung, Wirtschaft, Wissenschaft und den Bürger.“ (Quelle: GDI Baden-Würtenberg, abgerufen am 26.10.2017)",Baden-Württemberg,regional,ja,ja,ja,48.6616037,9.3501336
+70174 Stuttgart",Deutschland,"Amtliche informations- und Kommunikationsplattform des Landes Baden-Würtenberg. Dient als Zugangsknoten zur Geodateninfrastruktur des Landes und informiert über aktuelle Entwicklungen und Projekte. Erlaubt Suche und interaktive Dartstellung von Geodaten für Verwaltung, Wirtschaft, Wissenschaft und den Bürger. (Quelle: GDI Baden-Würtenberg, abgerufen am 26.10.2017)",Baden-Württemberg,regional,ja,ja,ja,48.6616037,9.3501336
 http://www.gdi.bayern.de/,GDI Bayern,"Landesamt für Digitalisierung, Breitband und Vermessung
-Alexandrastraße 4, 80538 München",Deutschland,Geodateninfrastruktur der bayrischen Landesregierung,Bayern,regional,ja,ja,ja,48.7904472,11.4978895
+Alexandrastraße 4, 80538 München",Deutschland,"Knotenpunkt der GDI der bayrischen Landesregierung: Zugriff u.a. auf das Geoportal Bayern, den BayernAtlas, das Bayrische Frachinformationssystem Naturschutz, Das integrierte Bayerische Landwirtschaftliche Informations-System (iBALIS), das Bodeninformations-
+system Bayern und den Bayerischen Denkmal-Atlas.  (Stand: 7.11.2017)",Bayern,regional,ja,ja,ja,48.7904472,11.4978895
 https://opendata.bayern.de/,Open Data Portal des Freistaats Bayern,"Stabstelle des IT-Beauftragten der Bayerischen Staatsregierung
 Bayerisches Staatsministerium der Finanzen, für Landesentwicklung und Heimat
 Odeonsplatz 4
@@ -14,16 +15,13 @@ Odeonsplatz 4
 http://www.stadtentwicklung.berlin.de/geoinformation/,GDI Berlin,"Senatsverwaltung für Stadtentwicklung und Wohnen
 Württembergische Straße 6
 10707 Berlin
-",Deutschland,"Geobasisdaten und Geodätische Bezugssysteme der Landesvermessung in Berlin,  Senatsverwaltung in Berlin
-
-
-„Das Geoportal bietet einen zentralen Zugang zu Karten und anderen raumbezogenen Daten, Diensten und Anwendungen und informiert über Projekte und relevante Entwicklungen im Bereich Geoinformation“ (Quelle: Offene Daten Berlin, abgerufen am 26.10.2017)",Berlin,regional,ja,ja,ja,52.5200066,13.404954
+",Deutschland,"Das Geoportal Berlin bietet  Informationen und Zugang zur Geodateninfrastruktur des Landes, der Landesvermessung, Liegenschaftskataster, Grundstückswerten und dem Umweltatlas Berlin (Stand: 26.10.2017)",Berlin,regional,ja,ja,ja,52.5200066,13.404954
 http://daten.berlin.de/,Offene Daten Berlin,"Senatsverwaltung für Wirtschaft, Energie und Betriebe
 Martin-Luther-Straße 105
 10825 Berlin",Deutschland,Open Data Portal der Stadt Berlin,Berlin,regional,ja,,,52.5200066,13.404954
 https://www.bochum.de/opendata,Bochum Open Data,"Stadt Bochum
 Referat für Kommunikation, 
-Willy-Brandt-Platz 2-6, 44787 Bochum",Deutschland,"„Im Open Data Portal der Stadt Bochum werden neben Online-Anwendungen verschiedene Datensätze der Stadtverwaltung veröffentlicht.“ (Quelle: Bochum Open Data, abgerufen am 26.10.2017)",Bochum,kommunal,ja,,,51.4818,7.2162
+Willy-Brandt-Platz 2-6, 44787 Bochum",Deutschland,„Online-Anwendungen und verschiedene Datensätze der Stadtverwaltung Bochum.“ (Stand 26.10.2017),Bochum,kommunal,ja,,,51.4818,7.2162
 https://opendata.bonn.de/,Open Data Katalog Bonn,"Bundesstadt Bonn
 Der Oberbürgermeister
 Berliner Platz 2

@@ -12,13 +12,16 @@ runtime: shiny
   
 ---
 
-```{r setup, include=FALSE}
+```{r global, include=FALSE}
 library(leaflet)
 library(flexdashboard)
 library(DT)
 library(htmltools)
 library(crosstalk)
-#portale <- read.csv("../data/portale_geocoded2.csv")
+shiny::addResourcePath("icontemp", file.path(getwd(), "icontemp"))
+shiny::addResourcePath("out_geodata", file.path(getwd(), "out_geodata"))
+shiny::addResourcePath("data", file.path(getwd(), "data"))
+#portale <- read.csv("../data/portale_geocoded3.csv")
 portale <- read.csv("out_geodata/portale_shifted.csv")
 portale$Link <- paste0("<a href=\"",htmlEscape(portale$URL),"\" target=\"_blank\">",htmlEscape(portale$Titel),"</a>")
 
@@ -90,14 +93,126 @@ DT::datatable(sd_table, escape = FALSE, options = list(
 
 Die dargestellten Geodaten zu den Open Data Portalen und GDIs in Deutschland, Österreich und Schweiz können in verschiedenen Dateiformaten herunterladen werden. Beachten Sie, dass die Koordinaten sich überlappender Punkte zwecks besserer Darstellung leicht verschoben wurden. Alle Koordinaten sind in Längen- und Breitengerade angegeben (Tabellenspalten mit Namen "lon" und "lat") und beziehen sich auf das Datum WGS84.
 
-* [CSV Tabelle](https://opengeoedu.github.io/out_geodata/portale_shifted.csv)
-* [geojson](https://opengeoedu.github.io/out_geodata/portale_shifted.geojson)
-* [GeoPackage](https://opengeoedu.github.io/out_geodata/portale_shifted.gpkg)
-* [Geography Markup Language (GML)](https://opengeoedu.github.io/out_geodata/portale_shifted.gml)
-* [Keyhole Markup Language (KML)](https://opengeoedu.github.io/out_geodata/portale_shifted.kml)
-* [ESRI Shapefile (ZIP-Archiv)](https://opengeoedu.github.io/out_geodata/portale_shifted-ESRI-Shapefile.zip)
+* [CSV Tabelle](out_geodata/portale_shifted.csv)
+* [geojson](out_geodata/portale_shifted.geojson)
+* [GeoPackage](out_geodata/portale_shifted.gpkg)
+* [Geography Markup Language (GML)](out_geodata/portale_shifted.gml)
+* [Keyhole Markup Language (KML)](out_geodata/portale_shifted.kml)
+* [ESRI Shapefile (ZIP-Archiv)](out_geodata/portale_shifted-ESRI-Shapefile.zip)
 
 Die geokodierten Rohdaten (mit überlappenden Koordinaten) sind als CSV-Tabelle verfügbar:
 
-* [Rohdaten (CSV Tabelle)](https://opengeoedu.github.io/data/portale_geocoded2.csv)
+* [Rohdaten (CSV Tabelle)](data/portale_geocoded2.csv)
 
+
+### Neuer Eintrag / Korrektur
+
+Mit diesem Formular können Sie einen neuen 
+```{r}
+saveData <- function(data) {
+  data <- as.data.frame(t(data))
+  if (exists("responses")) {
+    responses <<- rbind(responses, data)
+  } else {
+    responses <<- data
+  }
+}
+
+loadData <- function() {
+  if (exists("responses")) {
+    responses
+  }
+}
+
+shinyApp(
+  ui = fluidPage(
+      shinyjs::useShinyjs(),
+      id = "submit-form",
+      numericInput("id", label = "ID (bei vorhandenen Einträgen)", min = 1, max = dim(portale)[1], value = NA_integer_, step = 1),
+      
+      textInput("titel", label = "Titel", placeholder = "Titel der Website"),
+      
+      textInput("url", label = "URL", placeholder = "https://www.beispiel.de"),
+      textAreaInput("desc", label = "Beschreibung", placeholder = "Kurze Beschreibung des Open Data Portals oder der GDI", width = "400px",   height = "100px"),
+      
+      radioButtons("type", "Art des Portals:",
+          choiceNames = 
+            list("Open Data Portal","Geoportal / GDI"), 
+          choiceValues = 
+            list("odp","gdi"),
+          inline = TRUE,
+      ),
+      
+      textInput("place", label = "Ort (Bezug des Portals)", placeholder = "Gemeinde, Land oder Region"),
+      
+      radioButtons("bezug", "Bezug (administrativ):",
+          choices =
+            list("international","national", "regional", "kommunal"), inline = TRUE,
+      ),
+      
+      
+      textInput("adr", label = "Adresse des Herausgebers oder Koordinaten zur Geolokalisierung des Portals", placeholder = "52.5161 N, 13.3777 E / Pariser Platz, 10117 Berlin", width = "400px"),
+      
+      radioButtons("staatl", "Staatlich / Öffentlich",
+          choiceNames =
+            list("ja","nein", "teilweise"),
+          choiceValues =
+            list("ja","nein", "teilweise"), inline = TRUE,
+      ), title = "Portal eintragen / editieren",
+      
+       textInput("author", label = "Kontakt (Optional)", placeholder = "Ihr Name / E-Mail"),
+      tags$head(
+            tags$style(HTML('#submit{background-color:#044D94; color: white;} #submit:hover{background-color:#e7e7e7; color: black;} '))
+      ),
+      actionButton("submit","Anfrage senden"),  actionButton("reset","Formular zurücksetzen"),
+      tags$hr(),
+      "Offene Anfragen:"
+      ,DT::dataTableOutput("responses", width = 300) 
+  
+  ),
+  server = function(input, output, session){
+    observe({
+      id <- input$id
+        if(!is.na(id) && is.numeric(id)){
+          updateTextInput(session, inputId = "titel", value = portale$Titel[id])
+          updateTextInput(session, inputId = "url", value = portale$URL[id])
+          updateRadioButtons(session, inputId = "type", selected = ifelse(portale$GDI[id], "gdi", "odp"))
+          updateTextAreaInput(session, inputId = "desc", value = portale$Beschreibung[id])
+          updateRadioButtons(session, inputId = "bezug", selected = portale$Bezug[id])
+          
+          coords <- paste0(portale[id,"lat"]," N, ", portale[id,"lon"]," E ")
+          
+          updateTextInput(session, inputId = "adr", value = coords)
+          updateTextInput(session, inputId = "place", value = portale$Ort[id])
+          updateRadioButtons(session, inputId = "staatl", selected = portale$Staatlich_Öffentlich[id])
+        }
+    })
+    
+      # Whenever a field is filled, aggregate all form data
+    formData <- reactive({
+      data <- sapply(c("titel","url","type","desc","bezug", "adr", "place", "staatl", "author"), function(x) input[[x]])
+      data
+    })
+    
+    # When the Submit button is clicked, save the form data
+    observeEvent(input$submit, {
+      saveData(formData())
+      shinyjs::alert("Vielen Dank!\nIhre Anfrage wurde gesendet und wird bald bearbeitet.")
+      shinyjs::reset("submit-form")
+    })
+    
+    observeEvent(input$reset, {
+      shinyjs::reset("submit-form")
+    })
+    
+    # Show the previous responses
+    # (update with current response when Submit is clicked)
+    output$responses <- DT::renderDataTable({
+      input$submit
+      loadData()
+    })    
+    
+  }
+)
+
+```
