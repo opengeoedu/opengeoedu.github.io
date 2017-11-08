@@ -1,17 +1,17 @@
 URL,Titel,Adresse_Herausgeber,Land,Beschreibung,Ort,Bezug,Staatlich_Öffentlich,Geodaten,GDI,lat,lon
 http://offenedaten.aachen.de/,Aachen Open Data,"Stadt Aachen
 Markt
-52058 Aachen",Deutschland,Open Data Portal der Stadt Aachen mit über 70 Datensätzen von verschiedenen Organisationen einschließlich der Stadt Stolberg und der Gemeinde Roetgen (Stand: 7.11.2017),Aachen,kommunal,ja,,,50.7753,6.0839
+52058 Aachen",Deutschland,"Open Data Portal der Stadt Aachen mit über 70 Datensätzen verschiedener Organisationen, einschließlich der Stadt Stolberg und der Gemeinde Roetgen (Stand: 7.11.2017)",Aachen,kommunal,ja,,,50.7753,6.0839
 http://www.geoportal-bw.de,GDI Baden-Württemberg,"Büchsenstraße 54,
-70174 Stuttgart",Deutschland,"Amtliche informations- und Kommunikationsplattform des Landes Baden-Würtenberg. Dient als Zugangsknoten zur Geodateninfrastruktur des Landes und informiert über aktuelle Entwicklungen und Projekte. Erlaubt Suche und interaktive Dartstellung von Geodaten für Verwaltung, Wirtschaft, Wissenschaft und den Bürger. (Quelle: GDI Baden-Würtenberg, abgerufen am 26.10.2017)",Baden-Württemberg,regional,ja,ja,ja,48.6616037,9.3501336
+70174 Stuttgart",Deutschland,"Die Amtliche informations- und Kommunikationsplattform des Landes Baden-Würtenberg dient als Zugangsknoten zur Geodateninfrastruktur des Landes und informiert über aktuelle Entwicklungen und Projekte. Angeboten werden Datensuche und interaktive Dartstellung von Geodaten für Verwaltung, Wirtschaft, Wissenschaft und den Bürger. (Stand: 26.10.2017)",Baden-Württemberg,regional,ja,ja,ja,48.6616037,9.3501336
 http://www.gdi.bayern.de/,GDI Bayern,"Landesamt für Digitalisierung, Breitband und Vermessung
-Alexandrastraße 4, 80538 München",Deutschland,"Knotenpunkt der GDI der bayrischen Landesregierung: Zugriff u.a. auf das Geoportal Bayern, den BayernAtlas, das Bayrische Frachinformationssystem Naturschutz, Das integrierte Bayerische Landwirtschaftliche Informations-System (iBALIS), das Bodeninformations-
-system Bayern und den Bayerischen Denkmal-Atlas.  (Stand: 7.11.2017)",Bayern,regional,ja,ja,ja,48.7904472,11.4978895
+Alexandrastraße 4, 80538 München",Deutschland,"Knotenpunkt der Geodatenifrastruktur der bayrischen Landesregierung: Zugriff u.a. auf das Geoportal Bayern, den BayernAtlas, das Bayrische Frachinformationssystem Naturschutz, Das integrierte Bayerische Landwirtschaftliche Informations-System (iBALIS), das Bodeninformations-
+system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)",Bayern,regional,ja,ja,ja,48.7904472,11.4978895
 https://opendata.bayern.de/,Open Data Portal des Freistaats Bayern,"Odeonsplatz 4,
 80539 München",Deutschland,Open Data Portal der bayrischen Landesregierung,Bayern,regional,ja,,,48.7904472,11.4978895
 http://www.stadtentwicklung.berlin.de/geoinformation/,GDI Berlin,"Württembergische Straße 6,
 10707 Berlin
-",Deutschland,"Das Geoportal Berlin bietet  Informationen und Zugang zur Geodateninfrastruktur des Landes, der Landesvermessung, Liegenschaftskataster, Grundstückswerten und dem Umweltatlas Berlin (Stand: 26.10.2017)",Berlin,regional,ja,ja,ja,52.5200066,13.404954
+",Deutschland,"Das Geoportal Berlin bietet Informationen und Zugang zur Geodateninfrastruktur des Landes, der Landesvermessung, Liegenschaftskataster, Grundstückswerten und dem Umweltatlas Berlin (Stand: 26.10.2017)",Berlin,regional,ja,ja,ja,52.5200066,13.404954
 http://daten.berlin.de/,Offene Daten Berlin,"Martin-Luther-Straße 105,
 10825 Berlin",Deutschland,Open Data Portal der Stadt Berlin,Berlin,regional,ja,,,52.5200066,13.404954
 https://www.bochum.de/opendata,Bochum Open Data,"Willy-Brandt-Platz 2-6, 44787 Bochum",Deutschland,„Online-Anwendungen und verschiedene Datensätze der Stadtverwaltung Bochum.“ (Stand 26.10.2017),Bochum,kommunal,ja,,,51.4818,7.2162
@@ -233,43 +233,58 @@ http://data.linz.gv.at/,Linz Open Data,"Hauptplatz 1
 http://opendataportal.at/,Open Data Portal Österreich,"
 Stolzenthalergasse 7/1
 1080 Wien",Österreich,"Das zentrale Datenportal für Wirtschaft, Kultur, NGO/NPO, Forschung und Zivilgesellschaft. Betrieben durch Wikimedia Österreich",Österreich,national,nein,,,48.2018644,16.3533064
-http://data.noe.gv.at/,Niederösterreich (lower Austria) Open Data,,Österreich,,Niederösterreich,regional,ja,,,48.3333,15.75
-http://basemap.at/,Austrian Ogd Basemap,,Österreich,"Basemap.at ist eine internetfähige Grundkarte von Österreich, basierend auf den Geodaten der Länder und deren Partnern, frei verfügbar und performant.",Österreich,national,ja,ja,,48.2,16.35
-https://www.geologie.ac.at/,Geologische Bundesanstalt,,Österreich,"The Geological Survey of Austria (GBA) is the largest geoscientific research center in Austria. The task of the Survey is to study and document the geology of the country systematically, continuously and overall.",Österreich,national,ja,ja,,48.2,16.35
-http://inspire.gv.at/,INSPIRE Austria,,Österreich,Startseite INSPIRE Österreich.,Österreich,national,nein,ja,ja,48.2099296,16.3807722
-http://zamg.ac.at/,Zentralanstalt Für Meteorologie und Geodynamik,,Österreich,Wetter Klima Umwelt Geophysik Forschung Produkte,Österreich,national,ja,ja,,48.2,16.35
+http://data.noe.gv.at/,Niederösterreich (lower Austria) Open Data,"Landhausplatz 1, Haus 13
+3109 St. Pölten",Österreich,Katalog von OGD-Datensätzen des Landes Niederösterreich,Niederösterreich,regional,ja,,,48.3333,15.75
+http://basemap.at/,Austrian Ogd Basemap,Stadt Wien,Österreich,"Basemap.at ist eine internetfähige Grundkarte von Österreich, basierend auf den Geodaten der Länder und deren Partnern, frei verfügbar und performant.",Österreich,national,ja,ja,,48.2,16.35
+https://www.geologie.ac.at/,Geologische Bundesanstalt,"Neulinggasse 38, 1030 Wien",Österreich,"Die Geologische Bundesanstalt (GBA) ist das größte geowissenschaftliche Forschungszentrum Österreichs. Es werden INSPIRE-Konforme Such-, Darstellungs- und Downloaddienste sowie Webapplikationen uns Services bereitgestellt.",Österreich,national,ja,ja,,48.2,16.35
+http://inspire.gv.at/,INSPIRE Austria,"Hintere Zollamtsstraße 4
+A-1030 Wien",Österreich,Website von INSPIRE Österreich mit Geoportalen und Informationen zur landesweiten Geodateninfrastruktur,Österreich,national,nein,ja,ja,48.2099296,16.3807722
+http://zamg.ac.at/,Zentralanstalt für Meteorologie und Geodynamik,"Hohe Warte 38, A-1190 Wien",Österreich,"Wetter, Klima, Umwelt, Geophysik, Forschung und Produkte der Zentralanstalt für Meteorologie und Geodynamik",Österreich,national,ja,ja,,48.2,16.35
 http://data.gv.at/,http://data.gv.at/ - Offene Daten Österreichs,"Bundeskanzleramt
 Ballhausplatz 2
 A-1010 Wien",Österreich,Als zentraler “Österreich”-Katalog soll diese Website die Metadaten der dezentralen Metadatenkataloge der Verwaltung aufnehmen und abrufbar halten. Es handelt sich insbesondere um Open Government-Informationen (OGD) und Informationen des öffentlichen Sektors (IWG),Österreich,national,ja,,,48.2,16.35
-http://umweltbundesamt.at/opendata/,Umweltbundesamt: OpenData Portal,,Österreich,Offene Umweltdaten des Umweltbundesamtes Österreich,Österreich,national,ja,,,48.2,16.35
-http://data.reeep.org/,Linked Clean Energy Data - Data.reegle.info,,Österreich,"reegle - the clean energy info portal provides country energy profiles including key statistics, policies and actors, a clean energy web search, a directory of relevant key actors and a map search of energy statistics and potentials",Österreich,international,nein,,,48.2208286,16.2399771
-http://statistik.at/,Statistik Austria,,Österreich,,Österreich,national,nein,,,48.2,16.35
-http://data.tirol.gv.at/,Tirol Data Portal,,Österreich,Daten der Verwaltung werden durch digitale Infrastruktur öffentlich verfügbar und nutzbar gemacht.,Tirol,regional,ja,,,47.25,11.3333333
-http://data.vorarlberg.gv.at/,Vorarlberg Open Data,,Österreich,Open Government Data des Landes Voralberg,Voralberg,regional,ja,,,47.25,9.9166667
-http://data.wien.gv.at/,Open Government Data Wien,,Österreich,Datenauftritt der Bundeshauptstadt (und zugleich Bundesland) Wien,Wien,regional,ja,,,48.2084877602,16.3720750809
-http://ge.ch/sitg/sitg_catalog/sitg_donnees,Sitg Geneva's Territorial Information System,,Schweiz,,Genf,regional,nein,ja,,46.2,6.15
-http://data.tpg.ch/,Open Data TPG,,Schweiz,,Genf,regional,nein,,,46.2050241,6.1090692
-https://www.wmo.int/,Weltorganisation für Meteorologie,,Schweiz,World Meteorological Organization PROGRAMMES site | English version | WMO.int,Genf,international,nein,,,46.2,6.15
-http://bis.org/statistics/,Bank For International Settlements Statistics,,Schweiz,About BIS statistics,Schweiz,international,nein,,,47.5667,7.6
-http://opendata.cern.ch/,Cern Open Data,,Schweiz,,Schweiz,international,nein,,,46.2342,6.0528
-http://meteoswiss.ch/,Meteoswiss,,Schweiz,,Schweiz,national,ja,,,46.8333,8.3333
-http://www.bfs.admin.ch/,Bundesamt für Statistik,,Schweiz,,Schweiz,national,ja,,,46.8333,8.3333
-https://opendata.swiss,opendata.swiss,,Schweiz,opendata.swiss ist das Portal für Schweizer Open Government Data (OGD). Hier können Sie Schweizer Behördendaten kostenlos herunterladen.,Schweiz,national,ja,,,46.8333,8.3333
-https://data.stadt-zuerich.ch/,Zurich Open Data,,Schweiz,,Zürich,kommunal,ja,,,47.3667,8.55
-https://www.bmlfuw.gv.at/service/geo-informationen.html,GIS-Anwendungen des BMLFUW,,Österreich,,Österreich,national,ja,ja,,47.516231,14.550072
-http://www.austrianmap.at,AMAP Austria – BEV – Bundesamt für Eich- und Vermessungswesen,,Österreich,,Österreich,national,ja,ja,,47.516231,14.550072
-http://www.geoland.at/,geoland.at – Geodatenportal der österreichischen Länder,,Österreich,"GEOLAND.AT - Das Geodatenportal der österreichischen Länder ist Teil nationaler und internationalen Geodateninfrastrukturen (GDI), die die Nutzung von öffentlichen Geodaten für Verwaltung, Wirtschaft, Forschung, Bildung und Bürger wesentlich erleichtern sollen.",Österreich,regional,ja,ja,ja,47.516231,14.550072
-http://www.doris.at/,DORIS interMAP – Startseite,,Österreich,DORIS ist das Digitale Oberösterreichische RaumInformationssystem - das Geographische Informationssystem des Landes Oö.,Oberösterreich,regional,ja,ja,ja,48.025854,13.9723665
-http://www.noe.gv.at/Land-Zukunft/Karten-Geoinformation.html,Karten & Geoinformationen - Land Niederösterreich,,Österreich,Portal zur Geodateninfrastruktur des Landes Niederösterreich mit zugang zum NÖ Atlas und einen Downloadbereich mit frei verwendbaren Geodaten (mit Quellenangabe) (Stand: 7.11.2018),Niederösterreich,regional,ja,ja,ja,48.108077,15.8049558
-http://www.salzburg.gv.at/sagis/,Land Salzburg - SAGIS - Salzburger Geographisches Informationssystem,,Österreich,,Salzburg,regional,ja,ja,ja,47.80949,13.05501
-http://www.wien.gv.at/viennagis/,ViennaGIS - das Geografische Informationssystem der Stadt Wien,,Österreich,Geografische Informationssystem (GIS) der Stadt Wien: Übersicht über digitale Pläne und Karten,Wien,regional,ja,ja,ja,48.2081743,16.3738189
-http://gis.bgld.gv.at/,GIS Burgenland - Willkommen,,Österreich,,Burgenland,regional,ja,ja,ja,47.1537165,16.2688797
-http://www.vorarlberg.at/lvg,Land Vorarlberg - Landesvermessungsamt,,Österreich,,Voralberg,regional,ja,ja,ja,47.2497427,9.9797373
-http://www.tirol.gv.at/tiris,tiris - Tiroler Rauminformationssystem | Land Tirol,,Österreich,"“tiris ist das geografische Informationssystem des Landes Tirol. In den Verwaltungsbereichen werden Geodaten über raumbezogene Sachverhalte im tiris Datenpool systematisch gespeichert. Daraus entstehen Geoinformationen wie tirisMaps und Geodatendienste für die amtliche und öffentliche Nutzung im Internet.” (Quelle: tiris, abgerufen am 7.11.2017)",Tirol,regional,ja,ja,ja,47.2537414,11.601487
-http://www.kagis.ktn.gv.at/,GDI Kärnten – KAGIS,,Österreich,Portal zur Geodateninfrastruktur der Landesregierung Kärnten,Kärnten,regional,ja,ja,ja,46.722203,14.1805882
-http://www.gis.steiermark.at/,Willkommen beim GIS-Steiermark! - Geographisches Informationssystem -  Land Steiermark,,Österreich,Geodateninfrastruktrur der Steiermark / Österreich,Steiermark,regional,ja,ja,ja,47.3593442,14.4699827
-https://www.geo.admin.ch/,Bundes Geodaten-Infrastruktur,,Schweiz,Bundes-Geoportal der Schweiz,Schweiz,national,ja,ja,ja,46.818188,8.227512
+http://umweltbundesamt.at/opendata/,Umweltbundesamt: OpenData Portal,"Spittelauer Lände 5, A-1090 Wien",Österreich,Offene Umweltdaten des Umweltbundesamtes Österreich,Österreich,national,ja,,,48.2,16.35
+http://data.reeep.org/,Linked Clean Energy Data - Data.reegle.info,"Wagramerstrasse 5, A-1400 Wien",Österreich,Offene daten der internationalen organisation REEP (Renewable Energy and Energy Efficiency Partnership) u.a. zum Thema „clean energy (English)“ als Linked Open Data,Österreich,international,nein,,,48.2208286,16.2399771
+http://statistik.at/,Statistik Austria,"A-Guglgasse 13
+1110 Wien ",Österreich,Statistiken der Bundesanstalt Statistik Österreich,Österreich,national,nein,,,48.2,16.35
+http://data.tirol.gv.at/,Tirol Data Portal," Eduard-Wallnöfer-Platz 3, 6020 Innsbruck ",Österreich,"Open Government Data des Landes Tirol, Österreich",Tirol,regional,ja,,,47.25,11.3333333
+http://data.vorarlberg.gv.at/,Vorarlberg Open Data,"Römerstraße 15, A-6901 Bregenz",Österreich,Open Government Data des Landes Voralberg,Voralberg,regional,ja,,,47.25,9.9166667
+http://data.wien.gv.at/,Open Government Data Wien,"Ballhausplatz 2, A-1010 Wien",Österreich,Datenauftritt der Bundeshauptstadt (und zugleich Bundesland) Wien,Wien,regional,ja,,,48.2084877602,16.3720750809
+http://ge.ch/sitg/sitg_catalog/sitg_donnees,Sitg Geneva's Territorial Information System,"Rue des Gazomètres 7, CH-1211 Genève 8",Schweiz,Geoinformationen des Kanton und der Republik Genf (Französisch-Sprachig),Genf,regional,nein,ja,,46.2,6.15
+http://data.tpg.ch/,Open Data TPG,"route de la Chapelle 1, CH-1212 Grand-Lancy 2",Schweiz,"Offene Daten der Transports Publics Genevois (TPG), eines öffentlichen Verkehrsunternehmen des Kantons Genf (Französisch-Sprachig)",Genf,regional,nein,,,46.2050241,6.1090692
+http://opendata.cern.ch/,Cern Open Data,CH-1211 Geneva 23,Schweiz,Offene Daten der Europäischen Organisation für Kernforschung (CERN) in englischer Sprache,Schweiz,international,nein,,,46.2342,6.0528
+http://meteoswiss.ch/,Bundesamt für Meteologie und Klimatologie Meteoschweiz,CH-8058 Zürich-Flughafen,Schweiz,"Klima- und Wetterdaten, Prognosen und Kartenvisualisierungen des Bundesamt für Meteologie und Klimatologie, Schweiz",Schweiz,national,ja,,,46.8333,8.3333
+http://www.bfs.admin.ch/,Bundesamt für Statistik,"Espace de l'Europe 10
+CH-2010 Neuchâtel / Schweiz",Schweiz,Amtliche Statistiken der Schweiz,Schweiz,national,ja,,,46.8333,8.3333
+https://opendata.swiss,opendata.swiss,"Archivstrasse 24
+3003 Bern",Schweiz,opendata.swiss ist das Portal für Schweizer Open Government Data (OGD). Hier können Sie Schweizer Behördendaten kostenlos herunterladen.,Schweiz,national,ja,,,46.8333,8.3333
+https://data.stadt-zuerich.ch/,Zurich Open Data,"Stadthausquai 17, CH-8001 Zürich",Schweiz,,Zürich,kommunal,ja,,,47.3667,8.55
+https://www.bmlfuw.gv.at/service/geo-informationen.html,GIS-Anwendungen des BMLFUW,"Stubenring 1, 1010 Wien",Österreich,"Geoinformationsdaten im Rahmen der GIS-Anwendungen des österreichischen Bundesministeriums für Land- und Forstwirtschaft, Umwelt und Wasserwirtschaft (BMLFUW)",Österreich,national,ja,ja,,47.516231,14.550072
+http://www.austrianmap.at,AMAP Austria – BEV – Bundesamt für Eich- und Vermessungswesen,"Schiffamtsgasse 1-3
+1020 Wien ",Österreich,"Austrian Map online ist ein Service des Bundesamtes für Eich- und Vermessungswesens Österreich. Das WebGIS enthält Webkarten, die Geographischen Namensdatenbank GEONAM  und eine @map-Funktion zur Platzierung von Symbolen in der Karte u.a.",Österreich,national,ja,ja,ja,47.516231,14.550072
+http://www.geoland.at/,geoland.at – Geodatenportal der österreichischen Länder,,Österreich,"GEOLAND.AT - Das Geodatenportal der österreichischen Länder ist Teil nationaler und internationalen Geodateninfrastrukturen (GDI), die die Nutzung von öffentlichen Geodaten für Verwaltung, Wirtschaft, Forschung, Bildung und Bürger wesentlich erleichtern sollen.",Österreich,national,ja,ja,ja,47.516231,14.550072
+http://www.doris.at/,DORIS interMAP – Startseite,"Bahnhofplatz 1, 4021 Linz",Österreich,DORIS ist das Digitale Oberösterreichische RaumInformationssystem - das Geographische Informationssystem des Landes Oberösterreich.,Oberösterreich,regional,ja,ja,ja,48.025854,13.9723665
+http://www.noe.gv.at/Land-Zukunft/Karten-Geoinformation.html,Karten & Geoinformationen - Land Niederösterreich,"Landhausplatz 1, Haus 13 3109 St. Pölten",Österreich,Portal zur Geodateninfrastruktur des Landes Niederösterreich mit Zugang zum NÖ Atlas und einen Downloadbereich mit frei verwendbaren Geodaten (mit Quellenangabe) (Stand: 7.11.2017),Niederösterreich,regional,ja,ja,ja,48.108077,15.8049558
+http://www.salzburg.gv.at/sagis/,SAGIS - Salzburger Geographisches Informationssystem,"Chiemseehof
+5010 Salzburg",Österreich,"WebGIS, Geodaten und Dienste des Landes Salzburg, Österreich",Salzburg,regional,ja,ja,ja,47.80949,13.05501
+http://service.salzburg.gv.at/ogd/client/,Open Government Data Salzburg,"Chiemseehof
+5010 Salzburg",Österreich,Offene Datensätze des Landes Salzburg,Salzburg,regional,ja,ja,,,
+http://www.wien.gv.at/viennagis/,ViennaGIS - das Geografische Informationssystem der Stadt Wien,"Rathaus, A-1082 Wien ",Österreich,Das Geografische Informationssystem (GIS) der Stadt Wien stellt eine umfassende und nachhaltige Geodaten- und Geodinste-Infrastruktur bereit (Stand: 8.11.2017),Wien,regional,ja,ja,ja,48.2081743,16.3738189
+http://gis.bgld.gv.at/,GeoDaten Burgenland - Willkommen,"Europaplatz 1
+A-7000 Eisenstadt ",Österreich,"Geodaten und -Dienste des Burgenlandes in Östereich, u.a. mit Downloads, WMS Diensten und WebGIS-Inhalten wie eine Katastralmappe, Topografische Landkarte und ein Flächenwidmungsplan (Stand: 8.11.2017)",Burgenland,regional,ja,ja,ja,47.1537165,16.2688797
+http://www.vorarlberg.at/lvg,Land Vorarlberg - Landesvermessungsamt,"Römerstraße 15
+6901 Bregenz",Österreich,"Geodaten und -Dienste des Landes Voralberg, Östereich, u.a. mit Downloads, WMS Diensten, dem Voralberg Atlas und dem Voralberg Atlas Mobil (Stand: 8.11.2017)",Voralberg,regional,ja,ja,ja,47.2497427,9.9797373
+http://www.tirol.gv.at/tiris,tiris - Tiroler Rauminformationssystem | Land Tirol,"Eduard-Wallnöfer-Platz 3, 6020 Innsbruck",Österreich,"“tiris ist das geografische Informationssystem des Landes Tirol. In den Verwaltungsbereichen werden Geodaten über raumbezogene Sachverhalte im tiris Datenpool systematisch gespeichert. Daraus entstehen Geoinformationen wie tirisMaps und Geodatendienste für die amtliche und öffentliche Nutzung im Internet.” (Quelle: tiris, abgerufen am 7.11.2017)",Tirol,regional,ja,ja,ja,47.2537414,11.601487
+http://www.kagis.ktn.gv.at/,GDI Kärnten – KAGIS,"Flatschacher Straße 70
+9021 Klagenfurt am Wörthersee",Österreich,Portal zur Geodateninfrastruktur der Landesregierung Kärnten,Kärnten,regional,ja,ja,ja,46.722203,14.1805882
+http://www.gis.steiermark.at/,GIS-Steiermark - Geographisches Informationssystem -  Land Steiermark,"Hofgasse 16
+8010 Graz  ",Österreich,Das GIS-Steiermark versteht sich als öffentliche Serviceeinrichtung und stellt raumbezogene Daten und daraus generierte Mehrwertprodukte als Planungsgrundlagen der Landesverwaltung und Externen zur Verfügung. (Stand: 8.11.2017),Steiermark,regional,ja,ja,ja,47.3593442,14.4699827
+https://www.geo.admin.ch/,https://www.geo.admin.ch/ - das Geoportal des Bundes (Schweiz),"Seftigenstrasse 264
+CH - 3084 Wabern",Schweiz,"Bundes-Geoportal der Schweiz mit Geodaten, Diensten und einer Liste von thematischen Geoportalen",Schweiz,national,ja,ja,ja,46.818188,8.227512
 https://mlr.baden-wuerttemberg.de/de/unsere-themen/geodaten/open-data/,Open Data: Ministerium für Ländlichen Raum und Verbraucherschutz Baden-Württemberg,"Kernerplatz 10,
-70182 Stuttgart",Deutschland,Barrierefrei gestalteter Internetauftritt des Ministerium für Ländlichen Raum und Verbraucherschutz Baden-Württemberg.,Baden-Württemberg,regional,ja,ja,ja,48.6616037,9.3501336
+70182 Stuttgart",Deutschland,Barrierefrei gestalteter Internetauftritt des Ministerium für Ländlichen Raum und Verbraucherschutz Baden-Württemberg mit offenen Geobasisinformationen,Baden-Württemberg,regional,ja,ja,ja,48.6616037,9.3501336
 https://geo.sv.rostock.de/,Geoportal.HRO,"Hinter dem Rathaus 5,
 18055 Rostock",Deutschland,"“Die vorliegende Website richtet sich an Geodaten-Spezialisten, denen das Kataster-, Vermessungs- und Liegenschaftsamt mittels Anleitungen und Links den Zugang zur Geodateninfrastruktur der Hansestadt Rostock (GDI-HRO) erschließen möchte. “ (Quelle: Hansestadt Rostock, aberufen am 7.11.2017)",Rostock,kommunal,ja,ja,ja,,
+https://opendata.vag.de,Open Data VAG Nürnberg,"Südliche Fürther Straße 5, 90429 Nürnberg",Deutschland,Portal der VAG Verkehrs-Aktiengesellschaft Nürnberg mit offenen Daten des ÖPNV,Nürnberg,kommunal,nein,ja,,,
+https://www.vgn.de/web-entwickler/open-data/,Open Data: VGN-Soll-Fahrpläne im GTFS-Format ,"Rothen­burger Straße 9
+90443 Nürn­berg",Deutschland,Soll-Fahrpläne des Ver­kehrs­ver­bund Groß­raum Nürn­berg GmbH,Nürnberg,kommunal,nein,,,,
