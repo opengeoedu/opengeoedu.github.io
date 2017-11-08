@@ -1,16 +1,18 @@
 FETCH_WEBMETA = FALSE
 
 
-portale <- read.csv("data/portale_geocoded2.csv", as.is = TRUE)
+portale <- read.csv("data/portale_3.csv", as.is = TRUE)
 library(ggmap)
 
 #dp geocoding if coordinates are missing
 for(i in 1:dim(portale)[1]){
-  if(is.null(portale[i,]$lat) || is.na(portale[i,]$lat) || !is.numeric(portale[i,]$lat)){
-    loc <- geocode(paste0(portale[i,]$Ort,", ", portale[i,]$Land));loc
-    portale[i,]$lat <- loc$lat
-    portale[i,]$lon <- loc$lon
-  }
+ # if(is.null(portale[i,]$lat) || is.na(portale[i,]$lat) || !is.numeric(portale[i,]$lat)){
+    adresse <- portale$Adresse_Herausgeber[i]
+    if(adresse != ""){
+     loc <- geocode(paste0(adresse,", ", portale[i,]$Land), source = "google");loc
+      portale[i,]$lat <- loc$lat
+      portale[i,]$lon <- loc$lon
+   }
 }
 
 
@@ -84,7 +86,7 @@ proj4string(portale.sp) <- CRS("+proj=longlat +datum=WGS84")
 #plot(portale.sp)
 writeOGR(portale.sp, dsn = "out_geodata/portale.geojson", layer = "portale", driver = "GeoJSON", overwrite_layer = TRUE)
 writeOGR(portale.sp, dsn = "out_geodata/portale.shp", layer = "portale", driver = "ESRI Shapefile", overwrite_layer = TRUE)
-write.csv(portale, file = "data/portale_geocoded2.csv", row.names = FALSE)
+write.csv(portale, file = "data/portale_geocoded3.csv", row.names = FALSE)
 
 portale.gk3 <- spTransform(portale.sp, CRS("+init=epsg:31467")) #GK Zone 3
 portale.gk3.shifted <- as.data.frame(portale.gk3)
@@ -131,6 +133,6 @@ writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.kml", layer 
 writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.gml", layer = "portale", driver = "GML", overwrite_layer = TRUE)
 writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.gpkg", layer = "portale", driver = "GPKG", overwrite_layer = TRUE)
 
-writeOGR(portale.lonlat.shifted, dsn = "/home/matthias/test_out/portale_shifted.gpkg", layer = "portale", driver = "GPKG", overwrite_layer = TRUE)
+#writeOGR(portale.lonlat.shifted, dsn = "ou/portale_shifted.gpkg", layer = "portale", driver = "GPKG", overwrite_layer = TRUE)
 zip("out_geodata/portale_shifted-ESRI-Shapefile.zip", files = paste0("out_geodata/portale_shifted",c(".shp",".shx",".dbf", ".prj")))
 

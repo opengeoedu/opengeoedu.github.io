@@ -4,12 +4,13 @@
 <Schema name="portale" id="portale">
 	<SimpleField name="URL" type="string"></SimpleField>
 	<SimpleField name="Titel" type="string"></SimpleField>
+	<SimpleField name="Adresse_Herausgeber" type="string"></SimpleField>
 	<SimpleField name="Land" type="string"></SimpleField>
 	<SimpleField name="Beschreibung" type="string"></SimpleField>
 	<SimpleField name="Ort" type="string"></SimpleField>
 	<SimpleField name="Bezug" type="string"></SimpleField>
 	<SimpleField name="Staatlich_Öffentlich" type="string"></SimpleField>
-	<SimpleField name="Geoportal" type="string"></SimpleField>
+	<SimpleField name="Geodaten" type="string"></SimpleField>
 	<SimpleField name="GDI" type="string"></SimpleField>
 </Schema>
 <Folder><name>portale</name>
@@ -17,460 +18,545 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://offenedaten.aachen.de/</SimpleData>
 		<SimpleData name="Titel">Aachen Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Aachen
+Markt
+52058 Aachen</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Open Data Portal der Stadt Aachen mit über 70 Datensätzen von verschiedenen Organisationen einschließlich der Stadt Stolberg und der Gemeinde Roetgen (Stand: 7.11.2017)</SimpleData>
 		<SimpleData name="Ort">Aachen</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.08389999902657,50.7753000050727</coordinates></Point>
+      <Point><coordinates>6.08342489902607,50.776386105073</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.geoportal-bw.de</SimpleData>
 		<SimpleData name="Titel">GDI Baden-Württemberg</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Büchsenstraße 54,
+70174 Stuttgart</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Amtliche informations- und Kommunikationsplattform des Landes Baden-Würtenberg. Dient als Zugangsknoten zur Geodateninfrastruktur des Landes und informiert über aktuelle Entwicklungen und Projekte. Erlaubt Suche und interaktive Dartstellung von Geodaten für Verwaltung, Wirtschaft, Wissenschaft und den Bürger. (Quelle: GDI Baden-Würtenberg, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Baden-Württemberg</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.35028969221713,48.6840845770012</coordinates></Point>
+      <Point><coordinates>9.17149000252673,48.7795900040577</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.gdi.bayern.de/</SimpleData>
 		<SimpleData name="Titel">GDI Bayern</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Landesamt für Digitalisierung, Breitband und Vermessung
+Alexandrastraße 4, 80538 München</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Knotenpunkt der GDI der bayrischen Landesregierung: Zugriff u.a. auf das Geoportal Bayern, den BayernAtlas, das Bayrische Frachinformationssystem Naturschutz, Das integrierte Bayerische Landwirtschaftliche Informations-System (iBALIS), das Bodeninformations-
+system Bayern und den Bayerischen Denkmal-Atlas.  (Stand: 7.11.2017)</SimpleData>
 		<SimpleData name="Ort">Bayern</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.4990060414722,48.8129065845012</coordinates></Point>
+      <Point><coordinates>11.5914665432514,48.164090109618</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://opendata.bayern.de/</SimpleData>
 		<SimpleData name="Titel">Open Data Portal des Freistaats Bayern</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Odeonsplatz 4,
+80539 München</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Open Data Portal der bayrischen Landesregierung</SimpleData>
 		<SimpleData name="Ort">Bayern</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.496774347875,48.767987716263</coordinates></Point>
+      <Point><coordinates>11.6188249368778,48.1297406140675</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.stadtentwicklung.berlin.de/geoinformation/</SimpleData>
 		<SimpleData name="Titel">GDI Berlin</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Württembergische Straße 6,
+10707 Berlin
+</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung">Geobasisdaten und Geodätische Bezugssysteme der Landesvermessung in Berlin,  Senatsverwaltung in Berlin</SimpleData>
+		<SimpleData name="Beschreibung">Das Geoportal Berlin bietet  Informationen und Zugang zur Geodateninfrastruktur des Landes, der Landesvermessung, Liegenschaftskataster, Grundstückswerten und dem Umweltatlas Berlin (Stand: 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Berlin</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.407200649398,52.5424064934272</coordinates></Point>
+      <Point><coordinates>13.3151812060926,52.4924669043528</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://daten.berlin.de/</SimpleData>
 		<SimpleData name="Titel">Offene Daten Berlin</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Martin-Luther-Straße 105,
+10825 Berlin</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Open Data Portal der Stadt Berlin</SimpleData>
 		<SimpleData name="Ort">Berlin</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.4302871655794,52.536282702143</coordinates></Point>
+      <Point><coordinates>13.3476834352521,52.5056518152124</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.bochum.de/opendata</SimpleData>
 		<SimpleData name="Titel">Bochum Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Willy-Brandt-Platz 2-6, 44787 Bochum</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung">Liebe Besucherin, lieber Besucher,  im Open Data Portal der Stadt Bochum werden neben Online-Anwendungen verschiedene Datensätze der Stadtverwaltung veröffentlicht.  Open Data bedeutet die freie Verfügbar- und Nutzbarkeit von, meist öffentlichen, Daten. Sie beruht auf der Annahme, dass vorteilhafte Entwicklungen eingeleitet werden, wenn Daten für jedermann frei zugänglich gemacht werden.</SimpleData>
+		<SimpleData name="Beschreibung">„Online-Anwendungen und verschiedene Datensätze der Stadtverwaltung Bochum.“ (Stand 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Bochum</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.21532324919192,51.5042594518591</coordinates></Point>
+      <Point><coordinates>7.21361408457214,51.5050540279177</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://opendata.bonn.de/</SimpleData>
 		<SimpleData name="Titel">Open Data Katalog Bonn</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Bundesstadt Bonn
+Berliner Platz 2
+53111 Bonn</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Dieses Open Data Portal richtet sich in erster Linie an IT-Entwickler, die mit den angebotenen Datensätze Anwendungen erstellen möchten. So können die Datensätze z.B. für wissenschaftliche Zwecke und Bildungseinrichtungen, für bürgerschaftliches Engagement oder die Anwendungsentwicklung von Internetangeboten bzw. Apps, auch für die kommerzielle Weiternutzung, frei verwendet werden.“ (Quelle: Open Data Katalog Bonn, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Bonn</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.09820680015015,50.7374300051257</coordinates></Point>
+      <Point><coordinates>7.093847516166,50.7593304867114</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://geoportal.brandenburg.de/</SimpleData>
 		<SimpleData name="Titel">GDI Brandenburg</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Heinrich-Mann-Allee 103,
+14473 Potsdam</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Das Land Brandenburg bietet den Nutzern und Anbietern von Geodaten mit dem Geoportal Brandenburg einen zentralen Zugang zu Geodaten. Einfach und komfortabel können Geodaten gesucht und dargestellt werden. Der Zugriff auf verteilte Geodatenbestände wird somit von einer zentralen Stelle aus möglich.“ (Quelle: GDI Brandenburg, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Brandenburg</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.2162494061445,52.1313922043909</coordinates></Point>
+      <Point><coordinates>13.0792814059884,52.3817851045601</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.braunschweig.de/leben/stadtplanung_bauen/geoinformationen/opengeodata.html</SimpleData>
 		<SimpleData name="Titel">Braunschweig Open GeoData</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Braunschweig
+Platz der Deutschen Einheit 1
+38100 Braunschweig</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Die Stadt Braunschweig veröffentlicht an dieser Stelle ausgewählte Geodaten zur freien Verwendung durch die Bevölkerung, Vereine, Kongressveranstalter und Gewerbeunternehmen.“ (Quelle: Braunschweig OpenGeoData, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Braunschweig</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.5268000036692,52.2689000053854</coordinates></Point>
+      <Point><coordinates>10.5252148036683,52.2642621053847</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://gdi.bremen.de/</SimpleData>
 		<SimpleData name="Titel">GDI Bremen</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">
+Lloydstr. 4, 28217 Bremen </SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Die Geodateninfrastruktur der Freien Hansestadt Bremen (GDI-FHB) hat zum Ziel, die in den Verwaltungen des Landes, bei der Stadt Bremen und beim Magistrat Bremerhaven vorhandenen Geodaten und Geodatendienste für Politik, Verwaltung, Wirtschaft, Wissenschaft und Öffentlichkeit zu vernetzen, verfügbar zu machen und deren Nutzung zu erleichtern.“  (Quelle: GDI Bremen, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Bremen</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.8015906379647,53.1017603190128</coordinates></Point>
+      <Point><coordinates>8.78784076015358,53.1065973814374</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://transparenz.bremen.de/</SimpleData>
 		<SimpleData name="Titel">Transparenzportal Bremen</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Rudolf-Hilferding-Platz 1,
+28195 Bremen</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Das Bremische Transparenzportal wird aus über 150 technischen Systemen mit Dokumenten und Datensätzen (Open Data) beliefert. Wenn die Schulen mitgerechnet werden, beliefern sogar über 200 Systeme das Portal.
+
+Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert in das Transparenzportal.“ (Quelle: Transparenzportal Bremen. Technischer Aufbau und Funktionsweise des Transparenzportals, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Bremen</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.80179642833317,53.0568320070675</coordinates></Point>
+      <Point><coordinates>8.78806089652092,53.0616691446298</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://portal.chemnitz.opendata.arcgis.com/</SimpleData>
 		<SimpleData name="Titel">Open Data Stadt Chemnitz</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Rathaus,
+Markt 1,
+09111 Chemnitz
+</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Open-Data-Portal der Stadt Chemnitz</SimpleData>
 		<SimpleData name="Ort">Chemnitz</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>12.9253000062477,50.832500004267</coordinates></Point>
+      <Point><coordinates>12.9197061062428,50.8333004042713</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div?gdz_spr=deu&amp;gdz_akt_zeile=5&amp;gdz_anz_zeile=0&amp;gdz_user_id=0</SimpleData>
-		<SimpleData name="Titel">Bundesamt für Kartographie und Geodäsie</SimpleData>
+		<SimpleData name="Titel">Open Data - Freie Daten und Dienste des Bundesamt für Kartographie und Geodäsie (BKG)</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Richard-Strauss-Allee 11
+60598 Frankfurt am Main</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung">Freie Daten und Dienste des BKG</SimpleData>
+		<SimpleData name="Beschreibung">„Die hier angebotenen Geodaten stehen unter verschiedenen Lizenzen geldleistungsfrei zum Download und zur Online-Nutzung zur Verfügung.“ (Quelle: Open Data BKG , abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Deutschland</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.4522320260162,51.1881553370338</coordinates></Point>
+      <Point><coordinates>8.66310270088627,50.1134453371873</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://code-de.org/</SimpleData>
 		<SimpleData name="Titel">CODE-DE</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">
+Invalidenstraße 44,
+D-10115 Berlin</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung">Copernicus Data and Exploitation Platform – Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">„CODE-DE ist der deutsche Zugang zu den Daten des europäischen Erdbeobachtungsprogramms Copernicus. Dieses Programm der Europäischen Union stellt als Basis der Umweltbeobachtungen Satellitendaten der sogenannten Sentinel-Reihe zur Verfügung.“ (Quelle: CODE-DE, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Deutschland</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">teilweise</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.4857296791633,51.1722059350413</coordinates></Point>
+      <Point><coordinates>13.3783607002642,52.4932766798185</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.geoportal.de/</SimpleData>
 		<SimpleData name="Titel">GDI-DE - Geodaten aus Deutschland</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Richard-Strauss-Allee 11,
+60598 Frankfurt am Main</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung">Geodaten aus Deutschland. Ihr Weg zu mehr Wissen. Landkarten, Luftbilder, Themenkarten. Von Energie bis Naturschutz: Hier bei Geoportal.de können Sie Geodaten aus ganz Deutschland recherchieren. Viele Suchergebnisse können Sie sich schon heute als Karte anzeigen lassen und miteinander verknüpfen. Geoportal.de ist ein Service von Bund, Ländern und Kommunen. Für interessierte Bürgerinnen und Bürger und für die Fachwelt. Ein Beitrag zur offenen Wissens- und Informationsgesellschaft. Geoportal.de bietet Ihnen einen umfassenden Überblick. Derzeit stehen hier mehr als 120 000 Einträge. Und die Zahl wächst. Themenkarten verknüpfen Daten zu Informationen für die Praxis. Etwa zu chancenreichen Standorten für neue Windkraftwerke. Mehr</SimpleData>
+		<SimpleData name="Beschreibung">„Geodaten aus Deutschland. Ihr Weg zu mehr Wissen. Landkarten, Luftbilder, Themenkarten. Von Energie bis Naturschutz: Hier bei Geoportal.de können Sie Geodaten aus ganz Deutschland recherchieren. Viele Suchergebnisse können Sie sich schon heute als Karte anzeigen lassen und miteinander verknüpfen. Geoportal.de ist ein Service von Bund, Ländern und Kommunen. Für interessierte Bürgerinnen und Bürger und für die Fachwelt. Ein Beitrag zur offenen Wissens- und Informationsgesellschaft. Geoportal.de bietet Ihnen einen umfassenden Überblick. Derzeit stehen hier mehr als 120 000 Einträge. Und die Zahl wächst. Themenkarten verknüpfen Daten zu Informationen für die Praxis. Etwa zu chancenreichen Standorten für neue Windkraftwerke.“ (Quelle: GDI-DE, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Deutschland</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.4719484435849,51.1472544458151</coordinates></Point>
+      <Point><coordinates>8.69819499576739,50.0910658846104</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://dblp.org/</SimpleData>
 		<SimpleData name="Titel">DBLP computer science bibliography</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">
+Behringstraße 1, 54296 Trier</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung">The dblp computer science bibliography is the on-line reference for open bibliographic information on computer science journals and proceedings</SimpleData>
+		<SimpleData name="Beschreibung">„The dblp computer science bibliography is the on-line reference for open bibliographic information on computer science journals and proceedings“ (Quelle: DBLP computer science bibliography, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Deutschland</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.89721969991953,49.5308783045521</coordinates></Point>
+      <Point><coordinates>6.6762759996694,49.7511810046602</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://destatis.de/</SimpleData>
 		<SimpleData name="Titel">Destatis - Statistisches Bundesamt</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">
+Gustav-Stresemann-Ring 11
+D-65189 Wiesbaden</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
 		<SimpleData name="Beschreibung">Internetangebot des Statistischen Bundesamtes mit aktuellen Informationen, Publikationen, Zahlen und Fakten der amtlichen Statistik</SimpleData>
 		<SimpleData name="Ort">Deutschland</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.4415088716766,52.522541864037</coordinates></Point>
+      <Point><coordinates>8.25236300144265,50.0710226048129</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://data.deutschebahn.com/</SimpleData>
 		<SimpleData name="Titel">Deutsche Bahn Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Potsdamer Platz 2 10785 Berlin</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Auf diesem Portal veröffentlicht die Deutsche Bahn AG einen wachsenden Datenbestand rund um Infrastruktur und Mobilität.“ (Quelle: Deutsche Bahn Open Data, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Deutschland</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.4356240442313,52.507616747908</coordinates></Point>
+      <Point><coordinates>13.376132680353,52.4708757376832</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://opendata.esri-de.opendata.arcgis.com/</SimpleData>
-		<SimpleData name="Titel">Esri Deutschland Open Data Portal(HTML Version)</SimpleData>
+		<SimpleData name="Titel">Esri Deutschland Open Data Portal</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Esri Deutschland GmbH
+Ringstraße 7
+85402 Kranzberg</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Entdecken Sie hier Open (Geo-)Data, Karten und Apps aus Deutschland zur sofortigen Nutzung und zum Download. Sie können nach Tags in Kategorien, nach beliebigen Begriffen oder Orten im Suchfeld fahnden. Entwickler können über den API Explorer direkt eine Verbindung zu jedem hier gelisteten Datensatz aufbauen oder die Daten als GeoJSON herunterladen. Dieses Portal stellt in ArcGIS Online veröffentlichte Open Data-Beiträge von Kunden und von Esri Deutschland sowie ausgewählte und republizierte Open Data aus fremden Portalen bereit.“ (Quelle: Esri Deutschland Open Data Portal)</SimpleData>
 		<SimpleData name="Ort">Deutschland</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.4153987636175,52.4984887283956</coordinates></Point>
+      <Point><coordinates>11.6092990052595,48.4064970035599</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://sdw.ecb.europa.eu/</SimpleData>
 		<SimpleData name="Titel">European Central Bank - Statistical Data Warehouse</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">European Central Bank 
+Sonnemannstrasse 22 
+60314 Frankfurt am Main </SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung">SDW provides features to access, find, compare, download and share the ECB’s published statistical information.</SimpleData>
+		<SimpleData name="Beschreibung">„SDW provides features to access, find, compare, download and share the ECB’s published statistical information.“ (Quelle: SDW, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Deutschland</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.68195141327982,50.1333753019939</coordinates></Point>
+      <Point><coordinates>8.66341710429928,50.0684945847571</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://offenedaten.de/</SimpleData>
 		<SimpleData name="Titel">Offenedaten.de</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">
+Singerstr. 109
+10179 Berlin</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„OffeneDaten.de ist ein Datenkatalog für offene Daten in Deutschland. Die Seite wurde 2010 von engagierten Bürgern initiiert, weil es bis Dato kein vergleichbares Angebot in Deutschland gab.“ (Quelle: Offenedaten.de, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Deutschland</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.390291984905,52.4994248519669</coordinates></Point>
+      <Point><coordinates>13.3432594883099,52.4608480426456</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.offenesdatenportal.de/</SimpleData>
 		<SimpleData name="Titel">Offenesdatenportal.de</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">
+Friedrich-Heinrich-Allee 130.
+47475 Kamp-Lintfort</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Die Kommunalverwaltungen in Deutschland bietet Ihnen auf diesem Portal zahlreiche Datensätze, Dienste und Anwendungen der Behörden und Ämter an. Die Datensätze werden von der Verwaltung im Sinne von „Open Data“ frei verfügbar und nutzbar in entsprechenden Kommunalportalen zur Verfügung gestellt. Sie können entsprechend der Nutzungsbedingungen und Lizenzen weiterverwendet werden, beispielweise für die Entwicklung von Apps.“ (Quelle: Offenesdatenportal.de, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Deutschland</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.3720373273312,52.5099879342254</coordinates></Point>
+      <Point><coordinates>6.54621437615514,51.5092997262961</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://segelflug.de/vereine/welt2000/</SimpleData>
 		<SimpleData name="Titel">Welt 2000 Airports/waypoints</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„WELT2000 ist eine freie Datenbank mit Daten von Flugplätzen und Außenlandefeldern weltweit. Die Daten sind Basis vieler Geräte und Programme für den Luftsport. WELT2000 wird von Luftsportlern für Luftsportler gemacht.“ (Quelle: WELT2000, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Deutschland</SimpleData>
 		<SimpleData name="Bezug">international</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.3691760983658,52.5252397393463</coordinates></Point>
+      <Point><coordinates>13.3125939052719,52.4732138336614</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.govdata.de/</SimpleData>
 		<SimpleData name="Titel">GovData - das Datenportal für Deutschland</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">20306 Hamburg</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung">Auf GovData, dem Datenportal für Deutschland sind Daten aller Verwaltungsebenen zentral zugänglich. Aktuelle Infos und Ähnliches finden Sie im Blog von GovData.</SimpleData>
+		<SimpleData name="Beschreibung">„Auf GovData, dem Datenportal für Deutschland sind Daten aller Verwaltungsebenen zentral zugänglich. Aktuelle Infos und Ähnliches finden Sie im Blog von GovData.“ (Quelle: GovData, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Deutschland</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.4299622118371,51.1477756080318</coordinates></Point>
+      <Point><coordinates>9.99420878276951,53.5735436830423</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.mcloud.de/</SimpleData>
 		<SimpleData name="Titel">mCloud</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Robert-Schuman-Platz 1,
+D 53175 Bonn</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung">Die mCLOUD ist eine Rechercheplattform zu offenen Daten aus dem Bereich Mobilität und angrenzender Themen. </SimpleData>
+		<SimpleData name="Beschreibung">„Die mCLOUD ist eine Rechercheplattform zu offenen Daten aus dem Bereich Mobilität und angrenzender Themen. Das BMVI stellt mit der mCLOUD einen zentralen Zugangspunkt zu allen offenen Daten seines Geschäftsbereiches zur Verfügung und öffnet das Portal auch für private Anbieter aus dem Mobilitätsbereich, um ihre Daten dort anzubieten.“ (Quelle: mCloud, abgerufen am 26.10.2017/</SimpleData>
 		<SimpleData name="Ort">Deutschland</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.4177576580881,51.1730499453695</coordinates></Point>
+      <Point><coordinates>7.12586027283609,50.7261358790248</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
-		<SimpleData name="URL">http://opengeodatalandkreisdiepholz-geoweb-diepholz.opendata.arcgis.com/</SimpleData>
+		<SimpleData name="URL">http://freiegeodatenlandkreisdiepholz-geoweb-diepholz.opendata.arcgis.com/</SimpleData>
 		<SimpleData name="Titel">Open Geodata Landkreis Diepholz</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">
+Niedersachsenstr. 2
+49356 Diepholz</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Die hier angebotenen Geodaten sind für alle interessierten Nutzer in maschinenlesbaren Formaten frei zugänglich. Sie beinhalteten anwendungsspezifische Fachinformationen zum Landkreis Diepholz und stammen aus der zentralen Geodatenbank des Geoinformationssystems. Die angebotenen Geodaten werden in Echtzeit zur Verfügung gestellt, so dass die verfügbaren Inhalte den intern verwendeten Strukturen entsprechen. Lediglich personenbezogene Inhalte bzw. Inhalte nur für den Dienstgebrauch sind ausgeblendet. Daten, die der Landkreis in Lizenz nutzt, können hier nicht angeboten werden. Die angebotene Inhalte sind lizenziert unter einer Datenlizenz Deutschland – Namensnennung – Version 2.0“ (Quelle: Open Geodata Landkreis Diepholz, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Diepholz</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.7462162018315,52.7195263056167</coordinates></Point>
+      <Point><coordinates>8.37561000146244,52.6083200056206</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
-		<SimpleData name="URL">http://www.offenedaten.frankfurt.de/about</SimpleData>
+		<SimpleData name="URL">http://www.offenedaten.frankfurt.de</SimpleData>
 		<SimpleData name="Titel">offenedaten.frankfurt.de</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Frankfurt am Main
+Zanderstraße 7
+60327 Frankfurt am Main</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Hier finden Sie offene Daten aus den Ämtern und Betriebender Stadtverwaltung Frankfurt am Main. Es handelt sich um „offene“ Daten, weil die Stadt Frankfurt die Datensätze zur freien Nutzung und in offenen, maschinenlesbaren Formaten bereitstellt. Wir folgen hier der Idee, die allgemein als Open Data bezeichnet wird.“  (Quelle: Offene Daten Frankfurt, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Frankfurt am Main</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.68224840288342,50.088424620018</coordinates></Point>
+      <Point><coordinates>8.62832520664196,50.0908636132086</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://fritz.freiburg.de/</SimpleData>
 		<SimpleData name="Titel">Freiburg FRITZ Online Statistics</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Freiburg im Breisgau
+Rathausplatz 2 - 4
+79098 Freiburg</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Statistik-Portal der Stadt Freiburg im Breisgau (enthält u.a. die Themen „Open Data“ und „Geodaten“)</SimpleData>
 		<SimpleData name="Ort">Freiburg im Breisgau</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">Ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.84210430101719,47.9990077036038</coordinates></Point>
+      <Point><coordinates>7.8492045010255,47.9964370036018</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://opendata.gelsenkirchen.de/</SimpleData>
 		<SimpleData name="Titel">Offene Daten Gelsenkirchen</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Gelsenkirchen
+Ebertstraße 11
+45879 Gelsenkirchen</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Die Daten Deiner Stadt gehören Dir. Wir – die Stadt Gelsenkirchen – öffnen sie und Du machst was draus. Zum Beispiel Webanwendungen wie Apps oder Internetseiten. So haben alle etwas davon: Du weißt mehr über deine Stadt und viele Menschen profitieren von Deinem Wissen. Sei Teil der digitalen Revolution!“  (Quelle: Offene Daten Gelsenkirchen, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Gelsenkirchen</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.08571720013717,51.5177440054001</coordinates></Point>
+      <Point><coordinates>7.0929071001449,51.5112186053982</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
-		<SimpleData name="URL">http://www.daten.halle.de/</SimpleData>
+		<SimpleData name="URL">http://www.daten.halle.de</SimpleData>
 		<SimpleData name="Titel">Halle an der Saale Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Halle, 
+Marktplatz 1, 
+06100 Halle</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Auf dem Weg zu einem eigenen Open-Data-Portal gibt die Stadtverwaltung verschiedene Datensätze in bspw. CSV- und Excel-Formaten frei.
+
+Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien Verfügung einzustellen.“ (Quelle: http://www.daten.halle.de, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Halle an der Saale</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.9688029052239,51.4969802049341</coordinates></Point>
+      <Point><coordinates>11.9715834052293,51.482360204929</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.hamburg.de/gdi-hh</SimpleData>
 		<SimpleData name="Titel">GDI Hamburg</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Neuenfelder Straße 19
+21109 Hamburg</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Eine Geodateninfrastruktur (GDI) ist ein komplexes Netzwerk zum standardisierten Austausch von Geodaten mit dem Ziel, diese leichter zugänglich und kombinierbar zu machen. Eine GDI wird auf verschiedenen Ebenen aufgebaut. Dabei ist die Geodateninfrastruktur Hamburg (GDI-HH) sowohl eigenständig, als auch ein Bestandteil der GDI-DE.</SimpleData>
 		<SimpleData name="Ort">Hamburg</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.9942087827695,53.5735436830423</coordinates></Point>
+      <Point><coordinates>10.0033827029777,53.4982137055706</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://daten.hamburg.de/</SimpleData>
 		<SimpleData name="Titel">Transparenzportal Hamburg</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Freie und Hansestadt Hamburg
+Rathausmarkt 1
+20095 Hamburg</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Die bisher unter dem Open Data Portal veröffentlichten Daten, finden Sie nun hier im Transparenzportal.</SimpleData>
 		<SimpleData name="Ort">Hamburg</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>9.9931557331817,53.5286254398998</coordinates></Point>
@@ -479,96 +565,114 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.opendata-hro.de/</SimpleData>
 		<SimpleData name="Titel">OpenData.HRO</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Hansestadt Rostock,
+18050 Rostock</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Die Hansestadt Rostock sammelt und pflegt eine Vielzahl von Daten. Diese Daten bergen enormes Potenzial für Innovationen, sofern sie als offene Daten für jedermann frei zugänglich gemacht werden und sie für jegliche Zwecke weiterverwendet und -verbreitet werden können – insbesondere auch für kommerzielle Zwecke. Das vorliegende Portal dient als zentrale Plattform zur Veröffentlichung offener Daten der Hansestadt Rostock.“ (Quelle: OpenData.HRO, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Hansestadt Rostock</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>12.0991466047391,54.0924406051697</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
-		<SimpleData name="URL">http://www.herne.de/kommunen/herne/ttw.nsf/id/DE_Open-Data</SimpleData>
+		<SimpleData name="URL">http://www.herne.de/Stadt-und-Leben/Stadtfakten/Open-Data/</SimpleData>
 		<SimpleData name="Titel">Herne Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Herne
+Friedrich-Ebert-Platz 2
+44623 Herne
+</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Im Open Data Portal der Stadt Herne werden verschiedene Datensätze der Stadtverwaltung veröffentlicht.“ (Quelle: Herne Open Data, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Herne</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.21707561721408,51.4593404619352</coordinates></Point>
+      <Point><coordinates>7.2153681806961,51.4601350858571</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.geoportal.hessen.de/</SimpleData>
 		<SimpleData name="Titel">GDI Hessen</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Schaperstraße 16,
+65195 Wiesbaden</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Das Geoportal Hessen ist der zentrale Einstiegspunkt in die Geodateninfrastruktur Hessen und bietet einen einheitlichen und einfachen Zugang zu raumbezogenen Daten des Landes Hessen im Internet. Hier steht die Karte im Mittelpunkt.“ (Quelle: GDI Hessen, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Hessen</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.16243760241574,50.6520515050229</coordinates></Point>
+      <Point><coordinates>8.22582000141252,50.0882300048221</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://opendata.jena.de/</SimpleData>
 		<SimpleData name="Titel">Jena OpenData</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Am Anger 15
+07743 Jena
+</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Das Portal dient der Veröffentlichung von offenen Daten der Stadt Jena zur freien Verwendung und Nutzung entsprechend der Lizenzierung. Der Umfang der Datensätze wird kontinuierlich erweitert. Wir stellen sowohl dynamische als auch statische Daten zur Verfügung.“ (Quelle: Jena Open Data, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Jena</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.5881048049388,50.9279397048426</coordinates></Point>
+      <Point><coordinates>11.5915700049419,50.930910004843</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.offenesdatenportal.de/organization/kreis-kleve</SimpleData>
 		<SimpleData name="Titel">Kreis Kleve Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Friedrich-Heinrich-Allee 130,
+47475 Kamp-Lintfort
+</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Open Data Portal des Kreises Kleve  auf der Plattform offenesdatenportal.de, 83 Datensätze nach 7 Gruppen geordnet, u.a. zur öffentlichen Verwalltung, Wirtschaft und Arbeit, Transport und Verkehr (Stand: 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Kleve</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.12949999911489,51.7867000054142</coordinates></Point>
+      <Point><coordinates>6.58125222582143,51.4944979486996</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.offenesdatenportal.de/organization/stadt-kleve</SimpleData>
 		<SimpleData name="Titel">Stadt Kleve Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Friedrich-Heinrich-Allee 130,
+47475 Kamp-Lintfort
+</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Open Data der Stadt Kleve auf der Plattform offenesdatenportal.de, 46 Datensätze mit verschiedenen Tags versehen, Bezug u.a. demographische Daten, öffentlichen Einrichtungen und Flächennutzung (Stand: 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Kleve</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.58411925761596,51.3612509266011</coordinates></Point>
+      <Point><coordinates>6.56952209932996,51.4691276718157</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.offenedaten-koeln.de/</SimpleData>
 		<SimpleData name="Titel">Offene Daten Köln</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Offene Daten der Stadt Köln mit Datensätzen verschiedener Einrichtungen, u. a. Kölner Zoo, Stadtbibilothek, Polizei, Verkehrsverbund Rhein-Sieg GmbH, Kölner Verkehrs-Betriebe AG, Feuerwehr Koeln, AWB Abfallwirtschaftsbetriebe Köln GmbH, FH Köln, cambio Carsharing  (Stand: 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Köln</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>6.96027859999869,50.9375310052012</coordinates></Point>
@@ -577,542 +681,718 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.offenesdatenportal.de/organization/krefeld</SimpleData>
 		<SimpleData name="Titel">Krefeld Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Friedrich-Heinrich-Allee 130
+47475 Kamp-Lintfort
+Deutschland </SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Open Data der Stadt Kleve auf der Plattform offenesdatenportal.de, 45 Datensätze mit verschiedenen Tags versehen, gruppiert nach den Themen „Bevolkerung, Geologie und Geobasisdaten“, „Kultur, Freizeit, Sport und Tourismus“, „Soziales“, „Bevölkerung“, „Infrastruktur“ und mehr (Stand: 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Krefeld</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.6169243798604,51.3282102110324</coordinates></Point>
+      <Point><coordinates>6.52726689535513,51.468243967868</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://opendata.leipzig.de/de/dataset</SimpleData>
 		<SimpleData name="Titel">Leipzig Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Leipzig
+Martin-Luther-Ring 4-6
+04109 Leipzig</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
-		<SimpleData name="Ort">Leibzig</SimpleData>
+		<SimpleData name="Beschreibung">„Die Stadt Leipzig möchte verschiedene Datensätze aus der Verwaltung, Fachleuten sowie interessierten Nutzern zur Verfügung zu stellen. Für diesen Zweck wurde das Open Data-Portal der Stadt Leipzig eingerichtet. Zudem veröffentlicht die Stadtverwaltung Leipzig ihre Datensätze auf dem Datenportal für Deutschland.“ (Quelle: Leipzig Open Data, abgerufen am 26.10.2017)
+</SimpleData>
+		<SimpleData name="Ort">Leipzig</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>12.3731000056445,51.3397000047446</coordinates></Point>
+      <Point><coordinates>12.3733601056454,51.3361501047435</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://open.lklg.net/</SimpleData>
-		<SimpleData name="Titel">Open Data Portal Lüneburg</SimpleData>
+		<SimpleData name="Titel">Open Data Portal des Landkreis Lüneburg</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Landkreis Lüneburg
+Auf dem Michaeliskloster 4
+21335 Lüneburg </SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Dies ist das Open Data Portal des Landkreis Lüneburg. Open Data steht für die Öffnung von Informationen und Daten des öffentlichen Sektors für die Allgemeinheit. Mit diesem Portal möchte der Landkreis Lüneburg mehr Transparenz der Kreisverwaltung schaffen.“ (Quelle: Open Data Portal des Landkreis Lüneburg, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Lüneburg</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.411517903405,53.2464214055177</coordinates></Point>
+      <Point><coordinates>10.4008100033943,53.2497600055191</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.magdeburg.de/Start/B%C3%BCrger-Stadt/Verwaltung-Service/Offene-Verwaltungsdaten/index.php?La=1&amp;NavID=37.906&amp;object=tx%7C37.12808.1&amp;kat=&amp;kuo=2&amp;sub=0</SimpleData>
 		<SimpleData name="Titel">Magdeburg Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Landeshauptstadt Magdeburg
+Alter Markt 6
+39104 Magdeburg</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Der Stadtrat hat sich zur Bereitstellung von offenen Verwaltungsdaten der Landeshauptstadt im Rahmen eines Projektes positioniert. Der Verwaltung ist es wichtig, überschaubar zu beginnen, Erfahrungen zu sammeln und darauf aufbauend sukzessive das Vorhaben weiter voranzutreiben.“
+(Quelle: Landeshauptstadt Magdeburg, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Magdeburg</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.6276000047749,52.1205000051769</coordinates></Point>
+      <Point><coordinates>11.6413886434625,52.1537838638239</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://opendata.mannheim.de/</SimpleData>
 		<SimpleData name="Titel">Open Data der Stadt Mannheim</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Mannheim
+Rathaus E 5
+D-68159 Mannheim</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Der Gemeinderat der Stadt Mannheim hat im März 2015 beschlossen, dass auf einem eigenen Portal offene Daten (Open Data) zur Verfügung gestellt werden.
+
+Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendungen.“ (Quelle: Stadt Mannheim, abgerufen am 26.10.2017) </SimpleData>
 		<SimpleData name="Ort">Mannheim</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.47524200171196,49.4842300045034</coordinates></Point>
+      <Point><coordinates>8.46277110169772,49.4895179045068</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.geoportal-mv.de/</SimpleData>
 		<SimpleData name="Titel">GDI Meck­len­burg-Vor­pom­mern</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Lübecker Straße 287
+19059 Schwerin</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung">GeoPortal.MV</SimpleData>
+		<SimpleData name="Beschreibung">„Das Geodatenportal des Landes Mecklenburg-Vorpommern (GeoPortal.MV) ist der zentrale Zugangsknoten zu Geodaten und Geodatendiensten aus allen Bereichen der Landesverwaltung M-V und der Kommunalverwaltungen M-V. Politik, Wirtschaft, Wissenschaft, Verwaltung und Privatpersonen können auf diese Daten zugreifen, die eine verlässliche Grundlage für effiziente Entscheidungen bieten. Das GeoPortal.MV ist eine technische Kernkomponente der Geodateninfrastruktur Mecklenburg-Vorpommern (GDI-MV).“ (Quelle: GeoPortal.MV, abgerufen am 26.10.2017) </SimpleData>
 		<SimpleData name="Ort">Meck­len­burg-Vor­pom­mern</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>12.4295953051489,53.6126505050643</coordinates></Point>
+      <Point><coordinates>11.379515504225,53.6464272053782</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://opendata.meerbusch.de/</SimpleData>
 		<SimpleData name="Titel">Meerbusch Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Meerbusch
+Moerser Straße 28
+40667 Meerbusch</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Die Stadt Meerbusch stellt ab 2017 offene Daten auf diesem Portal zur Verfügung. Wir starten mit ersten Daten zu Bevölkerung und Wahlen und bauen das Angebot in den kommenden Monaten weiter aus. Wir werden nach Abstimmung mit dem Land NRW bald auf Open.NRW als Datenbereitsteller gelistet, so dass unsere Informationen auch landes- und bundesweit gefunden werden können.“ (Quelle: Stadt Meerbusch, abgerufen am 26.10.2017) </SimpleData>
 		<SimpleData name="Ort">Meerbusch</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.55485636000888,51.326930582338</coordinates></Point>
+      <Point><coordinates>6.67926798515971,51.2811877769056</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://stadt.mittenwalde.opendata.arcgis.com/</SimpleData>
 		<SimpleData name="Titel">Mittenwalde Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Mittenwalde
+Rathausstraße 8
+15749 Mittenwalde </SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung">Discover, explore, and download open data from Open Data Stadt Mittenwalde</SimpleData>
+		<SimpleData name="Beschreibung">Open Data Portal der Stadt Mittenwalde basierend auf ArcGIS Portal.</SimpleData>
 		<SimpleData name="Ort">Mittenwalde</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.5303585267554,52.2318752085563</coordinates></Point>
+      <Point><coordinates>13.5457456150028,52.2824866366163</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="URL">https://offenedaten.de/organization/mittenwalde</SimpleData>
+		<SimpleData name="Titel">Open Data der Stadt Mittenwalde</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Mittenwalde
+Rathausstraße 8
+15749 Mittenwalde</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Open Data Portal der Stadt Mittenwalde auf Offenedaten.de, 7 Datensätze mit verschiedenen Tags, u.a. Verkehr, Bebauungsplan, Einwohner</SimpleData>
+		<SimpleData name="Ort">Mittenwalde</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="GDI"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.5739035998646,52.2476688335262</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="URL">https://www.mittenwalde.de/de/service-wie-was-wo/geoportal/geoportal/</SimpleData>
+		<SimpleData name="Titel">Geoportal der Stadt Mittenwalde</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Mittenwalde
+Rathausstraße 8
+15749 Mittenwalde</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Geodaten der Stadt Mittenwalde zur Online-Ansicht. Es gibt gibt ein neues und ein altes Geoportal. Das Neue mit einer Liegenschaftskarte und einem Kartenthema zur Bauleitplanung ausgestattet ist. (Stand: 26.10.2017)</SimpleData>
+		<SimpleData name="Ort">Mittenwalde</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.5107011064952,52.2501059856118</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://offenedaten.moers.de/</SimpleData>
 		<SimpleData name="Titel">Offene Daten Moers</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Rathaus Moers, Rathausplatz 1
+47439 Moers</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Es handelt sich um &quot;offene&quot; Daten, weil die Stadt Moers die Datensätze zur freien Nutzung und in offenen, maschinenlesbaren Formaten bereitstellt. Wir folgen hier der Idee, die allgemein als Open Data bezeichnet wird. Die grundsätzliche Idee wird gut in den &quot;Externer Link10 Prinzipien offener Regierungsinformationen&quot; vermittelt.
+
+Nach und nach werden wir den Bestand an offenen Daten erweitern. Wir veröffentlichen in unserem Portal auch Daten von Unternehmen oder Privatleuten, wenn sie einen Bezug zu Moers haben und es keine rechtlichen Beschränkungen gibt. Wenn Sie Daten haben, melden Sie sich!“ 
+(Quelle: Stadt Moers, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Moers</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.64081479965577,51.4516041053657</coordinates></Point>
+      <Point><coordinates>6.62685549964069,51.4534604053655</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.moenchengladbach.de/de/aktuell-aktiv/open-data/</SimpleData>
 		<SimpleData name="Titel">Mönchengladbach Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Mönchengladbach
+41050 Mönchengladbach</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Die Stadt Mönchengladbach startet im Rahmen ihrer Open Government Bestrebungen dieses Open-Data-Portal.
+
+Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grundlage bilden, für einen demokratischen Wissensaustausch, mehr Partizipation und eine bessere Kommunkation zwischen Verwaltung, Politik und Bürgerinnen und Bürgern unserer Stadt.“ (Quelle: Stadt Mönchengladbach, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Mönchengladbach</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.44279999943433,51.1805000052636</coordinates></Point>
+      <Point><coordinates>6.43025065525962,51.2165388573807</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://geo.muelheim-ruhr.de/open-data/13819</SimpleData>
 		<SimpleData name="Titel">Mülheim an der Ruhr Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Am Rathaus 1
+45468 Mülheim an der Ruhr</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Die Stadt Mülheim an der Ruhr stellt offene Daten (Open Data) als Rohdaten aus verschiedenen Bereichen der Verwaltung bereit. Eine automatisierte Aktualisierung sorgt dafür, dass stets nur die aktuellsten Daten publiziert werden.“ (Quelle: Stadt Mönchengladbach, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Mülheim an der Ruhr</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.88449999991932,51.4186000053654</coordinates></Point>
+      <Point><coordinates>6.87799099991236,51.4288119053685</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.opengov-muenchen.de/</SimpleData>
-		<SimpleData name="Titel">Open-Data-Portal München</SimpleData>
+		<SimpleData name="Titel">Open-Data-Portal München der Landeshauptstadt München</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Landeshauptstadt München
+
+80313 München</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Auf dem Open Data Portal München stellt die Landeshauptstadt München Datensätze der öffentlichen Verwaltung zur Verfügung. Verwaltungsmitarbeitern, Bürgerinnen und Bürgern, Unternehmen und Wissenschaftlern soll damit die Möglichkeit gegeben werden, über einen zentralen Einstiegspunkt auf Daten und Informationen der Verwaltung zuzugreifen und diese weiterzuverwenden, so dass durch neue Ideen sowie Kombination und Analyse neue Erkenntnisse aus den vorhandenen Daten gewonnen werden können.“ (Quelle: Open-Data-Portal München der Landeshauptstadt München, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">München</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.5819805052521,48.135125303389</coordinates></Point>
+      <Point><coordinates>11.56071293673,48.1310512663784</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.stadt-muenster.de/katasteramt/geodatenmanagement/open-data.html</SimpleData>
 		<SimpleData name="Titel">Münster GeoData</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Münster
+48127 Münster</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„Die Stadt Münster beteiligt sich am Wettbewerb &quot;Apps für Deutschland&quot;. Sie stellt dazu Datensätze über Spielplätze und Sportstätten als offene Daten zur Verfügung. Die Daten werden mit Stand Dezember 2011 bereitgestellt. Es kommt die Lizenz Creative Commons Namensnennung 3.0 zur Anwendung.“
+(Quelle: Stadt Münster, abgerufen am 26.10.2017)</SimpleData>
 		<SimpleData name="Ort">Münster (Westf.)</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.62610000070918,51.9607000055184</coordinates></Point>
+      <Point><coordinates>7.62613470070921,51.9606649055183</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://iatiregistry.org/</SimpleData>
 		<SimpleData name="Titel">Iati Registry</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Das internationale Datenportal der „International Aid Transparency Initiative“ (IATI) enthält offene Daten zur Entwicklungszusammenarbeit verschiedener Länder. Zu den Datenanbietern gehört unter anderem das Das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)</SimpleData>
 		<SimpleData name="Ort">Berlin</SimpleData>
 		<SimpleData name="Bezug">international</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.3830611500008,52.5380444550583</coordinates></Point>
+      <Point><coordinates>13.3147898272035,52.4956166573171</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://transparenz.karlsruhe.de/</SimpleData>
 		<SimpleData name="Titel">Karlsruhe Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Karlsruhe
+Karl-Friedrich-Str. 10
+76133 Karlsruhe </SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Zentrale Anlaufstelle für offene Daten und Dokumente der Stadt Karlsruhe:
+
+„Auf diesem Portal finden Sie sowohl Dokumente und Berichte, als auch maschinenlesbare Datensätze (&quot;open data&quot;). Diese Informationen dürfen Sie - unter einigen wenigen Bedingungen - kostenfrei weitergeben, bearbeiten und auch kommerziell nutzen. Wir freuen uns, wenn daraus interessante Projekte entstehen - und wenn Sie uns von Ihrem Projekt erzählen. Das Informationsangebot wird laufend erweitert.“
+(Quelle: Stadt Karlsruhe, abgerufen am 27.10.2017)
+</SimpleData>
 		<SimpleData name="Ort">Karlsruhe</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.40370000164557,49.0069000042347</coordinates></Point>
+      <Point><coordinates>8.40328400164505,49.0086100042358</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.offenesdatenportal.de/organization/krzn</SimpleData>
 		<SimpleData name="Titel">Kommunales Rechenzentrum Niederrhein</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Friedrich-Heinrich-Allee 130
+47475 Kamp-Lintfort
+Deutschland</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Offene Daten des Kommunalen Rechenzentrums Niederrhein (KRZN) mit Sitz in Kamp-Lintfort. Das KRZN ist ein kommunaler Zweckverband un IT-Dienster für Stadt Bottrop, Stadt Krefeld, Kreis Kleve, Kreis Viersen und Kreis Wesel. 25 Datensätze gruppiert nach den Themen „Wirtschaft und Arbeit“, „Öffentliche Verwaltung“ und „Geographie, Geologie und Geobasisdaten“ (Stand: 27.10.2017)</SimpleData>
 		<SimpleData name="Ort">Niederrhein</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.53209999953895,51.4958000053726</coordinates></Point>
+      <Point><coordinates>6.51284440111504,51.4930668079484</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.geodaten.niedersachsen.de</SimpleData>
 		<SimpleData name="Titel">GDI Niedersachsen</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">
+Podbielskistraße 331
+30659 Hannover</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Informationsplattform zum Thema Geodaten des Landes Niedersachsen. 
+
+Ansprechpartner für das Geoportal und die Geodateninfrastruktur des Landes ist die Koordinierungsstelle GDI-NI beim Landesamt für Geoinformation und Landesvermessung Niedersachsen (LGLN) - Landesvermessung und Geobasisinformation mit Sitz in Hannover. (Stand: 27.10.2017)</SimpleData>
 		<SimpleData name="Ort">Niedersachsen</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.84507660294195,52.6367036055205</coordinates></Point>
+      <Point><coordinates>9.80206360292675,52.4072406054883</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.geoportal.nrw/</SimpleData>
 		<SimpleData name="Titel">GDI NRW</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Muffendorfer Str. 19-21
+53177 Bonn </SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Die Geodateninfrastruktur des Landes Nordrhein-Westfalen besteht seit 1999 und hat sich die Aktivierung des Geodatenmarktes sowie die verbesserte Verfügbarkeit und Nutzbarkeit der behördlichen und privaten Geodaten zum Ziel gesetzt. An der Realisierung der GDI sind das Land NRW, Kommunen, IT-Unternehmen und Nutzer von Geoinformationen beteiligt.
+(Stand: 27.10.2017)</SimpleData>
 		<SimpleData name="Ort">Nordrhein-Westfalen</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.66093713741815,51.455701102491</coordinates></Point>
+      <Point><coordinates>7.06457041046338,50.7251346251529</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://offenedaten.kdvz-frechen.de/</SimpleData>
 		<SimpleData name="Titel">Offene Daten kdvz Rhein-Erft-Rur</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Bonnstraße 16-18,
+50226 Frechen</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung">Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stadt Bergheim, Gemeinde Langerwehe, Gemeinde Hürtgenwald, Gemeinde Vettweiß, Stadt Jülich, Gemeinde Merzenich, Stadt Wesseling, Stadt Heimbach, Gemeinde Kreuzau, Stadt Linnich, Stadt Bad Münstereifel, Gemeinde Titz, Stadt Bedburg</SimpleData>
+		<SimpleData name="Beschreibung">Im Rahmen des Pilotprojektes „Kommunales Open Government in NRW“ realisiert die kdvz Rhein-Erft-Ruhr gemeinsam mit 24 Kommunen und der Open Knowledge Foundation ein sog. „interkommunales Transparenzportal für Gremiendaten“.
+
+Die beteiligten Kommunen sind:
+Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stadt Bergheim, Gemeinde Langerwehe, Gemeinde Hürtgenwald, Gemeinde Vettweiß, Stadt Jülich, Gemeinde Merzenich, Stadt Wesseling, Stadt Heimbach, Gemeinde Kreuzau, Stadt Linnich, Stadt Bad Münstereifel, Gemeinde Titz, Stadt Bedburg
+(Stand: 27.10.2017)</SimpleData>
 		<SimpleData name="Ort">Nordrhein-Westfalen</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.69303920545954,51.4223554341947</coordinates></Point>
+      <Point><coordinates>6.82793829985282,50.9127607051881</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://open.nrw/</SimpleData>
 		<SimpleData name="Titel">Open Data | Open.NRW</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">
+Friedrichstraße 62-80,
+40217 Düsseldorf</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung">Open.NRW unterstützt Verwaltungen, Bürgerinnen und Bürger sowie weitere externe Akteure bei dem offenen Austausch und der Zusammenarbeit.</SimpleData>
+		<SimpleData name="Beschreibung">Open.NRW unterstützt Verwaltungen, Bürgerinnen und Bürger des Landes Nordrhein-Westfalen sowie weitere externe Akteure bei dem offenen Austausch und der Zusammenarbeit. Das Landesportal vereint offene Datensätze von Städten und Kommunen und beinhaltet zudem Geobasisdaten. (Stand: 27.10.2017)</SimpleData>
 		<SimpleData name="Ort">Nordrhein-Westfalen</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.63080505867189,51.4216452517829</coordinates></Point>
+      <Point><coordinates>6.68152855762472,51.23628212938</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.geoportal.rlp.de/</SimpleData>
 		<SimpleData name="Titel">GDI Rhein­land-Pfalz</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Von-Kuhl-Str. 49
+56070 Koblenz</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Über das GeoPortal.rlp können Geodaten des Landes Rheinland-Pfalz zentral gesucht und visualisiert werden. Es handelt sich um ein Projekt des Lenkungsausschuss für Geodateninfrastruktur Rheinland-Pfalz, dessen Mitglieder Vertreter der Staatskanzlei, der Ministerien und der kommunalen Spitzenverbände sind. Das Portal selbst ist als Open-Source Projekt realisiert, wovon ausgewählte Komponenten unter anderem als LiveCD heruntergeladen werden können. (Stand: 27.10.2017)</SimpleData>
 		<SimpleData name="Ort">Rhein­land-Pfalz</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.30816091250868,50.1408118212995</coordinates></Point>
+      <Point><coordinates>7.58471000069206,50.3750300049713</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://daten.rlp.de/</SimpleData>
-		<SimpleData name="Titel">Open-Government-Data-Portal Rheinland-Pfalz</SimpleData>
+		<SimpleData name="Titel">Open-Government-Data-Portal Rheinland-Pfalz  (OGDP-RP)</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Schillerplatz 3 – 5
+55116 Mainz</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Das Portal bietet einen einheitlichen, zentralen Zugang zu Verwaltungsdaten der rheinland-pfälzischen Landesbehörden und Kommunen. Unbedingt zu beachten ist, dass neben den offenen Daten hier auch Daten mit eingeschränkten Lizenzbedingungen angeboten werden, obgleich die Verwendung offener Lizenzen und maschinenlesbarer Rohdaten allgemein angestrebt wird. (Stand: 27.10.2017)</SimpleData>
 		<SimpleData name="Ort">Rheinland-Pfalz</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.30974348841567,50.0958800920519</coordinates></Point>
+      <Point><coordinates>8.26713000146147,49.9980800047771</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://geoportal.saarland.de/</SimpleData>
-		<SimpleData name="Titel">GDI Saarland</SimpleData>
+		<SimpleData name="Titel">GeoPortal Saarland (GDI-SL)</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Von der Heydt 22
+66115 Saarbrücken</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Das GeoPortal Saarland ist die Informations- und Interaktionsplattform der Geodateninfrastruktur Saarland (GDI-SL). Mithilfe von Netzwerk- und Geodiensten ermöglicht diese einen zentralen Zugang zu raumbezogenen Informationen im Saarland.
+
+Die Daten werden je zu verschiedenen Nutzungsbedingungen angeboten, einige davon sind frei, andere sind Zugangsbeschränkt. Zu beachten ist dabei die Legende der Inhaltsübersicht und die genauen Angaben in den Metadaten.
+
+(Stand: 27.10.2017)</SimpleData>
 		<SimpleData name="Ort">Saarland</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.02296070006277,49.3964234044813</coordinates></Point>
+      <Point><coordinates>6.95086999997962,49.2775400044131</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.gdi.sachsen.de/</SimpleData>
 		<SimpleData name="Titel">GDI Sachsen</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Olbrichtplatz 3, 01099 Dresden</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Die Geodateninfrastruktur Sachsen hat das Ziel, digitalen, raumbezogenen Daten aus der Wirtschaft und öffentlichen Verwaltung des Landes einem breiten Nutzerkreis zugänglich zu machen. Die suche nach Geodaten wird über den Metadatenkatalog GeoMIS.Sachsen und das Geoportal Sachsenatlas ermöglicht. 
+(Stand: 27.10.2017)</SimpleData>
 		<SimpleData name="Ort">Sachsen</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.2037754862241,51.1269519870541</coordinates></Point>
+      <Point><coordinates>13.7623659712098,51.099290954815</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.opendata.sachsen.de</SimpleData>
 		<SimpleData name="Titel">Open Data - Verfügbare Datenbestände des Freistaats Sachsen</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Riesaer Straße 7
+Haus D
+01129 Dresden</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung">Inhalte des OpenData Projektes</SimpleData>
+		<SimpleData name="Beschreibung">Im Zuge des Projektes „Open Government Data“ wird angestrebt, die Transparenz staatlichen handelns zu erhöhen, in dem mehr Daten aus dem staatlichen Bereich publiziert werden. 
+
+Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen werden könnten. Die Nutzungsbedingungen und Urheberrechtsfragen sind aber bislang noch nicht einheitlich geregelt.
+(Stand: 27.10.2017)</SimpleData>
 		<SimpleData name="Ort">Sachsen</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.1997039379125,51.0821292765708</coordinates></Point>
+      <Point><coordinates>13.7577591929606,51.0545022910642</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.lvermgeo.sachsen-anhalt.de/de/main.htm</SimpleData>
-		<SimpleData name="Titel">GDI Sachsen-Anhalt</SimpleData>
+		<SimpleData name="Titel">GDI Sachsen-Anhalt / LvermGeo</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">
+Otto-von-Guericke-Straße 15,
+39104 Magdeburg</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Die Website des Landesamt für Vermessung und Geoinformation Sachsen-Anhalt umfasst Zugänge zu Diensten der Geodateninfrastruktur Sachsenanhalt (GDI-LSA) sowie einen Geodatenviewer. Viele der angebotenen Dienste und Daten sind käuflich zu erwerben oder unterliegen Nutzungsbeschränkungen.
+(Stand: 27.10.2017)</SimpleData>
 		<SimpleData name="Ort">Sachsen-Anhalt</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.6922734048697,51.9502649051247</coordinates></Point>
+      <Point><coordinates>11.6387329051083,52.108895836853</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://offenedaten.de/organization/salzgitter</SimpleData>
 		<SimpleData name="Titel">Salzgitter</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Salzgitter
+Joachim-Campe-Straße 6 - 8
+38226 Salzgitter</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Sie Stadt Sapzgitter stellt auf diesem Portal 9 offene Datensätze aus den Kategorien „Öffentliche Verwaltung“, „Kultur, Freizeit, Sport und Tourismus“, sowie „Geographie, Geologie und Geobasisdaten“ zur Verfügung. (Stand: 27.10.2017)</SimpleData>
 		<SimpleData name="Ort">Salzgitter</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.3899000035511,52.1379000053753</coordinates></Point>
+      <Point><coordinates>10.3258482034845,52.1554201053863</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.gdi-sh.de/</SimpleData>
 		<SimpleData name="Titel">GDI Schleswig-Holstein</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Düsternbrooker Weg 92
+24105 Kiel</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung">Einheitlicher Ansprechpartner</SimpleData>
+		<SimpleData name="Beschreibung">Die Geodateninfrastruktur Schleswig-Holstein ermöglicht unter der Leitung des Lenkungsgremiums LG GDI-SH den Zugriff auf Geodaten des Landes Schleswig-Holstein. Die website umfasst ein Geoportal, welches das suchen und Betrachten von Geodaten, nach Themen unterteilt, ermöglicht. Zudem werden kommerzielle Dienste angeboten. (Stand: 27.10.2017)</SimpleData>
 		<SimpleData name="Ort">Schleswig-Holstein</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.69611670258285,54.2193672055673</coordinates></Point>
+      <Point><coordinates>10.1546400029797,54.3367100055067</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.geoportal-th.de/</SimpleData>
 		<SimpleData name="Titel">GDI Thüringen</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Landesamt für Vermessung und Geoinformation
+Hohenwindenstr. 13 a
+D-99086 Erfurt</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Die Geodateninfrastruktur (GDI) des Landes Thüringen ermöglicht den zugriff auf Geodaten und Dienste des Landes. Neben einem umfrangreichen Downloadbereich von offenen Geodaten ist der Zugriff auf eine Metadatensuche, Web-Viewer, Geoproxy und OGC-Dienste sowie versichiedene Temenbereiche möglich. (Stand: 27.10.2017)</SimpleData>
 		<SimpleData name="Ort">Thüringen</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.845346004165,51.0109892049968</coordinates></Point>
+      <Point><coordinates>11.028976964612,51.0275079781707</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="URL">http://www.geoportal-th.de/de-de/downloadbereiche/downloadoffenegeodatenth%C3%BCringen.aspx</SimpleData>
+		<SimpleData name="Titel">Download Offene Geodaten Thüringen</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Landesamt für Vermessung und Geoinformation
+Hohenwindenstr. 13 a
+D-99086 Erfurt</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Teil des Geoportal-Th und der GDI-Th ist ein Downloadbereich, in dem eine Vielzahl von Geodaten ohne Zugangsbeschränkung genutzt und heruntergeladen werden können. Zu beachten ist, dass die Datenlizenz einen Quellenvermerk vorschreibt. (Stand: 27.10.2017)</SimpleData>
+		<SimpleData name="Ort">Thüringen</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.0270171014352,50.9825917315588</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://daten.ulm.de/</SimpleData>
 		<SimpleData name="Titel">daten.ulm.de</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Ulm
+Marktplatz 1
+89073 Ulm</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">„daten.ulm.de ist eine Infoplattform für (offene) Geodaten und offene statistische Daten der Stadt Ulm.  Welche Geodaten und Karten gibt es bei der Stadt Ulm in welcher Aktualität? Wer ist Ansprechpartner? Welche offenen Daten kann ich sofort herunterladen und weiterverwenden?  Stöbern Sie einfach im thematisch gegliederten Datenkatalog, dessen Angebot sukzessive ausgebaut wird.“ (Quelle: daten.ulm, abgerufen am 27.10.2017)</SimpleData>
 		<SimpleData name="Ort">Ulm</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.98760760346654,48.4010822037587</coordinates></Point>
+      <Point><coordinates>9.99305040347286,48.3971464037557</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.offenesdatenportal.de/organization/kreis-viersen</SimpleData>
 		<SimpleData name="Titel">Kreis Viersen Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Rathausmarkt 3
+41747 Viersen</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Offene Verwaltungsdaten des Kreises Viersen</SimpleData>
 		<SimpleData name="Ort">Viersen</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.39649999938564,51.2555000052851</coordinates></Point>
+      <Point><coordinates>6.43274793664141,51.1716410448152</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.offenesdatenportal.de/organization/stadt-wesel</SimpleData>
 		<SimpleData name="Titel">Stadt Wesel am Rhein Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Wesel
+Klever-Tor-Platz 1
+46483 Wesel</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Offene Verwaltungsdaten der Stadt Wesel</SimpleData>
 		<SimpleData name="Ort">Wesel</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.62959999964759,51.664300005428</coordinates></Point>
+      <Point><coordinates>6.61146999962798,51.6585500054253</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.offenedaten-wuppertal.de/</SimpleData>
 		<SimpleData name="Titel">Offene Daten Wuppertal</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Johannes-Rau-Platz 1
+42275 Wuppertal</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Offene Daten der Stadt Wuppertal</SimpleData>
 		<SimpleData name="Ort">Wuppertal</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.15076360020761,51.2562128053175</coordinates></Point>
+      <Point><coordinates>7.20003900026109,51.2720933053231</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://open-data.europa.eu/de/about</SimpleData>
 		<SimpleData name="Titel">Offenes Datenportal der EU</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Europa</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">“Das Offene Datenportal der Europäischen Union bietet Zugang zu einer wachsenden Menge von Daten über die Organe und sonstigen Einrichtungen der Europäische Union (EU).” (Quelle: Europäische Union, abgerufen am 7.11.2017)</SimpleData>
 		<SimpleData name="Ort">Europa</SimpleData>
 		<SimpleData name="Bezug">international</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.77191950092863,48.5948367040006</coordinates></Point>
+      <Point><coordinates>7.77191950092864,48.5948367040006</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://data.graz.gv.at/</SimpleData>
 		<SimpleData name="Titel">Graz Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Graz
+Rathaus, 8011 Graz</SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
 		<SimpleData name="Beschreibung">Graz Online - Stadtportal der Landeshauptstadt Graz</SimpleData>
 		<SimpleData name="Ort">Graz</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>15.450000003914,47.0666666957154</coordinates></Point>
+      <Point><coordinates>15.4386254039983,47.0706280957851</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://data.ktn.gv.at/</SimpleData>
 		<SimpleData name="Titel">Kärnten Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Arnulfplatz 1
+A-9021 Klagenfurt/Wörthersee</SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Datenauftritt des Bundeslandes Kärnten</SimpleData>
 		<SimpleData name="Ort">Kärnten</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>14.1827395266587,46.744599848604</coordinates></Point>
+      <Point><coordinates>14.3114462076896,46.6210779999417</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://data.linz.gv.at/</SimpleData>
 		<SimpleData name="Titel">Linz Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Hauptplatz 1
+4041 Linz</SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Datenauftritt der Stadt Linz</SimpleData>
 		<SimpleData name="Ort">Linz</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>14.2861111182839,48.3063888898899</coordinates></Point>
+      <Point><coordinates>14.2872516072832,48.3060091010869</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://opendataportal.at/</SimpleData>
-		<SimpleData name="Titel">Open Data Portal Austria</SimpleData>
-		<SimpleData name="Beschreibung">Das zentrale Datenportal für Wirtschaft, Kultur, NGO/NPO, Forschung und Zivilgesellschaft. Das Open Data Portal bietet eine Plattform um auf Daten aus den</SimpleData>
+		<SimpleData name="Titel">Open Data Portal Österreich</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">
+Stolzenthalergasse 7/1
+1080 Wien</SimpleData>
+		<SimpleData name="Land">Österreich</SimpleData>
+		<SimpleData name="Beschreibung">Das zentrale Datenportal für Wirtschaft, Kultur, NGO/NPO, Forschung und Zivilgesellschaft. Betrieben durch Wikimedia Österreich</SimpleData>
+		<SimpleData name="Ort">Österreich</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3565176728908,48.2241622102715</coordinates></Point>
+      <Point><coordinates>16.344974652142,48.2311866633435</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://data.noe.gv.at/</SimpleData>
 		<SimpleData name="Titel">Niederösterreich (lower Austria) Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
 		<SimpleData name="Beschreibung"></SimpleData>
 		<SimpleData name="Ort">Niederösterreich</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>15.7499999996139,48.3332999943209</coordinates></Point>
@@ -1121,96 +1401,105 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://basemap.at/</SimpleData>
 		<SimpleData name="Titel">Austrian Ogd Basemap</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
 		<SimpleData name="Beschreibung">Basemap.at ist eine internetfähige Grundkarte von Österreich, basierend auf den Geodaten der Länder und deren Partnern, frei verfügbar und performant.</SimpleData>
 		<SimpleData name="Ort">Österreich</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3755157488678,48.2186402051996</coordinates></Point>
+      <Point><coordinates>16.363976729643,48.2256663846424</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.geologie.ac.at/</SimpleData>
 		<SimpleData name="Titel">Geologische Bundesanstalt</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
 		<SimpleData name="Beschreibung">The Geological Survey of Austria (GBA) is the largest geoscientific research center in Austria. The task of the Survey is to study and document the geology of the country systematically, continuously and overall.</SimpleData>
 		<SimpleData name="Ort">Österreich</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3860232261393,48.2067095394285</coordinates></Point>
+      <Point><coordinates>16.3744882896954,48.2137365729842</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://inspire.gv.at/</SimpleData>
 		<SimpleData name="Titel">INSPIRE Austria</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
-		<SimpleData name="Beschreibung">Startseite INSPIRE Österreich.&lt;br/&gt;Willkommen auf der Website von INSPIRE Österreich.</SimpleData>
+		<SimpleData name="Beschreibung">Startseite INSPIRE Österreich.</SimpleData>
 		<SimpleData name="Ort">Österreich</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3840313835282,48.1929296344742</coordinates></Point>
+      <Point><coordinates>16.3724990503255,48.1999563250635</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://zamg.ac.at/</SimpleData>
 		<SimpleData name="Titel">Zentralanstalt Für Meteorologie und Geodynamik</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
 		<SimpleData name="Beschreibung">Wetter Klima Umwelt Geophysik Forschung Produkte</SimpleData>
 		<SimpleData name="Ort">Österreich</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3703094008748,48.1825629611783</coordinates></Point>
+      <Point><coordinates>16.3587772011176,48.1895882440953</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://data.gv.at/</SimpleData>
-		<SimpleData name="Titel">Austrian Government Open Data</SimpleData>
+		<SimpleData name="Titel">http://data.gv.at/ - Offene Daten Österreichs</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Bundeskanzleramt
+Ballhausplatz 2
+A-1010 Wien</SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
-		<SimpleData name="Beschreibung">Startseite neu.</SimpleData>
+		<SimpleData name="Beschreibung">Als zentraler “Österreich”-Katalog soll diese Website die Metadaten der dezentralen Metadatenkataloge der Verwaltung aufnehmen und abrufbar halten. Es handelt sich insbesondere um Open Government-Informationen (OGD) und Informationen des öffentlichen Sektors (IWG)</SimpleData>
 		<SimpleData name="Ort">Österreich</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.350099004682,48.1795663192931</coordinates></Point>
+      <Point><coordinates>16.3385644214416,48.1865896669437</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://umweltbundesamt.at/opendata/</SimpleData>
 		<SimpleData name="Titel">Umweltbundesamt: OpenData Portal</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Offene Umweltdaten des Umweltbundesamtes Österreich</SimpleData>
 		<SimpleData name="Ort">Österreich</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3311117707244,48.1850835032794</coordinates></Point>
+      <Point><coordinates>16.3195731957702,48.1921051255518</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://data.reeep.org/</SimpleData>
 		<SimpleData name="Titel">Linked Clean Energy Data - Data.reegle.info</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
 		<SimpleData name="Beschreibung">reegle - the clean energy info portal provides country energy profiles including key statistics, policies and actors, a clean energy web search, a directory of relevant key actors and a map search of energy statistics and potentials</SimpleData>
 		<SimpleData name="Ort">Österreich</SimpleData>
 		<SimpleData name="Bezug">international</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>16.239977090564,48.220828589894</coordinates></Point>
@@ -1219,26 +1508,28 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://statistik.at/</SimpleData>
 		<SimpleData name="Titel">Statistik Austria</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
 		<SimpleData name="Beschreibung"></SimpleData>
 		<SimpleData name="Ort">Österreich</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3205947590645,48.1970095436386</coordinates></Point>
+      <Point><coordinates>16.3090521039667,48.2040303089599</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://data.tirol.gv.at/</SimpleData>
 		<SimpleData name="Titel">Tirol Data Portal</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
 		<SimpleData name="Beschreibung">Daten der Verwaltung werden durch digitale Infrastruktur öffentlich verfügbar und nutzbar gemacht.</SimpleData>
 		<SimpleData name="Ort">Tirol</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>11.3333333050361,47.2500000028112</coordinates></Point>
@@ -1247,12 +1538,13 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://data.vorarlberg.gv.at/</SimpleData>
 		<SimpleData name="Titel">Vorarlberg Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Open Government Data des Landes Voralberg</SimpleData>
 		<SimpleData name="Ort">Voralberg</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>9.91705517918579,47.272483954244</coordinates></Point>
@@ -1261,40 +1553,43 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://data.wien.gv.at/</SimpleData>
 		<SimpleData name="Titel">Open Government Data Wien</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Datenauftritt der Bundeshauptstadt (und zugleich Bundesland) Wien</SimpleData>
 		<SimpleData name="Ort">Wien</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3225698670845,48.2107914110145</coordinates></Point>
+      <Point><coordinates>16.3110246005652,48.2178125165555</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://ge.ch/sitg/sitg_catalog/sitg_donnees</SimpleData>
 		<SimpleData name="Titel">Sitg Geneva's Territorial Information System</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Schweiz</SimpleData>
 		<SimpleData name="Beschreibung"></SimpleData>
 		<SimpleData name="Ort">Genf</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.14883716251692,46.2224631197342</coordinates></Point>
+      <Point><coordinates>6.14883716251693,46.2224631197342</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://data.tpg.ch/</SimpleData>
 		<SimpleData name="Titel">Open Data TPG</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Schweiz</SimpleData>
 		<SimpleData name="Beschreibung"></SimpleData>
 		<SimpleData name="Ort">Genf</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>6.17859170675544,46.1894635557545</coordinates></Point>
@@ -1303,12 +1598,13 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.wmo.int/</SimpleData>
 		<SimpleData name="Titel">Weltorganisation für Meteorologie</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Schweiz</SimpleData>
 		<SimpleData name="Beschreibung">World Meteorological Organization PROGRAMMES site | English version | WMO.int</SimpleData>
 		<SimpleData name="Ort">Genf</SimpleData>
 		<SimpleData name="Bezug">international</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>6.12257112670033,46.1880663926795</coordinates></Point>
@@ -1317,40 +1613,43 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://bis.org/statistics/</SimpleData>
 		<SimpleData name="Titel">Bank For International Settlements Statistics</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Schweiz</SimpleData>
 		<SimpleData name="Beschreibung">About BIS statistics</SimpleData>
 		<SimpleData name="Ort">Schweiz</SimpleData>
 		<SimpleData name="Bezug">international</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.6000000007375,47.5667000033011</coordinates></Point>
+      <Point><coordinates>7.60000000073749,47.5667000033011</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://opendata.cern.ch/</SimpleData>
 		<SimpleData name="Titel">Cern Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Schweiz</SimpleData>
 		<SimpleData name="Beschreibung"></SimpleData>
 		<SimpleData name="Ort">Schweiz</SimpleData>
 		<SimpleData name="Bezug">international</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.05279999887995,46.2342000021963</coordinates></Point>
+      <Point><coordinates>6.05279999887994,46.2342000021963</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://meteoswiss.ch/</SimpleData>
 		<SimpleData name="Titel">Meteoswiss</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Schweiz</SimpleData>
 		<SimpleData name="Beschreibung"></SimpleData>
 		<SimpleData name="Ort">Schweiz</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>8.33302199186339,46.8557869609767</coordinates></Point>
@@ -1359,12 +1658,13 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.bfs.admin.ch/</SimpleData>
 		<SimpleData name="Titel">Bundesamt für Statistik</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Schweiz</SimpleData>
 		<SimpleData name="Beschreibung"></SimpleData>
 		<SimpleData name="Ort">Schweiz</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>8.36180967302047,46.8222180417117</coordinates></Point>
@@ -1373,12 +1673,13 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://opendata.swiss</SimpleData>
 		<SimpleData name="Titel">opendata.swiss</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Schweiz</SimpleData>
 		<SimpleData name="Beschreibung">opendata.swiss ist das Portal für Schweizer Open Government Data (OGD). Hier können Sie Schweizer Behördendaten kostenlos herunterladen.</SimpleData>
 		<SimpleData name="Ort">Schweiz</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>8.30506833968604,46.8218879064689</coordinates></Point>
@@ -1387,12 +1688,13 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://data.stadt-zuerich.ch/</SimpleData>
 		<SimpleData name="Titel">Zurich Open Data</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Schweiz</SimpleData>
 		<SimpleData name="Beschreibung"></SimpleData>
 		<SimpleData name="Ort">Zürich</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>8.55000000185306,47.3667000031277</coordinates></Point>
@@ -1401,40 +1703,43 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.bmlfuw.gv.at/service/geo-informationen.html</SimpleData>
 		<SimpleData name="Titel">GIS-Anwendungen des BMLFUW</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
 		<SimpleData name="Beschreibung"></SimpleData>
 		<SimpleData name="Ort">Österreich</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>14.5524411293885,47.5386111546068</coordinates></Point>
+      <Point><coordinates>14.5524411293885,47.5386111546069</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.austrianmap.at</SimpleData>
 		<SimpleData name="Titel">AMAP Austria – BEV – Bundesamt für Eich- und Vermessungswesen</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
 		<SimpleData name="Beschreibung"></SimpleData>
 		<SimpleData name="Ort">Österreich</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>14.5774911258151,47.5036487314501</coordinates></Point>
+      <Point><coordinates>14.577491125815,47.5036487314501</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.geoland.at/</SimpleData>
 		<SimpleData name="Titel">geoland.at – Geodatenportal der österreichischen Länder</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
 		<SimpleData name="Beschreibung">GEOLAND.AT - Das Geodatenportal der österreichischen Länder ist Teil nationaler und internationalen Geodateninfrastrukturen (GDI), die die Nutzung von öffentlichen Geodaten für Verwaltung, Wirtschaft, Forschung, Bildung und Bürger wesentlich erleichtern sollen.</SimpleData>
 		<SimpleData name="Ort">Österreich</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>14.520283768742,47.5064258762944</coordinates></Point>
@@ -1443,12 +1748,13 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.doris.at/</SimpleData>
 		<SimpleData name="Titel">DORIS interMAP – Startseite</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
 		<SimpleData name="Beschreibung">DORIS ist das Digitale Oberösterreichische RaumInformationssystem - das Geographische Informationssystem des Landes Oö.</SimpleData>
 		<SimpleData name="Ort">Oberösterreich</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>13.9723665074214,48.0258540015892</coordinates></Point>
@@ -1457,12 +1763,13 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.noe.gv.at/Land-Zukunft/Karten-Geoinformation.html</SimpleData>
 		<SimpleData name="Titel">Karten &amp; Geoinformationen - Land Niederösterreich</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Portal zur Geodateninfrastruktur des Landes Niederösterreich mit zugang zum NÖ Atlas und einen Downloadbereich mit frei verwendbaren Geodaten (mit Quellenangabe) (Stand: 7.11.2018)</SimpleData>
 		<SimpleData name="Ort">Niederösterreich</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>15.8049557991071,48.1080769937982</coordinates></Point>
@@ -1471,12 +1778,13 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.salzburg.gv.at/sagis/</SimpleData>
 		<SimpleData name="Titel">Land Salzburg - SAGIS - Salzburger Geographisches Informationssystem</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
 		<SimpleData name="Beschreibung"></SimpleData>
 		<SimpleData name="Ort">Salzburg</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>13.0550100068506,47.8094900025792</coordinates></Point>
@@ -1485,26 +1793,28 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.wien.gv.at/viennagis/</SimpleData>
 		<SimpleData name="Titel">ViennaGIS - das Geografische Informationssystem der Stadt Wien</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
 		<SimpleData name="Beschreibung">Geografische Informationssystem (GIS) der Stadt Wien: Übersicht über digitale Pläne und Karten</SimpleData>
 		<SimpleData name="Ort">Wien</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3362910415714,48.2211639225668</coordinates></Point>
+      <Point><coordinates>16.3247456339136,48.2281864369208</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://gis.bgld.gv.at/</SimpleData>
 		<SimpleData name="Titel">GIS Burgenland - Willkommen</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
 		<SimpleData name="Beschreibung"></SimpleData>
 		<SimpleData name="Ort">Burgenland</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>16.2688796918129,47.1537164892016</coordinates></Point>
@@ -1513,12 +1823,13 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.vorarlberg.at/lvg</SimpleData>
 		<SimpleData name="Titel">Land Vorarlberg - Landesvermessungsamt</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
 		<SimpleData name="Beschreibung"></SimpleData>
 		<SimpleData name="Ort">Voralberg</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>9.91627869716687,47.2275159607236</coordinates></Point>
@@ -1527,12 +1838,13 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.tirol.gv.at/tiris</SimpleData>
 		<SimpleData name="Titel">tiris - Tiroler Rauminformationssystem | Land Tirol</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
-		<SimpleData name="Beschreibung">tiris ist das geografische Informationssystem des Landes Tirol. In den Verwaltungsbereichen werden Geodaten über raumbezogene Sachverhalte im tiris Datenpool systematisch gespeichert. Daraus entstehen Geoinformationen wie tirisMaps und Geodatendienste für die amtliche und öffentliche Nutzung im Internet.</SimpleData>
+		<SimpleData name="Beschreibung">“tiris ist das geografische Informationssystem des Landes Tirol. In den Verwaltungsbereichen werden Geodaten über raumbezogene Sachverhalte im tiris Datenpool systematisch gespeichert. Daraus entstehen Geoinformationen wie tirisMaps und Geodatendienste für die amtliche und öffentliche Nutzung im Internet.” (Quelle: tiris, abgerufen am 7.11.2017)</SimpleData>
 		<SimpleData name="Ort">Tirol</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>11.6014870053346,47.2537414027693</coordinates></Point>
@@ -1541,26 +1853,28 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.kagis.ktn.gv.at/</SimpleData>
 		<SimpleData name="Titel">GDI Kärnten – KAGIS</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
-		<SimpleData name="Beschreibung"></SimpleData>
+		<SimpleData name="Beschreibung">Portal zur Geodateninfrastruktur der Landesregierung Kärnten</SimpleData>
 		<SimpleData name="Ort">Kärnten</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>14.1784394596951,46.699805987966</coordinates></Point>
+      <Point><coordinates>14.1805882076936,46.7222030003089</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">http://www.gis.steiermark.at/</SimpleData>
 		<SimpleData name="Titel">Willkommen beim GIS-Steiermark! - Geographisches Informationssystem -  Land Steiermark</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
-		<SimpleData name="Beschreibung">Geoinformationen aus dem Land für das Land</SimpleData>
+		<SimpleData name="Beschreibung">Geodateninfrastruktrur der Steiermark / Österreich</SimpleData>
 		<SimpleData name="Ort">Steiermark</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>14.4699827073984,47.3593442000272</coordinates></Point>
@@ -1569,29 +1883,48 @@
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://www.geo.admin.ch/</SimpleData>
 		<SimpleData name="Titel">Bundes Geodaten-Infrastruktur</SimpleData>
+		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 		<SimpleData name="Land">Schweiz</SimpleData>
-		<SimpleData name="Beschreibung">Overview of newly released geodata sets and updates as well as the latest news from the federal geoportal.</SimpleData>
+		<SimpleData name="Beschreibung">Bundes-Geoportal der Schweiz</SimpleData>
 		<SimpleData name="Ort">Schweiz</SimpleData>
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.22751200148272,46.8181880027196</coordinates></Point>
+      <Point><coordinates>8.22751200148271,46.8181880027196</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="URL">https://mlr.baden-wuerttemberg.de/de/unsere-themen/geodaten/open-data/</SimpleData>
 		<SimpleData name="Titel">Open Data: Ministerium für Ländlichen Raum und Verbraucherschutz Baden-Württemberg</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Kernerplatz 10,
+70182 Stuttgart</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
 		<SimpleData name="Beschreibung">Barrierefrei gestalteter Internetauftritt des Ministerium für Ländlichen Raum und Verbraucherschutz Baden-Württemberg.</SimpleData>
 		<SimpleData name="Ort">Baden-Württemberg</SimpleData>
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
-		<SimpleData name="Geoportal">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.34997770586298,48.6391227425392</coordinates></Point>
+      <Point><coordinates>9.18955080254702,48.783554004059</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="URL">https://geo.sv.rostock.de/</SimpleData>
+		<SimpleData name="Titel">Geoportal.HRO</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Hinter dem Rathaus 5,
+18055 Rostock</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">“Die vorliegende Website richtet sich an Geodaten-Spezialisten, denen das Kataster-, Vermessungs- und Liegenschaftsamt mittels Anleitungen und Links den Zugang zur Geodateninfrastruktur der Hansestadt Rostock (GDI-HRO) erschließen möchte. “ (Quelle: Hansestadt Rostock, aberufen am 7.11.2017)</SimpleData>
+		<SimpleData name="Ort">Rostock</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>12.1418400047758,54.0883200051553</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

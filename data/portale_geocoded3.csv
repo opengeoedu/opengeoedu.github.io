@@ -1,307 +1,275 @@
-URL,Titel,Adresse_Herausgeber,Land,Beschreibung,Ort,Bezug,Staatlich_Öffentlich,Geodaten,GDI,lat,lon
-http://offenedaten.aachen.de/,Aachen Open Data,"Stadt Aachen
+"URL","Titel","Adresse_Herausgeber","Land","Beschreibung","Ort","Bezug","Staatlich_Öffentlich","Geodaten","GDI","lat","lon"
+"http://offenedaten.aachen.de/","Aachen Open Data","Stadt Aachen
 Markt
-52058 Aachen",Deutschland,Open Data Portal der Stadt Aachen mit über 70 Datensätzen von verschiedenen Organisationen einschließlich der Stadt Stolberg und der Gemeinde Roetgen (Stand: 7.11.2017),Aachen,kommunal,ja,,,50.7753,6.0839
-http://www.geoportal-bw.de,GDI Baden-Württemberg,"Landesamt für Geoinformation und Landentwicklung Baden-Württemberg
-Büchsenstraße 54
-70174 Stuttgart",Deutschland,"Amtliche informations- und Kommunikationsplattform des Landes Baden-Würtenberg. Dient als Zugangsknoten zur Geodateninfrastruktur des Landes und informiert über aktuelle Entwicklungen und Projekte. Erlaubt Suche und interaktive Dartstellung von Geodaten für Verwaltung, Wirtschaft, Wissenschaft und den Bürger. (Quelle: GDI Baden-Würtenberg, abgerufen am 26.10.2017)",Baden-Württemberg,regional,ja,ja,ja,48.6616037,9.3501336
-http://www.gdi.bayern.de/,GDI Bayern,"Landesamt für Digitalisierung, Breitband und Vermessung
-Alexandrastraße 4, 80538 München",Deutschland,"Knotenpunkt der GDI der bayrischen Landesregierung: Zugriff u.a. auf das Geoportal Bayern, den BayernAtlas, das Bayrische Frachinformationssystem Naturschutz, Das integrierte Bayerische Landwirtschaftliche Informations-System (iBALIS), das Bodeninformations-
-system Bayern und den Bayerischen Denkmal-Atlas.  (Stand: 7.11.2017)",Bayern,regional,ja,ja,ja,48.7904472,11.4978895
-https://opendata.bayern.de/,Open Data Portal des Freistaats Bayern,"Stabstelle des IT-Beauftragten der Bayerischen Staatsregierung
-Bayerisches Staatsministerium der Finanzen, für Landesentwicklung und Heimat
-Odeonsplatz 4
-80539 München",Deutschland,Open Data Portal der bayrischen Landesregierung,Bayern,regional,ja,,,48.7904472,11.4978895
-http://www.stadtentwicklung.berlin.de/geoinformation/,GDI Berlin,"Senatsverwaltung für Stadtentwicklung und Wohnen
-Württembergische Straße 6
+52058 Aachen","Deutschland","Open Data Portal der Stadt Aachen mit über 70 Datensätzen von verschiedenen Organisationen einschließlich der Stadt Stolberg und der Gemeinde Roetgen (Stand: 7.11.2017)","Aachen","kommunal","ja","","",50.7763861,6.0834249
+"http://www.geoportal-bw.de","GDI Baden-Württemberg","Büchsenstraße 54,
+70174 Stuttgart","Deutschland","Amtliche informations- und Kommunikationsplattform des Landes Baden-Würtenberg. Dient als Zugangsknoten zur Geodateninfrastruktur des Landes und informiert über aktuelle Entwicklungen und Projekte. Erlaubt Suche und interaktive Dartstellung von Geodaten für Verwaltung, Wirtschaft, Wissenschaft und den Bürger. (Quelle: GDI Baden-Würtenberg, abgerufen am 26.10.2017)","Baden-Württemberg","regional","ja","ja","ja",48.77959,9.17149
+"http://www.gdi.bayern.de/","GDI Bayern","Landesamt für Digitalisierung, Breitband und Vermessung
+Alexandrastraße 4, 80538 München","Deutschland","Knotenpunkt der GDI der bayrischen Landesregierung: Zugriff u.a. auf das Geoportal Bayern, den BayernAtlas, das Bayrische Frachinformationssystem Naturschutz, Das integrierte Bayerische Landwirtschaftliche Informations-System (iBALIS), das Bodeninformations-
+system Bayern und den Bayerischen Denkmal-Atlas.  (Stand: 7.11.2017)","Bayern","regional","ja","ja","ja",48.1416298,11.5903348
+"https://opendata.bayern.de/","Open Data Portal des Freistaats Bayern","Odeonsplatz 4,
+80539 München","Deutschland","Open Data Portal der bayrischen Landesregierung","Bayern","regional","ja","","",48.1435708,11.5781023
+"http://www.stadtentwicklung.berlin.de/geoinformation/","GDI Berlin","Württembergische Straße 6,
 10707 Berlin
-",Deutschland,"Das Geoportal Berlin bietet  Informationen und Zugang zur Geodateninfrastruktur des Landes, der Landesvermessung, Liegenschaftskataster, Grundstückswerten und dem Umweltatlas Berlin (Stand: 26.10.2017)",Berlin,regional,ja,ja,ja,52.5200066,13.404954
-http://daten.berlin.de/,Offene Daten Berlin,"Senatsverwaltung für Wirtschaft, Energie und Betriebe
-Martin-Luther-Straße 105
-10825 Berlin",Deutschland,Open Data Portal der Stadt Berlin,Berlin,regional,ja,,,52.5200066,13.404954
-https://www.bochum.de/opendata,Bochum Open Data,"Stadt Bochum
-Referat für Kommunikation, 
-Willy-Brandt-Platz 2-6, 44787 Bochum",Deutschland,„Online-Anwendungen und verschiedene Datensätze der Stadtverwaltung Bochum.“ (Stand 26.10.2017),Bochum,kommunal,ja,,,51.4818,7.2162
-https://opendata.bonn.de/,Open Data Katalog Bonn,"Bundesstadt Bonn
-Der Oberbürgermeister
+","Deutschland","Das Geoportal Berlin bietet  Informationen und Zugang zur Geodateninfrastruktur des Landes, der Landesvermessung, Liegenschaftskataster, Grundstückswerten und dem Umweltatlas Berlin (Stand: 26.10.2017)","Berlin","regional","ja","ja","ja",52.4924669,13.3151812
+"http://daten.berlin.de/","Offene Daten Berlin","Martin-Luther-Straße 105,
+10825 Berlin","Deutschland","Open Data Portal der Stadt Berlin","Berlin","regional","ja","","",52.48325,13.34547
+"https://www.bochum.de/opendata","Bochum Open Data","Willy-Brandt-Platz 2-6, 44787 Bochum","Deutschland","„Online-Anwendungen und verschiedene Datensätze der Stadtverwaltung Bochum.“ (Stand 26.10.2017)","Bochum","kommunal","ja","","",51.4825946,7.2144917
+"https://opendata.bonn.de/","Open Data Katalog Bonn","Bundesstadt Bonn
 Berliner Platz 2
-53111 Bonn",Deutschland,"„Dieses Open Data Portal richtet sich in erster Linie an IT-Entwickler, die mit den angebotenen Datensätze Anwendungen erstellen möchten. So können die Datensätze z.B. für wissenschaftliche Zwecke und Bildungseinrichtungen, für bürgerschaftliches Engagement oder die Anwendungsentwicklung von Internetangeboten bzw. Apps, auch für die kommerzielle Weiternutzung, frei verwendet werden.“ (Quelle: Open Data Katalog Bonn, abgerufen am 26.10.2017)",Bonn,kommunal,ja,,,50.73743,7.0982068
-https://geoportal.brandenburg.de/,GDI Brandenburg,"LGB (Landesvermessung und Geobasisinformation Brandenburg), Heinrich-Mann-Allee 103
-14473 Potsdam",Deutschland,"„Das Land Brandenburg bietet den Nutzern und Anbietern von Geodaten mit dem Geoportal Brandenburg einen zentralen Zugang zu Geodaten. Einfach und komfortabel können Geodaten gesucht und dargestellt werden. Der Zugriff auf verteilte Geodatenbestände wird somit von einer zentralen Stelle aus möglich.“ (Quelle: GDI Brandenburg, abgerufen am 26.10.2017)",Brandenburg,regional,ja,ja,ja,52.1313922,13.2162494
-http://www.braunschweig.de/leben/stadtplanung_bauen/geoinformationen/opengeodata.html,Braunschweig Open GeoData,"Stadt Braunschweig
+53111 Bonn","Deutschland","„Dieses Open Data Portal richtet sich in erster Linie an IT-Entwickler, die mit den angebotenen Datensätze Anwendungen erstellen möchten. So können die Datensätze z.B. für wissenschaftliche Zwecke und Bildungseinrichtungen, für bürgerschaftliches Engagement oder die Anwendungsentwicklung von Internetangeboten bzw. Apps, auch für die kommerzielle Weiternutzung, frei verwendet werden.“ (Quelle: Open Data Katalog Bonn, abgerufen am 26.10.2017)","Bonn","kommunal","ja","","",50.7368697,7.0947594
+"https://geoportal.brandenburg.de/","GDI Brandenburg","Heinrich-Mann-Allee 103,
+14473 Potsdam","Deutschland","„Das Land Brandenburg bietet den Nutzern und Anbietern von Geodaten mit dem Geoportal Brandenburg einen zentralen Zugang zu Geodaten. Einfach und komfortabel können Geodaten gesucht und dargestellt werden. Der Zugriff auf verteilte Geodatenbestände wird somit von einer zentralen Stelle aus möglich.“ (Quelle: GDI Brandenburg, abgerufen am 26.10.2017)","Brandenburg","regional","ja","ja","ja",52.3817851,13.0792814
+"http://www.braunschweig.de/leben/stadtplanung_bauen/geoinformationen/opengeodata.html","Braunschweig Open GeoData","Stadt Braunschweig
 Platz der Deutschen Einheit 1
-38100 Braunschweig",Deutschland,"„Die Stadt Braunschweig veröffentlicht an dieser Stelle ausgewählte Geodaten zur freien Verwendung durch die Bevölkerung, Vereine, Kongressveranstalter und Gewerbeunternehmen.“ (Quelle: Braunschweig OpenGeoData, abgerufen am 26.10.2017)",Braunschweig,kommunal,ja,,,52.2689,10.5268
-http://gdi.bremen.de/,GDI Bremen,"Koordinierungsstelle GDI-FHB
-bei GeoInformation Bremen
-Landesamt für Kataster - Vermessung - Immobilienbewertung - Informationssysteme
-Lloydstr. 4, 28217 Bremen ",Deutschland,"„Die Geodateninfrastruktur der Freien Hansestadt Bremen (GDI-FHB) hat zum Ziel, die in den Verwaltungen des Landes, bei der Stadt Bremen und beim Magistrat Bremerhaven vorhandenen Geodaten und Geodatendienste für Politik, Verwaltung, Wirtschaft, Wissenschaft und Öffentlichkeit zu vernetzen, verfügbar zu machen und deren Nutzung zu erleichtern.“  (Quelle: GDI Bremen, abgerufen am 26.10.2017)",Bremen,regional,ja,ja,ja,53.0792962,8.8016936
-http://transparenz.bremen.de/,Transparenzportal Bremen,"Die Senatorin für Finanzen 
-der Freien Hansestadt Bremen
-Rudolf-Hilferding-Platz 1
-28195 Bremen",Deutschland,"„Das Bremische Transparenzportal wird aus über 150 technischen Systemen mit Dokumenten und Datensätzen (Open Data) beliefert. Wenn die Schulen mitgerechnet werden, beliefern sogar über 200 Systeme das Portal.
+38100 Braunschweig","Deutschland","„Die Stadt Braunschweig veröffentlicht an dieser Stelle ausgewählte Geodaten zur freien Verwendung durch die Bevölkerung, Vereine, Kongressveranstalter und Gewerbeunternehmen.“ (Quelle: Braunschweig OpenGeoData, abgerufen am 26.10.2017)","Braunschweig","kommunal","ja","","",52.2642621,10.5252148
+"http://gdi.bremen.de/","GDI Bremen","
+Lloydstr. 4, 28217 Bremen ","Deutschland","„Die Geodateninfrastruktur der Freien Hansestadt Bremen (GDI-FHB) hat zum Ziel, die in den Verwaltungen des Landes, bei der Stadt Bremen und beim Magistrat Bremerhaven vorhandenen Geodaten und Geodatendienste für Politik, Verwaltung, Wirtschaft, Wissenschaft und Öffentlichkeit zu vernetzen, verfügbar zu machen und deren Nutzung zu erleichtern.“  (Quelle: GDI Bremen, abgerufen am 26.10.2017)","Bremen","regional","ja","ja","ja",53.0841333,8.7879509
+"http://transparenz.bremen.de/","Transparenzportal Bremen","Rudolf-Hilferding-Platz 1,
+28195 Bremen","Deutschland","„Das Bremische Transparenzportal wird aus über 150 technischen Systemen mit Dokumenten und Datensätzen (Open Data) beliefert. Wenn die Schulen mitgerechnet werden, beliefern sogar über 200 Systeme das Portal.
 
-Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert in das Transparenzportal.“ (Quelle: Transparenzportal Bremen. Technischer Aufbau und Funktionsweise des Transparenzportals, abgerufen am 26.10.2017)",Bremen,regional,ja,,,53.0792962,8.8016936
-http://portal.chemnitz.opendata.arcgis.com/,Open Data Stadt Chemnitz,"Rathaus,
+Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert in das Transparenzportal.“ (Quelle: Transparenzportal Bremen. Technischer Aufbau und Funktionsweise des Transparenzportals, abgerufen am 26.10.2017)","Bremen","regional","ja","","",53.07917,8.81249
+"http://portal.chemnitz.opendata.arcgis.com/","Open Data Stadt Chemnitz","Rathaus,
 Markt 1,
 09111 Chemnitz
-",Deutschland,Open-Data-Portal der Stadt Chemnitz,Chemnitz,kommunal,ja,,,50.8325,12.9253
-http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div?gdz_spr=deu&gdz_akt_zeile=5&gdz_anz_zeile=0&gdz_user_id=0,Open Data - Freie Daten und Dienste des Bundesamt für Kartographie und Geodäsie (BKG),"Bundesamt für Kartographie und Geodäsie (BKG), Richard-Strauss-Allee 11
-60598 Frankfurt am Main",Deutschland,"„Die hier angebotenen Geodaten stehen unter verschiedenen Lizenzen geldleistungsfrei zum Download und zur Online-Nutzung zur Verfügung.“ (Quelle: Open Data BKG , abgerufen am 26.10.2017)",Deutschland,national,ja,ja,,51.165691,10.451526
-https://code-de.org/,CODE-DE,"Bundesministerium für Verkehr und digitale Infrastruktur
-Invalidenstraße 44
-D-10115 Berlin",Deutschland,"„CODE-DE ist der deutsche Zugang zu den Daten des europäischen Erdbeobachtungsprogramms Copernicus. Dieses Programm der Europäischen Union stellt als Basis der Umweltbeobachtungen Satellitendaten der sogenannten Sentinel-Reihe zur Verfügung.“ (Quelle: CODE-DE, abgerufen am 26.10.2017)",Deutschland,national,teilweise,ja,,51.165691,10.451526
-http://www.geoportal.de/,GDI-DE - Geodaten aus Deutschland,"Bundesamt für Kartographie und Geodäsie,
-Richard-Strauss-Allee 11
-60598 Frankfurt am Main",Deutschland,"„Geodaten aus Deutschland. Ihr Weg zu mehr Wissen. Landkarten, Luftbilder, Themenkarten. Von Energie bis Naturschutz: Hier bei Geoportal.de können Sie Geodaten aus ganz Deutschland recherchieren. Viele Suchergebnisse können Sie sich schon heute als Karte anzeigen lassen und miteinander verknüpfen. Geoportal.de ist ein Service von Bund, Ländern und Kommunen. Für interessierte Bürgerinnen und Bürger und für die Fachwelt. Ein Beitrag zur offenen Wissens- und Informationsgesellschaft. Geoportal.de bietet Ihnen einen umfassenden Überblick. Derzeit stehen hier mehr als 120 000 Einträge. Und die Zahl wächst. Themenkarten verknüpfen Daten zu Informationen für die Praxis. Etwa zu chancenreichen Standorten für neue Windkraftwerke.“ (Quelle: GDI-DE, abgerufen am 26.10.2017)",Deutschland,national,ja,ja,ja,51.165691,10.451526
-http://dblp.org/,DBLP computer science bibliography,"Dr. Michael Ley
-Universität Trier
-H538, Campus II",Deutschland,"„The dblp computer science bibliography is the on-line reference for open bibliographic information on computer science journals and proceedings“ (Quelle: DBLP computer science bibliography, abgerufen am 26.10.2017)",Deutschland,national,nein,,,49.5308783,6.8972197
-http://destatis.de/,Destatis - Statistisches Bundesamt,"Statistisches Bundesamt
+","Deutschland","Open-Data-Portal der Stadt Chemnitz","Chemnitz","kommunal","ja","","",50.8333004,12.9197061
+"http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div?gdz_spr=deu&gdz_akt_zeile=5&gdz_anz_zeile=0&gdz_user_id=0","Open Data - Freie Daten und Dienste des Bundesamt für Kartographie und Geodäsie (BKG)","Richard-Strauss-Allee 11
+60598 Frankfurt am Main","Deutschland","„Die hier angebotenen Geodaten stehen unter verschiedenen Lizenzen geldleistungsfrei zum Download und zur Online-Nutzung zur Verfügung.“ (Quelle: Open Data BKG , abgerufen am 26.10.2017)","Deutschland","national","ja","ja","",50.09097,8.66326
+"https://code-de.org/","CODE-DE","
+Invalidenstraße 44,
+D-10115 Berlin","Deutschland","„CODE-DE ist der deutsche Zugang zu den Daten des europäischen Erdbeobachtungsprogramms Copernicus. Dieses Programm der Europäischen Union stellt als Basis der Umweltbeobachtungen Satellitendaten der sogenannten Sentinel-Reihe zur Verfügung.“ (Quelle: CODE-DE, abgerufen am 26.10.2017)","Deutschland","national","teilweise","ja","",52.529473,13.37849
+"http://www.geoportal.de/","GDI-DE - Geodaten aus Deutschland","Richard-Strauss-Allee 11,
+60598 Frankfurt am Main","Deutschland","„Geodaten aus Deutschland. Ihr Weg zu mehr Wissen. Landkarten, Luftbilder, Themenkarten. Von Energie bis Naturschutz: Hier bei Geoportal.de können Sie Geodaten aus ganz Deutschland recherchieren. Viele Suchergebnisse können Sie sich schon heute als Karte anzeigen lassen und miteinander verknüpfen. Geoportal.de ist ein Service von Bund, Ländern und Kommunen. Für interessierte Bürgerinnen und Bürger und für die Fachwelt. Ein Beitrag zur offenen Wissens- und Informationsgesellschaft. Geoportal.de bietet Ihnen einen umfassenden Überblick. Derzeit stehen hier mehr als 120 000 Einträge. Und die Zahl wächst. Themenkarten verknüpfen Daten zu Informationen für die Praxis. Etwa zu chancenreichen Standorten für neue Windkraftwerke.“ (Quelle: GDI-DE, abgerufen am 26.10.2017)","Deutschland","national","ja","ja","ja",50.09097,8.66326
+"http://dblp.org/","DBLP computer science bibliography","
+Behringstraße 1, 54296 Trier","Deutschland","„The dblp computer science bibliography is the on-line reference for open bibliographic information on computer science journals and proceedings“ (Quelle: DBLP computer science bibliography, abgerufen am 26.10.2017)","Deutschland","national","nein","","",49.751181,6.676276
+"http://destatis.de/","Destatis - Statistisches Bundesamt","
 Gustav-Stresemann-Ring 11
-D-65189 Wiesbaden",Deutschland,"Internetangebot des Statistischen Bundesamtes mit aktuellen Informationen, Publikationen, Zahlen und Fakten der amtlichen Statistik",Deutschland,national,ja,,,52.5243681651,13.4105300903
-http://data.deutschebahn.com/,Deutsche Bahn Open Data,"Deutsche Bahn AG, Potsdamer Platz 2 10785 Berlin",Deutschland,"„Auf diesem Portal veröffentlicht die Deutsche Bahn AG einen wachsenden Datenbestand rund um Infrastruktur und Mobilität.“ (Quelle: Deutsche Bahn Open Data, abgerufen am 26.10.2017)",Deutschland,national,nein,,,52.5243681651,13.4105300903
-http://opendata.esri-de.opendata.arcgis.com/,Esri Deutschland Open Data Portal,"Esri Deutschland GmbH
+D-65189 Wiesbaden","Deutschland","Internetangebot des Statistischen Bundesamtes mit aktuellen Informationen, Publikationen, Zahlen und Fakten der amtlichen Statistik","Deutschland","national","ja","","",50.0710226,8.252363
+"http://data.deutschebahn.com/","Deutsche Bahn Open Data","Potsdamer Platz 2 10785 Berlin","Deutschland","„Auf diesem Portal veröffentlicht die Deutsche Bahn AG einen wachsenden Datenbestand rund um Infrastruktur und Mobilität.“ (Quelle: Deutsche Bahn Open Data, abgerufen am 26.10.2017)","Deutschland","national","nein","","",52.5096436,13.3750654
+"http://opendata.esri-de.opendata.arcgis.com/","Esri Deutschland Open Data Portal","Esri Deutschland GmbH
 Ringstraße 7
-85402 Kranzberg",Deutschland,"„Entdecken Sie hier Open (Geo-)Data, Karten und Apps aus Deutschland zur sofortigen Nutzung und zum Download. Sie können nach Tags in Kategorien, nach beliebigen Begriffen oder Orten im Suchfeld fahnden. Entwickler können über den API Explorer direkt eine Verbindung zu jedem hier gelisteten Datensatz aufbauen oder die Daten als GeoJSON herunterladen. Dieses Portal stellt in ArcGIS Online veröffentlichte Open Data-Beiträge von Kunden und von Esri Deutschland sowie ausgewählte und republizierte Open Data aus fremden Portalen bereit.“ (Quelle: Esri Deutschland Open Data Portal)",Deutschland,national,nein,,,52.5243681651,13.4105300903
-http://sdw.ecb.europa.eu/,European Central Bank - Statistical Data Warehouse,"European Central Bank 
+85402 Kranzberg","Deutschland","„Entdecken Sie hier Open (Geo-)Data, Karten und Apps aus Deutschland zur sofortigen Nutzung und zum Download. Sie können nach Tags in Kategorien, nach beliebigen Begriffen oder Orten im Suchfeld fahnden. Entwickler können über den API Explorer direkt eine Verbindung zu jedem hier gelisteten Datensatz aufbauen oder die Daten als GeoJSON herunterladen. Dieses Portal stellt in ArcGIS Online veröffentlichte Open Data-Beiträge von Kunden und von Esri Deutschland sowie ausgewählte und republizierte Open Data aus fremden Portalen bereit.“ (Quelle: Esri Deutschland Open Data Portal)","Deutschland","national","nein","","",48.406497,11.609299
+"http://sdw.ecb.europa.eu/","European Central Bank - Statistical Data Warehouse","European Central Bank 
 Sonnemannstrasse 22 
-60314 Frankfurt am Main ",Deutschland,"„SDW provides features to access, find, compare, download and share the ECB’s published statistical information.“ (Quelle: SDW, abgerufen am 26.10.2017)",Deutschland,national,ja,,,50.1109,8.6821
-http://offenedaten.de/,Offenedaten.de,"Open Knowledge Foundation Deutschland e.V.
+60314 Frankfurt am Main ","Deutschland","„SDW provides features to access, find, compare, download and share the ECB’s published statistical information.“ (Quelle: SDW, abgerufen am 26.10.2017)","Deutschland","national","ja","","",50.1089111,8.7034507
+"http://offenedaten.de/","Offenedaten.de","
 Singerstr. 109
-10179 Berlin",Deutschland,"„OffeneDaten.de ist ein Datenkatalog für offene Daten in Deutschland. Die Seite wurde 2010 von engagierten Bürgern initiiert, weil es bis Dato kein vergleichbares Angebot in Deutschland gab.“ (Quelle: Offenedaten.de, abgerufen am 26.10.2017)",Deutschland,national,nein,,,52.5243681651,13.4105300903
-https://www.offenesdatenportal.de/,Offenesdatenportal.de,"Zweckverband Kommunales Rechenzentrum Niederrhein (KRZN),
+10179 Berlin","Deutschland","„OffeneDaten.de ist ein Datenkatalog für offene Daten in Deutschland. Die Seite wurde 2010 von engagierten Bürgern initiiert, weil es bis Dato kein vergleichbares Angebot in Deutschland gab.“ (Quelle: Offenedaten.de, abgerufen am 26.10.2017)","Deutschland","national","nein","","",52.5167398,13.4253737
+"https://www.offenesdatenportal.de/","Offenesdatenportal.de","
 Friedrich-Heinrich-Allee 130.
-47475 Kamp-Lintfort",Deutschland,"„Die Kommunalverwaltungen in Deutschland bietet Ihnen auf diesem Portal zahlreiche Datensätze, Dienste und Anwendungen der Behörden und Ämter an. Die Datensätze werden von der Verwaltung im Sinne von „Open Data“ frei verfügbar und nutzbar in entsprechenden Kommunalportalen zur Verfügung gestellt. Sie können entsprechend der Nutzungsbedingungen und Lizenzen weiterverwendet werden, beispielweise für die Entwicklung von Apps.“ (Quelle: Offenesdatenportal.de, abgerufen am 26.10.2017)",Deutschland,kommunal,nein,,,52.5243681651,13.4105300903
-http://segelflug.de/vereine/welt2000/,Welt 2000 Airports/waypoints,,Deutschland,"„WELT2000 ist eine freie Datenbank mit Daten von Flugplätzen und Außenlandefeldern weltweit. Die Daten sind Basis vieler Geräte und Programme für den Luftsport. WELT2000 wird von Luftsportlern für Luftsportler gemacht.“ (Quelle: WELT2000, abgerufen am 26.10.2017)",Deutschland,international,nein,,,52.5243681651,13.4105300903
-https://www.govdata.de/,GovData - das Datenportal für Deutschland,"Finanzbehörde
-Geschäfts- und Koordinierungsstelle GovData
-Postfach 30 17 41
-20306 Hamburg",Deutschland,"„Auf GovData, dem Datenportal für Deutschland sind Daten aller Verwaltungsebenen zentral zugänglich. Aktuelle Infos und Ähnliches finden Sie im Blog von GovData.“ (Quelle: GovData, abgerufen am 26.10.2017)",Deutschland,national,ja,,,51.165691,10.451526
-https://www.mcloud.de/,mCloud,"Bundesministerium für Verkehr und digitale Infrastruktur
-Referat DG25 Open Data, Modernitätsfonds
-Robert-Schuman-Platz 1
-D 53175 Bonn",Deutschland,"„Die mCLOUD ist eine Rechercheplattform zu offenen Daten aus dem Bereich Mobilität und angrenzender Themen. Das BMVI stellt mit der mCLOUD einen zentralen Zugangspunkt zu allen offenen Daten seines Geschäftsbereiches zur Verfügung und öffnet das Portal auch für private Anbieter aus dem Mobilitätsbereich, um ihre Daten dort anzubieten.“ (Quelle: mCloud, abgerufen am 26.10.2017/",Deutschland,national,ja,,,51.165691,10.451526
-http://freiegeodatenlandkreisdiepholz-geoweb-diepholz.opendata.arcgis.com/,Open Geodata Landkreis Diepholz,"Fachdienst 67 Kreisentwicklung,
-Kreishaus Diepholz,
+47475 Kamp-Lintfort","Deutschland","„Die Kommunalverwaltungen in Deutschland bietet Ihnen auf diesem Portal zahlreiche Datensätze, Dienste und Anwendungen der Behörden und Ämter an. Die Datensätze werden von der Verwaltung im Sinne von „Open Data“ frei verfügbar und nutzbar in entsprechenden Kommunalportalen zur Verfügung gestellt. Sie können entsprechend der Nutzungsbedingungen und Lizenzen weiterverwendet werden, beispielweise für die Entwicklung von Apps.“ (Quelle: Offenesdatenportal.de, abgerufen am 26.10.2017)","Deutschland","kommunal","nein","","",51.48685,6.54742
+"http://segelflug.de/vereine/welt2000/","Welt 2000 Airports/waypoints","","Deutschland","„WELT2000 ist eine freie Datenbank mit Daten von Flugplätzen und Außenlandefeldern weltweit. Die Daten sind Basis vieler Geräte und Programme für den Luftsport. WELT2000 wird von Luftsportlern für Luftsportler gemacht.“ (Quelle: WELT2000, abgerufen am 26.10.2017)","Deutschland","international","nein","","",52.5243681651,13.4105300903
+"https://www.govdata.de/","GovData - das Datenportal für Deutschland","20306 Hamburg","Deutschland","„Auf GovData, dem Datenportal für Deutschland sind Daten aller Verwaltungsebenen zentral zugänglich. Aktuelle Infos und Ähnliches finden Sie im Blog von GovData.“ (Quelle: GovData, abgerufen am 26.10.2017)","Deutschland","national","ja","","",53.5510846,9.9936819
+"https://www.mcloud.de/","mCloud","Robert-Schuman-Platz 1,
+D 53175 Bonn","Deutschland","„Die mCLOUD ist eine Rechercheplattform zu offenen Daten aus dem Bereich Mobilität und angrenzender Themen. Das BMVI stellt mit der mCLOUD einen zentralen Zugangspunkt zu allen offenen Daten seines Geschäftsbereiches zur Verfügung und öffnet das Portal auch für private Anbieter aus dem Mobilitätsbereich, um ihre Daten dort anzubieten.“ (Quelle: mCloud, abgerufen am 26.10.2017/","Deutschland","national","ja","","",50.7055006,7.1392899
+"http://freiegeodatenlandkreisdiepholz-geoweb-diepholz.opendata.arcgis.com/","Open Geodata Landkreis Diepholz","
 Niedersachsenstr. 2
-49356 Diepholz",Deutschland,"„Die hier angebotenen Geodaten sind für alle interessierten Nutzer in maschinenlesbaren Formaten frei zugänglich. Sie beinhalteten anwendungsspezifische Fachinformationen zum Landkreis Diepholz und stammen aus der zentralen Geodatenbank des Geoinformationssystems. Die angebotenen Geodaten werden in Echtzeit zur Verfügung gestellt, so dass die verfügbaren Inhalte den intern verwendeten Strukturen entsprechen. Lediglich personenbezogene Inhalte bzw. Inhalte nur für den Dienstgebrauch sind ausgeblendet. Daten, die der Landkreis in Lizenz nutzt, können hier nicht angeboten werden. Die angebotene Inhalte sind lizenziert unter einer Datenlizenz Deutschland – Namensnennung – Version 2.0“ (Quelle: Open Geodata Landkreis Diepholz, abgerufen am 26.10.2017)",Diepholz,kommunal,ja,,,52.7195263,8.7462162
-http://www.offenedaten.frankfurt.de,offenedaten.frankfurt.de,"Stadt Frankfurt am Main
+49356 Diepholz","Deutschland","„Die hier angebotenen Geodaten sind für alle interessierten Nutzer in maschinenlesbaren Formaten frei zugänglich. Sie beinhalteten anwendungsspezifische Fachinformationen zum Landkreis Diepholz und stammen aus der zentralen Geodatenbank des Geoinformationssystems. Die angebotenen Geodaten werden in Echtzeit zur Verfügung gestellt, so dass die verfügbaren Inhalte den intern verwendeten Strukturen entsprechen. Lediglich personenbezogene Inhalte bzw. Inhalte nur für den Dienstgebrauch sind ausgeblendet. Daten, die der Landkreis in Lizenz nutzt, können hier nicht angeboten werden. Die angebotene Inhalte sind lizenziert unter einer Datenlizenz Deutschland – Namensnennung – Version 2.0“ (Quelle: Open Geodata Landkreis Diepholz, abgerufen am 26.10.2017)","Diepholz","kommunal","ja","","",52.60832,8.37561
+"http://www.offenedaten.frankfurt.de","offenedaten.frankfurt.de","Stadt Frankfurt am Main
 Zanderstraße 7
-60327 Frankfurt am Main",Deutschland,"„Hier finden Sie offene Daten aus den Ämtern und Betriebender Stadtverwaltung Frankfurt am Main. Es handelt sich um „offene“ Daten, weil die Stadt Frankfurt die Datensätze zur freien Nutzung und in offenen, maschinenlesbaren Formaten bereitstellt. Wir folgen hier der Idee, die allgemein als Open Data bezeichnet wird.“  (Quelle: Offene Daten Frankfurt, abgerufen am 26.10.2017)",Frankfurt am Main,kommunal,ja,,,50.1109221,8.6821267
-http://fritz.freiburg.de/,Freiburg FRITZ Online Statistics,"Stadt Freiburg im Breisgau
+60327 Frankfurt am Main","Deutschland","„Hier finden Sie offene Daten aus den Ämtern und Betriebender Stadtverwaltung Frankfurt am Main. Es handelt sich um „offene“ Daten, weil die Stadt Frankfurt die Datensätze zur freien Nutzung und in offenen, maschinenlesbaren Formaten bereitstellt. Wir folgen hier der Idee, die allgemein als Open Data bezeichnet wird.“  (Quelle: Offene Daten Frankfurt, abgerufen am 26.10.2017)","Frankfurt am Main","kommunal","ja","","",50.1001299,8.6581877
+"http://fritz.freiburg.de/","Freiburg FRITZ Online Statistics","Stadt Freiburg im Breisgau
 Rathausplatz 2 - 4
-79098 Freiburg",Deutschland,Statistik-Portal der Stadt Freiburg im Breisgau (enthält u.a. die Themen „Open Data“ und „Geodaten“),Freiburg im Breisgau,kommunal,Ja,ja,,47.9990077,7.8421043
-https://opendata.gelsenkirchen.de/,Offene Daten Gelsenkirchen,"Stadt Gelsenkirchen
+79098 Freiburg","Deutschland","Statistik-Portal der Stadt Freiburg im Breisgau (enthält u.a. die Themen „Open Data“ und „Geodaten“)","Freiburg im Breisgau","kommunal","Ja","ja","",47.996437,7.8492045
+"https://opendata.gelsenkirchen.de/","Offene Daten Gelsenkirchen","Stadt Gelsenkirchen
 Ebertstraße 11
-45879 Gelsenkirchen",Deutschland,"„Die Daten Deiner Stadt gehören Dir. Wir – die Stadt Gelsenkirchen – öffnen sie und Du machst was draus. Zum Beispiel Webanwendungen wie Apps oder Internetseiten. So haben alle etwas davon: Du weißt mehr über deine Stadt und viele Menschen profitieren von Deinem Wissen. Sei Teil der digitalen Revolution!“  (Quelle: Offene Daten Gelsenkirchen, abgerufen am 26.10.2017)",Gelsenkirchen,kommunal,ja,,,51.517744,7.0857172
-http://www.daten.halle.de,Halle an der Saale Open Data,"Stadt Halle, 
+45879 Gelsenkirchen","Deutschland","„Die Daten Deiner Stadt gehören Dir. Wir – die Stadt Gelsenkirchen – öffnen sie und Du machst was draus. Zum Beispiel Webanwendungen wie Apps oder Internetseiten. So haben alle etwas davon: Du weißt mehr über deine Stadt und viele Menschen profitieren von Deinem Wissen. Sei Teil der digitalen Revolution!“  (Quelle: Offene Daten Gelsenkirchen, abgerufen am 26.10.2017)","Gelsenkirchen","kommunal","ja","","",51.5112186,7.0929071
+"http://www.daten.halle.de","Halle an der Saale Open Data","Stadt Halle, 
 Marktplatz 1, 
-06100 Halle",Deutschland,"„Auf dem Weg zu einem eigenen Open-Data-Portal gibt die Stadtverwaltung verschiedene Datensätze in bspw. CSV- und Excel-Formaten frei.
+06100 Halle","Deutschland","„Auf dem Weg zu einem eigenen Open-Data-Portal gibt die Stadtverwaltung verschiedene Datensätze in bspw. CSV- und Excel-Formaten frei.
 
-Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien Verfügung einzustellen.“ (Quelle: http://www.daten.halle.de, abgerufen am 26.10.2017)",Halle an der Saale,kommunal,ja,,,51.4969802,11.9688029
-http://www.hamburg.de/gdi-hh,GDI Hamburg,"Landesbetrieb Geoinformation und Vermessung Neuenfelder Straße 19
-21109 Hamburg",Deutschland,"Eine Geodateninfrastruktur (GDI) ist ein komplexes Netzwerk zum standardisierten Austausch von Geodaten mit dem Ziel, diese leichter zugänglich und kombinierbar zu machen. Eine GDI wird auf verschiedenen Ebenen aufgebaut. Dabei ist die Geodateninfrastruktur Hamburg (GDI-HH) sowohl eigenständig, als auch ein Bestandteil der GDI-DE.",Hamburg,regional,ja,ja,ja,53.5510846,9.9936819
-http://daten.hamburg.de/,Transparenzportal Hamburg,"Freie und Hansestadt Hamburg
+Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien Verfügung einzustellen.“ (Quelle: http://www.daten.halle.de, abgerufen am 26.10.2017)","Halle an der Saale","kommunal","ja","","",51.4823602,11.9715834
+"http://www.hamburg.de/gdi-hh","GDI Hamburg","Neuenfelder Straße 19
+21109 Hamburg","Deutschland","Eine Geodateninfrastruktur (GDI) ist ein komplexes Netzwerk zum standardisierten Austausch von Geodaten mit dem Ziel, diese leichter zugänglich und kombinierbar zu machen. Eine GDI wird auf verschiedenen Ebenen aufgebaut. Dabei ist die Geodateninfrastruktur Hamburg (GDI-HH) sowohl eigenständig, als auch ein Bestandteil der GDI-DE.","Hamburg","regional","ja","ja","ja",53.4982137,10.0033827
+"http://daten.hamburg.de/","Transparenzportal Hamburg","Freie und Hansestadt Hamburg
 Rathausmarkt 1
-20095 Hamburg",Deutschland,"Die bisher unter dem Open Data Portal veröffentlichten Daten, finden Sie nun hier im Transparenzportal.",Hamburg,regional,ja,,,53.5510846,9.9936819
-https://www.opendata-hro.de/,OpenData.HRO,"Hansestadt Rostock
-Büro des Oberbürgermeisters
-Presse- und Informationsstelle
-18050 Rostock",Deutschland,"„Die Hansestadt Rostock sammelt und pflegt eine Vielzahl von Daten. Diese Daten bergen enormes Potenzial für Innovationen, sofern sie als offene Daten für jedermann frei zugänglich gemacht werden und sie für jegliche Zwecke weiterverwendet und -verbreitet werden können – insbesondere auch für kommerzielle Zwecke. Das vorliegende Portal dient als zentrale Plattform zur Veröffentlichung offener Daten der Hansestadt Rostock.“ (Quelle: OpenData.HRO, abgerufen am 26.10.2017)",Hansestadt Rostock,kommunal,ja,,,54.0924406,12.0991466
-http://www.herne.de/Stadt-und-Leben/Stadtfakten/Open-Data/,Herne Open Data,"Stadt Herne
+20095 Hamburg","Deutschland","Die bisher unter dem Open Data Portal veröffentlichten Daten, finden Sie nun hier im Transparenzportal.","Hamburg","regional","ja","","",53.5497212,9.9922993
+"https://www.opendata-hro.de/","OpenData.HRO","Hansestadt Rostock,
+18050 Rostock","Deutschland","„Die Hansestadt Rostock sammelt und pflegt eine Vielzahl von Daten. Diese Daten bergen enormes Potenzial für Innovationen, sofern sie als offene Daten für jedermann frei zugänglich gemacht werden und sie für jegliche Zwecke weiterverwendet und -verbreitet werden können – insbesondere auch für kommerzielle Zwecke. Das vorliegende Portal dient als zentrale Plattform zur Veröffentlichung offener Daten der Hansestadt Rostock.“ (Quelle: OpenData.HRO, abgerufen am 26.10.2017)","Hansestadt Rostock","kommunal","ja","","",54.0924406,12.0991466
+"http://www.herne.de/Stadt-und-Leben/Stadtfakten/Open-Data/","Herne Open Data","Stadt Herne
 Friedrich-Ebert-Platz 2
 44623 Herne
-",Deutschland,"„Im Open Data Portal der Stadt Herne werden verschiedene Datensätze der Stadtverwaltung veröffentlicht.“ (Quelle: Herne Open Data, abgerufen am 26.10.2017)",Herne,kommunal,ja,,,51.5369,7.2009
-http://www.geoportal.hessen.de/,GDI Hessen,"Zentrale Kompetenzstelle für Geoinformation
-c/o Hessisches Landesamt für Bodenmanagement und Geoinformation
-Schaperstraße 16
-65195 Wiesbaden",Deutschland,"„Das Geoportal Hessen ist der zentrale Einstiegspunkt in die Geodateninfrastruktur Hessen und bietet einen einheitlichen und einfachen Zugang zu raumbezogenen Daten des Landes Hessen im Internet. Hier steht die Karte im Mittelpunkt.“ (Quelle: GDI Hessen, abgerufen am 26.10.2017)",Hessen,regional,ja,ja,ja,50.6520515,9.1624376
-http://opendata.jena.de/,Jena OpenData,"Am Anger 15
+","Deutschland","„Im Open Data Portal der Stadt Herne werden verschiedene Datensätze der Stadtverwaltung veröffentlicht.“ (Quelle: Herne Open Data, abgerufen am 26.10.2017)","Herne","kommunal","ja","","",51.5382,7.21931
+"http://www.geoportal.hessen.de/","GDI Hessen","Schaperstraße 16,
+65195 Wiesbaden","Deutschland","„Das Geoportal Hessen ist der zentrale Einstiegspunkt in die Geodateninfrastruktur Hessen und bietet einen einheitlichen und einfachen Zugang zu raumbezogenen Daten des Landes Hessen im Internet. Hier steht die Karte im Mittelpunkt.“ (Quelle: GDI Hessen, abgerufen am 26.10.2017)","Hessen","regional","ja","ja","ja",50.08823,8.22582
+"http://opendata.jena.de/","Jena OpenData","Am Anger 15
 07743 Jena
-",Deutschland,"„Das Portal dient der Veröffentlichung von offenen Daten der Stadt Jena zur freien Verwendung und Nutzung entsprechend der Lizenzierung. Der Umfang der Datensätze wird kontinuierlich erweitert. Wir stellen sowohl dynamische als auch statische Daten zur Verfügung.“ (Quelle: Jena Open Data, abgerufen am 26.10.2017)",Jena,kommunal,ja,,,50.9279397,11.5881048
-https://www.offenesdatenportal.de/organization/kreis-kleve,Kreis Kleve Open Data,"Zweckverband Kommunales Rechenzentrum Niederrhein (KRZN)
-Friedrich-Heinrich-Allee 130
+","Deutschland","„Das Portal dient der Veröffentlichung von offenen Daten der Stadt Jena zur freien Verwendung und Nutzung entsprechend der Lizenzierung. Der Umfang der Datensätze wird kontinuierlich erweitert. Wir stellen sowohl dynamische als auch statische Daten zur Verfügung.“ (Quelle: Jena Open Data, abgerufen am 26.10.2017)","Jena","kommunal","ja","","",50.93091,11.59157
+"https://www.offenesdatenportal.de/organization/kreis-kleve","Kreis Kleve Open Data","Friedrich-Heinrich-Allee 130,
 47475 Kamp-Lintfort
-Deutschland ",Deutschland,"Open Data Portal des Kreises Kleve  auf der Plattform offenesdatenportal.de, 83 Datensätze nach 7 Gruppen geordnet, u.a. zur öffentlichen Verwalltung, Wirtschaft und Arbeit, Transport und Verkehr (Stand: 26.10.2017)",Kleve,kommunal,ja,,,51.7867,6.1295
-https://www.offenesdatenportal.de/organization/stadt-kleve,Stadt Kleve Open Data,"Zweckverband Kommunales Rechenzentrum Niederrhein (KRZN)
-Friedrich-Heinrich-Allee 130
+","Deutschland","Open Data Portal des Kreises Kleve  auf der Plattform offenesdatenportal.de, 83 Datensätze nach 7 Gruppen geordnet, u.a. zur öffentlichen Verwalltung, Wirtschaft und Arbeit, Transport und Verkehr (Stand: 26.10.2017)","Kleve","kommunal","ja","","",51.48685,6.54742
+"https://www.offenesdatenportal.de/organization/stadt-kleve","Stadt Kleve Open Data","Friedrich-Heinrich-Allee 130,
 47475 Kamp-Lintfort
-Deutschland ",Deutschland,"Open Data der Stadt Kleve auf der Plattform offenesdatenportal.de, 46 Datensätze mit verschiedenen Tags versehen, Bezug u.a. demographische Daten, öffentlichen Einrichtungen und Flächennutzung (Stand: 26.10.2017)",Kleve,kommunal,ja,,,51.3388,6.5853
-https://www.offenedaten-koeln.de/,Offene Daten Köln,,Deutschland,"Offene Daten Der Stadt Köln mit Datensätzen verschiedener Einrichtungen, u. a. Kölner Zoo, Stadtbibilothek, Polizei, Verkehrsverbund Rhein-Sieg GmbH, Kölner Verkehrs-Betriebe AG, Feuerwehr Koeln, AWB Abfallwirtschaftsbetriebe Köln GmbH, FH Köln, cambio Carsharing  (Stand: 26.10.2017)",Köln,kommunal,ja,,,50.937531,6.9602786
-https://www.offenesdatenportal.de/organization/krefeld,Krefeld Open Data,"Zweckverband Kommunales Rechenzentrum Niederrhein (KRZN)
-Friedrich-Heinrich-Allee 130
+","Deutschland","Open Data der Stadt Kleve auf der Plattform offenesdatenportal.de, 46 Datensätze mit verschiedenen Tags versehen, Bezug u.a. demographische Daten, öffentlichen Einrichtungen und Flächennutzung (Stand: 26.10.2017)","Kleve","kommunal","ja","","",51.48685,6.54742
+"https://www.offenedaten-koeln.de/","Offene Daten Köln","","Deutschland","Offene Daten der Stadt Köln mit Datensätzen verschiedener Einrichtungen, u. a. Kölner Zoo, Stadtbibilothek, Polizei, Verkehrsverbund Rhein-Sieg GmbH, Kölner Verkehrs-Betriebe AG, Feuerwehr Koeln, AWB Abfallwirtschaftsbetriebe Köln GmbH, FH Köln, cambio Carsharing  (Stand: 26.10.2017)","Köln","kommunal","ja","","",50.937531,6.9602786
+"https://www.offenesdatenportal.de/organization/krefeld","Krefeld Open Data","Friedrich-Heinrich-Allee 130
 47475 Kamp-Lintfort
-Deutschland ",Deutschland,"Open Data der Stadt Kleve auf der Plattform offenesdatenportal.de, 45 Datensätze mit verschiedenen Tags versehen, gruppiert nach den Themen „Bevolkerung, Geologie und Geobasisdaten“, „Kultur, Freizeit, Sport und Tourismus“, „Soziales“, „Bevölkerung“, „Infrastruktur“ und mehr (Stand: 26.10.2017)",Krefeld,kommunal,ja,,,51.3388,6.5853
-https://opendata.leipzig.de/de/dataset,Leipzig Open Data,"Stadt Leipzig, Der Oberbürgermeister
+Deutschland ","Deutschland","Open Data der Stadt Kleve auf der Plattform offenesdatenportal.de, 45 Datensätze mit verschiedenen Tags versehen, gruppiert nach den Themen „Bevolkerung, Geologie und Geobasisdaten“, „Kultur, Freizeit, Sport und Tourismus“, „Soziales“, „Bevölkerung“, „Infrastruktur“ und mehr (Stand: 26.10.2017)","Krefeld","kommunal","ja","","",51.48685,6.54742
+"https://opendata.leipzig.de/de/dataset","Leipzig Open Data","Stadt Leipzig
 Martin-Luther-Ring 4-6
-04109 Leipzig",Deutschland,"„Die Stadt Leipzig möchte verschiedene Datensätze aus der Verwaltung, Fachleuten sowie interessierten Nutzern zur Verfügung zu stellen. Für diesen Zweck wurde das Open Data-Portal der Stadt Leipzig eingerichtet. Zudem veröffentlicht die Stadtverwaltung Leipzig ihre Datensätze auf dem Datenportal für Deutschland.“ (Quelle: Leipzig Open Data, abgerufen am 26.10.2017)
-",Leipzig,kommunal,ja,,,51.3397,12.3731
-https://open.lklg.net/,Open Data Portal des Landkreis Lüneburg,"Landkreis Lüneburg
+04109 Leipzig","Deutschland","„Die Stadt Leipzig möchte verschiedene Datensätze aus der Verwaltung, Fachleuten sowie interessierten Nutzern zur Verfügung zu stellen. Für diesen Zweck wurde das Open Data-Portal der Stadt Leipzig eingerichtet. Zudem veröffentlicht die Stadtverwaltung Leipzig ihre Datensätze auf dem Datenportal für Deutschland.“ (Quelle: Leipzig Open Data, abgerufen am 26.10.2017)
+","Leipzig","kommunal","ja","","",51.3361501,12.3733601
+"https://open.lklg.net/","Open Data Portal des Landkreis Lüneburg","Landkreis Lüneburg
 Auf dem Michaeliskloster 4
-21335 Lüneburg ",Deutschland,"„Dies ist das Open Data Portal des Landkreis Lüneburg. Open Data steht für die Öffnung von Informationen und Daten des öffentlichen Sektors für die Allgemeinheit. Mit diesem Portal möchte der Landkreis Lüneburg mehr Transparenz der Kreisverwaltung schaffen.“ (Quelle: Open Data Portal des Landkreis Lüneburg, abgerufen am 26.10.2017)",Lüneburg,kommunal,ja,,,53.2464214,10.4115179
-https://www.magdeburg.de/Start/B%C3%BCrger-Stadt/Verwaltung-Service/Offene-Verwaltungsdaten/index.php?La=1&NavID=37.906&object=tx%7C37.12808.1&kat=&kuo=2&sub=0,Magdeburg Open Data,"Landeshauptstadt Magdeburg
+21335 Lüneburg ","Deutschland","„Dies ist das Open Data Portal des Landkreis Lüneburg. Open Data steht für die Öffnung von Informationen und Daten des öffentlichen Sektors für die Allgemeinheit. Mit diesem Portal möchte der Landkreis Lüneburg mehr Transparenz der Kreisverwaltung schaffen.“ (Quelle: Open Data Portal des Landkreis Lüneburg, abgerufen am 26.10.2017)","Lüneburg","kommunal","ja","","",53.24976,10.40081
+"https://www.magdeburg.de/Start/B%C3%BCrger-Stadt/Verwaltung-Service/Offene-Verwaltungsdaten/index.php?La=1&NavID=37.906&object=tx%7C37.12808.1&kat=&kuo=2&sub=0","Magdeburg Open Data","Landeshauptstadt Magdeburg
 Alter Markt 6
-39104 Magdeburg",Deutschland,"„Der Stadtrat hat sich zur Bereitstellung von offenen Verwaltungsdaten der Landeshauptstadt im Rahmen eines Projektes positioniert. Der Verwaltung ist es wichtig, überschaubar zu beginnen, Erfahrungen zu sammeln und darauf aufbauend sukzessive das Vorhaben weiter voranzutreiben.“
-(Quelle: Landeshauptstadt Magdeburg, abgerufen am 26.10.2017)",Magdeburg,kommunal,ja,,,52.1205,11.6276
-https://opendata.mannheim.de/,Open Data der Stadt Mannheim,"Stadt Mannheim
+39104 Magdeburg","Deutschland","„Der Stadtrat hat sich zur Bereitstellung von offenen Verwaltungsdaten der Landeshauptstadt im Rahmen eines Projektes positioniert. Der Verwaltung ist es wichtig, überschaubar zu beginnen, Erfahrungen zu sammeln und darauf aufbauend sukzessive das Vorhaben weiter voranzutreiben.“
+(Quelle: Landeshauptstadt Magdeburg, abgerufen am 26.10.2017)","Magdeburg","kommunal","ja","","",52.1313399,11.6400599
+"https://opendata.mannheim.de/","Open Data der Stadt Mannheim","Stadt Mannheim
 Rathaus E 5
-D-68159 Mannheim",Deutschland,"„Der Gemeinderat der Stadt Mannheim hat im März 2015 beschlossen, dass auf einem eigenen Portal offene Daten (Open Data) zur Verfügung gestellt werden.
+D-68159 Mannheim","Deutschland","„Der Gemeinderat der Stadt Mannheim hat im März 2015 beschlossen, dass auf einem eigenen Portal offene Daten (Open Data) zur Verfügung gestellt werden.
 
-Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendungen.“ (Quelle: Stadt Mannheim, abgerufen am 26.10.2017) ",Mannheim,kommunal,ja,,,49.48423,8.475242
-http://www.geoportal-mv.de/,GDI Meck­len­burg-Vor­pom­mern,"Landesamt für innere Verwaltung
-Koordinierungsstelle für Geoinformationswesen (KGeo)
-
-Lübecker Straße 287
-19059 Schwerin",Deutschland,"„Das Geodatenportal des Landes Mecklenburg-Vorpommern (GeoPortal.MV) ist der zentrale Zugangsknoten zu Geodaten und Geodatendiensten aus allen Bereichen der Landesverwaltung M-V und der Kommunalverwaltungen M-V. Politik, Wirtschaft, Wissenschaft, Verwaltung und Privatpersonen können auf diese Daten zugreifen, die eine verlässliche Grundlage für effiziente Entscheidungen bieten. Das GeoPortal.MV ist eine technische Kernkomponente der Geodateninfrastruktur Mecklenburg-Vorpommern (GDI-MV).“ (Quelle: GeoPortal.MV, abgerufen am 26.10.2017) ",Meck­len­burg-Vor­pom­mern,regional,ja,ja,ja,53.6126505,12.4295953
-https://opendata.meerbusch.de/,Meerbusch Open Data,"Stadt Meerbusch
+Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendungen.“ (Quelle: Stadt Mannheim, abgerufen am 26.10.2017) ","Mannheim","kommunal","ja","","",49.4895179,8.4627711
+"http://www.geoportal-mv.de/","GDI Meck­len­burg-Vor­pom­mern","Lübecker Straße 287
+19059 Schwerin","Deutschland","„Das Geodatenportal des Landes Mecklenburg-Vorpommern (GeoPortal.MV) ist der zentrale Zugangsknoten zu Geodaten und Geodatendiensten aus allen Bereichen der Landesverwaltung M-V und der Kommunalverwaltungen M-V. Politik, Wirtschaft, Wissenschaft, Verwaltung und Privatpersonen können auf diese Daten zugreifen, die eine verlässliche Grundlage für effiziente Entscheidungen bieten. Das GeoPortal.MV ist eine technische Kernkomponente der Geodateninfrastruktur Mecklenburg-Vorpommern (GDI-MV).“ (Quelle: GeoPortal.MV, abgerufen am 26.10.2017) ","Meck­len­burg-Vor­pom­mern","regional","ja","ja","ja",53.6464272,11.3795155
+"https://opendata.meerbusch.de/","Meerbusch Open Data","Stadt Meerbusch
 Moerser Straße 28
-40667 Meerbusch",Deutschland,"„Die Stadt Meerbusch stellt ab 2017 offene Daten auf diesem Portal zur Verfügung. Wir starten mit ersten Daten zu Bevölkerung und Wahlen und bauen das Angebot in den kommenden Monaten weiter aus. Wir werden nach Abstimmung mit dem Land NRW bald auf Open.NRW als Datenbereitsteller gelistet, so dass unsere Informationen auch landes- und bundesweit gefunden werden können.“ (Quelle: Stadt Meerbusch, abgerufen am 26.10.2017) ",Meerbusch,kommunal,ja,,,51.2843756,6.5887419
-http://stadt.mittenwalde.opendata.arcgis.com/,Mittenwalde Open Data,"Stadt Mittenwalde
+40667 Meerbusch","Deutschland","„Die Stadt Meerbusch stellt ab 2017 offene Daten auf diesem Portal zur Verfügung. Wir starten mit ersten Daten zu Bevölkerung und Wahlen und bauen das Angebot in den kommenden Monaten weiter aus. Wir werden nach Abstimmung mit dem Land NRW bald auf Open.NRW als Datenbereitsteller gelistet, so dass unsere Informationen auch landes- und bundesweit gefunden werden können.“ (Quelle: Stadt Meerbusch, abgerufen am 26.10.2017) ","Meerbusch","kommunal","ja","","",51.258735,6.680399
+"http://stadt.mittenwalde.opendata.arcgis.com/","Mittenwalde Open Data","Stadt Mittenwalde
 Rathausstraße 8
-15749 Mittenwalde ",Deutschland,Open Data Portal der Stadt Mittenwalde basierend auf ArcGIS Portal.,Mittenwalde,kommunal,ja,,,52.2318752045,13.5303585205
-https://offenedaten.de/organization/mittenwalde,Open Data der Stadt Mittenwalde,"Stadt Mittenwalde
+15749 Mittenwalde ","Deutschland","Open Data Portal der Stadt Mittenwalde basierend auf ArcGIS Portal.","Mittenwalde","kommunal","ja","","",52.26009,13.5434501
+"https://offenedaten.de/organization/mittenwalde","Open Data der Stadt Mittenwalde","Stadt Mittenwalde
 Rathausstraße 8
-15749 Mittenwalde",Deutschland,"Open Data Portal der Stadt Mittenwalde auf Offenedaten.de, 7 Datensätze mit verschiedenen Tags, u.a. Verkehr, Bebauungsplan, Einwohner",Mittenwalde,kommunal,ja,,,,
-https://www.mittenwalde.de/de/service-wie-was-wo/geoportal/geoportal/,Geoportal der Stadt Mittenwalde,"Stadt Mittenwalde
+15749 Mittenwalde","Deutschland","Open Data Portal der Stadt Mittenwalde auf Offenedaten.de, 7 Datensätze mit verschiedenen Tags, u.a. Verkehr, Bebauungsplan, Einwohner","Mittenwalde","kommunal","ja","","",52.26009,13.5434501
+"https://www.mittenwalde.de/de/service-wie-was-wo/geoportal/geoportal/","Geoportal der Stadt Mittenwalde","Stadt Mittenwalde
 Rathausstraße 8
-15749 Mittenwalde",Deutschland,Geodaten der Stadt Mittenwalde zur Online-Ansicht. Es gibt gibt ein neues und ein altes Geoportal. Das Neue mit einer Liegenschaftskarte und einem Kartenthema zur Bauleitplanung ausgestattet ist. (Stand: 26.10.2017),Mittenwalde,kommunal,ja,ja,ja,,
-http://offenedaten.moers.de/,Offene Daten Moers,"Rathaus Moers, Rathausplatz 1
-47439 Moers",Deutschland,"„Es handelt sich um ""offene"" Daten, weil die Stadt Moers die Datensätze zur freien Nutzung und in offenen, maschinenlesbaren Formaten bereitstellt. Wir folgen hier der Idee, die allgemein als Open Data bezeichnet wird. Die grundsätzliche Idee wird gut in den ""Externer Link10 Prinzipien offener Regierungsinformationen"" vermittelt.
+15749 Mittenwalde","Deutschland","Geodaten der Stadt Mittenwalde zur Online-Ansicht. Es gibt gibt ein neues und ein altes Geoportal. Das Neue mit einer Liegenschaftskarte und einem Kartenthema zur Bauleitplanung ausgestattet ist. (Stand: 26.10.2017)","Mittenwalde","kommunal","ja","ja","ja",52.26009,13.5434501
+"http://offenedaten.moers.de/","Offene Daten Moers","Rathaus Moers, Rathausplatz 1
+47439 Moers","Deutschland","„Es handelt sich um ""offene"" Daten, weil die Stadt Moers die Datensätze zur freien Nutzung und in offenen, maschinenlesbaren Formaten bereitstellt. Wir folgen hier der Idee, die allgemein als Open Data bezeichnet wird. Die grundsätzliche Idee wird gut in den ""Externer Link10 Prinzipien offener Regierungsinformationen"" vermittelt.
 
 Nach und nach werden wir den Bestand an offenen Daten erweitern. Wir veröffentlichen in unserem Portal auch Daten von Unternehmen oder Privatleuten, wenn sie einen Bezug zu Moers haben und es keine rechtlichen Beschränkungen gibt. Wenn Sie Daten haben, melden Sie sich!“ 
-(Quelle: Stadt Moers, abgerufen am 26.10.2017)",Moers,kommunal,ja,,,51.4516041,6.6408148
-https://www.moenchengladbach.de/de/aktuell-aktiv/open-data/,Mönchengladbach Open Data,"Stadt Mönchengladbach
-41050 Mönchengladbach",Deutschland,"„Die Stadt Mönchengladbach startet im Rahmen ihrer Open Government Bestrebungen dieses Open-Data-Portal.
+(Quelle: Stadt Moers, abgerufen am 26.10.2017)","Moers","kommunal","ja","","",51.4534604,6.6268555
+"https://www.moenchengladbach.de/de/aktuell-aktiv/open-data/","Mönchengladbach Open Data","Stadt Mönchengladbach
+41050 Mönchengladbach","Deutschland","„Die Stadt Mönchengladbach startet im Rahmen ihrer Open Government Bestrebungen dieses Open-Data-Portal.
 
-Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grundlage bilden, für einen demokratischen Wissensaustausch, mehr Partizipation und eine bessere Kommunkation zwischen Verwaltung, Politik und Bürgerinnen und Bürgern unserer Stadt.“ (Quelle: Stadt Mönchengladbach, abgerufen am 26.10.2017)",Mönchengladbach,kommunal,ja,,,51.1805,6.4428
-https://geo.muelheim-ruhr.de/open-data/13819,Mülheim an der Ruhr Open Data,"Am Rathaus 1
-45468 Mülheim an der Ruhr",Deutschland,"„Die Stadt Mülheim an der Ruhr stellt offene Daten (Open Data) als Rohdaten aus verschiedenen Bereichen der Verwaltung bereit. Eine automatisierte Aktualisierung sorgt dafür, dass stets nur die aktuellsten Daten publiziert werden.“ (Quelle: Stadt Mönchengladbach, abgerufen am 26.10.2017)",Mülheim an der Ruhr,kommunal,ja,,,51.4186,6.8845
-https://www.opengov-muenchen.de/,Open-Data-Portal München der Landeshauptstadt München,"Landeshauptstadt München
+Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grundlage bilden, für einen demokratischen Wissensaustausch, mehr Partizipation und eine bessere Kommunkation zwischen Verwaltung, Politik und Bürgerinnen und Bürgern unserer Stadt.“ (Quelle: Stadt Mönchengladbach, abgerufen am 26.10.2017)","Mönchengladbach","kommunal","ja","","",51.19409,6.4315001
+"https://geo.muelheim-ruhr.de/open-data/13819","Mülheim an der Ruhr Open Data","Am Rathaus 1
+45468 Mülheim an der Ruhr","Deutschland","„Die Stadt Mülheim an der Ruhr stellt offene Daten (Open Data) als Rohdaten aus verschiedenen Bereichen der Verwaltung bereit. Eine automatisierte Aktualisierung sorgt dafür, dass stets nur die aktuellsten Daten publiziert werden.“ (Quelle: Stadt Mönchengladbach, abgerufen am 26.10.2017)","Mülheim an der Ruhr","kommunal","ja","","",51.4288119,6.877991
+"https://www.opengov-muenchen.de/","Open-Data-Portal München der Landeshauptstadt München","Landeshauptstadt München
 
-80313 München",Deutschland,"„Auf dem Open Data Portal München stellt die Landeshauptstadt München Datensätze der öffentlichen Verwaltung zur Verfügung. Verwaltungsmitarbeitern, Bürgerinnen und Bürgern, Unternehmen und Wissenschaftlern soll damit die Möglichkeit gegeben werden, über einen zentralen Einstiegspunkt auf Daten und Informationen der Verwaltung zuzugreifen und diese weiterzuverwenden, so dass durch neue Ideen sowie Kombination und Analyse neue Erkenntnisse aus den vorhandenen Daten gewonnen werden können.“ (Quelle: Open-Data-Portal München der Landeshauptstadt München, abgerufen am 26.10.2017)",München,kommunal,ja,,,48.1351253,11.5819805
-http://www.stadt-muenster.de/katasteramt/geodatenmanagement/open-data.html,Münster GeoData,"Stadt Münster
-48127 Münster",Deutschland,"„Die Stadt Münster beteiligt sich am Wettbewerb ""Apps für Deutschland"". Sie stellt dazu Datensätze über Spielplätze und Sportstätten als offene Daten zur Verfügung. Die Daten werden mit Stand Dezember 2011 bereitgestellt. Es kommt die Lizenz Creative Commons Namensnennung 3.0 zur Anwendung.“
-(Quelle: Stadt Münster, abgerufen am 26.10.2017)",Münster (Westf.),kommunal,ja,,,51.9607,7.6261
-http://iatiregistry.org/,Iati Registry,,Deutschland,Das internationale Datenportal der „International Aid Transparency Initiative“ (IATI) enthält offene Daten zur Entwicklungszusammenarbeit verschiedener Länder. Zu den Datenanbietern gehört unter anderem das Das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ),Berlin,international,nein,,,52.5243681651,13.4105300903
-https://transparenz.karlsruhe.de/,Karlsruhe Open Data,"Stadt Karlsruhe
+80313 München","Deutschland","„Auf dem Open Data Portal München stellt die Landeshauptstadt München Datensätze der öffentlichen Verwaltung zur Verfügung. Verwaltungsmitarbeitern, Bürgerinnen und Bürgern, Unternehmen und Wissenschaftlern soll damit die Möglichkeit gegeben werden, über einen zentralen Einstiegspunkt auf Daten und Informationen der Verwaltung zuzugreifen und diese weiterzuverwenden, so dass durch neue Ideen sowie Kombination und Analyse neue Erkenntnisse aus den vorhandenen Daten gewonnen werden können.“ (Quelle: Open-Data-Portal München der Landeshauptstadt München, abgerufen am 26.10.2017)","München","kommunal","ja","","",48.1679675,11.5288848
+"http://www.stadt-muenster.de/katasteramt/geodatenmanagement/open-data.html","Münster GeoData","Stadt Münster
+48127 Münster","Deutschland","„Die Stadt Münster beteiligt sich am Wettbewerb ""Apps für Deutschland"". Sie stellt dazu Datensätze über Spielplätze und Sportstätten als offene Daten zur Verfügung. Die Daten werden mit Stand Dezember 2011 bereitgestellt. Es kommt die Lizenz Creative Commons Namensnennung 3.0 zur Anwendung.“
+(Quelle: Stadt Münster, abgerufen am 26.10.2017)","Münster (Westf.)","kommunal","ja","","",51.9606649,7.6261347
+"http://iatiregistry.org/","Iati Registry","","Deutschland","Das internationale Datenportal der „International Aid Transparency Initiative“ (IATI) enthält offene Daten zur Entwicklungszusammenarbeit verschiedener Länder. Zu den Datenanbietern gehört unter anderem das Das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","Berlin","international","nein","","",52.5243681651,13.4105300903
+"https://transparenz.karlsruhe.de/","Karlsruhe Open Data","Stadt Karlsruhe
 Karl-Friedrich-Str. 10
-76133 Karlsruhe ",Deutschland,"Zentrale Anlaufstelle für offene Daten und Dokumente der Stadt Karlsruhe:
+76133 Karlsruhe ","Deutschland","Zentrale Anlaufstelle für offene Daten und Dokumente der Stadt Karlsruhe:
 
 „Auf diesem Portal finden Sie sowohl Dokumente und Berichte, als auch maschinenlesbare Datensätze (""open data""). Diese Informationen dürfen Sie - unter einigen wenigen Bedingungen - kostenfrei weitergeben, bearbeiten und auch kommerziell nutzen. Wir freuen uns, wenn daraus interessante Projekte entstehen - und wenn Sie uns von Ihrem Projekt erzählen. Das Informationsangebot wird laufend erweitert.“
 (Quelle: Stadt Karlsruhe, abgerufen am 27.10.2017)
-",Karlsruhe,kommunal,ja,,,49.0069,8.4037
-https://www.offenesdatenportal.de/organization/krzn,Kommunales Rechenzentrum Niederrhein,"Zweckverband Kommunales Rechenzentrum Niederrhein (KRZN)
-Friedrich-Heinrich-Allee 130
+","Karlsruhe","kommunal","ja","","",49.00861,8.403284
+"https://www.offenesdatenportal.de/organization/krzn","Kommunales Rechenzentrum Niederrhein","Friedrich-Heinrich-Allee 130
 47475 Kamp-Lintfort
-Deutschland",Deutschland,"Offene Daten des Kommunalen Rechenzentrums Niederrhein (KRZN) mit Sitz in Kamp-Lintfort. Das KRZN ist ein kommunaler Zweckverband un IT-Dienster für Stadt Bottrop, Stadt Krefeld, Kreis Kleve, Kreis Viersen und Kreis Wesel. 25 Datensätze gruppiert nach den Themen „Wirtschaft und Arbeit“, „Öffentliche Verwaltung“ und „Geographie, Geologie und Geobasisdaten“ (Stand: 27.10.2017)",Niederrhein,kommunal,ja,ja,,51.4958,6.5321
-https://www.geodaten.niedersachsen.de,GDI Niedersachsen,"Landesamt für Geoinformation und Landesvermessung Niedersachsen (LGLN)
-Landesvermessung und Geobasisinformation
+Deutschland","Deutschland","Offene Daten des Kommunalen Rechenzentrums Niederrhein (KRZN) mit Sitz in Kamp-Lintfort. Das KRZN ist ein kommunaler Zweckverband un IT-Dienster für Stadt Bottrop, Stadt Krefeld, Kreis Kleve, Kreis Viersen und Kreis Wesel. 25 Datensätze gruppiert nach den Themen „Wirtschaft und Arbeit“, „Öffentliche Verwaltung“ und „Geographie, Geologie und Geobasisdaten“ (Stand: 27.10.2017)","Niederrhein","kommunal","ja","ja","",51.48685,6.54742
+"https://www.geodaten.niedersachsen.de","GDI Niedersachsen","
 Podbielskistraße 331
-30659 Hannover",Deutschland,"Informationsplattform zum Thema Geodaten des Landes Niedersachsen. 
+30659 Hannover","Deutschland","Informationsplattform zum Thema Geodaten des Landes Niedersachsen. 
 
-Ansprechpartner für das Geoportal und die Geodateninfrastruktur des Landes ist die Koordinierungsstelle GDI-NI beim Landesamt für Geoinformation und Landesvermessung Niedersachsen (LGLN) - Landesvermessung und Geobasisinformation mit Sitz in Hannover. (Stand: 27.10.2017)",Niedersachsen,regional,ja,ja,ja,52.6367036,9.8450766
-https://www.geoportal.nrw/,GDI NRW,"Geschäftsstelle IMA GDI.NRW
-c/o Bezirksregierung Köln,
-Abteilung 7 / Geobasis NRW
-Muffendorfer Str. 19-21
-53177 Bonn ",Deutschland,"Die Geodateninfrastruktur des Landes Nordrhein-Westfalen besteht seit 1999 und hat sich die Aktivierung des Geodatenmarktes sowie die verbesserte Verfügbarkeit und Nutzbarkeit der behördlichen und privaten Geodaten zum Ziel gesetzt. An der Realisierung der GDI sind das Land NRW, Kommunen, IT-Unternehmen und Nutzer von Geoinformationen beteiligt.
-(Stand: 27.10.2017)",Nordrhein-Westfalen,regional,ja,ja,ja,51.4332367,7.6615938
-http://offenedaten.kdvz-frechen.de/,Offene Daten kdvz Rhein-Erft-Rur,"Kommunale Datenverarbeitungzentrale Rhein-Erft-Rur
-Der Verbandsvorsteher
-Bonnstraße 16-18
-50226 Frechen",Deutschland,"Im Rahmen des Pilotprojektes „Kommunales Open Government in NRW“ realisiert die kdvz Rhein-Erft-Ruhr gemeinsam mit 24 Kommunen und der Open Knowledge Foundation ein sog. „interkommunales Transparenzportal für Gremiendaten“.
+Ansprechpartner für das Geoportal und die Geodateninfrastruktur des Landes ist die Koordinierungsstelle GDI-NI beim Landesamt für Geoinformation und Landesvermessung Niedersachsen (LGLN) - Landesvermessung und Geobasisinformation mit Sitz in Hannover. (Stand: 27.10.2017)","Niedersachsen","regional","ja","ja","ja",52.4072406,9.8020636
+"https://www.geoportal.nrw/","GDI NRW","Muffendorfer Str. 19-21
+53177 Bonn ","Deutschland","Die Geodateninfrastruktur des Landes Nordrhein-Westfalen besteht seit 1999 und hat sich die Aktivierung des Geodatenmarktes sowie die verbesserte Verfügbarkeit und Nutzbarkeit der behördlichen und privaten Geodaten zum Ziel gesetzt. An der Realisierung der GDI sind das Land NRW, Kommunen, IT-Unternehmen und Nutzer von Geoinformationen beteiligt.
+(Stand: 27.10.2017)","Nordrhein-Westfalen","regional","ja","ja","ja",50.67498,7.159
+"http://offenedaten.kdvz-frechen.de/","Offene Daten kdvz Rhein-Erft-Rur","Bonnstraße 16-18,
+50226 Frechen","Deutschland","Im Rahmen des Pilotprojektes „Kommunales Open Government in NRW“ realisiert die kdvz Rhein-Erft-Ruhr gemeinsam mit 24 Kommunen und der Open Knowledge Foundation ein sog. „interkommunales Transparenzportal für Gremiendaten“.
 
 Die beteiligten Kommunen sind:
 Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stadt Bergheim, Gemeinde Langerwehe, Gemeinde Hürtgenwald, Gemeinde Vettweiß, Stadt Jülich, Gemeinde Merzenich, Stadt Wesseling, Stadt Heimbach, Gemeinde Kreuzau, Stadt Linnich, Stadt Bad Münstereifel, Gemeinde Titz, Stadt Bedburg
-(Stand: 27.10.2017)",Nordrhein-Westfalen,kommunal,ja,,,51.4332367,7.6615938
-https://open.nrw/,Open Data | Open.NRW,"Ministerium des Innern des Landes Nordrhein-Westfalen
-Friedrichstraße 62-80
-40217 Düsseldorf",Deutschland,"Open.NRW unterstützt Verwaltungen, Bürgerinnen und Bürger des Landes Nordrhein-Westfalen sowie weitere externe Akteure bei dem offenen Austausch und der Zusammenarbeit. Das Landesportal vereint offene Datensätze von Städten und Kommunen und beinhaltet zudem Geobasisdaten. (Stand: 27.10.2017)",Nordrhein-Westfalen,regional,ja,ja,,51.4332367,7.6615938
-http://www.geoportal.rlp.de/,GDI Rhein­land-Pfalz,"Landesamt für Vermessung und Geobasisinformation Rheinland-Pfalz
-Von-Kuhl-Str. 49
-56070 Koblenz",Deutschland,"Über das GeoPortal.rlp können Geodaten des Landes Rheinland-Pfalz zentral gesucht und visualisiert werden. Es handelt sich um ein Projekt des Lenkungsausschuss für Geodateninfrastruktur Rheinland-Pfalz, dessen Mitglieder Vertreter der Staatskanzlei, der Ministerien und der kommunalen Spitzenverbände sind. Das Portal selbst ist als Open-Source Projekt realisiert, wovon ausgewählte Komponenten unter anderem als LiveCD heruntergeladen werden können. (Stand: 27.10.2017)",Rhein­land-Pfalz,regional,ja,ja,ja,50.118346,7.3089527
-https://daten.rlp.de/,Open-Government-Data-Portal Rheinland-Pfalz  (OGDP-RP),"Ministerium des Innern und für Sport des Landes Rheinland-Pfalz
-Schillerplatz 3 – 5
-55116 Mainz",Deutschland,"Das Portal bietet einen einheitlichen, zentralen Zugang zu Verwaltungsdaten der rheinland-pfälzischen Landesbehörden und Kommunen. Unbedingt zu beachten ist, dass neben den offenen Daten hier auch Daten mit eingeschränkten Lizenzbedingungen angeboten werden, obgleich die Verwendung offener Lizenzen und maschinenlesbarer Rohdaten allgemein angestrebt wird. (Stand: 27.10.2017)",Rheinland-Pfalz,regional,ja,,,50.118346,7.3089527
-http://geoportal.saarland.de/,GeoPortal Saarland (GDI-SL),"Landesamt für Vermessung, Geoinformation und Landentwicklung (LVGL)
-
-Zentrale Stelle Geodateninfrastruktur Saarland
-Von der Heydt 22
-
-66115 Saarbrücken",Deutschland,"Das GeoPortal Saarland ist die Informations- und Interaktionsplattform der Geodateninfrastruktur Saarland (GDI-SL). Mithilfe von Netzwerk- und Geodiensten ermöglicht diese einen zentralen Zugang zu raumbezogenen Informationen im Saarland.
+(Stand: 27.10.2017)","Nordrhein-Westfalen","kommunal","ja","","",50.9127607,6.8279383
+"https://open.nrw/","Open Data | Open.NRW","
+Friedrichstraße 62-80,
+40217 Düsseldorf","Deutschland","Open.NRW unterstützt Verwaltungen, Bürgerinnen und Bürger des Landes Nordrhein-Westfalen sowie weitere externe Akteure bei dem offenen Austausch und der Zusammenarbeit. Das Landesportal vereint offene Datensätze von Städten und Kommunen und beinhaltet zudem Geobasisdaten. (Stand: 27.10.2017)","Nordrhein-Westfalen","regional","ja","ja","",51.2136899,6.7772891
+"http://www.geoportal.rlp.de/","GDI Rhein­land-Pfalz","Von-Kuhl-Str. 49
+56070 Koblenz","Deutschland","Über das GeoPortal.rlp können Geodaten des Landes Rheinland-Pfalz zentral gesucht und visualisiert werden. Es handelt sich um ein Projekt des Lenkungsausschuss für Geodateninfrastruktur Rheinland-Pfalz, dessen Mitglieder Vertreter der Staatskanzlei, der Ministerien und der kommunalen Spitzenverbände sind. Das Portal selbst ist als Open-Source Projekt realisiert, wovon ausgewählte Komponenten unter anderem als LiveCD heruntergeladen werden können. (Stand: 27.10.2017)","Rhein­land-Pfalz","regional","ja","ja","ja",50.37503,7.58471
+"https://daten.rlp.de/","Open-Government-Data-Portal Rheinland-Pfalz  (OGDP-RP)","Schillerplatz 3 – 5
+55116 Mainz","Deutschland","Das Portal bietet einen einheitlichen, zentralen Zugang zu Verwaltungsdaten der rheinland-pfälzischen Landesbehörden und Kommunen. Unbedingt zu beachten ist, dass neben den offenen Daten hier auch Daten mit eingeschränkten Lizenzbedingungen angeboten werden, obgleich die Verwendung offener Lizenzen und maschinenlesbarer Rohdaten allgemein angestrebt wird. (Stand: 27.10.2017)","Rheinland-Pfalz","regional","ja","","",49.99808,8.26713
+"http://geoportal.saarland.de/","GeoPortal Saarland (GDI-SL)","Von der Heydt 22
+66115 Saarbrücken","Deutschland","Das GeoPortal Saarland ist die Informations- und Interaktionsplattform der Geodateninfrastruktur Saarland (GDI-SL). Mithilfe von Netzwerk- und Geodiensten ermöglicht diese einen zentralen Zugang zu raumbezogenen Informationen im Saarland.
 
 Die Daten werden je zu verschiedenen Nutzungsbedingungen angeboten, einige davon sind frei, andere sind Zugangsbeschränkt. Zu beachten ist dabei die Legende der Inhaltsübersicht und die genauen Angaben in den Metadaten.
 
-(Stand: 27.10.2017)",Saarland,regional,ja,ja,ja,49.3964234,7.0229607
-http://www.gdi.sachsen.de/,GDI Sachsen,"Staatsbetrieb Geobasisinformation und Vermessung Sachsen
-Olbrichtplatz 3, 01099 Dresden",Deutschland,"Die Geodateninfrastruktur Sachsen hat das Ziel, digitalen, raumbezogenen Daten aus der Wirtschaft und öffentlichen Verwaltung des Landes einem breiten Nutzerkreis zugänglich zu machen. Die suche nach Geodaten wird über den Metadatenkatalog GeoMIS.Sachsen und das Geoportal Sachsenatlas ermöglicht. 
-(Stand: 27.10.2017)",Sachsen,regional,ja,ja,ja,51.1045407,13.2017384
-http://www.opendata.sachsen.de,Open Data - Verfügbare Datenbestände des Freistaats Sachsen,"Staatsbetrieb Sächsische Informatik Dienste
-Riesaer Straße 7
+(Stand: 27.10.2017)","Saarland","regional","ja","ja","ja",49.27754,6.95087
+"http://www.gdi.sachsen.de/","GDI Sachsen","Olbrichtplatz 3, 01099 Dresden","Deutschland","Die Geodateninfrastruktur Sachsen hat das Ziel, digitalen, raumbezogenen Daten aus der Wirtschaft und öffentlichen Verwaltung des Landes einem breiten Nutzerkreis zugänglich zu machen. Die suche nach Geodaten wird über den Metadatenkatalog GeoMIS.Sachsen und das Geoportal Sachsenatlas ermöglicht. 
+(Stand: 27.10.2017)","Sachsen","regional","ja","ja","ja",51.0768967,13.7600611
+"http://www.opendata.sachsen.de","Open Data - Verfügbare Datenbestände des Freistaats Sachsen","Riesaer Straße 7
 Haus D
-01129 Dresden",Deutschland,"Im Zuge des Projektes „Open Government Data“ wird angestrebt, die Transparenz staatlichen handelns zu erhöhen, in dem mehr Daten aus dem staatlichen Bereich publiziert werden. 
+01129 Dresden","Deutschland","Im Zuge des Projektes „Open Government Data“ wird angestrebt, die Transparenz staatlichen handelns zu erhöhen, in dem mehr Daten aus dem staatlichen Bereich publiziert werden. 
 
 Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen werden könnten. Die Nutzungsbedingungen und Urheberrechtsfragen sind aber bislang noch nicht einheitlich geregelt.
-(Stand: 27.10.2017)",Sachsen,regional,ja,,,51.1045407,13.2017384
-http://www.lvermgeo.sachsen-anhalt.de/de/main.htm,GDI Sachsen-Anhalt / LvermGeo,"Landesamt für Vermessung und Geoinformation Sachsen-Anhalt (LVermGeo)
-Otto-von-Guericke-Straße 15
-39104 Magdeburg",Deutschland,"Die Website des Landesamt für Vermessung und Geoinformation Sachsen-Anhalt umfasst Zugänge zu Diensten der Geodateninfrastruktur Sachsenanhalt (GDI-LSA) sowie einen Geodatenviewer. Viele der angebotenen Dienste und Daten sind käuflich zu erwerben oder unterliegen Nutzungsbeschränkungen.
-(Stand: 27.10.2017)",Sachsen-Anhalt,regional,ja,ja,ja,51.9502649,11.6922734
-https://offenedaten.de/organization/salzgitter,Salzgitter,"Stadt Salzgitter
+(Stand: 27.10.2017)","Sachsen","regional","ja","","",51.084345,13.723855
+"http://www.lvermgeo.sachsen-anhalt.de/de/main.htm","GDI Sachsen-Anhalt / LvermGeo","
+Otto-von-Guericke-Straße 15,
+39104 Magdeburg","Deutschland","Die Website des Landesamt für Vermessung und Geoinformation Sachsen-Anhalt umfasst Zugänge zu Diensten der Geodateninfrastruktur Sachsenanhalt (GDI-LSA) sowie einen Geodatenviewer. Viele der angebotenen Dienste und Daten sind käuflich zu erwerben oder unterliegen Nutzungsbeschränkungen.
+(Stand: 27.10.2017)","Sachsen-Anhalt","regional","ja","ja","ja",52.12949,11.63105
+"https://offenedaten.de/organization/salzgitter","Salzgitter","Stadt Salzgitter
 Joachim-Campe-Straße 6 - 8
-38226 Salzgitter",Deutschland,"Sie Stadt Sapzgitter stellt auf diesem Portal 9 offene Datensätze aus den Kategorien „Öffentliche Verwaltung“, „Kultur, Freizeit, Sport und Tourismus“, sowie „Geographie, Geologie und Geobasisdaten“ zur Verfügung. (Stand: 27.10.2017)",Salzgitter,kommunal,ja,,,52.1379,10.3899
-http://www.gdi-sh.de/,GDI Schleswig-Holstein,"Düsternbrooker Weg 92
-24105 Kiel",Deutschland,"Die Geodateninfrastruktur Schleswig-Holstein ermöglicht unter der Leitung des Lenkungsgremiums LG GDI-SH den Zugriff auf Geodaten des Landes Schleswig-Holstein. Die website umfasst ein Geoportal, welches das suchen und Betrachten von Geodaten, nach Themen unterteilt, ermöglicht. Zudem werden kommerzielle Dienste angeboten. (Stand: 27.10.2017)",Schleswig-Holstein,regional,ja,ja,ja,54.2193672,9.6961167
-http://www.geoportal-th.de/,GDI Thüringen,"Landesamt für Vermessung und Geoinformation
+38226 Salzgitter","Deutschland","Sie Stadt Sapzgitter stellt auf diesem Portal 9 offene Datensätze aus den Kategorien „Öffentliche Verwaltung“, „Kultur, Freizeit, Sport und Tourismus“, sowie „Geographie, Geologie und Geobasisdaten“ zur Verfügung. (Stand: 27.10.2017)","Salzgitter","kommunal","ja","","",52.1554201,10.3258482
+"http://www.gdi-sh.de/","GDI Schleswig-Holstein","Düsternbrooker Weg 92
+24105 Kiel","Deutschland","Die Geodateninfrastruktur Schleswig-Holstein ermöglicht unter der Leitung des Lenkungsgremiums LG GDI-SH den Zugriff auf Geodaten des Landes Schleswig-Holstein. Die website umfasst ein Geoportal, welches das suchen und Betrachten von Geodaten, nach Themen unterteilt, ermöglicht. Zudem werden kommerzielle Dienste angeboten. (Stand: 27.10.2017)","Schleswig-Holstein","regional","ja","ja","ja",54.33671,10.15464
+"http://www.geoportal-th.de/","GDI Thüringen","Landesamt für Vermessung und Geoinformation
 Hohenwindenstr. 13 a
-D-99086 Erfurt",Deutschland,"Die Geodateninfrastruktur (GDI) des Landes Thüringen ermöglicht den zugriff auf Geodaten und Dienste des Landes. Neben einem umfrangreichen Downloadbereich von offenen Geodaten ist der Zugriff auf eine Metadatensuche, Web-Viewer, Geoproxy und OGC-Dienste sowie versichiedene Temenbereiche möglich. (Stand: 27.10.2017)",Thüringen,regional,ja,ja,ja,51.0109892,10.845346
-http://www.geoportal-th.de/de-de/downloadbereiche/downloadoffenegeodatenth%C3%BCringen.aspx,Download Offene Geodaten Thüringen,"Landesamt für Vermessung und Geoinformation
+D-99086 Erfurt","Deutschland","Die Geodateninfrastruktur (GDI) des Landes Thüringen ermöglicht den zugriff auf Geodaten und Dienste des Landes. Neben einem umfrangreichen Downloadbereich von offenen Geodaten ist der Zugriff auf eine Metadatensuche, Web-Viewer, Geoproxy und OGC-Dienste sowie versichiedene Temenbereiche möglich. (Stand: 27.10.2017)","Thüringen","regional","ja","ja","ja",51.0050499,11.0279964
+"http://www.geoportal-th.de/de-de/downloadbereiche/downloadoffenegeodatenth%C3%BCringen.aspx","Download Offene Geodaten Thüringen","Landesamt für Vermessung und Geoinformation
 Hohenwindenstr. 13 a
-D-99086 Erfurt",Deutschland,"Teil des Geoportal-Th und der GDI-Th ist ein Downloadbereich, in dem eine Vielzahl von Geodaten ohne Zugangsbeschränkung genutzt und heruntergeladen werden können. Zu beachten ist, dass die Datenlizenz einen Quellenvermerk vorschreibt. (Stand: 27.10.2017)",Thüringen,regional,ja,ja,,,
-http://daten.ulm.de/,daten.ulm.de,"Stadt Ulm
+D-99086 Erfurt","Deutschland","Teil des Geoportal-Th und der GDI-Th ist ein Downloadbereich, in dem eine Vielzahl von Geodaten ohne Zugangsbeschränkung genutzt und heruntergeladen werden können. Zu beachten ist, dass die Datenlizenz einen Quellenvermerk vorschreibt. (Stand: 27.10.2017)","Thüringen","regional","ja","ja","",51.0050499,11.0279964
+"http://daten.ulm.de/","daten.ulm.de","Stadt Ulm
 Marktplatz 1
-89073 Ulm",Deutschland,"„daten.ulm.de ist eine Infoplattform für (offene) Geodaten und offene statistische Daten der Stadt Ulm.  Welche Geodaten und Karten gibt es bei der Stadt Ulm in welcher Aktualität? Wer ist Ansprechpartner? Welche offenen Daten kann ich sofort herunterladen und weiterverwenden?  Stöbern Sie einfach im thematisch gegliederten Datenkatalog, dessen Angebot sukzessive ausgebaut wird.“ (Quelle: daten.ulm, abgerufen am 27.10.2017)",Ulm,kommunal,ja,,,48.4010822,9.9876076
-https://www.offenesdatenportal.de/organization/kreis-viersen,Kreis Viersen Open Data,,Deutschland,,Viersen,kommunal,ja,,,51.2555,6.3965
-https://www.offenesdatenportal.de/organization/stadt-wesel,Stadt Wesel am Rhein Open Data,,Deutschland,,Wesel,kommunal,ja,,,51.6643,6.6296
-https://www.offenedaten-wuppertal.de/,Offene Daten Wuppertal,,Deutschland,,Wuppertal,kommunal,ja,,,51.2562128,7.1507636
-https://open-data.europa.eu/de/about,Offenes Datenportal der EU,,Europa,,Europa,international,ja,,,48.5948367,7.7719195
-http://data.graz.gv.at/,Graz Open Data,,Österreich,Graz Online - Stadtportal der Landeshauptstadt Graz,Graz,kommunal,ja,,,47.0666667,15.45
-http://data.ktn.gv.at/,Kärnten Open Data,,Österreich,,Kärnten,regional,ja,,,46.722203,14.1805882
-http://data.linz.gv.at/,Linz Open Data,,Österreich,,Linz,kommunal,ja,,,48.3063888888,14.286111111
-http://opendataportal.at/,Open Data Portal Austria,,Österreich,"Das zentrale Datenportal für Wirtschaft, Kultur, NGO/NPO, Forschung und Zivilgesellschaft. Das Open Data Portal bietet eine Plattform um auf Daten aus den",NA,national,nein,,,48.2018644,16.3533064
-http://data.noe.gv.at/,Niederösterreich (lower Austria) Open Data,,Österreich,,Niederösterreich,regional,ja,,,48.3333,15.75
-http://basemap.at/,Austrian Ogd Basemap,,Österreich,"Basemap.at ist eine internetfähige Grundkarte von Österreich, basierend auf den Geodaten der Länder und deren Partnern, frei verfügbar und performant.",Österreich,national,ja,ja,,48.2,16.35
-https://www.geologie.ac.at/,Geologische Bundesanstalt,,Österreich,"The Geological Survey of Austria (GBA) is the largest geoscientific research center in Austria. The task of the Survey is to study and document the geology of the country systematically, continuously and overall.",Österreich,national,ja,ja,,48.2,16.35
-http://inspire.gv.at/,INSPIRE Austria,,Österreich,Startseite INSPIRE Österreich.,Österreich,national,nein,ja,ja,48.2099296,16.3807722
-http://zamg.ac.at/,Zentralanstalt Für Meteorologie und Geodynamik,,Österreich,Wetter Klima Umwelt Geophysik Forschung Produkte,Österreich,national,ja,ja,,48.2,16.35
-http://data.gv.at/,Austrian Government Open Data,,Österreich,Startseite neu.,Österreich,national,ja,,,48.2,16.35
-http://umweltbundesamt.at/opendata/,Umweltbundesamt: OpenData Portal,,Österreich,,Österreich,national,ja,,,48.2,16.35
-http://data.reeep.org/,Linked Clean Energy Data - Data.reegle.info,,Österreich,"reegle - the clean energy info portal provides country energy profiles including key statistics, policies and actors, a clean energy web search, a directory of relevant key actors and a map search of energy statistics and potentials",Österreich,international,nein,,,48.2208286,16.2399771
-http://statistik.at/,Statistik Austria,,Österreich,,Österreich,national,nein,,,48.2,16.35
-http://data.tirol.gv.at/,Tirol Data Portal,,Österreich,Daten der Verwaltung werden durch digitale Infrastruktur öffentlich verfügbar und nutzbar gemacht.,Tirol,regional,ja,,,47.25,11.3333333
-http://data.vorarlberg.gv.at/,Vorarlberg Open Data,,Österreich,,Voralberg,regional,ja,,,47.25,9.9166667
-http://data.wien.gv.at/,Open Government Data Wien,,Österreich,,Wien,regional,ja,,,48.2084877602,16.3720750809
-http://ge.ch/sitg/sitg_catalog/sitg_donnees,Sitg Geneva's Territorial Information System,,Schweiz,,Genf,regional,nein,ja,,46.2,6.15
-http://data.tpg.ch/,Open Data TPG,,Schweiz,,Genf,regional,nein,,,46.2050241,6.1090692
-https://www.wmo.int/,Weltorganisation für Meteorologie,,Schweiz,World Meteorological Organization PROGRAMMES site | English version | WMO.int,Genf,international,nein,,,46.2,6.15
-http://bis.org/statistics/,Bank For International Settlements Statistics,,Schweiz,About BIS statistics,Schweiz,international,nein,,,47.5667,7.6
-http://opendata.cern.ch/,Cern Open Data,,Schweiz,,Schweiz,international,nein,,,46.2342,6.0528
-http://meteoswiss.ch/,Meteoswiss,,Schweiz,,Schweiz,national,ja,,,46.8333,8.3333
-http://www.bfs.admin.ch/,Bundesamt für Statistik,,Schweiz,,Schweiz,national,ja,,,46.8333,8.3333
-https://opendata.swiss,opendata.swiss,,Schweiz,opendata.swiss ist das Portal für Schweizer Open Government Data (OGD). Hier können Sie Schweizer Behördendaten kostenlos herunterladen.,Schweiz,national,ja,,,46.8333,8.3333
-https://data.stadt-zuerich.ch/,Zurich Open Data,,Schweiz,,Zürich,kommunal,ja,,,47.3667,8.55
-https://www.bmlfuw.gv.at/service/geo-informationen.html,GIS-Anwendungen des BMLFUW,,Österreich,,Österreich,national,ja,ja,,47.516231,14.550072
-http://www.austrianmap.at,AMAP Austria – BEV – Bundesamt für Eich- und Vermessungswesen,,Österreich,,Österreich,national,ja,ja,,47.516231,14.550072
-http://www.geoland.at/,geoland.at – Geodatenportal der österreichischen Länder,,Österreich,"GEOLAND.AT - Das Geodatenportal der österreichischen Länder ist Teil nationaler und internationalen Geodateninfrastrukturen (GDI), die die Nutzung von öffentlichen Geodaten für Verwaltung, Wirtschaft, Forschung, Bildung und Bürger wesentlich erleichtern sollen.",Österreich,regional,ja,ja,ja,47.516231,14.550072
-http://www.doris.at/,DORIS interMAP – Startseite,,Österreich,DORIS ist das Digitale Oberösterreichische RaumInformationssystem - das Geographische Informationssystem des Landes Oö.,Oberösterreich,regional,ja,ja,ja,48.025854,13.9723665
-http://www.noe.gv.at/Land-Zukunft/Karten-Geoinformation.html,Karten & Geoinformationen - Land Niederösterreich,,Österreich,,Niederösterreich,regional,ja,ja,ja,48.108077,15.8049558
-http://www.salzburg.gv.at/sagis/,Land Salzburg - SAGIS - Salzburger Geographisches Informationssystem,,Österreich,,Salzburg,regional,ja,ja,ja,47.80949,13.05501
-http://www.wien.gv.at/viennagis/,ViennaGIS - das Geografische Informationssystem der Stadt Wien,,Österreich,Geografische Informationssystem (GIS) der Stadt Wien: Übersicht über digitale Pläne und Karten,Wien,regional,ja,ja,ja,48.2081743,16.3738189
-http://gis.bgld.gv.at/,GIS Burgenland - Willkommen,,Österreich,,Burgenland,regional,ja,ja,ja,47.1537165,16.2688797
-http://www.vorarlberg.at/lvg,Land Vorarlberg - Landesvermessungsamt,,Österreich,,Voralberg,regional,ja,ja,ja,47.2497427,9.9797373
-http://www.tirol.gv.at/tiris,tiris - Tiroler Rauminformationssystem | Land Tirol,,Österreich,tiris ist das geografische Informationssystem des Landes Tirol. In den Verwaltungsbereichen werden Geodaten über raumbezogene Sachverhalte im tiris Datenpool systematisch gespeichert. Daraus entstehen Geoinformationen wie tirisMaps und Geodatendienste für die amtliche und öffentliche Nutzung im Internet.,Tirol,regional,ja,ja,ja,47.2537414,11.601487
-http://www.kagis.ktn.gv.at/,GDI Kärnten – KAGIS,,Österreich,,Kärnten,regional,ja,ja,ja,46.722203,14.1805882
-http://www.gis.steiermark.at/,Willkommen beim GIS-Steiermark! - Geographisches Informationssystem -  Land Steiermark,,Österreich,Geoinformationen aus dem Land für das Land,Steiermark,regional,ja,ja,ja,47.3593442,14.4699827
-https://www.geo.admin.ch/,Bundes Geodaten-Infrastruktur,,Schweiz,Overview of newly released geodata sets and updates as well as the latest news from the federal geoportal.,Schweiz,national,ja,ja,ja,46.818188,8.227512
-https://mlr.baden-wuerttemberg.de/de/unsere-themen/geodaten/open-data/,Open Data: Ministerium für Ländlichen Raum und Verbraucherschutz Baden-Württemberg,,Deutschland,Barrierefrei gestalteter Internetauftritt des Ministerium für Ländlichen Raum und Verbraucherschutz Baden-Württemberg.,Baden-Württemberg,regional,ja,ja,ja,48.6616037,9.3501336
-https://geo.sv.rostock.de/,Geoportal.HRO,,Deutschland,"Die vorliegende Website richtet sich an Geodaten-Spezialisten, denen das Kataster-, Vermessungs- und Liegenschaftsamt mittels Anleitungen und Links den Zugang zur Geodateninfrastruktur der Hansestadt Rostock (GDI-HRO) erschließen möchte. ",Rostock,kommunal,ja,ja,ja,,
+89073 Ulm","Deutschland","„daten.ulm.de ist eine Infoplattform für (offene) Geodaten und offene statistische Daten der Stadt Ulm.  Welche Geodaten und Karten gibt es bei der Stadt Ulm in welcher Aktualität? Wer ist Ansprechpartner? Welche offenen Daten kann ich sofort herunterladen und weiterverwenden?  Stöbern Sie einfach im thematisch gegliederten Datenkatalog, dessen Angebot sukzessive ausgebaut wird.“ (Quelle: daten.ulm, abgerufen am 27.10.2017)","Ulm","kommunal","ja","","",48.3971464,9.9930504
+"https://www.offenesdatenportal.de/organization/kreis-viersen","Kreis Viersen Open Data","Rathausmarkt 3
+41747 Viersen","Deutschland","Offene Verwaltungsdaten des Kreises Viersen","Viersen","kommunal","ja","","",51.25883,6.39236
+"https://www.offenesdatenportal.de/organization/stadt-wesel","Stadt Wesel am Rhein Open Data","Stadt Wesel
+Klever-Tor-Platz 1
+46483 Wesel","Deutschland","Offene Verwaltungsdaten der Stadt Wesel","Wesel","kommunal","ja","","",51.65855,6.61147
+"https://www.offenedaten-wuppertal.de/","Offene Daten Wuppertal","Johannes-Rau-Platz 1
+42275 Wuppertal","Deutschland","Offene Daten der Stadt Wuppertal","Wuppertal","kommunal","ja","","",51.2720933,7.200039
+"https://open-data.europa.eu/de/about","Offenes Datenportal der EU","","Europa","“Das Offene Datenportal der Europäischen Union bietet Zugang zu einer wachsenden Menge von Daten über die Organe und sonstigen Einrichtungen der Europäische Union (EU).” (Quelle: Europäische Union, abgerufen am 7.11.2017)","Europa","international","ja","","",48.5948367,7.7719195
+"http://data.graz.gv.at/","Graz Open Data","Stadt Graz
+Rathaus, 8011 Graz","Österreich","Graz Online - Stadtportal der Landeshauptstadt Graz","Graz","kommunal","ja","","",47.0706281,15.4386254
+"http://data.ktn.gv.at/","Kärnten Open Data","Arnulfplatz 1
+A-9021 Klagenfurt/Wörthersee","Österreich","Datenauftritt des Bundeslandes Kärnten","Kärnten","regional","ja","","",46.621078,14.3114462
+"http://data.linz.gv.at/","Linz Open Data","Hauptplatz 1
+4041 Linz","Österreich","Datenauftritt der Stadt Linz","Linz","kommunal","ja","","",48.3060091,14.2872516
+"http://opendataportal.at/","Open Data Portal Österreich","
+Stolzenthalergasse 7/1
+1080 Wien","Österreich","Das zentrale Datenportal für Wirtschaft, Kultur, NGO/NPO, Forschung und Zivilgesellschaft. Betrieben durch Wikimedia Österreich","Österreich","national","nein","","",48.2088883,16.3417676
+"http://data.noe.gv.at/","Niederösterreich (lower Austria) Open Data","","Österreich","","Niederösterreich","regional","ja","","",48.3333,15.75
+"http://basemap.at/","Austrian Ogd Basemap","","Österreich","Basemap.at ist eine internetfähige Grundkarte von Österreich, basierend auf den Geodaten der Länder und deren Partnern, frei verfügbar und performant.","Österreich","national","ja","ja","",48.2,16.35
+"https://www.geologie.ac.at/","Geologische Bundesanstalt","","Österreich","The Geological Survey of Austria (GBA) is the largest geoscientific research center in Austria. The task of the Survey is to study and document the geology of the country systematically, continuously and overall.","Österreich","national","ja","ja","",48.2,16.35
+"http://inspire.gv.at/","INSPIRE Austria","","Österreich","Startseite INSPIRE Österreich.","Österreich","national","nein","ja","ja",48.2099296,16.3807722
+"http://zamg.ac.at/","Zentralanstalt Für Meteorologie und Geodynamik","","Österreich","Wetter Klima Umwelt Geophysik Forschung Produkte","Österreich","national","ja","ja","",48.2,16.35
+"http://data.gv.at/","http://data.gv.at/ - Offene Daten Österreichs","Bundeskanzleramt
+Ballhausplatz 2
+A-1010 Wien","Österreich","Als zentraler “Österreich”-Katalog soll diese Website die Metadaten der dezentralen Metadatenkataloge der Verwaltung aufnehmen und abrufbar halten. Es handelt sich insbesondere um Open Government-Informationen (OGD) und Informationen des öffentlichen Sektors (IWG)","Österreich","national","ja","","",48.2087345,16.3636047
+"http://umweltbundesamt.at/opendata/","Umweltbundesamt: OpenData Portal","","Österreich","Offene Umweltdaten des Umweltbundesamtes Österreich","Österreich","national","ja","","",48.2,16.35
+"http://data.reeep.org/","Linked Clean Energy Data - Data.reegle.info","","Österreich","reegle - the clean energy info portal provides country energy profiles including key statistics, policies and actors, a clean energy web search, a directory of relevant key actors and a map search of energy statistics and potentials","Österreich","international","nein","","",48.2208286,16.2399771
+"http://statistik.at/","Statistik Austria","","Österreich","","Österreich","national","nein","","",48.2,16.35
+"http://data.tirol.gv.at/","Tirol Data Portal","","Österreich","Daten der Verwaltung werden durch digitale Infrastruktur öffentlich verfügbar und nutzbar gemacht.","Tirol","regional","ja","","",47.25,11.3333333
+"http://data.vorarlberg.gv.at/","Vorarlberg Open Data","","Österreich","Open Government Data des Landes Voralberg","Voralberg","regional","ja","","",47.25,9.9166667
+"http://data.wien.gv.at/","Open Government Data Wien","","Österreich","Datenauftritt der Bundeshauptstadt (und zugleich Bundesland) Wien","Wien","regional","ja","","",48.2084877602,16.3720750809
+"http://ge.ch/sitg/sitg_catalog/sitg_donnees","Sitg Geneva's Territorial Information System","","Schweiz","","Genf","regional","nein","ja","",46.2,6.15
+"http://data.tpg.ch/","Open Data TPG","","Schweiz","","Genf","regional","nein","","",46.2050241,6.1090692
+"https://www.wmo.int/","Weltorganisation für Meteorologie","","Schweiz","World Meteorological Organization PROGRAMMES site | English version | WMO.int","Genf","international","nein","","",46.2,6.15
+"http://bis.org/statistics/","Bank For International Settlements Statistics","","Schweiz","About BIS statistics","Schweiz","international","nein","","",47.5667,7.6
+"http://opendata.cern.ch/","Cern Open Data","","Schweiz","","Schweiz","international","nein","","",46.2342,6.0528
+"http://meteoswiss.ch/","Meteoswiss","","Schweiz","","Schweiz","national","ja","","",46.8333,8.3333
+"http://www.bfs.admin.ch/","Bundesamt für Statistik","","Schweiz","","Schweiz","national","ja","","",46.8333,8.3333
+"https://opendata.swiss","opendata.swiss","","Schweiz","opendata.swiss ist das Portal für Schweizer Open Government Data (OGD). Hier können Sie Schweizer Behördendaten kostenlos herunterladen.","Schweiz","national","ja","","",46.8333,8.3333
+"https://data.stadt-zuerich.ch/","Zurich Open Data","","Schweiz","","Zürich","kommunal","ja","","",47.3667,8.55
+"https://www.bmlfuw.gv.at/service/geo-informationen.html","GIS-Anwendungen des BMLFUW","","Österreich","","Österreich","national","ja","ja","",47.516231,14.550072
+"http://www.austrianmap.at","AMAP Austria – BEV – Bundesamt für Eich- und Vermessungswesen","","Österreich","","Österreich","national","ja","ja","",47.516231,14.550072
+"http://www.geoland.at/","geoland.at – Geodatenportal der österreichischen Länder","","Österreich","GEOLAND.AT - Das Geodatenportal der österreichischen Länder ist Teil nationaler und internationalen Geodateninfrastrukturen (GDI), die die Nutzung von öffentlichen Geodaten für Verwaltung, Wirtschaft, Forschung, Bildung und Bürger wesentlich erleichtern sollen.","Österreich","regional","ja","ja","ja",47.516231,14.550072
+"http://www.doris.at/","DORIS interMAP – Startseite","","Österreich","DORIS ist das Digitale Oberösterreichische RaumInformationssystem - das Geographische Informationssystem des Landes Oö.","Oberösterreich","regional","ja","ja","ja",48.025854,13.9723665
+"http://www.noe.gv.at/Land-Zukunft/Karten-Geoinformation.html","Karten & Geoinformationen - Land Niederösterreich","","Österreich","Portal zur Geodateninfrastruktur des Landes Niederösterreich mit zugang zum NÖ Atlas und einen Downloadbereich mit frei verwendbaren Geodaten (mit Quellenangabe) (Stand: 7.11.2018)","Niederösterreich","regional","ja","ja","ja",48.108077,15.8049558
+"http://www.salzburg.gv.at/sagis/","Land Salzburg - SAGIS - Salzburger Geographisches Informationssystem","","Österreich","","Salzburg","regional","ja","ja","ja",47.80949,13.05501
+"http://www.wien.gv.at/viennagis/","ViennaGIS - das Geografische Informationssystem der Stadt Wien","","Österreich","Geografische Informationssystem (GIS) der Stadt Wien: Übersicht über digitale Pläne und Karten","Wien","regional","ja","ja","ja",48.2081743,16.3738189
+"http://gis.bgld.gv.at/","GIS Burgenland - Willkommen","","Österreich","","Burgenland","regional","ja","ja","ja",47.1537165,16.2688797
+"http://www.vorarlberg.at/lvg","Land Vorarlberg - Landesvermessungsamt","","Österreich","","Voralberg","regional","ja","ja","ja",47.2497427,9.9797373
+"http://www.tirol.gv.at/tiris","tiris - Tiroler Rauminformationssystem | Land Tirol","","Österreich","“tiris ist das geografische Informationssystem des Landes Tirol. In den Verwaltungsbereichen werden Geodaten über raumbezogene Sachverhalte im tiris Datenpool systematisch gespeichert. Daraus entstehen Geoinformationen wie tirisMaps und Geodatendienste für die amtliche und öffentliche Nutzung im Internet.” (Quelle: tiris, abgerufen am 7.11.2017)","Tirol","regional","ja","ja","ja",47.2537414,11.601487
+"http://www.kagis.ktn.gv.at/","GDI Kärnten – KAGIS","","Österreich","Portal zur Geodateninfrastruktur der Landesregierung Kärnten","Kärnten","regional","ja","ja","ja",46.722203,14.1805882
+"http://www.gis.steiermark.at/","Willkommen beim GIS-Steiermark! - Geographisches Informationssystem -  Land Steiermark","","Österreich","Geodateninfrastruktrur der Steiermark / Österreich","Steiermark","regional","ja","ja","ja",47.3593442,14.4699827
+"https://www.geo.admin.ch/","Bundes Geodaten-Infrastruktur","","Schweiz","Bundes-Geoportal der Schweiz","Schweiz","national","ja","ja","ja",46.818188,8.227512
+"https://mlr.baden-wuerttemberg.de/de/unsere-themen/geodaten/open-data/","Open Data: Ministerium für Ländlichen Raum und Verbraucherschutz Baden-Württemberg","Kernerplatz 10,
+70182 Stuttgart","Deutschland","Barrierefrei gestalteter Internetauftritt des Ministerium für Ländlichen Raum und Verbraucherschutz Baden-Württemberg.","Baden-Württemberg","regional","ja","ja","ja",48.783554,9.1895508
+"https://geo.sv.rostock.de/","Geoportal.HRO","Hinter dem Rathaus 5,
+18055 Rostock","Deutschland","“Die vorliegende Website richtet sich an Geodaten-Spezialisten, denen das Kataster-, Vermessungs- und Liegenschaftsamt mittels Anleitungen und Links den Zugang zur Geodateninfrastruktur der Hansestadt Rostock (GDI-HRO) erschließen möchte. “ (Quelle: Hansestadt Rostock, aberufen am 7.11.2017)","Rostock","kommunal","ja","ja","ja",54.08832,12.14184
