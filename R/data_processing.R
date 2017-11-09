@@ -1,18 +1,39 @@
 FETCH_WEBMETA = FALSE
+OSM_API_KEY = "" #provide osm key for nomatim
+GOOGLE_API = FALSE # if false, use nomatim
 
-
-portale <- read.csv("data/portale_3.csv", as.is = TRUE)
-library(ggmap)
+portale <- read.csv("data/portale_geocoded3.csv", as.is = TRUE)
+library(nominatim) #for osm geocoding
+library(ggmap) #for google geocoding
 
 #dp geocoding if coordinates are missing
 for(i in 1:dim(portale)[1]){
- # if(is.null(portale[i,]$lat) || is.na(portale[i,]$lat) || !is.numeric(portale[i,]$lat)){
-    adresse <- portale$Adresse_Herausgeber[i]
-    if(adresse != ""){
-     loc <- geocode(paste0(adresse,", ", portale[i,]$Land), source = "google");loc
-      portale[i,]$lat <- loc$lat
-      portale[i,]$lon <- loc$lon
-   }
+  if(is.null(portale[i,]$lat) || is.na(portale[i,]$lat) || !is.numeric(portale[i,]$lat)){
+    address <- portale$Adresse_Herausgeber[i]
+    if(address != ""){
+      #google geocoding
+      address <- paste0(address,", ", portale[i,]$Land)
+     if(GOOGLE_API){
+      loc <- geocode(address, source = "google");loc
+      Sys.sleep(2)
+     }else{
+        ##for nomatim geocoding (not very reliable)
+        if(OSM_API_KEY == "" && requireNamespace("getPass")){
+          OSM_API_KEY <- getPass::getPass("Please provide an OSM/Mapquest api key in order to use nomatim geocoding:")
+        }
+        
+        address <- htmltools::htmlEscape(address, attribute = TRUE)
+        address <- stringr::str_replace_all(address, "ß","ss")
+        print(address)
+        loc <- osm_geocode(address, key = OSM_API_KEY)
+     }
+      #--
+      if(dim(loc)[1]>0){
+       portale[i,]$lat <- loc$lat
+        portale[i,]$lon <- loc$lon
+     }else{print("FAIL!!")}
+    }
+  }
 }
 
 
