@@ -51,8 +51,8 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
   
   portale_shared <- SharedData$new(portale, group = crosstalk_group)
   
-  gdi_legend = paste0("<img src=\"",pchIcons(col = "grey"), "\"></img> GDI")
-  odp_legend = paste0("<img src=\"",pchIcons(file_prefix = "portals_", col = "grey", pch = 21), "\"></img> Open Data Portale")
+  gdi_legend = paste0("<img src=\"/",pchIcons(col = "grey"), "\"></img> GDI")
+  odp_legend = paste0("<img src=\"/",pchIcons(file_prefix = "portals_", col = "grey", pch = 21), "\"></img> Open Data Portale")
   
   m <-
     leaflet(data = portale_shared, options = list(preferCanvas = TRUE))  %>% 
