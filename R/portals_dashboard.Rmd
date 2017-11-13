@@ -16,6 +16,7 @@ library(flexdashboard)
 library(DT)
 library(htmltools)
 library(crosstalk)
+library(rgdal)
 #portale <- read.csv("../data/portale_geocoded2.csv")
 portale <- read.csv("../out_geodata/portale_shifted.csv")
 portale$Link <- paste0("<a href=\"",htmlEscape(portale$URL),"\" target=\"_blank\">",htmlEscape(portale$Titel),"</a>")
@@ -29,6 +30,10 @@ levels(portale$Typ) <- c("Open Data Portal","GDI")
 
 sd <- SharedData$new(portale, group = "portale")
 sd_table <- SharedData$new(portale[c("Link","Beschreibung","Ort","Bezug")], group = "portale")
+
+gbounds <- readOGR("../data/bounds/Germany_AL4.GeoJson")
+abounds <- readOGR("../data/bounds/Austria_AL4.GeoJson")
+sbounds <- readOGR("../data/bounds/Switzerland_AL4.GeoJson")
 
 
 #Column {data-width=650}
@@ -57,9 +62,10 @@ Row {.tabset .tabset-fade data-height=800}
 
 ### Karte 
 
-```{r, fig.width=10, fig.height=8}
+```{r, fig.width=10, fig.height=8, echo=FALSE}
 
 source("create_map_function.R")
+
 m <- createMap(portale, clustering = FALSE, layerControls=FALSE)
 #filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE)
 #m

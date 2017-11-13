@@ -18,6 +18,7 @@ library(flexdashboard)
 library(DT)
 library(htmltools)
 library(crosstalk)
+library(rgdal)
 shiny::addResourcePath("icontemp", file.path(getwd(), "icontemp"))
 shiny::addResourcePath("out_geodata", file.path(getwd(), "out_geodata"))
 shiny::addResourcePath("data", file.path(getwd(), "data"))
@@ -35,6 +36,9 @@ levels(portale$Typ) <- c("Open Data Portal","GDI")
 sd <- SharedData$new(portale, group = "portale")
 sd_table <- SharedData$new(portale[c("Link","Beschreibung","Ort","Bezug")], group = "portale")
 
+gbounds <- readOGR("data/bounds/Germany_AL4.GeoJson")
+#abounds <- readOGR("data/bounds/Austria_AL4.GeoJson")
+#sbounds <- readOGR("data/bounds/Switzerland_AL4.GeoJson")
 
 #Column {data-width=650}
 #Column {data-width=350}
@@ -64,15 +68,28 @@ Row {.tabset .tabset-fade data-height=800}
 
 ```{r, fig.width=10, fig.height=8}
 
+
 source("R/create_map_function.R")
-m <- createMap(portale, clustering = FALSE, layerControls=FALSE)
+
+#m <- createMap(portale, clustering = FALSE, layerControls=FALSE)
+#m
+
+shinyApp(
+  ui <- fluidPage(leafletOutput("mymap")),
+      
+  server <- function(input, output, session){
+    output$mymap <- renderLeaflet({
+      m <- createMap(portale, clustering = FALSE, layerControls=FALSE)
+      m
+  })
+  }                 
+)
 #filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE)
 #m
 # bscols(list(filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE),
 # filter_checkbox("bezug_check", "Bezug", sd, ~Bezug, inline = TRUE),
 # m))
 
-m
 ```
 
 
