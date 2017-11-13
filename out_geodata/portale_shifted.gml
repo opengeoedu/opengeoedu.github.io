@@ -6,11 +6,11 @@
      xmlns:gml="http://www.opengis.net/gml">
   <gml:boundedBy>
     <gml:Box>
-      <gml:coord><gml:X>4.511094597622894</gml:X><gml:Y>45.72262490146827</gml:Y></gml:coord>
-      <gml:coord><gml:X>24.74794876946177</gml:X><gml:Y>59.4245596538168</gml:Y></gml:coord>
+      <gml:coord><gml:X>6.082927699025517</gml:X><gml:Y>46.18979569315177</gml:Y></gml:coord>
+      <gml:coord><gml:X>16.52856400843007</gml:X><gml:Y>54.33628470550668</gml:Y></gml:coord>
     </gml:Box>
   </gml:boundedBy>
-                                                                                                 
+                                                                                                
   <gml:featureMember>
     <ogr:portale fid="portale.1">
       <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.08292769902552,50.7761914050729</gml:coordinates></gml:Point></ogr:geometryProperty>
@@ -78,7 +78,7 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</ogr:Beschre
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.5">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>5.06958729765809,45.7226249014683</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.3150806060925,52.492651304353</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>5</ogr:ID>
       <ogr:URL>http://www.stadtentwicklung.berlin.de/geoinformation/</ogr:URL>
       <ogr:Titel>GDI Berlin</ogr:Titel>
@@ -89,7 +89,7 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</ogr:Beschre
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
       <ogr:GDI>ja</ogr:GDI>
-      <ogr:Adresse_Herausgeber>Württembergische Straße 6, 10707 Berlin, </ogr:Adresse_Herausgeber>
+      <ogr:Adresse_Herausgeber>Württembergische Straße 6, 10707 Berlin</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
@@ -110,7 +110,7 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</ogr:Beschre
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.7">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.21474740027626,51.4817532053902</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.21386993667151,51.5042126342776</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>7</ogr:ID>
       <ogr:URL>https://www.bochum.de/opendata</ogr:URL>
       <ogr:Titel>Bochum Open Data</ogr:Titel>
@@ -400,7 +400,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.25">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>4.51109459762289,51.8516783046132</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.98826579796886,53.5776975577441</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>25</ogr:ID>
       <ogr:URL>https://www.govdata.de/</ogr:URL>
       <ogr:Titel>GovData - das Datenportal für Deutschland</ogr:Titel>
@@ -411,7 +411,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
       <ogr:GDI></ogr:GDI>
-      <ogr:Adresse_Herausgeber>20306 Hamburg</ogr:Adresse_Herausgeber>
+      <ogr:Adresse_Herausgeber>Gänsemarkt 36, 20354 Hamburg</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
@@ -530,7 +530,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.33">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.99207540295906,53.5507140055721</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.98721887992371,53.532779265245</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>33</ogr:ID>
       <ogr:URL>http://daten.hamburg.de/</ogr:URL>
       <ogr:Titel>Transparenzportal Hamburg</ogr:Titel>
@@ -562,7 +562,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.35">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>24.7479487694618,59.4245596538168</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.21562372881151,51.4592936794994</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>35</ogr:ID>
       <ogr:URL>http://www.herne.de/Stadt-und-Leben/Stadtfakten/Open-Data/</ogr:URL>
       <ogr:Titel>Herne Open Data</ogr:Titel>

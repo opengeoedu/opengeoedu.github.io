@@ -92,9 +92,9 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
-		<SimpleData name="Adresse_Herausgeber">Württembergische Straße 6, 10707 Berlin, </SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Württembergische Straße 6, 10707 Berlin</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>5.06958729765809,45.7226249014683</coordinates></Point>
+      <Point><coordinates>13.3150806060925,52.492651304353</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -126,7 +126,7 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Willy-Brandt-Platz 2-6, 44787 Bochum</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.21474740027626,51.4817532053902</coordinates></Point>
+      <Point><coordinates>7.21386993667151,51.5042126342776</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -414,9 +414,9 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="GDI"></SimpleData>
-		<SimpleData name="Adresse_Herausgeber">20306 Hamburg</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Gänsemarkt 36, 20354 Hamburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>4.51109459762289,51.8516783046132</coordinates></Point>
+      <Point><coordinates>9.98826579796886,53.5776975577441</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -546,7 +546,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Freie und Hansestadt Hamburg, Rathausmarkt 1, 20095 Hamburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.99207540295906,53.5507140055721</coordinates></Point>
+      <Point><coordinates>9.98721887992371,53.532779265245</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -578,7 +578,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Herne, Friedrich-Ebert-Platz 2, 44623 Herne</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>24.7479487694618,59.4245596538168</coordinates></Point>
+      <Point><coordinates>7.21562372881151,51.4592936794994</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
