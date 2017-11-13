@@ -1,10 +1,12 @@
 FETCH_WEBMETA = FALSE
-OSM_API_KEY = "" #provide osm key for nomatim
-GOOGLE_API = FALSE # if false, use nomatim
+EMAIL = "" #pass email adress in order to use nominatim service of openstreetmap, 
+# see terms of use: https://operations.osmfoundation.org/policies/nominatim/)
+# more information: https://wiki.openstreetmap.org/wiki/Nominatim, http://nominatim.openstreetmap.org/
+require(xml2)
+require(htmltools)
+require(stringr)
 
 portale <- read.csv("data/portale_geocoded3.csv", as.is = TRUE)
-library(nominatim) #for osm geocoding
-library(ggmap) #for google geocoding
 
 #dp geocoding if coordinates are missing
 for(i in 1:dim(portale)[1]){
@@ -12,29 +14,62 @@ for(i in 1:dim(portale)[1]){
     address <- portale$Adresse_Herausgeber[i]
     if(address != ""){
       #google geocoding
-      address <- paste0(address,", ", portale[i,]$Land)
-     if(GOOGLE_API){
-      loc <- geocode(address, source = "google");loc
-      Sys.sleep(2)
-     }else{
-        ##for nomatim geocoding (not very reliable)
-        if(OSM_API_KEY == "" && requireNamespace("getPass")){
-          OSM_API_KEY <- getPass::getPass("Please provide an OSM/Mapquest api key in order to use nomatim geocoding:")
+
+        ##for nomatim geocoding of open streetmap
+        if((!exists("EMAIL") || is.null(EMAIL) || EMAIL == "") && requireNamespace("getPass")){
+          EMAIL <- getPass::getPass("Please provide your e-mail adress for the nominatim-openstreetmap service:")
         }
-        
-        address <- htmltools::htmlEscape(address, attribute = TRUE)
+        #address <- htmltools::htmlEscape(address, attribute = TRUE);address
         address <- stringr::str_replace_all(address, "ß","ss")
-        print(address)
-        loc <- osm_geocode(address, key = OSM_API_KEY)
-     }
-      #--
-      if(dim(loc)[1]>0){
-       portale[i,]$lat <- loc$lat
-        portale[i,]$lon <- loc$lon
-     }else{print("FAIL!!")}
+        #address <- "Europaplatz 1, A-7000 Eisenstadt" #for testing
+       # address <- "Stadt Mannheim, Rathaus E 5, D-68159 Mannheim"
+        address <- unlist(stringr::str_split(address,", "));address
+        len <- length(address)
+        if(len>1){
+          
+          city <- unlist(stringr::str_split(stringr::str_trim(address[len]),pattern = " "))
+          if(length(city)>=2){
+            city <- paste0("&city=",paste(city[2:length(city)], collapse = " "),"&postalcode=",city[1])
+          }else{
+            city <- stringr::str_trim(address[len])
+          }
+          query <- paste0("street=",address[len-1],city)
+        }else{
+          query <- paste0("q=",address)
+        }
+        .url <- paste0("http://nominatim.openstreetmap.org/search?",URLencode(query),"&format=xml&country_codes=de,ch,at&email=",EMAIL,"&country=",portale[i,]$Land)
+        success <- TRUE
+        desc <- NULL
+        tryCatch({
+          xres <- read_xml(.url)
+          xloc <- xml_find_first(xres, ".//place")
+          lon <- xml_attr(xloc,"lon")
+          lat <- xml_attr(xloc,"lat")
+          message("Found coordinates ",lat,", ",lon," for address ", portale$Adresse_Herausgeber[i])
+          if(!is.na(lon) && !is.na(lat)){
+            portale$lat[i] <- as.numeric(lat)
+            portale$lon[i] <- as.numeric(lon)
+          }else{
+            message("Request was not successfull:\n\t:",.url)
+          }
+            
+        }, error = function(e){
+          success <- FALSE
+          print(e)
+        },finally = {
+          # close(con)
+        })
+        if (!success) {
+          warning("Failed determine geolocation of ", address)
+        }
+        Sys.sleep(2)# maximum 1 request per second alowed
     }
+        
   }
+      #--
 }
+
+
 
 
 #-------------------------------------------
@@ -98,7 +133,6 @@ if(FETCH_WEBMETA){
 #portale <- read.csv("data/portale_geocoded2.csv")
 library(rgdal)
 library(sp)
-library(ggmap)
 library(geosphere)
 
 portale.sp <- portale
@@ -149,11 +183,17 @@ portale.lonlat.shifted <- spTransform(portale.gk3.shifted, CRS("+proj=longlat +d
 write.csv(as.data.frame(portale.lonlat.shifted), "out_geodata/portale_shifted.csv", row.names = FALSE)
 writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.geojson", layer = "portale", driver = "GeoJSON", overwrite_layer = TRUE)
 writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.shp", layer = "portale", driver = "ESRI Shapefile", overwrite_layer = TRUE)
-writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.sql", layer = "portale", driver = "PostgreSQL", overwrite_layer = TRUE)
+#dest <- file.path(tempdir(),"portale_shifted.sql")
+#writeOGR(portale.lonlat.shifted, dsn = dest, layer = "portale", driver = "PostgreSQL", overwrite_layer = TRUE)
+#file.copy(dest, file.path(getwd(),"out_geodata/portale_shifted.sql"),overwrite = TRUE)
+#file.remove(dest)
 writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.kml", layer = "portale", driver = "KML", overwrite_layer = TRUE)
 writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.gml", layer = "portale", driver = "GML", overwrite_layer = TRUE)
-writeOGR(portale.lonlat.shifted, dsn = "out_geodata/portale_shifted.gpkg", layer = "portale", driver = "GPKG", overwrite_layer = TRUE)
-
+## workaround for execution problems (create file in temporary directory and then copy)
+dest <- file.path(tempdir(),"portale_shifted.gpkg")
+writeOGR(portale.lonlat.shifted, dsn =  dest, layer = "portale", driver = "GPKG", overwrite_layer = TRUE,delete_dsn = TRUE)
+file.copy(dest, file.path(getwd(),"out_geodata/portale_shifted.gpkg"),overwrite = TRUE)
+file.remove(dest)
 #writeOGR(portale.lonlat.shifted, dsn = "ou/portale_shifted.gpkg", layer = "portale", driver = "GPKG", overwrite_layer = TRUE)
 zip("out_geodata/portale_shifted-ESRI-Shapefile.zip", files = paste0("out_geodata/portale_shifted",c(".shp",".shx",".dbf", ".prj")))
 

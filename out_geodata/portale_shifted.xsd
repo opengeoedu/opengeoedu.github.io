@@ -16,6 +16,13 @@
     <xs:extension base="gml:AbstractFeatureType">
       <xs:sequence>
         <xs:element name="geometryProperty" type="gml:PointPropertyType" nillable="true" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="ID" nillable="true" minOccurs="0" maxOccurs="1">
+          <xs:simpleType>
+            <xs:restriction base="xs:integer">
+              <xs:totalDigits value="16"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
         <xs:element name="URL" nillable="true" minOccurs="0" maxOccurs="1">
           <xs:simpleType>
             <xs:restriction base="xs:string">
@@ -23,12 +30,6 @@
           </xs:simpleType>
         </xs:element>
         <xs:element name="Titel" nillable="true" minOccurs="0" maxOccurs="1">
-          <xs:simpleType>
-            <xs:restriction base="xs:string">
-            </xs:restriction>
-          </xs:simpleType>
-        </xs:element>
-        <xs:element name="Adresse_Herausgeber" nillable="true" minOccurs="0" maxOccurs="1">
           <xs:simpleType>
             <xs:restriction base="xs:string">
             </xs:restriction>
@@ -71,6 +72,12 @@
           </xs:simpleType>
         </xs:element>
         <xs:element name="GDI" nillable="true" minOccurs="0" maxOccurs="1">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="Adresse_Herausgeber" nillable="true" minOccurs="0" maxOccurs="1">
           <xs:simpleType>
             <xs:restriction base="xs:string">
             </xs:restriction>

@@ -1,7 +1,7 @@
 library(htmltools)
 library(htmlwidgets)
 
-portale <- read.csv("data/portale_geocoded.csv")
+portale <- read.csv("data/portale_geocoded3.csv", as.is = TRUE)
 
 portale$Link <- paste0("<a href=\"",htmlEscape(portale$URL),"\" target=\"_blank\">",htmlEscape(portale$Titel),"</a>")
 

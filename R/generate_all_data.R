@@ -1,9 +1,7 @@
 if(FALSE){
   #install necessary packages
   install.packages("devtools") #install packages from github
-  devtools::install_github("hrbrmstr/nominatim") #(optional) geocoding with openstreetmap
   install.packages("leafletR") #(optional) leaflet package
-  install.packages("ggmap") #use google maps and google geocoding
   #install.packages("leaflet")
   install.packages("rgdal")
   install.packages("htmltools")
