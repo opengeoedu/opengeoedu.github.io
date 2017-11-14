@@ -36,9 +36,7 @@ levels(portale$Typ) <- c("Open Data Portal","GDI")
 sd <- SharedData$new(portale, group = "portale")
 sd_table <- SharedData$new(portale[c("Link","Beschreibung","Ort","Bezug")], group = "portale")
 
-gbounds <- readOGR("data/bounds/Germany_AL4.GeoJson")
-#abounds <- readOGR("data/bounds/Austria_AL4.GeoJson")
-#sbounds <- readOGR("data/bounds/Switzerland_AL4.GeoJson")
+load("data/auxiliary.RData")
 
 #Column {data-width=650}
 #Column {data-width=350}
@@ -71,19 +69,54 @@ Row {.tabset .tabset-fade data-height=800}
 
 source("R/create_map_function.R")
 
-#m <- createMap(portale, clustering = FALSE, layerControls=FALSE)
-#m
+portalMapUI <- function(id) {
+  ns <- NS(id)
+  tagList(leafletOutput(ns("map")))
+}
 
-shinyApp(
-  ui <- fluidPage(leafletOutput("mymap")),
-      
-  server <- function(input, output, session){
-    output$mymap <- renderLeaflet({
-      m <- createMap(portale, clustering = FALSE, layerControls=FALSE)
-      m
-  })
-  }                 
-)
+m <- createMap(portale, clustering = FALSE, layerControls=FALSE)
+
+# Server function
+portalMap <- function(input, output, session) {
+  output$map <- renderLeaflet(m)
+}
+
+# call the module
+portalMapUI("oge")
+callModule(portalMap, "oge")
+
+  
+  #createMap(portale, clustering = FALSE, layerControls=FALSE)
+
+# mapServerUI <- function(id){
+#   ns <- NS(id)
+#   
+#   leafletOutput(ns("portalsmap"),width = "500px", height = "500px")
+# }
+# 
+# mapServer <- function(input, output, session){
+#    m <- leaflet() %>% addProviderTiles(providers$CartoDB.PositronNoLabels) %>% addPopups(-93.65, 42.0285, 'Here is the <b>Department of Statistics</b>, ISU')
+#      output$postalsmap <- renderLeaflet(m)
+# 
+# }
+# 
+# mapServerUI("oge")
+# callModule(mapServer, "oge")
+
+
+#renderLeaflet(m)
+
+
+#group_nogdi <<- SharedData$new(portale[portale$Bezug==category & !portale$GDI,])
+
+# shinyApp(
+#   ui <- fluidPage(leafletOutput("mymap")),
+#       
+#   server <- function(input, output, session){
+#     m <- createMap(portale, clustering = FALSE, layerControls=FALSE)
+#     output$mymap <- renderLeaflet(m)
+#   }                 
+# )
 #filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE)
 #m
 # bscols(list(filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE),

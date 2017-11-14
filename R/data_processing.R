@@ -196,4 +196,30 @@ file.copy(dest, file.path(getwd(),"out_geodata/portale_shifted.gpkg"),overwrite 
 file.remove(dest)
 #writeOGR(portale.lonlat.shifted, dsn = "ou/portale_shifted.gpkg", layer = "portale", driver = "GPKG", overwrite_layer = TRUE)
 zip("out_geodata/portale_shifted-ESRI-Shapefile.zip", files = paste0("out_geodata/portale_shifted",c(".shp",".shx",".dbf", ".prj")))
+#--------------------------
+# portals map data
+#
 
+#national, regional, local boundaries
+if(!file.exists("data/auxiliary.RData")){
+    require(rgdal)
+    require(rgeos)
+    g2bounds <- readOGR("data/bounds/Germany_AL2.GeoJson")
+    g4bounds <- readOGR("data/bounds/Germany_AL4.GeoJson")
+    g5bounds <- readOGR("data/bounds/Germany_AL5.GeoJson")
+    g5bounds <- SpatialPolygonsDataFrame(data = g5bounds@data, Sr = gSimplify(g5bounds,tol= 0.02,topologyPreserve = TRUE))
+    
+    g6bounds <- readOGR("data/bounds/Germany_AL6.GeoJson")
+    g6bounds <- SpatialPolygonsDataFrame(data = g6bounds@data, Sr = gSimplify(g6bounds,tol= 0.05,topologyPreserve = TRUE))
+    a2bounds <- readOGR("data/bounds/Austria_AL2.GeoJson")
+    a4bounds <- readOGR("data/bounds/Austria_AL4.GeoJson")
+    a6bounds <- readOGR("data/bounds/Austria_AL6.GeoJson")
+    a6bounds <- SpatialPolygonsDataFrame(data = a6bounds@data, Sr = gSimplify(a6bounds,tol= 0.05,topologyPreserve = TRUE))
+    s2bounds <- readOGR("data/bounds/Switzerland_AL2.GeoJson")
+    s4bounds <- readOGR("data/bounds/Switzerland_AL4.GeoJson")
+    s5bounds <- readOGR("data/bounds/Switzerland_AL5.GeoJson")
+    s5bounds <- SpatialPolygonsDataFrame(data = s5bounds@data, Sr = gSimplify(s5bounds,tol= 0.02,topologyPreserve = TRUE))
+    s6bounds <- readOGR("data/bounds/Switzerland_AL6.GeoJson")
+    s6bounds <- SpatialPolygonsDataFrame(data = s6bounds@data, Sr = gSimplify(s6bounds,tol= 0.05,topologyPreserve = TRUE))
+    save(file = "data/auxiliary.RData", list = ls()[stringr::str_detect(ls(), "bounds$")])
+}
