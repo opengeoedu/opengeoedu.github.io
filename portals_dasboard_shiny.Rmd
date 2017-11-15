@@ -19,6 +19,8 @@ library(DT)
 library(htmltools)
 library(crosstalk)
 library(rgdal)
+library(shiny)
+library(shinyjs)
 shiny::addResourcePath("icontemp", file.path(getwd(), "icontemp"))
 shiny::addResourcePath("out_geodata", file.path(getwd(), "out_geodata"))
 shiny::addResourcePath("data", file.path(getwd(), "data"))
@@ -37,6 +39,7 @@ sd <- SharedData$new(portale, group = "portale")
 sd_table <- SharedData$new(portale[c("Link","Beschreibung","Ort","Bezug")], group = "portale")
 
 load("data/auxiliary.RData")
+load("data/cities-geonames-deatch.RData")
 
 #Column {data-width=650}
 #Column {data-width=350}
@@ -79,6 +82,34 @@ m <- createMap(portale, clustering = FALSE, layerControls=FALSE)
 # Server function
 portalMap <- function(input, output, session) {
   output$map <- renderLeaflet(m)
+  observe({
+  
+   if(length(input$map_zoom) == 1){
+     proxy <- leafletProxy("map")
+    if(input$map_zoom >= 9){
+      proxy %>% showGroup("adm6_labels")  
+    }else if(input$map_zoom < 9){
+      proxy %>% hideGroup("adm6_labels")  
+     }
+     
+    if(input$map_zoom >= 8){
+      
+      proxy %>% hideGroup("portals") %>%
+             showGroup("adm5") %>%
+             showGroup("adm6") %>%
+             showGroup("portals")
+    }else if(input$map_zoom < 8){
+      proxy %>% hideGroup("adm5") %>%
+          hideGroup("adm6")
+     }
+    if(input$map_zoom >= 7){
+      proxy %>% showGroup("adm4_labels")  
+    }
+     if(input$map_zoom < 7){
+      proxy %>% hideGroup("adm4_labels")  
+    }}
+    
+  })
 }
 
 # call the module

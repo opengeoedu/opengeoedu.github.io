@@ -2,6 +2,7 @@ library(leaflet)
 library(leaflet.extras)
 library(RColorBrewer)
 library(crosstalk)
+library(rgeos)
 
 
 # helper function that creates triangular icon files in differnet colors in folder tempicon
@@ -54,7 +55,10 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
   gdi_legend = paste0("<img src=\"/",pchIcons(col = "grey"), "\"></img> GDI")
   odp_legend = paste0("<img src=\"/",pchIcons(file_prefix = "portals_", col = "grey", pch = 21), "\"></img> Open Data Portale")
 
-
+  labeladm6opts <- labelOptions(textOnly = TRUE, noHide = TRUE, direction = "bottom", opacity = 0.5, textsize = "11px")
+  labeladm4opts <- labelOptions(textOnly = TRUE, noHide = TRUE, direction = "bottom", opacity = 0.5, textsize = "15px", style = "color:#03F")
+  #labelPolyopts <- labelOptions(direction = "right", style = "color:yellow; text-shadow: 0 0 0.1em black, 0 0 0.1em black,
+   #     0 0 0.1em black,0 0 0.1em black,0 0 0.1em;")
   m <-
     leaflet(data = portale_shared, options = list(preferCanvas = TRUE))  %>%
     #  addProviderTiles(providers$Stamen.TonerBackground) %>%
@@ -67,21 +71,30 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
       title = "Legende"
     ) %>%
     addResetMapButton() %>%
-    addPolygons(data = g6bounds,color="black",weight = 0.5,label = g6bounds$localname, group = "adm6",fill=FALSE) %>%
-    addPolygons(data = s6bounds,color="black",weight = 0.5,label = s6bounds$localname, group  = "adm6",fill=FALSE) %>%
-    addPolygons(data = a6bounds,color="black",weight = 0.5,label = a6bounds$localname, group = "adm6",fill=FALSE) %>%
-    addPolygons(data = g5bounds,color="black", weight = 1,label = g5bounds$localname, group = "adm5",fill=FALSE) %>%
-    addPolygons(data = s5bounds,color="black",weight = 1,label = s5bounds$localname, group  = "adm5", fill=FALSE) %>%
-    addPolygons(data = g4bounds,weight = 0.5,label = g4bounds$localname, group = "adm4") %>%
-    addPolygons(data = s4bounds,weight = 0.5,label = s4bounds$localname, group  = "adm4") %>%
-    addPolygons(data = a4bounds,weight = 0.5,label = a4bounds$localname, group = "adm4") %>%
-    addPolygons(data = g2bounds,weight = 2,label = g2bounds$localname, group = "adm2", fill = FALSE) %>%
-    addPolygons(data = s2bounds,weight = 2,label = s2bounds$localname, group  = "adm2", fill = FALSE) %>%
-    addPolygons(data = a2bounds,weight = 2,label = a2bounds$localname, group = "adm2", fill = FALSE) %>%
+    addPolygons(data = g6bounds,color="black",weight = 1, group = "adm6",fill=TRUE,label = g6bounds$localname, fillOpacity = 0) %>%
+    #addLabelOnlyMarkers(data = gCentroid(geometry(g6bounds), byid = TRUE), label = g6bounds$localname, group = "adm6_labels", labelOptions = labeladm6opts) %>%
+    addPolygons(data = s6bounds,color="black",weight = 1, group  = "adm6",label = s6bounds$localname,fill=TRUE, fillOpacity = 0) %>%
+    #addLabelOnlyMarkers(data = gCentroid(geometry(s6bounds), byid = TRUE), label = s6bounds$localname, group = "adm6_labels", labelOptions = labeladm6opts) %>%
+    addPolygons(data = a6bounds,color="black",weight = 1,label = a6bounds$localname, group = "adm6",fill=TRUE, fillOpacity = 0) %>%
+    #addLabelOnlyMarkers(data = gCentroid(geometry(a6bounds), byid = TRUE), label = a6bounds$localname, group = "adm6_labels", labelOptions = labeladm6opts) %>%
+    addPolygons(data = g5bounds,color="black", weight = 1.5,label = g5bounds$localname, group = "adm5",fill=FALSE) %>%
+    addPolygons(data = s5bounds,color="black",weight = 1.5,label = s5bounds$localname, group  = "adm5", fill=TRUE, fillOpacity = 0) %>%
+    addPolygons(data = g4bounds,weight = 2, group = "adm4", fill=TRUE) %>%
+    addPolygons(data = s4bounds,weight = 2, label = s4bounds$localname, group  = "adm4", fill=TRUE) %>%
+    addPolygons(data = a4bounds,weight = 2, group = "adm4", fill=TRUE) %>%
+    addLabelOnlyMarkers(data = gCentroid(geometry(g4bounds), byid = TRUE), label = g4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
+    addLabelOnlyMarkers(data = gCentroid(geometry(a4bounds), byid = TRUE), label = a4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
+    #addLabelOnlyMarkers(data = gCentroid(geometry(s4bounds), byid = TRUE), label = s4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
+    addPolygons(data = g2bounds,weight = 3, group = "adm2", fill = FALSE) %>%
+    addPolygons(data = s2bounds,weight = 3, group  = "adm2", fill = FALSE) %>%
+    addPolygons(data = a2bounds,weight = 3, group = "adm2", fill = FALSE) %>%
     addControl(paste(gdi_legend, odp_legend, sep="<br/>\n"),position = "topright") %>%
     addScaleBar(position = "bottomright", options = scaleBarOptions(imperial = FALSE, metric = TRUE)) %>%
-    hideGroup("adm6") %>% hideGroup("adm5")
-    #leaflet.extras::enableTileCaching()
+    addCircleMarkers(data=pplc, color = "red", label = pplc$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE),radius=1) %>%
+    addCircleMarkers(data=ppla, color = "black", label = ppla$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE),radius=1, group = "adm4_labels") %>%
+    addCircleMarkers(data=ppl, color = "grey", label = ppl$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE),radius=1, group = "adm6_labels") %>%
+    hideGroup("adm6") %>% hideGroup("adm5") %>% hideGroup("adm6_labels") %>% hideGroup("adm4_labels")  %>% 
+    leaflet.extras::enableTileCaching()
       #addGeoJSON("data/bounds/Germany_AL2.GeoJson")
 
 
@@ -115,7 +128,7 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
         ~lat,
         popup = ~popup,
         popupOptions = popupOptions(),
-        group = category,
+        group = "portals",
         icon =  ~ icons(
           iconUrl = iconfile,
           iconWidth = 30,
@@ -139,7 +152,7 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
         ~lat,
         popup = ~popup,
         popupOptions = popupOptions(),
-        group = category,
+        group = "portals",
         color =  colorlf[[category]],
         label = ~label,
         #options = markerOptions(alt = group$searchmeta),
