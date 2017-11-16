@@ -1,6 +1,5 @@
 {
 "type": "FeatureCollection",
-"name": "portale",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "id": 1, "properties": { "ID": 1, "URL": "http:\/\/offenedaten.aachen.de\/", "Titel": "Aachen Open Data", "Land": "Deutschland", "Beschreibung": "Open Data Portal der Stadt Aachen mit über 70 Datensätzen verschiedener Organisationen, einschließlich der Stadt Stolberg und der Gemeinde Roetgen (Stand: 7.11.2017)", "Ort": "Aachen", "Bezug": "kommunal", "Staatlich_Öffentlich": "ja", "Geodaten": "", "GDI": "", "Adresse_Herausgeber": "Stadt Aachen, Markt, 52058 Aachen" }, "geometry": { "type": "Point", "coordinates": [ 6.0829277, 50.7761914 ] } },

@@ -7,6 +7,7 @@ output:
     logo: oge_logo/icon_scaled.jpg
     favicon: oge_logo/icon_scaled.jpg
     theme: cerulean
+    css: css/dashboard.css
   #  source_code: https://github.com/opengeoedu/opengeoedu.github.io
 runtime: shiny
 
@@ -150,40 +151,49 @@ Die dargestellten Geodaten zu den Open Data Portalen und GDIs in Deutschland, Ö
 
 Die geokodierten Rohdaten (mit überlappenden Koordinaten) sind als CSV-Tabelle verfügbar:
 
-* [Rohdaten (CSV Tabelle)](data/portale_geocoded2.csv)
+* [Rohdaten (CSV Tabelle)](data/portale_geocoded3.csv)
 
 
-### Neuer Eintrag / Korrektur
+### Neuer Eintrag / Korrektur beantragen
 
-Mit diesem Formular können Sie einen neuen 
 ```{r}
+outputDir <- "data/user_input"
+
 saveData <- function(data) {
-  data <- as.data.frame(t(data))
-  if (exists("responses")) {
-    responses <<- rbind(responses, data)
-  } else {
-    responses <<- data
-  }
+  data <- t(data)
+  # Create a unique file name
+  fileName <- sprintf("Edits_%s_%s.csv", as.integer(Sys.time()), digest::digest(data))
+  # Write the file to the local system
+  write.csv(
+    x = data,
+    file = file.path(outputDir, fileName), 
+    row.names = FALSE, quote = TRUE
+  )
 }
 
 loadData <- function() {
-  if (exists("responses")) {
-    responses
-  }
+  # Read all the files into a list
+  files <- list.files(outputDir, full.names = TRUE)
+  if(length(files)==0)
+    return(NULL)
+  data <- lapply(files, read.csv, stringsAsFactors = FALSE) 
+  # Concatenate all data together into one data.frame
+  data <- do.call(rbind, data)
+  data
 }
 
 shinyApp(
   ui = fluidPage(
       shinyjs::useShinyjs(),
       id = "submit-form",
-      numericInput("id", label = "ID (bei vorhandenen Einträgen)", min = 1, max = dim(portale)[1], value = NA_integer_, step = 1),
+      numericInput("ID", label = "ID (bei vorhandenen Einträgen)", min = 1, max = dim(portale)[1], value = NA_integer_, step = 1),
       
-      textInput("titel", label = "Titel", placeholder = "Titel der Website"),
+      textInput("Titel", label = "Titel", placeholder = "Titel der Website"),
       
-      textInput("url", label = "URL", placeholder = "https://www.beispiel.de"),
-      textAreaInput("desc", label = "Beschreibung", placeholder = "Kurze Beschreibung des Open Data Portals oder der GDI", width = "400px",   height = "100px"),
+      textInput("URL", label = "URL", placeholder = "https://www.beispiel.de"),
+      textAreaInput("Beschreibung", label = "Beschreibung", placeholder = "Kurze Beschreibung des Open Data Portals oder der GDI", width = "400px",   height = "100px"),
       
-      radioButtons("type", "Art des Portals:",
+      radioButtons("Typ", "Art des Portals:",
           choiceNames = 
             list("Open Data Portal","Geoportal / GDI"), 
           choiceValues = 
@@ -191,24 +201,24 @@ shinyApp(
           inline = TRUE,
       ),
       
-      textInput("place", label = "Ort (Bezug des Portals)", placeholder = "Gemeinde, Land oder Region"),
+      textInput("Ort", label = "Ort (Bezug des Portals)", placeholder = "Gemeinde, Land oder Region"),
       
-      radioButtons("bezug", "Bezug (administrativ):",
+      radioButtons("Bezug", "Bezug (administrativ):",
           choices =
             list("international","national", "regional", "kommunal"), inline = TRUE,
       ),
       
       
-      textInput("adr", label = "Adresse des Herausgebers oder Koordinaten zur Geolokalisierung des Portals", placeholder = "52.5161 N, 13.3777 E / Pariser Platz, 10117 Berlin", width = "400px"),
+      textInput("Adresse_Herausgeber", label = "Adresse des Herausgebers oder Koordinaten zur Geolokalisierung des Portals", placeholder = "52.5161 N, 13.3777 E / Pariser Platz, 10117 Berlin", width = "400px"),
       
-      radioButtons("staatl", "Staatlich / Öffentlich",
+      radioButtons("Oeffentlich", "Staatlich / Öffentlich",
           choiceNames =
             list("ja","nein", "teilweise"),
           choiceValues =
             list("ja","nein", "teilweise"), inline = TRUE,
       ), title = "Portal eintragen / editieren",
       
-       textInput("author", label = "Kontakt (Optional)", placeholder = "Ihr Name / E-Mail"),
+       textInput("Autor", label = "Kontakt (Optional)", placeholder = "Ihr Name / E-Mail"),
       tags$head(
             tags$style(HTML('#submit{background-color:#044D94; color: white;} #submit:hover{background-color:#e7e7e7; color: black;} '))
       ),
@@ -220,25 +230,25 @@ shinyApp(
   ),
   server = function(input, output, session){
     observe({
-      id <- input$id
+      id <- input$ID
         if(!is.na(id) && is.numeric(id)){
-          updateTextInput(session, inputId = "titel", value = portale$Titel[id])
-          updateTextInput(session, inputId = "url", value = portale$URL[id])
-          updateRadioButtons(session, inputId = "type", selected = ifelse(portale$GDI[id], "gdi", "odp"))
-          updateTextAreaInput(session, inputId = "desc", value = portale$Beschreibung[id])
-          updateRadioButtons(session, inputId = "bezug", selected = portale$Bezug[id])
+          updateTextInput(session, inputId = "Titel", value = portale$Titel[id])
+          updateTextInput(session, inputId = "URL", value = portale$URL[id])
+          updateRadioButtons(session, inputId = "Typ", selected = ifelse(portale$GDI[id], "gdi", "odp"))
+          updateTextAreaInput(session, inputId = "Beschreibung", value = portale$Beschreibung[id])
+          updateRadioButtons(session, inputId = "Bezug", selected = portale$Bezug[id])
           
           coords <- paste0(portale[id,"lat"]," N, ", portale[id,"lon"]," E ")
           
-          updateTextInput(session, inputId = "adr", value = coords)
-          updateTextInput(session, inputId = "place", value = portale$Ort[id])
-          updateRadioButtons(session, inputId = "staatl", selected = portale$Staatlich_Öffentlich[id])
+          updateTextInput(session, inputId = "Adresse_Herausgeber", value = coords)
+          updateTextInput(session, inputId = "Ort", value = portale$Ort[id])
+          updateRadioButtons(session, inputId = "Oeffentlich", selected = portale$Staatlich_Öffentlich[id])
         }
     })
     
       # Whenever a field is filled, aggregate all form data
     formData <- reactive({
-      data <- sapply(c("titel","url","type","desc","bezug", "adr", "place", "staatl", "author"), function(x) input[[x]])
+      data <- sapply(c("Titel","URL","Typ","Beschreibung","Bezug", "Adresse_Herausgeber", "Ort", "Oeffentlich", "Autor"), function(x) input[[x]])
       data
     })
     
@@ -247,6 +257,10 @@ shinyApp(
       saveData(formData())
       shinyjs::alert("Vielen Dank!\nIhre Anfrage wurde gesendet und wird bald bearbeitet.")
       shinyjs::reset("submit-form")
+      output$responses <- DT::renderDataTable({
+        input$submit
+        loadData()
+    })   
     })
     
     observeEvent(input$reset, {
@@ -264,3 +278,24 @@ shinyApp(
 )
 
 ```
+
+Row {data-height=20 color="white"}
+-----------------------------------------------------------------------
+© 2017. All rights reserved | &nbsp; [Impressum](https://www.auf.uni-rostock.de/footer/impressum/){target="_blank"} &nbsp; | &nbsp; [Source Code](https://github.com/opengeoedu/opengeoedu.github.io/){target="_blank"} &nbsp; | &nbsp;
+ <a href="javascript:void(0)" onclick="document.getElementById('section-light').style.display='block';document.getElementById('section-fade').style.display='block'">Quellenhinweise</a> 
+  </p>
+  <div id="light" class="white_content"><p align=right><a href="javascript:void(0)" onclick="document.getElementById('section-light').style.display='none';document.getElementById('section-fade').style.display='none'">X Fenster schließen</a></p>
+  <span align="left">
+  <h1>Quellenhinweise</h1>
+  Diese Übersicht beruht auf folgenden externen Datenquellen:
+
+* **Ortsnamen und Beschriftungen (Städte):** <a href="http://www.geonames.org/export/">GeoNames Data</a>, lizensiert unter <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>
+* **Verwaltungsgebiete (DE, AT, CH) ** [OpenStreetMap](http://www.openstreetmap.org/copyright) contributors, lizensiert unter [Open Database License](https://opendatacommons.org/licenses/odbl/))
+* **Geocoding Service** (einmalige Geolokalisierung einzelner Portale): [Nomanitim](https://operations.osmfoundation.org/policies/nominatim/)
+* **Grundkarte:** Positron von [CartoDB](https://carto.com/attribution/), abgeleitet von [OpenStreetMap](http://www.openstreetmap.org/copyright) Daten
+</span>
+
+  </div>
+  <div id="fade" class="black_overlay"></div> &nbsp; | &nbsp;
+  
+  [OpenGeoEdu Website](http://www.opengeoedu.de/){target="_blank"}
