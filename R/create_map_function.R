@@ -90,9 +90,12 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
     addPolygons(data = a2bounds,weight = 3, group = "adm2", fill = FALSE) %>%
     addControl(paste(gdi_legend, odp_legend, sep="<br/>\n"),position = "topright") %>%
     addScaleBar(position = "bottomright", options = scaleBarOptions(imperial = FALSE, metric = TRUE)) %>%
-    addCircleMarkers(data=pplc, color = "red", label = pplc$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE),radius=1) %>%
-    addCircleMarkers(data=ppla, color = "black", label = ppla$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE),radius=1, group = "adm4_labels") %>%
-    addCircleMarkers(data=ppl, color = "grey", label = ppl$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE),radius=1, group = "adm6_labels") %>%
+    addLabelOnlyMarkers(data=pplc, label = pplc$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE)) %>%
+    addLabelOnlyMarkers(data=ppla, label = ppla$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE), group = "adm4_labels") %>%
+    addLabelOnlyMarkers(data=ppl, label = ppl$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE), group = "adm6_labels") %>%
+    addCircleMarkers(data=pplc, color = "red",radius=1) %>%
+    addCircleMarkers(data=ppla, color = "black", radius=1, group = "adm4_labels") %>%
+    addCircleMarkers(data=ppl, color = "grey",radius=1, group = "adm6_labels") %>%
     hideGroup("adm6") %>% hideGroup("adm5") %>% hideGroup("adm6_labels") %>% hideGroup("adm4_labels")  %>% 
     leaflet.extras::enableTileCaching()
       #addGeoJSON("data/bounds/Germany_AL2.GeoJson")
@@ -127,7 +130,7 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
         ~lon,
         ~lat,
         popup = ~popup,
-        popupOptions = popupOptions(),
+        popupOptions = popupOptions(closeOnClick = TRUE),
         group = "portals",
         icon =  ~ icons(
           iconUrl = iconfile,
@@ -151,7 +154,7 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
         ~lon,
         ~lat,
         popup = ~popup,
-        popupOptions = popupOptions(),
+        popupOptions = popupOptions(closeOnClick = TRUE),
         group = "portals",
         color =  colorlf[[category]],
         label = ~label,
@@ -187,7 +190,7 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
   #   return(allRecords[1])
   # }
 
-  m <- addSearchFeatures(m, targetGroups = levels(portale$Bezug), options = searchFeaturesOptions(openPopup = TRUE, propertyName = "label"))
+  m <- addSearchFeatures(m, targetGroups = "portals", options = searchFeaturesOptions(openPopup = TRUE, propertyName = "label"))
   return(m)
 }
 

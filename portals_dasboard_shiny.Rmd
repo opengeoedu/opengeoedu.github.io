@@ -7,6 +7,7 @@ output:
     logo: oge_logo/icon_scaled.jpg
     favicon: oge_logo/icon_scaled.jpg
     theme: cerulean
+  #  source_code: https://github.com/opengeoedu/opengeoedu.github.io
 runtime: shiny
 
   
@@ -103,10 +104,14 @@ portalMap <- function(input, output, session) {
           hideGroup("adm6")
      }
     if(input$map_zoom >= 7){
-      proxy %>% showGroup("adm4_labels")  
+      proxy %>% hideGroup("portals") %>%
+            showGroup("adm4_labels")  %>%
+            showGroup("portals")
     }
      if(input$map_zoom < 7){
-      proxy %>% hideGroup("adm4_labels")  
+      proxy %>%  hideGroup("portals") %>%
+         hideGroup("adm4_labels")  %>%
+          showGroup("portals")
     }}
     
   })
@@ -115,44 +120,6 @@ portalMap <- function(input, output, session) {
 # call the module
 portalMapUI("oge")
 callModule(portalMap, "oge")
-
-  
-  #createMap(portale, clustering = FALSE, layerControls=FALSE)
-
-# mapServerUI <- function(id){
-#   ns <- NS(id)
-#   
-#   leafletOutput(ns("portalsmap"),width = "500px", height = "500px")
-# }
-# 
-# mapServer <- function(input, output, session){
-#    m <- leaflet() %>% addProviderTiles(providers$CartoDB.PositronNoLabels) %>% addPopups(-93.65, 42.0285, 'Here is the <b>Department of Statistics</b>, ISU')
-#      output$postalsmap <- renderLeaflet(m)
-# 
-# }
-# 
-# mapServerUI("oge")
-# callModule(mapServer, "oge")
-
-
-#renderLeaflet(m)
-
-
-#group_nogdi <<- SharedData$new(portale[portale$Bezug==category & !portale$GDI,])
-
-# shinyApp(
-#   ui <- fluidPage(leafletOutput("mymap")),
-#       
-#   server <- function(input, output, session){
-#     m <- createMap(portale, clustering = FALSE, layerControls=FALSE)
-#     output$mymap <- renderLeaflet(m)
-#   }                 
-# )
-#filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE)
-#m
-# bscols(list(filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE),
-# filter_checkbox("bezug_check", "Bezug", sd, ~Bezug, inline = TRUE),
-# m))
 
 ```
 

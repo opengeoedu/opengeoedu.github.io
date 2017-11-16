@@ -152,7 +152,7 @@ portale.gk3.shifted <- as.data.frame(portale.gk3)
 # Shift coordinates of overlapping points (re-positioning at an imaginary circle around the center)
 #--------------
 #rounded coordinates prcision
-RDIST <- 10000
+RDIST <- 30000
 rcs <- round(coordinates(portale.gk3)/RDIST)*RDIST
 
 #find identical coordinate pairs

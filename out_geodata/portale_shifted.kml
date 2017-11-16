@@ -45,7 +45,7 @@
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Büchsenstraße 54, 70174 Stuttgart</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.1710939218843,48.7794323040576</coordinates></Point>
+      <Point><coordinates>9.17132441207827,48.8468742380649</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -62,7 +62,7 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Alexandrastraße 4, 80538 München</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.5914939559261,48.1641081090606</coordinates></Point>
+      <Point><coordinates>11.5937616182201,48.2090283959904</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -78,7 +78,7 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Odeonsplatz 4, 80539 München</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.5892318387056,48.1191873896198</coordinates></Point>
+      <Point><coordinates>11.6757925858831,48.1059596849672</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -94,7 +94,7 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Württembergische Straße 6, 10707 Berlin</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.3150806060925,52.492651304353</coordinates></Point>
+      <Point><coordinates>13.3216854865792,52.5598588835897</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -110,7 +110,7 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Martin-Luther-Straße 105, 10825 Berlin</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.3475304599113,52.5056816196496</coordinates></Point>
+      <Point><coordinates>13.3519659216869,52.5504847975828</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -126,7 +126,7 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Willy-Brandt-Platz 2-6, 44787 Bochum</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.21386993667151,51.5042126342776</coordinates></Point>
+      <Point><coordinates>7.21211159648187,51.5491312010321</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -142,7 +142,7 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Bundesstadt Bonn, Berliner Platz 2, 53111 Bonn</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.09370500442427,50.7595583839712</coordinates></Point>
+      <Point><coordinates>7.09187758593808,50.8044796456057</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -158,7 +158,7 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Heinrich-Mann-Allee 103, 14473 Potsdam</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.0794935057996,52.3830281545601</coordinates></Point>
+      <Point><coordinates>13.3085017595626,52.4254423761306</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -174,7 +174,7 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</SimpleData>
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Platz der Deutschen Einheit 1, 38100 Braunschweig</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.5249959279309,52.2646152553848</coordinates></Point>
+      <Point><coordinates>10.5273135863492,52.33199307901</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -190,7 +190,7 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Lloydstr. 4, 28217 Bremen</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.78735348116221,53.1070388790593</coordinates></Point>
+      <Point><coordinates>8.78713224365193,53.1519667702402</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -208,7 +208,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Rudolf-Hilferding-Platz 1, 28195 Bremen</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.78757412818736,53.0621106470076</coordinates></Point>
+      <Point><coordinates>8.78779418683805,53.0171820739259</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -240,7 +240,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Richard-Strauss-Allee 11, 60598 Frankfurt am Main</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.66526888564765,50.1127729947721</coordinates></Point>
+      <Point><coordinates>8.66495572440592,50.1577234117801</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -256,7 +256,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Invalidenstraße 44, D-10115 Berlin</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.3782077905873,52.4933065226507</coordinates></Point>
+      <Point><coordinates>13.4440329192387,52.5133314355704</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -272,7 +272,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Richard-Strauss-Allee 11, 60598 Frankfurt am Main</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.70035968180067,50.0903928822563</coordinates></Point>
+      <Point><coordinates>8.77022921554544,50.0905518019963</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -304,7 +304,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Gustav-Stresemann-Ring 11, D-65189 Wiesbaden</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.25129427187424,50.071068604813</coordinates></Point>
+      <Point><coordinates>8.25024339261506,50.1384899725468</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -320,7 +320,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Potsdamer Platz 2 10785 Berlin</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.3759798459271,52.4709055760484</coordinates></Point>
+      <Point><coordinates>13.4372528320828,52.4461343218213</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -352,7 +352,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">European Central Bank, Sonnemannstrasse 22, 60314 Frankfurt am Main </SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.66558125628676,50.0678222271756</coordinates></Point>
+      <Point><coordinates>8.66589283891953,50.0228711088902</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -368,7 +368,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Singerstr. 109, 10179 Berlin</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.3431066635538,52.4608778382133</coordinates></Point>
+      <Point><coordinates>13.3386944918203,52.4160734540777</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -384,7 +384,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Friedrich-Heinrich-Allee 130, 47475 Kamp-Lintfort</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.54552112026399,51.509656613281</coordinates></Point>
+      <Point><coordinates>6.54310447244582,51.5545557097267</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -400,7 +400,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.3124410150383,52.4732435908491</coordinates></Point>
+      <Point><coordinates>13.2467326333864,52.4531427168409</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -416,7 +416,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Gänsemarkt 36, 20354 Hamburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.98826579796886,53.5776975577441</coordinates></Point>
+      <Point><coordinates>9.98931554498076,53.6226154976783</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -432,7 +432,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Robert-Schuman-Platz 1, D 53175 Bonn</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.1257180205686,50.7263638193965</coordinates></Point>
+      <Point><coordinates>7.18787793737674,50.7048708556674</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -448,7 +448,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Niedersachsenstr. 2, 49356 Diepholz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.37532804933415,52.6086147056207</coordinates></Point>
+      <Point><coordinates>8.37532804933416,52.6086147056207</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -464,7 +464,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Frankfurt am Main, Zanderstraße 7, 60327 Frankfurt am Main</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.63049085478464,50.0901919158043</coordinates></Point>
+      <Point><coordinates>8.56062289963811,50.0899489037786</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -480,7 +480,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Freiburg im Breisgau, Rathausplatz 2 - 4, 79098 Freiburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.84935320102567,47.9962299036017</coordinates></Point>
+      <Point><coordinates>7.84935320102568,47.9962299036017</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -496,7 +496,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Gelsenkirchen, Ebertstraße 11, 45879 Gelsenkirchen</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.09247417286313,51.5109986053981</coordinates></Point>
+      <Point><coordinates>7.08965489088684,51.5783716189083</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -530,7 +530,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Neuenfelder Straße 19, 21109 Hamburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.003700402978,53.4977259055706</coordinates></Point>
+      <Point><coordinates>10.0848697749446,53.52070072322</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -546,7 +546,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Freie und Hansestadt Hamburg, Rathausmarkt 1, 20095 Hamburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.98721887992371,53.532779265245</coordinates></Point>
+      <Point><coordinates>9.88904065527051,53.5223183764417</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -578,7 +578,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Herne, Friedrich-Ebert-Platz 2, 44623 Herne</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.21562372881151,51.4592936794994</coordinates></Point>
+      <Point><coordinates>7.21737298841787,51.4143743367178</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -594,7 +594,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Schaperstraße 16, 65195 Wiesbaden</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.22685858870077,50.087941804822</coordinates></Point>
+      <Point><coordinates>8.34247590151735,50.0379061624737</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -626,7 +626,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Friedrich-Heinrich-Allee 130, 47475 Kamp-Lintfort</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.58055946546808,51.4948550502191</coordinates></Point>
+      <Point><coordinates>6.63841557971929,51.5228014011542</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -642,7 +642,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Friedrich-Heinrich-Allee 130, 47475 Kamp-Lintfort</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.56882964088723,51.4694847092667</coordinates></Point>
+      <Point><coordinates>6.64189376716606,51.4554475205528</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -658,7 +658,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Köln</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.95100199998852,50.9422631052028</coordinates></Point>
+      <Point><coordinates>6.94803455416031,51.009636926469</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -674,7 +674,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Friedrich-Heinrich-Allee 130, 47475 Kamp-Lintfort</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.5265741291137,51.4686007514166</coordinates></Point>
+      <Point><coordinates>6.55033569093145,51.419857143126</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -724,7 +724,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Landeshauptstadt Magdeburg, Alter Markt 6, 39104 Magdeburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.6416428507172,52.1537770092523</coordinates></Point>
+      <Point><coordinates>11.6443058125517,52.1986645882619</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -774,7 +774,7 @@ Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendun
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Meerbusch, Moerser Straße 28, 40667 Meerbusch</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.68560971700235,51.2756044989869</coordinates></Point>
+      <Point><coordinates>6.68334995064641,51.3205099736031</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -790,7 +790,7 @@ Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendun
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Mittenwalde, Rathausstraße 8, 15749 Mittenwalde </SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.5502440714417,52.282364297112</coordinates></Point>
+      <Point><coordinates>13.5548486478715,52.3271568130485</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -806,7 +806,7 @@ Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendun
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Mittenwalde, Rathausstraße 8, 15749 Mittenwalde</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.5783983875853,52.247545502084</coordinates></Point>
+      <Point><coordinates>13.6392505904167,52.2226784350377</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -822,7 +822,7 @@ Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendun
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Mittenwalde, Rathausstraße 8, 15749 Mittenwalde</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.5151964623416,52.2499850566173</coordinates></Point>
+      <Point><coordinates>13.4497397511008,52.2299912175555</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -841,7 +841,7 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern. Wir veröffentl
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Rathaus Moers, Rathausplatz 1, 47441 Moers</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.62669059964051,51.4532462053655</coordinates></Point>
+      <Point><coordinates>6.45518302309693,51.4515424909598</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -859,7 +859,7 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Mönchengladbach, 41050 Mönchengladbach</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.45285754011748,51.2256160183867</coordinates></Point>
+      <Point><coordinates>6.79408298241693,51.2552240599679</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -875,7 +875,7 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Am Rathaus 1, 45468 Mülheim an der Ruhr</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.87869379991311,51.4284118053684</coordinates></Point>
+      <Point><coordinates>7.09528252291912,51.4436247054006</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -891,7 +891,7 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Landeshauptstadt München, 80313 München</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.6048638579203,48.103909903364</coordinates></Point>
+      <Point><coordinates>11.5015324407649,48.1098885997779</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -924,7 +924,7 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.3146368616365,52.4956464189073</coordinates></Point>
+      <Point><coordinates>13.253223838418,52.5203567636516</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -960,7 +960,7 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Friedrich-Heinrich-Allee 130, 47475 Kamp-Lintfort</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.51215114203998,51.4934234982751</coordinates></Point>
+      <Point><coordinates>6.45143006396865,51.5188869992194</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -995,7 +995,7 @@ Ansprechpartner für das Geoportal und die Geodateninfrastruktur des Landes ist 
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Muffendorfer Str. 19-21, 53177 Bonn </SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.06442786593786,50.7253624874573</coordinates></Point>
+      <Point><coordinates>7.00409534230135,50.7018692506626</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1015,7 +1015,7 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Bonnstraße 16-18, 50226 Frechen</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.82781069918769,50.9127371051881</coordinates></Point>
+      <Point><coordinates>6.95395805852978,50.8748883795895</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1031,7 +1031,7 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Friedrichstraße 62-80, 40217 Düsseldorf</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.68786366469784,51.2306986073922</coordinates></Point>
+      <Point><coordinates>6.69011181344594,51.1857922989438</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1063,7 +1063,7 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Schillerplatz 3 – 5, 55116 Mainz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.2678636014623,49.9977876047769</coordinates></Point>
+      <Point><coordinates>8.16116351169195,50.0367382709893</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1083,7 +1083,7 @@ Die Daten werden je zu verschiedenen Nutzungsbedingungen angeboten, einige davon
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Von der Heydt 22, 66115 Saarbrücken</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.95079331125058,49.2774313544131</coordinates></Point>
+      <Point><coordinates>6.95079331125057,49.2774313544131</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1100,7 +1100,7 @@ Die Daten werden je zu verschiedenen Nutzungsbedingungen angeboten, einige davon
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Olbrichtplatz 3, 01099 Dresden</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.761919059824,51.0992935693686</coordinates></Point>
+      <Point><coordinates>13.7665372295411,51.1440816178797</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1119,7 +1119,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Riesaer Straße 7, Haus D, 01129 Dresden</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.7573127124096,51.0545048765259</coordinates></Point>
+      <Point><coordinates>13.7527181476084,51.0097155402798</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1136,7 +1136,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Otto-von-Guericke-Straße 15, 39104 Magdeburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.6389868576707,52.1088889914199</coordinates></Point>
+      <Point><coordinates>11.6363378092172,52.0640005349668</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1152,7 +1152,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Salzgitter, Joachim-Campe-Straße 6 - 8, 38226 Salzgitter</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.3264841034852,52.1549617053861</coordinates></Point>
+      <Point><coordinates>10.522687387213,52.1972365878855</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1184,7 +1184,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Landesamt für Vermessung und Geoinformation, Hohenwindenstr. 13 a, D-99086 Erfurt</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.0311082211292,51.0254283565472</coordinates></Point>
+      <Point><coordinates>11.0330750387235,51.0703441589597</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1200,7 +1200,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Landesamt für Vermessung und Geoinformation, Hohenwindenstr. 13 a, D-99086 Erfurt</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.0291464461008,50.9805121531515</coordinates></Point>
+      <Point><coordinates>11.0271896966693,50.9355955488415</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1232,7 +1232,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Rathausmarkt 3, 41747 Viersen</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.4553336626412,51.1807174841992</coordinates></Point>
+      <Point><coordinates>6.57940492120732,51.2509807917925</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1280,7 +1280,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.77191950092863,48.5948367040006</coordinates></Point>
+      <Point><coordinates>7.77191950092864,48.5948367040006</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1312,7 +1312,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Arnulfplatz 1, A-9021 Klagenfurt/Wörthersee</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>14.3137034235439,46.6434731361872</coordinates></Point>
+      <Point><coordinates>14.3181068075197,46.6882577052835</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1328,7 +1328,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Hauptplatz 1, 4041 Linz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>14.2869766541467,48.3060622010876</coordinates></Point>
+      <Point><coordinates>14.2939466711407,48.3732222124592</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1344,7 +1344,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stolzenthalergasse 7/1, 1080 Wien</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3449492334367,48.2311184648841</coordinates></Point>
+      <Point><coordinates>16.3513750421142,48.2757144741415</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1360,7 +1360,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Landhausplatz 1, Haus 13, 3109 St. Pölten</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>15.6351776875823,48.2254181230582</coordinates></Point>
+      <Point><coordinates>15.6409843640976,48.2700821236631</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1376,7 +1376,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Wien</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.36009047788,48.2275670197302</coordinates></Point>
+      <Point><coordinates>16.3968289339095,48.2650499352891</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1392,7 +1392,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Neulinggasse 38, 1030 Wien</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3710239227827,48.2197199057737</coordinates></Point>
+      <Point><coordinates>16.4296231887984,48.2414950657087</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1408,7 +1408,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Hintere Zollamtsstraße 4, A-1030 Wien</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3752454876505,48.2093762335979</coordinates></Point>
+      <Point><coordinates>16.4422508868249,48.2104589053365</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1424,7 +1424,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Hohe Warte 38, A-1190 Wien</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3717919742681,48.1989061601183</coordinates></Point>
+      <Point><coordinates>16.4318544512419,48.1790563559396</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1440,7 +1440,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Bundeskanzleramt, Ballhausplatz 2, A-1010 Wien</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3614583411623,48.190707443528</coordinates></Point>
+      <Point><coordinates>16.400849711333,48.1544740509174</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1456,7 +1456,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Spittelauer Lände 5, A-1090 Wien</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3466123087971,48.1866568464111</coordinates></Point>
+      <Point><coordinates>16.3563430754357,48.1423303373024</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1472,7 +1472,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Wagramerstrasse 5, A-1400 Wien</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3306515939858,48.1876814563446</coordinates></Point>
+      <Point><coordinates>16.308500553565,48.1453995263677</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1488,7 +1488,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">A-Guglgasse 13, 1110 Wien </SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3172284084312,48.1935470387009</coordinates></Point>
+      <Point><coordinates>16.2682446320805,48.1629829135695</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1504,7 +1504,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Eduard-Wallnöfer-Platz 3, 6020 Innsbruck </SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.3971741340078,47.2867912249284</coordinates></Point>
+      <Point><coordinates>11.3992084178278,47.3317250540445</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1520,7 +1520,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Römerstraße 15, A-6901 Bregenz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.74542855834838,47.5233156464191</coordinates></Point>
+      <Point><coordinates>9.7460669383936,47.5682832627341</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1536,7 +1536,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Ballhausplatz 2, A-1010 Wien</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3094164004832,48.2029112732151</coordinates></Point>
+      <Point><coordinates>16.2447844585509,48.1910650483556</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1552,7 +1552,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Rue des Gazomètres 7, CH-1211 Genève 8</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.1323200594667,46.2241959891575</coordinates></Point>
+      <Point><coordinates>6.12997659543143,46.2691212286013</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1568,7 +1568,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">route de la Chapelle 1, CH-1212 Grand-Lancy 2</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.16208528538736,46.191200985539</coordinates></Point>
+      <Point><coordinates>6.21924437062208,46.1701142821766</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1584,7 +1584,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">CH-1211 Geneva 23</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.10606375105221,46.1897956931518</coordinates></Point>
+      <Point><coordinates>6.05124810311655,46.1659016954499</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1600,7 +1600,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">CH-8058 Zürich-Flughafen</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.56223130186574,47.450294803189</coordinates></Point>
+      <Point><coordinates>8.56167131268521,47.5177507211857</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1632,7 +1632,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Archivstrasse 24, 3003 Bern</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.44591612392667,46.9628583377232</coordinates></Point>
+      <Point><coordinates>7.44461280196658,47.0078176211051</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1648,7 +1648,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadthausquai 17, CH-8001 Zürich</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.54137760184294,47.3692542031299</coordinates></Point>
+      <Point><coordinates>8.56278925757866,47.3828380838971</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1664,7 +1664,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stubenring 1, 1010 Wien</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3090077659626,48.213630043596</coordinates></Point>
+      <Point><coordinates>16.2435173979836,48.2232227074067</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1680,7 +1680,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Schiffamtsgasse 1-3, 1020 Wien </SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3161004724996,48.2232476636739</coordinates></Point>
+      <Point><coordinates>16.2647729055399,48.2520876879121</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1696,7 +1696,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>14.5500720072576,47.5162309998946</coordinates></Point>
+      <Point><coordinates>14.5500720072576,47.5162309998947</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1712,7 +1712,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Bahnhofplatz 1, 4021 Linz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>14.2920399072838,48.2925794010673</coordinates></Point>
+      <Point><coordinates>14.2800321582832,48.2389006490416</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1728,7 +1728,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Landhausplatz 1, 3109 St. Pölten</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>15.6293851421349,48.1807532490266</coordinates></Point>
+      <Point><coordinates>15.6236066841445,48.1360875032243</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1744,7 +1744,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Chiemseehof, 5010 Salzburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.0518656291869,47.8202423111379</coordinates></Point>
+      <Point><coordinates>13.055366656062,47.8650987191619</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1760,7 +1760,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Chiemseehof, 5010 Salzburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.0483731075432,47.7753853577404</coordinates></Point>
+      <Point><coordinates>13.0448890649959,47.7305278595415</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1776,7 +1776,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Wien</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3290720548264,48.2295595690828</coordinates></Point>
+      <Point><coordinates>16.3037032037286,48.2710358250153</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1808,7 +1808,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Römerstraße 15, 6901 Bregenz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.74479172636005,47.4783476698223</coordinates></Point>
+      <Point><coordinates>9.74415643769183,47.4333793329095</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1824,7 +1824,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Eduard-Wallnöfer-Platz 3, 6020 Innsbruck</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.3951447628576,47.2418569756844</coordinates></Point>
+      <Point><coordinates>11.3931202894587,47.1969223064774</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1840,7 +1840,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Flatschacher Straße 70, 9021 Klagenfurt am Wörthersee</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>14.3093105447024,46.5986878960614</coordinates></Point>
+      <Point><coordinates>14.3049281398045,46.5539019858865</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1872,7 +1872,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Seftigenstrasse 264, CH-3084 Wabern</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.44721631096468,46.917898672477</coordinates></Point>
+      <Point><coordinates>7.44851337252584,46.8729386254111</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1888,7 +1888,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Kernerplatz 10, 70182 Stuttgart</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.18956100254704,48.7834592040589</coordinates></Point>
+      <Point><coordinates>9.17086428554706,48.7119895774024</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1920,7 +1920,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Südliche Fürther Straße 5, 90429 Nürnberg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.0618835905663,49.4713499480719</coordinates></Point>
+      <Point><coordinates>11.0637731023542,49.5162769331505</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1936,7 +1936,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Rothenburger Straße 9, 90443 Nürn­berg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.059998795965,49.4264225596246</coordinates></Point>
+      <Point><coordinates>11.0581187033461,49.3814947678958</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>
