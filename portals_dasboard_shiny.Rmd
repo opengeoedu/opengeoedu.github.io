@@ -290,8 +290,8 @@ Row {data-height=20 color="white"}
   Diese Übersicht beruht auf folgenden externen Datenquellen:
 
 * **Ortsnamen und Beschriftungen (Städte):** <a href="http://www.geonames.org/export/">GeoNames Data</a>, lizensiert unter <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>
-* **Verwaltungsgebiete (DE, AT, CH) ** [OpenStreetMap](http://www.openstreetmap.org/copyright) contributors, lizensiert unter [Open Database License](https://opendatacommons.org/licenses/odbl/))
-* **Geocoding Service** (einmalige Geolokalisierung einzelner Portale): [Nomanitim](https://operations.osmfoundation.org/policies/nominatim/)
+* **Verwaltungsgebiete (DE, AT, CH):** [OpenStreetMap](http://www.openstreetmap.org/copyright) contributors, lizensiert unter [Open Database License](https://opendatacommons.org/licenses/odbl/)
+* **Geocoding Service (einmalige Geolokalisierung einzelner Portale):** [Nomanitim](https://operations.osmfoundation.org/policies/nominatim/)
 * **Grundkarte:** Positron von [CartoDB](https://carto.com/attribution/), abgeleitet von [OpenStreetMap](http://www.openstreetmap.org/copyright) Daten
 </span>
 
