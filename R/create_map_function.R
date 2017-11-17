@@ -46,7 +46,7 @@ group_nogdi <- NULL
 
 createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, layerControls = TRUE) {
   categories <- c("international","national","regional","kommunal")
-  colorlf <- c("green", "yellow", "blue", "brown")
+  colorlf <- c("green", "#FFA500", "blue", "brown")
   names(colorlf) <- categories
   #portale$searchmeta <- paste(portale$Titel, portale$Ort, sep = " | ")
 
@@ -163,7 +163,9 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
         clusterOptions = clusterOptions,
         clusterId = category,
         labelOptions = labelOptions(noHide = FALSE),#, className = "needAbsolute",offset= c(-8, -8)),
-        data = group_nogdi
+        data = group_nogdi,
+        opacity = 0.7,
+        fillOpacity = 0.2
       )
     # m <<- addCircleMarkers(m, group$lon, group$lat, popup = group$popup, group = category, color =  colormarker[[category]], label = group$Titel)
     #m <<- addAwesomeMarkers(m, group$lon, group$lat, popup = group$popup, group = category, label = group$Titel)
