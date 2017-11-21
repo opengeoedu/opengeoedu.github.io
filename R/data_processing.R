@@ -238,3 +238,12 @@ if(!file.exists("data/auxiliary.RData")){
     
     save(file = "data/auxiliary.RData", list = ls()[stringr::str_detect(ls(), "bounds$")])
 }
+
+if(FALSE){
+  require(rgdal)
+  library(rmapshaper)
+  g6bounds <- readOGR("data/bounds/Germany_AL4.GeoJson")
+  g6bounds <- SpatialPolygonsDataFrame(data = g6bounds@data, Sr = ms_simplify(g6bounds))
+  g6bounds$val <- round(runif(16,0,100))
+  writeOGR(g6bounds,dsn = "data/bounds/Germany_AL4_simple",layer = "germany_al4" ,driver="GeoJSON")
+}
