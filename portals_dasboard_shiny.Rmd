@@ -160,6 +160,9 @@ Die geokodierten Rohdaten (mit überlappenden Koordinaten) sind als CSV-Tabelle 
 outputDir <- "data/user_input"
 
 saveData <- function(data) {
+  if(!dir.exists(outputDir)){
+    dir.create(outputDir)
+  }
   data <- t(data)
   # Create a unique file name
   fileName <- sprintf("Edits_%s_%s.csv", as.integer(Sys.time()), digest::digest(data))
