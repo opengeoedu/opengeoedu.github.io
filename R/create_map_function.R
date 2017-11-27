@@ -85,9 +85,9 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
     addLabelOnlyMarkers(data = gCentroid(geometry(g4bounds), byid = TRUE), label = g4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
     addLabelOnlyMarkers(data = gCentroid(geometry(a4bounds), byid = TRUE), label = a4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
     #addLabelOnlyMarkers(data = gCentroid(geometry(s4bounds), byid = TRUE), label = s4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
-    addPolygons(data = g2bounds,weight = 3, group = "adm2", fill = FALSE) %>%
-    addPolygons(data = s2bounds,weight = 3, group  = "adm2", fill = FALSE) %>%
-    addPolygons(data = a2bounds,weight = 3, group = "adm2", fill = FALSE) %>%
+    addPolygons(data = g2bounds,weight = 2, color= "black",group = "adm2", fill = FALSE) %>%
+    addPolygons(data = s2bounds,weight = 2, color= "black",group  = "adm2", fill = FALSE) %>%
+    addPolygons(data = a2bounds,weight = 2, color= "black",group = "adm2", fill = FALSE) %>%
     addControl(paste(gdi_legend, odp_legend, sep="<br/>\n"),position = "topright") %>%
     addScaleBar(position = "bottomright", options = scaleBarOptions(imperial = FALSE, metric = TRUE)) %>%
     addLabelOnlyMarkers(data=pplc, label = pplc$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE, textsize = 13, style = "text-decoration: underline;")) %>%

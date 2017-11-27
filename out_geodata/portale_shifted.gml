@@ -6,7 +6,7 @@
      xmlns:gml="http://www.opengis.net/gml">
   <gml:boundedBy>
     <gml:Box>
-      <gml:coord><gml:X>6.078649886459402</gml:X><gml:Y>46.17785185479804</gml:Y></gml:coord>
+      <gml:coord><gml:X>6.078649886459396</gml:X><gml:Y>46.17785185479802</gml:Y></gml:coord>
       <gml:coord><gml:X>16.52856400843007</gml:X><gml:Y>54.33628470550668</gml:Y></gml:coord>
     </gml:Box>
   </gml:boundedBy>
@@ -29,7 +29,7 @@
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.2">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.17124748688953,48.8243936814513</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.17124748688952,48.8243936814513</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>2</ogr:ID>
       <ogr:URL>http://www.geoportal-bw.de</ogr:URL>
       <ogr:Titel>GDI Baden-Württemberg</ogr:Titel>
@@ -256,7 +256,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.16">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.73529437065369,50.0904775980271</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.7352943706537,50.0904775980271</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>16</ogr:ID>
       <ogr:URL>http://www.geoportal.de/</ogr:URL>
       <ogr:Titel>GDI-DE - Geodaten aus Deutschland</ogr:Titel>
@@ -432,7 +432,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.27">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.37532804933415,52.6086147056207</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.37532804933416,52.6086147056207</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>27</ogr:ID>
       <ogr:URL>http://freiegeodatenlandkreisdiepholz-geoweb-diepholz.opendata.arcgis.com/</ogr:URL>
       <ogr:Titel>Open Geodata Landkreis Diepholz</ogr:Titel>
@@ -464,7 +464,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.29">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.84935320102567,47.9962299036017</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.84935320102568,47.9962299036017</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>29</ogr:ID>
       <ogr:URL>http://fritz.freiburg.de/</ogr:URL>
       <ogr:Titel>Freiburg FRITZ Online Statistics</ogr:Titel>
@@ -480,7 +480,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.30">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.09247417286313,51.5109986053981</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.09247417286314,51.5109986053981</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>30</ogr:ID>
       <ogr:URL>https://opendata.gelsenkirchen.de/</ogr:URL>
       <ogr:Titel>Offene Daten Gelsenkirchen</ogr:Titel>
@@ -514,7 +514,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.32">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.052511488515,53.5322220033752</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.0631751041659,53.5545912738773</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>32</ogr:ID>
       <ogr:URL>http://www.hamburg.de/gdi-hh</ogr:URL>
       <ogr:Titel>GDI Hamburg</ogr:Titel>
@@ -530,7 +530,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.33">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.9219241572992,53.5333008795231</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.9866964785588,53.5103199867468</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>33</ogr:ID>
       <ogr:URL>http://daten.hamburg.de/</ogr:URL>
       <ogr:Titel>Transparenzportal Hamburg</ogr:Titel>
@@ -546,7 +546,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.34">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>12.0728875833307,54.127492954356</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>12.0728875833306,54.127492954356</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>34</ogr:ID>
       <ogr:URL>https://www.opendata-hro.de/</ogr:URL>
       <ogr:Titel>OpenData.HRO</ogr:Titel>
@@ -562,7 +562,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.35">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.21950843898302,51.5379388554072</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.21950843898303,51.5379388554072</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>35</ogr:ID>
       <ogr:URL>http://www.herne.de/Stadt-und-Leben/Stadtfakten/Open-Data/</ogr:URL>
       <ogr:Titel>Herne Open Data</ogr:Titel>
@@ -578,7 +578,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.36">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.22685858870077,50.087941804822</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.22685858870078,50.087941804822</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>36</ogr:ID>
       <ogr:URL>http://www.geoportal.hessen.de/</ogr:URL>
       <ogr:Titel>GDI Hessen</ogr:Titel>
@@ -610,7 +610,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.38">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.61440344250277,51.5024935650946</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.60783670372787,51.5109443550095</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>38</ogr:ID>
       <ogr:URL>https://www.offenesdatenportal.de/organization/kreis-kleve</ogr:URL>
       <ogr:Titel>Kreis Kleve Open Data</ogr:Titel>
@@ -626,7 +626,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.39">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.59091495716879,51.451758073203</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.61018603436789,51.466042776363</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>39</ogr:ID>
       <ogr:URL>https://www.offenesdatenportal.de/organization/stadt-kleve</ogr:URL>
       <ogr:Titel>Stadt Kleve Open Data</ogr:Titel>
@@ -642,7 +642,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.40">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.95100199998852,50.9422631052028</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.95100199998851,50.9422631052028</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>40</ogr:ID>
       <ogr:URL>https://www.offenedaten-koeln.de/</ogr:URL>
       <ogr:Titel>Offene Daten Köln</ogr:Titel>
@@ -658,7 +658,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.41">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.50643741824673,51.4499913002217</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.54913438223118,51.4423071702741</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>41</ogr:ID>
       <ogr:URL>https://www.offenesdatenportal.de/organization/krefeld</ogr:URL>
       <ogr:Titel>Krefeld Open Data</ogr:Titel>
@@ -758,7 +758,7 @@ Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendun
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.47">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.68448056239259,51.2980572884251</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.6844805623926,51.2980572884251</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>47</ogr:ID>
       <ogr:URL>https://opendata.meerbusch.de/</ogr:URL>
       <ogr:Titel>Meerbusch Open Data</ogr:Titel>
@@ -891,7 +891,7 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.55">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.67355560076062,51.9018409055031</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.67223111282736,51.9467662304016</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>55</ogr:ID>
       <ogr:URL>http://www.stadt-muenster.de/katasteramt/geodatenmanagement/open-data.html</ogr:URL>
       <ogr:Titel>Münster GeoData</ogr:Titel>
@@ -944,7 +944,7 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.58">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.47756610106954,51.4996297560097</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.48568167485728,51.4634383807906</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>58</ogr:ID>
       <ogr:URL>https://www.offenesdatenportal.de/organization/krzn</ogr:URL>
       <ogr:Titel>Kommunales Rechenzentrum Niederrhein</ogr:Titel>
@@ -1063,7 +1063,7 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.65">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.95079331125058,49.2774313544131</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.95079331125057,49.2774313544131</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>65</ogr:ID>
       <ogr:URL>http://geoportal.saarland.de/</ogr:URL>
       <ogr:Titel>GeoPortal Saarland (GDI-SL)</ogr:Titel>
@@ -1216,7 +1216,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.74">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.45656933617112,51.1582680551898</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.45656933617111,51.1582680551898</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>74</ogr:ID>
       <ogr:URL>https://www.offenesdatenportal.de/organization/kreis-viersen</ogr:URL>
       <ogr:Titel>Kreis Viersen Open Data</ogr:Titel>
@@ -1264,7 +1264,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.77">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.77191950092863,48.5948367040006</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.77191950092864,48.5948367040006</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>77</ogr:ID>
       <ogr:URL>https://open-data.europa.eu/de/about</ogr:URL>
       <ogr:Titel>Offenes Datenportal der EU</ogr:Titel>
@@ -1504,7 +1504,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.92">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.74574755456703,47.5457994996097</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.74574755456704,47.5457994996097</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>92</ogr:ID>
       <ogr:URL>http://data.vorarlberg.gv.at/</ogr:URL>
       <ogr:Titel>Vorarlberg Open Data</ogr:Titel>
@@ -1536,7 +1536,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.94">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.13114902563882,46.2466586646422</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.13114902563881,46.2466586646422</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>94</ogr:ID>
       <ogr:URL>http://ge.ch/sitg/sitg_catalog/sitg_donnees</ogr:URL>
       <ogr:Titel>Sitg Geneva's Territorial Information System</ogr:Titel>
@@ -1552,7 +1552,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.95">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.19067017660991,46.18066134298</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.1906701766099,46.18066134298</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>95</ogr:ID>
       <ogr:URL>http://data.tpg.ch/</ogr:URL>
       <ogr:Titel>Open Data TPG</ogr:Titel>
@@ -1632,7 +1632,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.100">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.54137760184294,47.3692542031299</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.54137760184293,47.3692542031299</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>100</ogr:ID>
       <ogr:URL>https://data.stadt-zuerich.ch/</ogr:URL>
       <ogr:Titel>Zurich Open Data</ogr:Titel>
@@ -1680,7 +1680,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.103">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.5500720072576,47.5162309998946</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.5500720072576,47.5162309998947</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>103</ogr:ID>
       <ogr:URL>http://www.geoland.at/</ogr:URL>
       <ogr:Titel>geoland.at – Geodatenportal der österreichischen Länder</ogr:Titel>
@@ -1792,7 +1792,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.110">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.74447388940618,47.4558635464075</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.74447388940619,47.4558635464075</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>110</ogr:ID>
       <ogr:URL>http://www.vorarlberg.at/lvg</ogr:URL>
       <ogr:Titel>Land Vorarlberg - Landesvermessungsamt</ogr:Titel>
@@ -1932,6 +1932,171 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Geodaten></ogr:Geodaten>
       <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Rothenburger Straße 9, 90443 Nürn­berg</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.119">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.91230604394043,53.5558380684055</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>119</ogr:ID>
+      <ogr:URL>http://geoportal.metropolre
+gion.hamburg.de/</ogr:URL>
+      <ogr:Titel>Metropolregion Hamburg
+GDI.MRH</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Kooperation von Schleswig-Holstein, Hamburg, Niedersachsen und Mecklenburg-Vorpommern
+sowie den Kreisen, Landkreisen und kreisfreien Städten in dem Geoportal der Metropolregion Hamburg</ogr:Beschreibung>
+      <ogr:Ort>Metropolregion Hamburg</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Alter Steinweg 4, 20459 Hamburg</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.120">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.8428798106805,53.4200044552719</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>120</ogr:ID>
+      <ogr:URL>https://geoportal.kreis-lup.de</ogr:URL>
+      <ogr:Titel>Geoportal Landkreis Ludwigslust-Parchim</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Geoportal des Landkreises Ludwigslust-Parchim mit den den kreisangehörigen Gemeinden in Kooperation mit dem Amt für Geoinformation, Ver-
+messungs- und Katasterwesen MV</ogr:Beschreibung>
+      <ogr:Ort>Landkreis Ludwigslust-Parchim</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Putlitzer Straße 25, 19370 Parchim</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.121">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.67487663654808,51.8569152125247</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>121</ogr:ID>
+      <ogr:URL>http://www.geonetzwerk-muensterland.de/</ogr:URL>
+      <ogr:Titel>Geonetzwerk Münsterland</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Zusammenschluss von Institutionen und Unternehmen aud dem Münsterland zu einem Geonetzwerk</ogr:Beschreibung>
+      <ogr:Ort>Münsterland</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Mendelstrasse 11, 48149 Münster</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.122">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.98549678944115,51.9415427555049</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>122</ogr:ID>
+      <ogr:URL>http://www.geoportal-muensterland.de</ogr:URL>
+      <ogr:Titel>Geoportal Münsterland</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Kostenfrei und frei zugängliche Karten des Münsterlandes zu verschiedenen Themen. Dienste der Kooperationspartner Kreis Borken, Kreis Coesfeld, Stadt Münster, Kreis Steinfurt und Kreis Warendorf sowie dem Land NRW u.a. werden eingebunden</ogr:Beschreibung>
+      <ogr:Ort>Münsterland</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Waldenburger Str. 2, D-48231 Warendorf</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.123">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.84849761152285,51.9370885054638</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>123</ogr:ID>
+      <ogr:URL>http://geo.kreislippe.de</ogr:URL>
+      <ogr:Titel>Geoportal des Kreises Lippe</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Das Geoportal des Kreises Lippe stellt u.a. den Lebenslagegenatlas bereit, welcher Informationen zu Anliegen in verschiedenen Lebenslagen mit Geoinformationen kombiniert. Das Portal ist Bestandteil der Regionalinitiative GDI-OWL</ogr:Beschreibung>
+      <ogr:Ort>Kreis Lippe</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Felix-Fechenbach-Straße 5, 32756 Detmold</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.124">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.78094799903425,51.3855722553542</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>124</ogr:ID>
+      <ogr:URL>http://www.gdi-sw.de</ogr:URL>
+      <ogr:Titel>GDI-Südwestfalen</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Zentrale Zugang zu den Geoportalen im Bereich Südwestfalen</ogr:Beschreibung>
+      <ogr:Ort>Südwestfalen</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Sonnenblumenallee 3, 58675 Hemer</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.125">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.48321022335828,51.5083357939457</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>125</ogr:ID>
+      <ogr:URL>http://www.geoportal-niederrhein.de</ogr:URL>
+      <ogr:Titel>Geoportal Niederrhein</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Zusammmenschluss der Kreise Kleve, Viersen und Wesel sowie der kreisfreien Stadt Krefeld und dem Kommunalen Rechenzentrum Niederrhein KRZN zu einem Geoportal</ogr:Beschreibung>
+      <ogr:Ort>Niederrhein</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Friedrich-Heinrich-Allee 130, 47475 Kamp-Lintfort</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.126">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.61564600186426,49.6405588045806</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>126</ogr:ID>
+      <ogr:URL>https://gdi-suedhessen.de/</ogr:URL>
+      <ogr:Titel>GDI-Südhessen</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Initiative der Metropolregion Frankfurt/Rhein-
+Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibung>
+      <ogr:Ort>Südhessen</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Odenwaldstraße 6, 64646 Heppenheim</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.127">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.2387409059751,52.7516825044648</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>127</ogr:ID>
+      <ogr:URL>http://www.oberhavel.de/Landkreis/Geoportal</ogr:URL>
+      <ogr:Titel>Geoportal des Landkreises Oberhavel</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Kommunales Geoportal</ogr:Beschreibung>
+      <ogr:Ort>Landkreis Oberhavel</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Adolf-Dechert-Straße 1, 16515 Oranienburg</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.128">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.1694048624819,52.0842936044257</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>128</ogr:ID>
+      <ogr:URL>http://geoportal.teltow-flaeming.de</ogr:URL>
+      <ogr:Titel>Geoportal Teltow-Fläming</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Kommunales Geoportal</ogr:Beschreibung>
+      <ogr:Ort>Teltow-Fläming</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Am Nuthefließ 2, 14943 Luckenwalde </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
 </ogr:FeatureCollection>

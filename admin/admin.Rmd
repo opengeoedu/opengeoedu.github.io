@@ -4,24 +4,26 @@ output:
   flexdashboard::flex_dashboard:
     orientation: rows
     vertical_layout: fill
-    logo: oge_logo/icon_scaled.jpg
-    favicon: oge_logo/icon_scaled.jpg
+    logo: ../oge_logo/icon_scaled.jpg
+    favicon: ../oge_logo/icon_scaled.jpg
     theme: cerulean
-    css: css/dashboard.css
+    css: ../css/dashboard.css
 runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
 library(shiny)
 library(shinyjs)
-
+shiny::addResourcePath("data", file.path(dirname(getwd()), "data"))
+shiny::addResourcePath("oge_logo", file.path(dirname(getwd()), "oge_logo"))
+shiny::addResourcePath("css", file.path(dirname(getwd()), "css"))
 ```
 
 Neue Einträge
 =========================
 
 ```{r}
-outputDir <- "data/user_input"
+outputDir <- "../data/user_input"
 
 saveData <- function(data) {
   if(!dir.exists(outputDir)){
@@ -33,7 +35,7 @@ saveData <- function(data) {
   # Write the file to the local system
   write.csv(
     x = data,
-    file = file.path(outputDir, fileName), 
+    file = file.path(outputDir, fileName),
     row.names = FALSE, quote = TRUE
   )
 }
@@ -43,22 +45,22 @@ loadData <- function() {
   files <- list.files(outputDir, full.names = TRUE)
   if(length(files)==0)
     return(NULL)
-  data <- lapply(files, read.csv, stringsAsFactors = FALSE) 
+  data <- lapply(files, read.csv, stringsAsFactors = FALSE)
   # Concatenate all data together into one data.frame
   data <- do.call(rbind, data)
   data
 }
-  
+
   access <- FALSE
-  
+
   ui <- fluidPage(useShinyjs(),
-    div(id = "mx", 
+    div(id = "mx",
       passwordInput("password", "Password:"),
       actionButton("go", "Go")),
       verbatimTextOutput("value"),
       h1(id="heading","Offene Anfragen:", hidden = TRUE)
-      ,DT::dataTableOutput("responses", width = 300) 
-    
+      ,DT::dataTableOutput("responses", width = 300)
+
   )
   server <- function(input, output) {
     output$value <- renderText({
