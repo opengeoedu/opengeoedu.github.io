@@ -45,7 +45,7 @@
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Büchsenstraße 54, 70174 Stuttgart</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.17124748688952,48.8243936814513</coordinates></Point>
+      <Point><coordinates>9.17124748688953,48.8243936814513</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -272,7 +272,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Richard-Strauss-Allee 11, 60598 Frankfurt am Main</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.7352943706537,50.0904775980271</coordinates></Point>
+      <Point><coordinates>8.73529437065369,50.0904775980271</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -448,7 +448,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Niedersachsenstr. 2, 49356 Diepholz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.37532804933416,52.6086147056207</coordinates></Point>
+      <Point><coordinates>8.37532804933415,52.6086147056207</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -480,7 +480,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Freiburg im Breisgau, Rathausplatz 2 - 4, 79098 Freiburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.84935320102568,47.9962299036017</coordinates></Point>
+      <Point><coordinates>7.84935320102567,47.9962299036017</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -496,7 +496,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Gelsenkirchen, Ebertstraße 11, 45879 Gelsenkirchen</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.09247417286314,51.5109986053981</coordinates></Point>
+      <Point><coordinates>7.09247417286313,51.5109986053981</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -562,7 +562,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Hansestadt Rostock, 18050 Rostock</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>12.0728875833306,54.127492954356</coordinates></Point>
+      <Point><coordinates>12.0728875833307,54.127492954356</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -578,7 +578,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Herne, Friedrich-Ebert-Platz 2, 44623 Herne</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.21950843898303,51.5379388554072</coordinates></Point>
+      <Point><coordinates>7.21950843898302,51.5379388554072</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -594,7 +594,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Schaperstraße 16, 65195 Wiesbaden</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.22685858870078,50.087941804822</coordinates></Point>
+      <Point><coordinates>8.22685858870077,50.087941804822</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -658,7 +658,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Köln</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.95100199998851,50.9422631052028</coordinates></Point>
+      <Point><coordinates>6.95100199998852,50.9422631052028</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -774,7 +774,7 @@ Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendun
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Meerbusch, Moerser Straße 28, 40667 Meerbusch</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.6844805623926,51.2980572884251</coordinates></Point>
+      <Point><coordinates>6.68448056239259,51.2980572884251</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -875,7 +875,7 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Am Rathaus 1, 45468 Mülheim an der Ruhr</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.87869379991311,51.4284118053684</coordinates></Point>
+      <Point><coordinates>6.87661117626386,51.4733219764241</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1083,7 +1083,7 @@ Die Daten werden je zu verschiedenen Nutzungsbedingungen angeboten, einige davon
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Von der Heydt 22, 66115 Saarbrücken</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.95079331125057,49.2774313544131</coordinates></Point>
+      <Point><coordinates>6.95079331125058,49.2774313544131</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1200,7 +1200,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Landesamt für Vermessung und Geoinformation, Hohenwindenstr. 13 a, D-99086 Erfurt</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.028167444243,50.9580539011065</coordinates></Point>
+      <Point><coordinates>11.090764705909,50.979424797175</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1216,7 +1216,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Ulm, Marktplatz 1, 89073 Ulm</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.99336990347324,48.3968458037555</coordinates></Point>
+      <Point><coordinates>9.99424687054755,48.4418035983916</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1232,7 +1232,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Rathausmarkt 3, 41747 Viersen</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.45656933617111,51.1582680551898</coordinates></Point>
+      <Point><coordinates>6.51720052719408,51.1820472082836</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1280,7 +1280,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.77191950092864,48.5948367040006</coordinates></Point>
+      <Point><coordinates>7.77191950092863,48.5948367040006</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1520,7 +1520,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Römerstraße 15, A-6901 Bregenz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.74574755456704,47.5457994996097</coordinates></Point>
+      <Point><coordinates>9.74574755456703,47.5457994996097</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1552,7 +1552,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Rue des Gazomètres 7, CH-1211 Genève 8</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.13114902563881,46.2466586646422</coordinates></Point>
+      <Point><coordinates>6.13114902563882,46.2466586646422</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1568,7 +1568,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">route de la Chapelle 1, CH-1212 Grand-Lancy 2</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.1906701766099,46.18066134298</coordinates></Point>
+      <Point><coordinates>6.19067017660991,46.18066134298</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1648,7 +1648,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadthausquai 17, CH-8001 Zürich</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.54137760184293,47.3692542031299</coordinates></Point>
+      <Point><coordinates>8.54137760184294,47.3692542031299</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1696,7 +1696,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>14.5500720072576,47.5162309998947</coordinates></Point>
+      <Point><coordinates>14.5500720072576,47.5162309998946</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1808,7 +1808,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Römerstraße 15, 6901 Bregenz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.74447388940619,47.4558635464075</coordinates></Point>
+      <Point><coordinates>9.74447388940618,47.4558635464075</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1885,10 +1885,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
-		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Kernerplatz 10, 70182 Stuttgart</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.1709407363704,48.7344705743759</coordinates></Point>
+      <Point><coordinates>9.2299083035477,48.7568487218579</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1949,7 +1949,7 @@ GDI.MRH</SimpleData>
 		<SimpleData name="Beschreibung">Kooperation von Schleswig-Holstein, Hamburg, Niedersachsen und Mecklenburg-Vorpommern
 sowie den Kreisen, Landkreisen und kreisfreien Städten in dem Geoportal der Metropolregion Hamburg</SimpleData>
 		<SimpleData name="Ort">Metropolregion Hamburg</SimpleData>
-		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
@@ -1980,9 +1980,9 @@ messungs- und Katasterwesen MV</SimpleData>
 		<SimpleData name="URL">http://www.geonetzwerk-muensterland.de/</SimpleData>
 		<SimpleData name="Titel">Geonetzwerk Münsterland</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung">Zusammenschluss von Institutionen und Unternehmen aud dem Münsterland zu einem Geonetzwerk</SimpleData>
+		<SimpleData name="Beschreibung">Zusammenschluss von Institutionen und Unternehmen aus dem Münsterland zu einem Geonetzwerk</SimpleData>
 		<SimpleData name="Ort">Münsterland</SimpleData>
-		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
@@ -1998,7 +1998,7 @@ messungs- und Katasterwesen MV</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
 		<SimpleData name="Beschreibung">Kostenfrei und frei zugängliche Karten des Münsterlandes zu verschiedenen Themen. Dienste der Kooperationspartner Kreis Borken, Kreis Coesfeld, Stadt Münster, Kreis Steinfurt und Kreis Warendorf sowie dem Land NRW u.a. werden eingebunden</SimpleData>
 		<SimpleData name="Ort">Münsterland</SimpleData>
-		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
@@ -2020,7 +2020,7 @@ messungs- und Katasterwesen MV</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Felix-Fechenbach-Straße 5, 32756 Detmold</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.84849761152285,51.9370885054638</coordinates></Point>
+      <Point><coordinates>8.84849761152284,51.9370885054638</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2030,7 +2030,7 @@ messungs- und Katasterwesen MV</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
 		<SimpleData name="Beschreibung">Zentrale Zugang zu den Geoportalen im Bereich Südwestfalen</SimpleData>
 		<SimpleData name="Ort">Südwestfalen</SimpleData>
-		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
@@ -2046,7 +2046,7 @@ messungs- und Katasterwesen MV</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
 		<SimpleData name="Beschreibung">Zusammmenschluss der Kreise Kleve, Viersen und Wesel sowie der kreisfreien Stadt Krefeld und dem Kommunalen Rechenzentrum Niederrhein KRZN zu einem Geoportal</SimpleData>
 		<SimpleData name="Ort">Niederrhein</SimpleData>
-		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
@@ -2063,7 +2063,7 @@ messungs- und Katasterwesen MV</SimpleData>
 		<SimpleData name="Beschreibung">Initiative der Metropolregion Frankfurt/Rhein-
 Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</SimpleData>
 		<SimpleData name="Ort">Südhessen</SimpleData>
-		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
@@ -2075,7 +2075,7 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</SimpleData>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="ID">127</SimpleData>
 		<SimpleData name="URL">http://www.oberhavel.de/Landkreis/Geoportal</SimpleData>
-		<SimpleData name="Titel">Geoportal des Landkreises Oberhavel</SimpleData>
+		<SimpleData name="Titel">Geoportal Landkreis Oberhavel</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
 		<SimpleData name="Beschreibung">Kommunales Geoportal</SimpleData>
 		<SimpleData name="Ort">Landkreis Oberhavel</SimpleData>
@@ -2091,10 +2091,10 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</SimpleData>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="ID">128</SimpleData>
 		<SimpleData name="URL">http://geoportal.teltow-flaeming.de</SimpleData>
-		<SimpleData name="Titel">Geoportal Teltow-Fläming</SimpleData>
+		<SimpleData name="Titel">Geoportal Landkreis Teltow-Fläming</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
 		<SimpleData name="Beschreibung">Kommunales Geoportal</SimpleData>
-		<SimpleData name="Ort">Teltow-Fläming</SimpleData>
+		<SimpleData name="Ort">Landkreis Teltow-Fläming</SimpleData>
 		<SimpleData name="Bezug">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
@@ -2102,6 +2102,331 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Am Nuthefließ 2, 14943 Luckenwalde </SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>13.1694048624819,52.0842936044257</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">129</SimpleData>
+		<SimpleData name="URL">http://www.lkee.de/Service-Verwaltung/Geoportal</SimpleData>
+		<SimpleData name="Titel">Geoportal Landkreis Elbe-Elster</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Geoportal und GDI-Infrastrukturknoten des Lankreises Elbe-Elster mit Bauleitplanung (XPlanung) inklusive Flächennutzungspläne, Bebauungspläne, Landschaftspläne und kommunale Satzungen</SimpleData>
+		<SimpleData name="Ort">Landkreis Elbe-Elster</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Ludwig-Jahn-Straße 2, 04916 Herzberg (Elster) </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.2375496062761,51.6934609042712</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">130</SimpleData>
+		<SimpleData name="URL">http://geoportal.lkspn.de/</SimpleData>
+		<SimpleData name="Titel">Geoportal Lankreis Spree-Neiße</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Kommunales Geoportal mit WMS und WFS Diensten sowie Kartenanwendungen zu den Themen Planen &amp; Bauen, Umwelt &amp; Natur, sowie Toursimus (Stand 27.11.2017)</SimpleData>
+		<SimpleData name="Ort">Landkreis Spree-Neiße</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Heinrich-Heine-Straße 1, 03149 Forst (Lausitz)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>14.6524217796529,51.7496843014419</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">131</SimpleData>
+		<SimpleData name="URL">https://www.geoportal-raumordnung-bw.de/</SimpleData>
+		<SimpleData name="Titel">Geoportal Raumordnung Baden-Württemberg</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">„Das [Geoportal] ermöglicht einen zentralen Zugang zu den Geodaten im Bereich der Landesplanung, Regionalplanung und kommunalen Bauleitplanung im Land. Es ist eine öffentliche Plattform mit Informationen in Text und Karten über die Aufgaben und Instrumente der Planungsebenen und deren inhaltlich-räumliche Ausformung in den Planwerken.“ (Quelle: Geoportal Raumordnung Baden-Württemberg, abgerufen am 27.11.2017)</SimpleData>
+		<SimpleData name="Ort">Baden-Württemberg</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Baumeisterstraße 2, 76137 Karlsruhe</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.40402145058848,49.0036089042328</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">132</SimpleData>
+		<SimpleData name="URL">http://maps.thermspe4ee.de</SimpleData>
+		<SimpleData name="Titel">ThermSpe4EE-Geoportal </SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Forschungsergebnisse des Projektes „ThermSpe4EE“ (Thermische Speicher für Erneuerbare Energien) zum möglichen thermischen Gesamtspeichervolumen der Metropolregion Rhein-Neckar, erneuerbare Energien und Statistiken zu Strom und Wärme. Beteiligt waren die geomer GmbH, die PFALZWERKE AKTIENGESELLSCHAFT, die ait-Deutschland GmbH und die TU Kaiserslautern</SimpleData>
+		<SimpleData name="Ort">Metropolregion Rhein-Neckar</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Breitspiel 11b, D-69126 Heidelberg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.68705470195531,49.3601235044251</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">133</SimpleData>
+		<SimpleData name="URL">https://www.regionalverband-heilbronn-franken.de/</SimpleData>
+		<SimpleData name="Titel">Regionalverband Heilbronn-Franken</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Die Website umfasst Regionalpläne und das Raumbeobachtungssystem Heilbronn-Franken mit Informationen aus dem Stadtkreis Heilbronn sowie den Landkreisen Heilbronn, Hohenlohekreis, Schwäbisch Hall, Main-Tauber-Kreis</SimpleData>
+		<SimpleData name="Ort">Region Heilbronn-Franken</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Frankfurter Straße 8, 74072 Heilbronn</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.21341784248028,49.1416848042709</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">134</SimpleData>
+		<SimpleData name="URL">http://www.ostwuerttemberg.org/</SimpleData>
+		<SimpleData name="Titel">Regionalverband Ostwürttemberg</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Portal des Regionalverbandes mit Links zu relevanten Statistik- und Geoportalen sowie dem Regionalplan</SimpleData>
+		<SimpleData name="Ort">Region Ostwürtemberg</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Bahnhofplatz 5, 73525 Schwäbisch Gmünd</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.78874900322139,48.8005105040264</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">135</SimpleData>
+		<SimpleData name="URL">https://www.region-stuttgart.org/information-und-download/geoinformationen/</SimpleData>
+		<SimpleData name="Titel">RegioRISS - Regionales Rauminformationssystem Stuttgart</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">„Aufgabe des [...] RegioRISS ist es, Verknüpfungen in Form von kartografischen Darstellungen, Satelliten- und Luftbildern zu visualisieren. Verbunden mit dem Ziel, Gemeinsamkeiten, Verflechtungen, Relationen, aber auch räumliche Konfliktpotenziale deutlich und anschaulich zu machen.“ (Quelle: Verband Region Stuttgart, abgerufen am 27.11.2017)</SimpleData>
+		<SimpleData name="Ort">Region Stuttgart</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Kronenstraße 25, 70174 Stuttgart</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.11212597581724,48.7570241508163</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">136</SimpleData>
+		<SimpleData name="URL">http://www.georhena.eu/</SimpleData>
+		<SimpleData name="Titel">GeoRhena</SimpleData>
+		<SimpleData name="Land">Deutschland, Frankreich, Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Grenzüberschreitendes Projekt zwischen Deutschland, Frankreich und der Schweiz zur geografischen Erfassung der Oberrhein-Region. Nachfolgeprojekt von GISOR</SimpleData>
+		<SimpleData name="Ort">Region Oberrhein</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Avenue d'Alsace 100, 68006 COLMAR</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.36533580045998,48.0780696036643</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">137</SimpleData>
+		<SimpleData name="URL">http://regionalverband-sbh.de</SimpleData>
+		<SimpleData name="Titel">Regionalverband Schwarzwald-Baar-Heuberg</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Kooperation des Schwarzwald-Baar-Kreises, der Kreise Rottweil und
+Tuttlingen im Bereich Regionalplanung und -entwicklung.</SimpleData>
+		<SimpleData name="Ort">Region Schwarzwald / Baar / Heuberg</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Johannesstr. 27, 78056 Villingen-Schwenningen</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.53920855384027,48.0673903036282</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">138</SimpleData>
+		<SimpleData name="URL">http://dachplus.org/</SimpleData>
+		<SimpleData name="Titel">DACH+ Raumbeobachtung und Raumentwicklung</SimpleData>
+		<SimpleData name="Land">Deutschland, Österreich, Schweiz, Liechtenstein</SimpleData>
+		<SimpleData name="Beschreibung">Grenzüberschreitende GDI zwischen
+Deutschland, Österreich, der Schweiz und
+Liechtenstein mit Bezug auf Raumordnung und Raumentwicklung</SimpleData>
+		<SimpleData name="Ort">Grenzraum Deutschland, Österreich, Schweiz und Liechtenstein</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Im Wallgraben 50, 79761 Waldshut-Tiengen</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.20985390145141,47.6233750033283</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">139</SimpleData>
+		<SimpleData name="URL">http://www.rvdi.de/</SimpleData>
+		<SimpleData name="Titel">Regionalverband Donau-Iller </SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Die Website bietet neben dem Regionalplan, Karten zum Download als pdf an und verweist auf die Geoportale Badenwürtenberg und Bayern</SimpleData>
+		<SimpleData name="Ort">Region Donau-Iller</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Schwambergerstr. 35, 89073 Ulm</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.99249509025208,48.3518876447335</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">140</SimpleData>
+		<SimpleData name="URL">https://www.landkreis-cham.de/service-beratung/geoinformationen/</SimpleData>
+		<SimpleData name="Titel">Interkommunale Geoinformationssystem des Landkreises Cham (IkGIS-Cham) </SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Kommunale Geodateninfrastruktur für Verwaltung, Bürger und Wirtschaft des Landkreises Cham</SimpleData>
+		<SimpleData name="Ort">Landkreis Cham</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">
+Rachelstraße 6, 93413 Cham
+</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>12.675031568797,49.2701997795925</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">141</SimpleData>
+		<SimpleData name="URL">https://data-lra-cha.opendata.arcgis.com/</SimpleData>
+		<SimpleData name="Titel">OpenData – Lankreis Cham</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Frei zugängliche Daten des Lankreises Cham in Maschinenlesbarer Form, hauptsächlich aus der datenBank des Geoinformationssystems IkGIS-Cham</SimpleData>
+		<SimpleData name="Ort">Landkreis Cham</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Rachelstraße 6, 93413 Cham</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>12.668372527158,49.1804681109981</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">142</SimpleData>
+		<SimpleData name="URL">https://geoportal.erfurt.de</SimpleData>
+		<SimpleData name="Titel">Geoportal der Landeshauptstadt Erfurt</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Aktuelle, stadtbezogene, geografische Basis- und Fachdaten von Erfurt. Themen sind u.a. Tourismus, Informationen für Migranten und Flüchtlinge, Parken, Baustellen, Solarkataster und Wirtschaft</SimpleData>
+		<SimpleData name="Ort">Erfurt</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Fischmarkt 1, 99084 Erfurt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.9675244171028,50.9815670218568</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">143</SimpleData>
+		<SimpleData name="URL">http://cardomap.idu.de/lrabz/</SimpleData>
+		<SimpleData name="Titel">Geoportal des Landkreises Bautzen</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Kartenmaterial des Landkreises Bautzen zur Ansicht im WebGIS</SimpleData>
+		<SimpleData name="Ort">Landkreis Bautzen</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Bahnhofstraße 9, 02625 Bautzen</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>14.4298995336073,51.1755404019956</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">144</SimpleData>
+		<SimpleData name="URL">http://www.kreis-soest.de/gis/start/opendata/opendata.php</SimpleData>
+		<SimpleData name="Titel">Open Data – Kreis Soest</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Geodatendienste und -Dateidownloads (inbes. Zum Thema Windkraft) des Kreises Soest. Für die Verwendung der Kartendienste sind die Nutzungsbedinugen und -beschränkungen des Geoportals zu beachten</SimpleData>
+		<SimpleData name="Ort">Landkreis Soest</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Hoher Weg 1-3, 59494 Soest</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.11377557756123,51.6174591924247</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">145</SimpleData>
+		<SimpleData name="URL">http://www.kreis-soest.de/gis/start/</SimpleData>
+		<SimpleData name="Titel">Geoportal des Kreises Soest</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Öffentliches Geoinformationssystem des Kreises Soest auf Grundlage des amtlichen Liegenschaftskatasters, topografischen und thematischen Karten</SimpleData>
+		<SimpleData name="Ort">Lankreis Soest</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Hoher Weg 1-3, 59494 Soest</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.17750410420663,51.5505110560446</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">146</SimpleData>
+		<SimpleData name="URL">http://www.soest.de/03leben_wohnen/planen_bauen_umwelt/Plaene_Karten_und_Luftbilder__Geodatenportal_Stadt_Soest_/981startseite.php</SimpleData>
+		<SimpleData name="Titel">Geoportal der Stadt Soest</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Karten, Pläne, Luftbilder der Stadt Soest, inkl. eines 3D-Stadtmodelles der Altstadt</SimpleData>
+		<SimpleData name="Ort">Soest</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Am Vreithof 8, 59494 Soest </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.05266754759477,51.5495702524705</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">147</SimpleData>
+		<SimpleData name="URL">https://www.viersen.de/de/inhalt/geoportal-der-stadt-viersen/</SimpleData>
+		<SimpleData name="Titel">Geoportal der Stadt Viersen</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Das Geoportal steht Auskunftssystem für alle interessierten Bürgerinnen und Bürger zur Verfügung</SimpleData>
+		<SimpleData name="Ort">Viersen</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Bahnhofstr. 23-29, 41747 Viersen</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.39347157084972,51.1793550736719</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">149</SimpleData>
+		<SimpleData name="URL">http://www.metropoleruhr.de/regionalverband-ruhr/karten-geodaten.html</SimpleData>
+		<SimpleData name="Titel">Regionalverband Ruhr – Karten und Geodaten</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Umfangreiches Angebot an Geodatenbeständen, Kartendiesnten und Geoportalen des Regionalverbandes Ruhr</SimpleData>
+		<SimpleData name="Ort">Ruhrgebiet</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Kronprinzenstraße 35, 45128 Essen</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.88077104531239,51.3835012287691</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

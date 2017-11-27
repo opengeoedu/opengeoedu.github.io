@@ -6,7 +6,7 @@
      xmlns:gml="http://www.opengis.net/gml">
   <gml:boundedBy>
     <gml:Box>
-      <gml:coord><gml:X>6.078649886459396</gml:X><gml:Y>46.17785185479802</gml:Y></gml:coord>
+      <gml:coord><gml:X>6.078649886459402</gml:X><gml:Y>46.17785185479804</gml:Y></gml:coord>
       <gml:coord><gml:X>16.52856400843007</gml:X><gml:Y>54.33628470550668</gml:Y></gml:coord>
     </gml:Box>
   </gml:boundedBy>
@@ -29,7 +29,7 @@
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.2">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.17124748688952,48.8243936814513</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.17124748688953,48.8243936814513</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>2</ogr:ID>
       <ogr:URL>http://www.geoportal-bw.de</ogr:URL>
       <ogr:Titel>GDI Baden-Württemberg</ogr:Titel>
@@ -256,7 +256,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.16">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.7352943706537,50.0904775980271</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.73529437065369,50.0904775980271</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>16</ogr:ID>
       <ogr:URL>http://www.geoportal.de/</ogr:URL>
       <ogr:Titel>GDI-DE - Geodaten aus Deutschland</ogr:Titel>
@@ -432,7 +432,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.27">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.37532804933416,52.6086147056207</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.37532804933415,52.6086147056207</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>27</ogr:ID>
       <ogr:URL>http://freiegeodatenlandkreisdiepholz-geoweb-diepholz.opendata.arcgis.com/</ogr:URL>
       <ogr:Titel>Open Geodata Landkreis Diepholz</ogr:Titel>
@@ -464,7 +464,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.29">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.84935320102568,47.9962299036017</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.84935320102567,47.9962299036017</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>29</ogr:ID>
       <ogr:URL>http://fritz.freiburg.de/</ogr:URL>
       <ogr:Titel>Freiburg FRITZ Online Statistics</ogr:Titel>
@@ -480,7 +480,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.30">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.09247417286314,51.5109986053981</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.09247417286313,51.5109986053981</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>30</ogr:ID>
       <ogr:URL>https://opendata.gelsenkirchen.de/</ogr:URL>
       <ogr:Titel>Offene Daten Gelsenkirchen</ogr:Titel>
@@ -546,7 +546,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.34">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>12.0728875833306,54.127492954356</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>12.0728875833307,54.127492954356</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>34</ogr:ID>
       <ogr:URL>https://www.opendata-hro.de/</ogr:URL>
       <ogr:Titel>OpenData.HRO</ogr:Titel>
@@ -562,7 +562,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.35">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.21950843898303,51.5379388554072</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.21950843898302,51.5379388554072</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>35</ogr:ID>
       <ogr:URL>http://www.herne.de/Stadt-und-Leben/Stadtfakten/Open-Data/</ogr:URL>
       <ogr:Titel>Herne Open Data</ogr:Titel>
@@ -578,7 +578,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.36">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.22685858870078,50.087941804822</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.22685858870077,50.087941804822</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>36</ogr:ID>
       <ogr:URL>http://www.geoportal.hessen.de/</ogr:URL>
       <ogr:Titel>GDI Hessen</ogr:Titel>
@@ -642,7 +642,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.40">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.95100199998851,50.9422631052028</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.95100199998852,50.9422631052028</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>40</ogr:ID>
       <ogr:URL>https://www.offenedaten-koeln.de/</ogr:URL>
       <ogr:Titel>Offene Daten Köln</ogr:Titel>
@@ -758,7 +758,7 @@ Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendun
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.47">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.6844805623926,51.2980572884251</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.68448056239259,51.2980572884251</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>47</ogr:ID>
       <ogr:URL>https://opendata.meerbusch.de/</ogr:URL>
       <ogr:Titel>Meerbusch Open Data</ogr:Titel>
@@ -859,7 +859,7 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.53">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.87869379991311,51.4284118053684</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.87661117626386,51.4733219764241</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>53</ogr:ID>
       <ogr:URL>https://geo.muelheim-ruhr.de/open-data/13819</ogr:URL>
       <ogr:Titel>Mülheim an der Ruhr Open Data</ogr:Titel>
@@ -1063,7 +1063,7 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.65">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.95079331125057,49.2774313544131</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.95079331125058,49.2774313544131</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>65</ogr:ID>
       <ogr:URL>http://geoportal.saarland.de/</ogr:URL>
       <ogr:Titel>GeoPortal Saarland (GDI-SL)</ogr:Titel>
@@ -1184,7 +1184,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.72">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.028167444243,50.9580539011065</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.090764705909,50.979424797175</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>72</ogr:ID>
       <ogr:URL>http://www.geoportal-th.de/de-de/downloadbereiche/downloadoffenegeodatenth%C3%BCringen.aspx</ogr:URL>
       <ogr:Titel>Download Offene Geodaten Thüringen</ogr:Titel>
@@ -1200,7 +1200,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.73">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.99336990347324,48.3968458037555</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.99424687054755,48.4418035983916</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>73</ogr:ID>
       <ogr:URL>http://daten.ulm.de/</ogr:URL>
       <ogr:Titel>daten.ulm.de</ogr:Titel>
@@ -1216,7 +1216,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.74">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.45656933617111,51.1582680551898</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.51720052719408,51.1820472082836</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>74</ogr:ID>
       <ogr:URL>https://www.offenesdatenportal.de/organization/kreis-viersen</ogr:URL>
       <ogr:Titel>Kreis Viersen Open Data</ogr:Titel>
@@ -1264,7 +1264,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.77">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.77191950092864,48.5948367040006</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.77191950092863,48.5948367040006</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>77</ogr:ID>
       <ogr:URL>https://open-data.europa.eu/de/about</ogr:URL>
       <ogr:Titel>Offenes Datenportal der EU</ogr:Titel>
@@ -1504,7 +1504,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.92">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.74574755456704,47.5457994996097</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.74574755456703,47.5457994996097</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>92</ogr:ID>
       <ogr:URL>http://data.vorarlberg.gv.at/</ogr:URL>
       <ogr:Titel>Vorarlberg Open Data</ogr:Titel>
@@ -1536,7 +1536,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.94">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.13114902563881,46.2466586646422</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.13114902563882,46.2466586646422</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>94</ogr:ID>
       <ogr:URL>http://ge.ch/sitg/sitg_catalog/sitg_donnees</ogr:URL>
       <ogr:Titel>Sitg Geneva's Territorial Information System</ogr:Titel>
@@ -1552,7 +1552,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.95">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.1906701766099,46.18066134298</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.19067017660991,46.18066134298</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>95</ogr:ID>
       <ogr:URL>http://data.tpg.ch/</ogr:URL>
       <ogr:Titel>Open Data TPG</ogr:Titel>
@@ -1632,7 +1632,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.100">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.54137760184293,47.3692542031299</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.54137760184294,47.3692542031299</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>100</ogr:ID>
       <ogr:URL>https://data.stadt-zuerich.ch/</ogr:URL>
       <ogr:Titel>Zurich Open Data</ogr:Titel>
@@ -1680,7 +1680,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.103">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.5500720072576,47.5162309998947</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.5500720072576,47.5162309998946</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>103</ogr:ID>
       <ogr:URL>http://www.geoland.at/</ogr:URL>
       <ogr:Titel>geoland.at – Geodatenportal der österreichischen Länder</ogr:Titel>
@@ -1792,7 +1792,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.110">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.74447388940619,47.4558635464075</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.74447388940618,47.4558635464075</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>110</ogr:ID>
       <ogr:URL>http://www.vorarlberg.at/lvg</ogr:URL>
       <ogr:Titel>Land Vorarlberg - Landesvermessungsamt</ogr:Titel>
@@ -1872,7 +1872,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.115">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.1709407363704,48.7344705743759</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.2299083035477,48.7568487218579</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>115</ogr:ID>
       <ogr:URL>https://mlr.baden-wuerttemberg.de/de/unsere-themen/geodaten/open-data/</ogr:URL>
       <ogr:Titel>Open Data: Ministerium für Ländlichen Raum und Verbraucherschutz Baden-Württemberg</ogr:Titel>
@@ -1882,7 +1882,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Bezug>regional</ogr:Bezug>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
+      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Kernerplatz 10, 70182 Stuttgart</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1946,7 +1946,7 @@ GDI.MRH</ogr:Titel>
       <ogr:Beschreibung>Kooperation von Schleswig-Holstein, Hamburg, Niedersachsen und Mecklenburg-Vorpommern
 sowie den Kreisen, Landkreisen und kreisfreien Städten in dem Geoportal der Metropolregion Hamburg</ogr:Beschreibung>
       <ogr:Ort>Metropolregion Hamburg</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Bezug>regional</ogr:Bezug>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
       <ogr:GDI>ja</ogr:GDI>
@@ -1977,9 +1977,9 @@ messungs- und Katasterwesen MV</ogr:Beschreibung>
       <ogr:URL>http://www.geonetzwerk-muensterland.de/</ogr:URL>
       <ogr:Titel>Geonetzwerk Münsterland</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
-      <ogr:Beschreibung>Zusammenschluss von Institutionen und Unternehmen aud dem Münsterland zu einem Geonetzwerk</ogr:Beschreibung>
+      <ogr:Beschreibung>Zusammenschluss von Institutionen und Unternehmen aus dem Münsterland zu einem Geonetzwerk</ogr:Beschreibung>
       <ogr:Ort>Münsterland</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Bezug>regional</ogr:Bezug>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
       <ogr:GDI>ja</ogr:GDI>
@@ -1995,7 +1995,7 @@ messungs- und Katasterwesen MV</ogr:Beschreibung>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Kostenfrei und frei zugängliche Karten des Münsterlandes zu verschiedenen Themen. Dienste der Kooperationspartner Kreis Borken, Kreis Coesfeld, Stadt Münster, Kreis Steinfurt und Kreis Warendorf sowie dem Land NRW u.a. werden eingebunden</ogr:Beschreibung>
       <ogr:Ort>Münsterland</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Bezug>regional</ogr:Bezug>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
       <ogr:GDI>ja</ogr:GDI>
@@ -2004,7 +2004,7 @@ messungs- und Katasterwesen MV</ogr:Beschreibung>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.123">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.84849761152285,51.9370885054638</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.84849761152284,51.9370885054638</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>123</ogr:ID>
       <ogr:URL>http://geo.kreislippe.de</ogr:URL>
       <ogr:Titel>Geoportal des Kreises Lippe</ogr:Titel>
@@ -2027,7 +2027,7 @@ messungs- und Katasterwesen MV</ogr:Beschreibung>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Zentrale Zugang zu den Geoportalen im Bereich Südwestfalen</ogr:Beschreibung>
       <ogr:Ort>Südwestfalen</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Bezug>regional</ogr:Bezug>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
       <ogr:GDI>ja</ogr:GDI>
@@ -2043,7 +2043,7 @@ messungs- und Katasterwesen MV</ogr:Beschreibung>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Zusammmenschluss der Kreise Kleve, Viersen und Wesel sowie der kreisfreien Stadt Krefeld und dem Kommunalen Rechenzentrum Niederrhein KRZN zu einem Geoportal</ogr:Beschreibung>
       <ogr:Ort>Niederrhein</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Bezug>regional</ogr:Bezug>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
       <ogr:GDI>ja</ogr:GDI>
@@ -2060,7 +2060,7 @@ messungs- und Katasterwesen MV</ogr:Beschreibung>
       <ogr:Beschreibung>Initiative der Metropolregion Frankfurt/Rhein-
 Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibung>
       <ogr:Ort>Südhessen</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Bezug>regional</ogr:Bezug>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
       <ogr:GDI>ja</ogr:GDI>
@@ -2072,7 +2072,7 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibu
       <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.2387409059751,52.7516825044648</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>127</ogr:ID>
       <ogr:URL>http://www.oberhavel.de/Landkreis/Geoportal</ogr:URL>
-      <ogr:Titel>Geoportal des Landkreises Oberhavel</ogr:Titel>
+      <ogr:Titel>Geoportal Landkreis Oberhavel</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Kommunales Geoportal</ogr:Beschreibung>
       <ogr:Ort>Landkreis Oberhavel</ogr:Ort>
@@ -2088,15 +2088,340 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibu
       <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.1694048624819,52.0842936044257</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>128</ogr:ID>
       <ogr:URL>http://geoportal.teltow-flaeming.de</ogr:URL>
-      <ogr:Titel>Geoportal Teltow-Fläming</ogr:Titel>
+      <ogr:Titel>Geoportal Landkreis Teltow-Fläming</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Kommunales Geoportal</ogr:Beschreibung>
-      <ogr:Ort>Teltow-Fläming</ogr:Ort>
+      <ogr:Ort>Landkreis Teltow-Fläming</ogr:Ort>
       <ogr:Bezug>kommunal</ogr:Bezug>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
       <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Am Nuthefließ 2, 14943 Luckenwalde </ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.129">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.2375496062761,51.6934609042712</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>129</ogr:ID>
+      <ogr:URL>http://www.lkee.de/Service-Verwaltung/Geoportal</ogr:URL>
+      <ogr:Titel>Geoportal Landkreis Elbe-Elster</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Geoportal und GDI-Infrastrukturknoten des Lankreises Elbe-Elster mit Bauleitplanung (XPlanung) inklusive Flächennutzungspläne, Bebauungspläne, Landschaftspläne und kommunale Satzungen</ogr:Beschreibung>
+      <ogr:Ort>Landkreis Elbe-Elster</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Ludwig-Jahn-Straße 2, 04916 Herzberg (Elster) </ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.130">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.6524217796529,51.7496843014419</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>130</ogr:ID>
+      <ogr:URL>http://geoportal.lkspn.de/</ogr:URL>
+      <ogr:Titel>Geoportal Lankreis Spree-Neiße</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Kommunales Geoportal mit WMS und WFS Diensten sowie Kartenanwendungen zu den Themen Planen &amp; Bauen, Umwelt &amp; Natur, sowie Toursimus (Stand 27.11.2017)</ogr:Beschreibung>
+      <ogr:Ort>Landkreis Spree-Neiße</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Heinrich-Heine-Straße 1, 03149 Forst (Lausitz)</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.131">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.40402145058848,49.0036089042328</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>131</ogr:ID>
+      <ogr:URL>https://www.geoportal-raumordnung-bw.de/</ogr:URL>
+      <ogr:Titel>Geoportal Raumordnung Baden-Württemberg</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>„Das [Geoportal] ermöglicht einen zentralen Zugang zu den Geodaten im Bereich der Landesplanung, Regionalplanung und kommunalen Bauleitplanung im Land. Es ist eine öffentliche Plattform mit Informationen in Text und Karten über die Aufgaben und Instrumente der Planungsebenen und deren inhaltlich-räumliche Ausformung in den Planwerken.“ (Quelle: Geoportal Raumordnung Baden-Württemberg, abgerufen am 27.11.2017)</ogr:Beschreibung>
+      <ogr:Ort>Baden-Württemberg</ogr:Ort>
+      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Baumeisterstraße 2, 76137 Karlsruhe</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.132">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.68705470195531,49.3601235044251</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>132</ogr:ID>
+      <ogr:URL>http://maps.thermspe4ee.de</ogr:URL>
+      <ogr:Titel>ThermSpe4EE-Geoportal </ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Forschungsergebnisse des Projektes „ThermSpe4EE“ (Thermische Speicher für Erneuerbare Energien) zum möglichen thermischen Gesamtspeichervolumen der Metropolregion Rhein-Neckar, erneuerbare Energien und Statistiken zu Strom und Wärme. Beteiligt waren die geomer GmbH, die PFALZWERKE AKTIENGESELLSCHAFT, die ait-Deutschland GmbH und die TU Kaiserslautern</ogr:Beschreibung>
+      <ogr:Ort>Metropolregion Rhein-Neckar</ogr:Ort>
+      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Breitspiel 11b, D-69126 Heidelberg</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.133">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.21341784248028,49.1416848042709</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>133</ogr:ID>
+      <ogr:URL>https://www.regionalverband-heilbronn-franken.de/</ogr:URL>
+      <ogr:Titel>Regionalverband Heilbronn-Franken</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Die Website umfasst Regionalpläne und das Raumbeobachtungssystem Heilbronn-Franken mit Informationen aus dem Stadtkreis Heilbronn sowie den Landkreisen Heilbronn, Hohenlohekreis, Schwäbisch Hall, Main-Tauber-Kreis</ogr:Beschreibung>
+      <ogr:Ort>Region Heilbronn-Franken</ogr:Ort>
+      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Frankfurter Straße 8, 74072 Heilbronn</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.134">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.78874900322139,48.8005105040264</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>134</ogr:ID>
+      <ogr:URL>http://www.ostwuerttemberg.org/</ogr:URL>
+      <ogr:Titel>Regionalverband Ostwürttemberg</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Portal des Regionalverbandes mit Links zu relevanten Statistik- und Geoportalen sowie dem Regionalplan</ogr:Beschreibung>
+      <ogr:Ort>Region Ostwürtemberg</ogr:Ort>
+      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Bahnhofplatz 5, 73525 Schwäbisch Gmünd</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.135">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.11212597581724,48.7570241508163</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>135</ogr:ID>
+      <ogr:URL>https://www.region-stuttgart.org/information-und-download/geoinformationen/</ogr:URL>
+      <ogr:Titel>RegioRISS - Regionales Rauminformationssystem Stuttgart</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>„Aufgabe des [...] RegioRISS ist es, Verknüpfungen in Form von kartografischen Darstellungen, Satelliten- und Luftbildern zu visualisieren. Verbunden mit dem Ziel, Gemeinsamkeiten, Verflechtungen, Relationen, aber auch räumliche Konfliktpotenziale deutlich und anschaulich zu machen.“ (Quelle: Verband Region Stuttgart, abgerufen am 27.11.2017)</ogr:Beschreibung>
+      <ogr:Ort>Region Stuttgart</ogr:Ort>
+      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Kronenstraße 25, 70174 Stuttgart</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.136">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.36533580045998,48.0780696036643</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>136</ogr:ID>
+      <ogr:URL>http://www.georhena.eu/</ogr:URL>
+      <ogr:Titel>GeoRhena</ogr:Titel>
+      <ogr:Land>Deutschland, Frankreich, Schweiz</ogr:Land>
+      <ogr:Beschreibung>Grenzüberschreitendes Projekt zwischen Deutschland, Frankreich und der Schweiz zur geografischen Erfassung der Oberrhein-Region. Nachfolgeprojekt von GISOR</ogr:Beschreibung>
+      <ogr:Ort>Region Oberrhein</ogr:Ort>
+      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Avenue d'Alsace 100, 68006 COLMAR</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.137">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.53920855384027,48.0673903036282</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>137</ogr:ID>
+      <ogr:URL>http://regionalverband-sbh.de</ogr:URL>
+      <ogr:Titel>Regionalverband Schwarzwald-Baar-Heuberg</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Kooperation des Schwarzwald-Baar-Kreises, der Kreise Rottweil und
+Tuttlingen im Bereich Regionalplanung und -entwicklung.</ogr:Beschreibung>
+      <ogr:Ort>Region Schwarzwald / Baar / Heuberg</ogr:Ort>
+      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Johannesstr. 27, 78056 Villingen-Schwenningen</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.138">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.20985390145141,47.6233750033283</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>138</ogr:ID>
+      <ogr:URL>http://dachplus.org/</ogr:URL>
+      <ogr:Titel>DACH+ Raumbeobachtung und Raumentwicklung</ogr:Titel>
+      <ogr:Land>Deutschland, Österreich, Schweiz, Liechtenstein</ogr:Land>
+      <ogr:Beschreibung>Grenzüberschreitende GDI zwischen
+Deutschland, Österreich, der Schweiz und
+Liechtenstein mit Bezug auf Raumordnung und Raumentwicklung</ogr:Beschreibung>
+      <ogr:Ort>Grenzraum Deutschland, Österreich, Schweiz und Liechtenstein</ogr:Ort>
+      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Im Wallgraben 50, 79761 Waldshut-Tiengen</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.139">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.99249509025208,48.3518876447335</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>139</ogr:ID>
+      <ogr:URL>http://www.rvdi.de/</ogr:URL>
+      <ogr:Titel>Regionalverband Donau-Iller </ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Die Website bietet neben dem Regionalplan, Karten zum Download als pdf an und verweist auf die Geoportale Badenwürtenberg und Bayern</ogr:Beschreibung>
+      <ogr:Ort>Region Donau-Iller</ogr:Ort>
+      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Schwambergerstr. 35, 89073 Ulm</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.140">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>12.675031568797,49.2701997795925</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>140</ogr:ID>
+      <ogr:URL>https://www.landkreis-cham.de/service-beratung/geoinformationen/</ogr:URL>
+      <ogr:Titel>Interkommunale Geoinformationssystem des Landkreises Cham (IkGIS-Cham) </ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Kommunale Geodateninfrastruktur für Verwaltung, Bürger und Wirtschaft des Landkreises Cham</ogr:Beschreibung>
+      <ogr:Ort>Landkreis Cham</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>
+Rachelstraße 6, 93413 Cham
+</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.141">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>12.668372527158,49.1804681109981</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>141</ogr:ID>
+      <ogr:URL>https://data-lra-cha.opendata.arcgis.com/</ogr:URL>
+      <ogr:Titel>OpenData – Lankreis Cham</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Frei zugängliche Daten des Lankreises Cham in Maschinenlesbarer Form, hauptsächlich aus der datenBank des Geoinformationssystems IkGIS-Cham</ogr:Beschreibung>
+      <ogr:Ort>Landkreis Cham</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI></ogr:GDI>
+      <ogr:Adresse_Herausgeber>Rachelstraße 6, 93413 Cham</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.142">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.9675244171028,50.9815670218568</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>142</ogr:ID>
+      <ogr:URL>https://geoportal.erfurt.de</ogr:URL>
+      <ogr:Titel>Geoportal der Landeshauptstadt Erfurt</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Aktuelle, stadtbezogene, geografische Basis- und Fachdaten von Erfurt. Themen sind u.a. Tourismus, Informationen für Migranten und Flüchtlinge, Parken, Baustellen, Solarkataster und Wirtschaft</ogr:Beschreibung>
+      <ogr:Ort>Erfurt</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Fischmarkt 1, 99084 Erfurt</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.143">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.4298995336073,51.1755404019956</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>143</ogr:ID>
+      <ogr:URL>http://cardomap.idu.de/lrabz/</ogr:URL>
+      <ogr:Titel>Geoportal des Landkreises Bautzen</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Kartenmaterial des Landkreises Bautzen zur Ansicht im WebGIS</ogr:Beschreibung>
+      <ogr:Ort>Landkreis Bautzen</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Bahnhofstraße 9, 02625 Bautzen</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.144">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.11377557756123,51.6174591924247</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>144</ogr:ID>
+      <ogr:URL>http://www.kreis-soest.de/gis/start/opendata/opendata.php</ogr:URL>
+      <ogr:Titel>Open Data – Kreis Soest</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Geodatendienste und -Dateidownloads (inbes. Zum Thema Windkraft) des Kreises Soest. Für die Verwendung der Kartendienste sind die Nutzungsbedinugen und -beschränkungen des Geoportals zu beachten</ogr:Beschreibung>
+      <ogr:Ort>Landkreis Soest</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI></ogr:GDI>
+      <ogr:Adresse_Herausgeber>Hoher Weg 1-3, 59494 Soest</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.145">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.17750410420663,51.5505110560446</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>145</ogr:ID>
+      <ogr:URL>http://www.kreis-soest.de/gis/start/</ogr:URL>
+      <ogr:Titel>Geoportal des Kreises Soest</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Öffentliches Geoinformationssystem des Kreises Soest auf Grundlage des amtlichen Liegenschaftskatasters, topografischen und thematischen Karten</ogr:Beschreibung>
+      <ogr:Ort>Lankreis Soest</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Hoher Weg 1-3, 59494 Soest</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.146">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.05266754759477,51.5495702524705</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>146</ogr:ID>
+      <ogr:URL>http://www.soest.de/03leben_wohnen/planen_bauen_umwelt/Plaene_Karten_und_Luftbilder__Geodatenportal_Stadt_Soest_/981startseite.php</ogr:URL>
+      <ogr:Titel>Geoportal der Stadt Soest</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Karten, Pläne, Luftbilder der Stadt Soest, inkl. eines 3D-Stadtmodelles der Altstadt</ogr:Beschreibung>
+      <ogr:Ort>Soest</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Am Vreithof 8, 59494 Soest </ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.147">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.39347157084972,51.1793550736719</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>147</ogr:ID>
+      <ogr:URL>https://www.viersen.de/de/inhalt/geoportal-der-stadt-viersen/</ogr:URL>
+      <ogr:Titel>Geoportal der Stadt Viersen</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Das Geoportal steht Auskunftssystem für alle interessierten Bürgerinnen und Bürger zur Verfügung</ogr:Beschreibung>
+      <ogr:Ort>Viersen</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Bahnhofstr. 23-29, 41747 Viersen</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.148">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.88077104531239,51.3835012287691</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>149</ogr:ID>
+      <ogr:URL>http://www.metropoleruhr.de/regionalverband-ruhr/karten-geodaten.html</ogr:URL>
+      <ogr:Titel>Regionalverband Ruhr – Karten und Geodaten</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Umfangreiches Angebot an Geodatenbeständen, Kartendiesnten und Geoportalen des Regionalverbandes Ruhr</ogr:Beschreibung>
+      <ogr:Ort>Ruhrgebiet</ogr:Ort>
+      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Kronprinzenstraße 35, 45128 Essen</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
 </ogr:FeatureCollection>
