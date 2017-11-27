@@ -1,0 +1,10 @@
+<script>
+var a = document.createElement('a');
+var linkText = document.createTextNode("my title text");
+a.appendChild(linkText);
+a.title = "OpenGeoEdu Website";
+a.href = "http://www.opengeoedu.de";
+document.body.appendChild(a);
+
+document.getElementById('section-light').style.display='none'
+</script>
