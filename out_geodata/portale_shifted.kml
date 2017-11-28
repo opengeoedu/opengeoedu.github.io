@@ -480,7 +480,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Freiburg im Breisgau, Rathausplatz 2 - 4, 79098 Freiburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.84935320102567,47.9962299036017</coordinates></Point>
+      <Point><coordinates>7.84835276669512,48.0411885467383</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1888,7 +1888,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="GDI"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Kernerplatz 10, 70182 Stuttgart</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.2299083035477,48.7568487218579</coordinates></Point>
+      <Point><coordinates>9.23912574640265,48.7793108620805</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2149,7 +2149,7 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Baumeisterstraße 2, 76137 Karlsruhe</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.40402145058848,49.0036089042328</coordinates></Point>
+      <Point><coordinates>8.4034848561711,49.0485662985977</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2181,7 +2181,7 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Frankfurter Straße 8, 74072 Heilbronn</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.21341784248028,49.1416848042709</coordinates></Point>
+      <Point><coordinates>9.21361171272373,49.1866432370598</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2197,7 +2197,7 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Bahnhofplatz 5, 73525 Schwäbisch Gmünd</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.78874900322139,48.8005105040264</coordinates></Point>
+      <Point><coordinates>9.78945540627964,48.8454676418899</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2213,7 +2213,7 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</SimpleData>
 		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Kronenstraße 25, 70174 Stuttgart</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.11212597581724,48.7570241508163</coordinates></Point>
+      <Point><coordinates>9.1709407363704,48.7344705743759</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2427,6 +2427,215 @@ Rachelstraße 6, 93413 Cham
 		<SimpleData name="Adresse_Herausgeber">Kronprinzenstraße 35, 45128 Essen</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>6.88077104531239,51.3835012287691</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">150</SimpleData>
+		<SimpleData name="URL">http://www.geonline-gis.de/portale/weinstadt.htm</SimpleData>
+		<SimpleData name="Titel">BürgerGIS Weinstadt</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Geoportal von Weinstadt mit Bebauungsplänen, öffentlichen Einrichtungen, demographischen Daten, Umweltdaten, Wasserhärtegraden und vielen interaktiven Möglichkeiten.</SimpleData>
+		<SimpleData name="Ort">Weinstadt</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Marktplatz 1, 71384 Weinstadt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.10306171787488,48.7795135893521</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">151</SimpleData>
+		<SimpleData name="URL">http://www.gisserver.de/aalen/</SimpleData>
+		<SimpleData name="Titel">Geodatenportal der Stadt Aalen</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Zugang zur seit 1994 gepflegten Geodateninfrastruktur der Stadt Aalen mit Visualisierungen von Geobasisdaten, einem 3D-Stadtmodell, Statistiken, Flächennutzung, Windkraft, Urkarte 1830, Höhenmodell und mehr (erfordert Flash-Plugin, Stand 28.10.2017)</SimpleData>
+		<SimpleData name="Ort">Aalen</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Marktplatz 30, 73430 Aalen</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.093388084088,48.836083104022</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">152</SimpleData>
+		<SimpleData name="URL">http://www.giscity.de/schwaebischhall/</SimpleData>
+		<SimpleData name="Titel">Geodatenportal der Stadt Schwäbisch Hall</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Geoportal mit Stadtplan, Liegenschaftskarte, Bodenrichtwerten, Gemarkungen, Grundschulbezirken, Statistiken, Umwelt und Natur und Geschichte (erfordert Flash-Plugin). Die zugehörige Schwäbisch Hall App wurde mit dem GIS Best Practice Award 2015 ausgezeichnet (Stand 28.10.2017).</SimpleData>
+		<SimpleData name="Ort">Schwäbisch Hall</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Am Markt 6, 74523 Schwäbisch Hall </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.73679439775015,49.112375304216</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">153</SimpleData>
+		<SimpleData name="URL">https://karten.heilbronn.de/heilbronn/</SimpleData>
+		<SimpleData name="Titel">Amtlicher Stadtplan Heibronn</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Interaktiver Stadtplan von Heilbronn mit öffentlichen Einrichtungen, die sich je nach Kategorie aus er Web-Karte ein-und ausblenden lassen</SimpleData>
+		<SimpleData name="Ort">Heilbronn</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Marktplatz 7, 74072 Heilbronn </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.27263963546214,49.1190802876752</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">154</SimpleData>
+		<SimpleData name="URL">https://geoportal.heilbronn.de/</SimpleData>
+		<SimpleData name="Titel">Geodatenportal der Stadt Heilbronn</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Online-Visualisierungen der Stadtkarte, Bebauungspläne, Umweltdaten, Luftbilder, Grünflächen, Schutgebiete, kleinräumige Gliederung und Topographie (erfordert Flash-Plugin, Stand 28.10.2017)</SimpleData>
+		<SimpleData name="Ort">Heilbronn</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Marktplatz 7, 74072 Heilbronn </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.15400218002646,49.1193001465158</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">154</SimpleData>
+		<SimpleData name="URL">https://geoportal.hohenlohekreis.de</SimpleData>
+		<SimpleData name="Titel">HOKis-Geoportal</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Hohenlohekreis-informationssystem (HOKis) bietet u.a. Geoinformationen und Services zu den folgenden Themen an: Bebauungsplan und Flächennutzung, Flurstück und Umwelt, Rettungskarte Forst, Luftbilder, Schulstandorte, Pflegeeinrichtungen, Abfallwirtschaft, Kleindenkmale, Kocher- und Jagstverordnung, Potenzialatlas Erneuerbare Energien, Radroutenplaner (Stand 28.10.2017)</SimpleData>
+		<SimpleData name="Ort">Hohenlohe Kreis</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Allee 17, 74653 Künzelsau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.69182611293115,49.2728346805832</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">155</SimpleData>
+		<SimpleData name="URL">http://offenesdresden.de/</SimpleData>
+		<SimpleData name="Titel">OffenesDresden.de</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Inoffizielle Übersicht über OpenData-Projekte in und um Dresden, geführt von Open Data Aktivisten der Stadt.</SimpleData>
+		<SimpleData name="Ort">Dresden</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="GDI"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Dresden</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.7381437066512,51.0493286034555</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">156</SimpleData>
+		<SimpleData name="URL">https://www.landkreis-emmendingen.de/index.php?id=199</SimpleData>
+		<SimpleData name="Titel">Interaktive Kreiskarte Landkreis Emmedingen</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Interaktive Karte von raumbezogenen, verwaltungsspezifischen Geodaten des Landkreises Emmendingen</SimpleData>
+		<SimpleData name="Ort">Landkreis Emmedingen</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Bahnhofstraße 2-4, D-79312 Emmendingen</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.84869050102345,48.1199471036865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">157</SimpleData>
+		<SimpleData name="URL">http://www.gisserver.de/schwaebisch-gmuend/</SimpleData>
+		<SimpleData name="Titel">Geodatenportal der Stadt Schwäbisch Gmüd</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Online-Visualisierungen u.a. der Stadtkarte, Bebauungspläne, Landschaftsplan, Katasterkarte, Bodenrichtwerte, Baulücken, Solarkataster, historische Karten, Umweltdaten, Luftbilder, Topographie (erfordert Flash-Plugin, Stand 28.10.2017)</SimpleData>
+		<SimpleData name="Ort">Schwäbisch Gmüd</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Marktplatz 37, 73525 Schwäbisch Gmünd</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.78804434599162,48.7555530067181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">158</SimpleData>
+		<SimpleData name="URL">https://www.loerrach-landkreis.de</SimpleData>
+		<SimpleData name="Titel">Bürger-Geoportal des Landreis Lörrach</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Intaraktive Web-Karten zu den Themen Abfallwirtschaft, Behörden/Gemeinden, Bewegungsatlas, Bebauungspläne/Kehrbezirke
+Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahrradwegweisungsnetz, Tourismus/ÖPNV, Umwelt &amp; bergbaubedingte Belastungen (erfordert Flash-Plugin, Stand 28.10.2017)</SimpleData>
+		<SimpleData name="Ort">Landreis Lörrach</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Palmstraße 3,79539 Lörrach</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.66240460081048,47.6140884033346</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">159</SimpleData>
+		<SimpleData name="URL">http://www.energieatlas-bw.de/</SimpleData>
+		<SimpleData name="Titel">Energieatlas Baden-Württemberg</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Gemeinsames Internet-Portal des Umweltministeriums und der LUBW für Daten und Karten zum Thema erneuerbare Energien</SimpleData>
+		<SimpleData name="Ort">Baden-Württemberg</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Griesbachstraße 1, 76185 Karlsruhe </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.40455671469394,48.9586511540218</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">160</SimpleData>
+		<SimpleData name="URL">http://isong.lgrb-bw.de/</SimpleData>
+		<SimpleData name="Titel">Informationssystem Oberflächennahe Geothermie für Baden-Württemberg (ISONG)</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Informationen zur Planung von Erdwärmesonden bis max. 400 m Tiefe </SimpleData>
+		<SimpleData name="Ort">Baden-Württemberg</SimpleData>
+		<SimpleData name="Bezug">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Albertstr. 5, D-79104 Freiburg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.85035119316972,47.9512708916925</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">161</SimpleData>
+		<SimpleData name="URL">https://www.radolfzell.de/b%C3%BCrgerportal</SimpleData>
+		<SimpleData name="Titel">Bürgerportal der Stadt Radolfzell am Bodensee</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Kommunales Geoportal von Radolfzell mit Bebauungsplänen, Karten zu Verkehr, öffentlichen Einrichtungen u.a. (erfordert Flash-Plugin, Stand 28.10.2017)</SimpleData>
+		<SimpleData name="Ort">Radolfzell</SimpleData>
+		<SimpleData name="Bezug">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Marktplatz 2, 78315 Radolfzell am Bodensee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.96894371342081,47.7373622533775</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

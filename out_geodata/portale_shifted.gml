@@ -464,7 +464,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.29">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.84935320102567,47.9962299036017</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.84835276669512,48.0411885467383</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>29</ogr:ID>
       <ogr:URL>http://fritz.freiburg.de/</ogr:URL>
       <ogr:Titel>Freiburg FRITZ Online Statistics</ogr:Titel>
@@ -1872,7 +1872,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.115">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.2299083035477,48.7568487218579</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.23912574640265,48.7793108620805</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>115</ogr:ID>
       <ogr:URL>https://mlr.baden-wuerttemberg.de/de/unsere-themen/geodaten/open-data/</ogr:URL>
       <ogr:Titel>Open Data: Ministerium für Ländlichen Raum und Verbraucherschutz Baden-Württemberg</ogr:Titel>
@@ -2133,7 +2133,7 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibu
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.131">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.40402145058848,49.0036089042328</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.4034848561711,49.0485662985977</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>131</ogr:ID>
       <ogr:URL>https://www.geoportal-raumordnung-bw.de/</ogr:URL>
       <ogr:Titel>Geoportal Raumordnung Baden-Württemberg</ogr:Titel>
@@ -2165,7 +2165,7 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibu
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.133">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.21341784248028,49.1416848042709</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.21361171272373,49.1866432370598</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>133</ogr:ID>
       <ogr:URL>https://www.regionalverband-heilbronn-franken.de/</ogr:URL>
       <ogr:Titel>Regionalverband Heilbronn-Franken</ogr:Titel>
@@ -2181,7 +2181,7 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibu
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.134">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.78874900322139,48.8005105040264</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.78945540627964,48.8454676418899</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>134</ogr:ID>
       <ogr:URL>http://www.ostwuerttemberg.org/</ogr:URL>
       <ogr:Titel>Regionalverband Ostwürttemberg</ogr:Titel>
@@ -2197,7 +2197,7 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibu
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.135">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.11212597581724,48.7570241508163</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.1709407363704,48.7344705743759</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>135</ogr:ID>
       <ogr:URL>https://www.region-stuttgart.org/information-und-download/geoinformationen/</ogr:URL>
       <ogr:Titel>RegioRISS - Regionales Rauminformationssystem Stuttgart</ogr:Titel>
@@ -2422,6 +2422,215 @@ Rachelstraße 6, 93413 Cham
       <ogr:Geodaten>ja</ogr:Geodaten>
       <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Kronprinzenstraße 35, 45128 Essen</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.149">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.10306171787488,48.7795135893521</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>150</ogr:ID>
+      <ogr:URL>http://www.geonline-gis.de/portale/weinstadt.htm</ogr:URL>
+      <ogr:Titel>BürgerGIS Weinstadt</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Geoportal von Weinstadt mit Bebauungsplänen, öffentlichen Einrichtungen, demographischen Daten, Umweltdaten, Wasserhärtegraden und vielen interaktiven Möglichkeiten.</ogr:Beschreibung>
+      <ogr:Ort>Weinstadt</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Marktplatz 1, 71384 Weinstadt</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.150">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.093388084088,48.836083104022</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>151</ogr:ID>
+      <ogr:URL>http://www.gisserver.de/aalen/</ogr:URL>
+      <ogr:Titel>Geodatenportal der Stadt Aalen</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Zugang zur seit 1994 gepflegten Geodateninfrastruktur der Stadt Aalen mit Visualisierungen von Geobasisdaten, einem 3D-Stadtmodell, Statistiken, Flächennutzung, Windkraft, Urkarte 1830, Höhenmodell und mehr (erfordert Flash-Plugin, Stand 28.10.2017)</ogr:Beschreibung>
+      <ogr:Ort>Aalen</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Marktplatz 30, 73430 Aalen</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.151">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.73679439775015,49.112375304216</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>152</ogr:ID>
+      <ogr:URL>http://www.giscity.de/schwaebischhall/</ogr:URL>
+      <ogr:Titel>Geodatenportal der Stadt Schwäbisch Hall</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Geoportal mit Stadtplan, Liegenschaftskarte, Bodenrichtwerten, Gemarkungen, Grundschulbezirken, Statistiken, Umwelt und Natur und Geschichte (erfordert Flash-Plugin). Die zugehörige Schwäbisch Hall App wurde mit dem GIS Best Practice Award 2015 ausgezeichnet (Stand 28.10.2017).</ogr:Beschreibung>
+      <ogr:Ort>Schwäbisch Hall</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Am Markt 6, 74523 Schwäbisch Hall </ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.152">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.27263963546214,49.1190802876752</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>153</ogr:ID>
+      <ogr:URL>https://karten.heilbronn.de/heilbronn/</ogr:URL>
+      <ogr:Titel>Amtlicher Stadtplan Heibronn</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Interaktiver Stadtplan von Heilbronn mit öffentlichen Einrichtungen, die sich je nach Kategorie aus er Web-Karte ein-und ausblenden lassen</ogr:Beschreibung>
+      <ogr:Ort>Heilbronn</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Marktplatz 7, 74072 Heilbronn </ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.153">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.15400218002646,49.1193001465158</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>154</ogr:ID>
+      <ogr:URL>https://geoportal.heilbronn.de/</ogr:URL>
+      <ogr:Titel>Geodatenportal der Stadt Heilbronn</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Online-Visualisierungen der Stadtkarte, Bebauungspläne, Umweltdaten, Luftbilder, Grünflächen, Schutgebiete, kleinräumige Gliederung und Topographie (erfordert Flash-Plugin, Stand 28.10.2017)</ogr:Beschreibung>
+      <ogr:Ort>Heilbronn</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Marktplatz 7, 74072 Heilbronn </ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.154">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.69182611293115,49.2728346805832</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>154</ogr:ID>
+      <ogr:URL>https://geoportal.hohenlohekreis.de</ogr:URL>
+      <ogr:Titel>HOKis-Geoportal</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Hohenlohekreis-informationssystem (HOKis) bietet u.a. Geoinformationen und Services zu den folgenden Themen an: Bebauungsplan und Flächennutzung, Flurstück und Umwelt, Rettungskarte Forst, Luftbilder, Schulstandorte, Pflegeeinrichtungen, Abfallwirtschaft, Kleindenkmale, Kocher- und Jagstverordnung, Potenzialatlas Erneuerbare Energien, Radroutenplaner (Stand 28.10.2017)</ogr:Beschreibung>
+      <ogr:Ort>Hohenlohe Kreis</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Allee 17, 74653 Künzelsau</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.155">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.7381437066512,51.0493286034555</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>155</ogr:ID>
+      <ogr:URL>http://offenesdresden.de/</ogr:URL>
+      <ogr:Titel>OffenesDresden.de</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Inoffizielle Übersicht über OpenData-Projekte in und um Dresden, geführt von Open Data Aktivisten der Stadt.</ogr:Beschreibung>
+      <ogr:Ort>Dresden</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:GDI></ogr:GDI>
+      <ogr:Adresse_Herausgeber>Dresden</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.156">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.84869050102345,48.1199471036865</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>156</ogr:ID>
+      <ogr:URL>https://www.landkreis-emmendingen.de/index.php?id=199</ogr:URL>
+      <ogr:Titel>Interaktive Kreiskarte Landkreis Emmedingen</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Interaktive Karte von raumbezogenen, verwaltungsspezifischen Geodaten des Landkreises Emmendingen</ogr:Beschreibung>
+      <ogr:Ort>Landkreis Emmedingen</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Bahnhofstraße 2-4, D-79312 Emmendingen</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.157">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.78804434599162,48.7555530067181</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>157</ogr:ID>
+      <ogr:URL>http://www.gisserver.de/schwaebisch-gmuend/</ogr:URL>
+      <ogr:Titel>Geodatenportal der Stadt Schwäbisch Gmüd</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Online-Visualisierungen u.a. der Stadtkarte, Bebauungspläne, Landschaftsplan, Katasterkarte, Bodenrichtwerte, Baulücken, Solarkataster, historische Karten, Umweltdaten, Luftbilder, Topographie (erfordert Flash-Plugin, Stand 28.10.2017)</ogr:Beschreibung>
+      <ogr:Ort>Schwäbisch Gmüd</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Marktplatz 37, 73525 Schwäbisch Gmünd</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.158">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.66240460081048,47.6140884033346</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>158</ogr:ID>
+      <ogr:URL>https://www.loerrach-landkreis.de</ogr:URL>
+      <ogr:Titel>Bürger-Geoportal des Landreis Lörrach</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Intaraktive Web-Karten zu den Themen Abfallwirtschaft, Behörden/Gemeinden, Bewegungsatlas, Bebauungspläne/Kehrbezirke
+Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahrradwegweisungsnetz, Tourismus/ÖPNV, Umwelt &amp; bergbaubedingte Belastungen (erfordert Flash-Plugin, Stand 28.10.2017)</ogr:Beschreibung>
+      <ogr:Ort>Landreis Lörrach</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Palmstraße 3,79539 Lörrach</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.159">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.40455671469394,48.9586511540218</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>159</ogr:ID>
+      <ogr:URL>http://www.energieatlas-bw.de/</ogr:URL>
+      <ogr:Titel>Energieatlas Baden-Württemberg</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Gemeinsames Internet-Portal des Umweltministeriums und der LUBW für Daten und Karten zum Thema erneuerbare Energien</ogr:Beschreibung>
+      <ogr:Ort>Baden-Württemberg</ogr:Ort>
+      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Griesbachstraße 1, 76185 Karlsruhe </ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.160">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.85035119316972,47.9512708916925</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>160</ogr:ID>
+      <ogr:URL>http://isong.lgrb-bw.de/</ogr:URL>
+      <ogr:Titel>Informationssystem Oberflächennahe Geothermie für Baden-Württemberg (ISONG)</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Informationen zur Planung von Erdwärmesonden bis max. 400 m Tiefe </ogr:Beschreibung>
+      <ogr:Ort>Baden-Württemberg</ogr:Ort>
+      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Albertstr. 5, D-79104 Freiburg</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.161">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.96894371342081,47.7373622533775</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>161</ogr:ID>
+      <ogr:URL>https://www.radolfzell.de/b%C3%BCrgerportal</ogr:URL>
+      <ogr:Titel>Bürgerportal der Stadt Radolfzell am Bodensee</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Kommunales Geoportal von Radolfzell mit Bebauungsplänen, Karten zu Verkehr, öffentlichen Einrichtungen u.a. (erfordert Flash-Plugin, Stand 28.10.2017)</ogr:Beschreibung>
+      <ogr:Ort>Radolfzell</ogr:Ort>
+      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:GDI>ja</ogr:GDI>
+      <ogr:Adresse_Herausgeber>Marktplatz 2, 78315 Radolfzell am Bodensee</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
 </ogr:FeatureCollection>

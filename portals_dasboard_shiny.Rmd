@@ -45,6 +45,8 @@ sd_table <- SharedData$new(portale[c("Link","Beschreibung","Ort","Bezug")], grou
 load("data/auxiliary.RData")
 load("data/cities-geonames-deatch.RData")
 
+options(DT.options = list(language = list(url = '//cdn.datatables.net/plug-ins/1.10.15/i18n/German.json')))
+
 #Column {data-width=650}
 #Column {data-width=350}
 #-----------------------------------------------------------------------
@@ -133,6 +135,7 @@ callModule(portalMap, "oge")
 #DT::datatable(portale[c("Link","Beschreibung","Ort","Land","Bezug", "Lizenz")], escape = FALSE, options = list(
 #  bPaginate = TRUE
 #))
+
 
 DT::datatable(sd_table, escape = FALSE, options = list(
   bPaginate = TRUE

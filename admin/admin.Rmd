@@ -14,9 +14,11 @@ runtime: shiny
 ```{r setup, include=FALSE}
 library(shiny)
 library(shinyjs)
+library(DT)
 shiny::addResourcePath("data", file.path(dirname(getwd()), "data"))
 shiny::addResourcePath("oge_logo", file.path(dirname(getwd()), "oge_logo"))
 shiny::addResourcePath("css", file.path(dirname(getwd()), "css"))
+options(DT.options = list(language = list(url = '//cdn.datatables.net/plug-ins/1.10.15/i18n/German.json')))
 ```
 
 Neue Einträge
