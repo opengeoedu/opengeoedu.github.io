@@ -87,7 +87,10 @@ m <- createMap(portale, clustering = FALSE, layerControls=FALSE)
 
 # Server function
 portalMap <- function(input, output, session) {
-  output$map <- renderLeaflet(m)
+  withProgress(message = "Karte wird geladen...", expr ={
+    output$map <- renderLeaflet(m)
+    setProgress(value = 1)
+  })
   observe({
   
    if(length(input$map_zoom) == 1){
