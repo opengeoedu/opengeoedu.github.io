@@ -105,7 +105,6 @@ portalMap <- function(input, output, session) {
     setProgress(value = 1)
     m
     })
-    
   })
   
   observe({
