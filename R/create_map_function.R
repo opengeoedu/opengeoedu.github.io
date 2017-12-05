@@ -56,7 +56,7 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
   odp_legend = paste0("<img src=\"/",pchIcons(file_prefix = "portals_", col = "grey", pch = 21), "\"></img> Open Data Portale")
 
   labeladm6opts <- labelOptions(textOnly = TRUE, noHide = TRUE, direction = "bottom", opacity = 0.5, textsize = "10pt")
-  labeladm4opts <- labelOptions(textOnly = TRUE, noHide = TRUE, direction = "bottom", opacity = 0.7, textsize = "13pt", style = "color:#03F")
+  labeladm4opts <- labelOptions(textOnly = TRUE, noHide = TRUE, direction = "bottom", opacity = 0.5, textsize = "13pt", style = "color:#03F")
   #labelPolyopts <- labelOptions(direction = "right", style = "color:yellow; text-shadow: 0 0 0.1em black, 0 0 0.1em black,
    #     0 0 0.1em black,0 0 0.1em black,0 0 0.1em;")
   m <-
