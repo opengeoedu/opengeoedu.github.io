@@ -55,8 +55,8 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
   gdi_legend = paste0("<img src=\"/",pchIcons(col = "grey"), "\"></img> GDI")
   odp_legend = paste0("<img src=\"/",pchIcons(file_prefix = "portals_", col = "grey", pch = 21), "\"></img> Open Data Portale")
 
-  labeladm6opts <- labelOptions(textOnly = TRUE, noHide = TRUE, direction = "bottom", opacity = 0.5, textsize = "11px")
-  labeladm4opts <- labelOptions(textOnly = TRUE, noHide = TRUE, direction = "bottom", opacity = 0.5, textsize = "15px", style = "color:#03F")
+  labeladm6opts <- labelOptions(textOnly = TRUE, noHide = TRUE, direction = "bottom", opacity = 0.5, textsize = "10pt")
+  labeladm4opts <- labelOptions(textOnly = TRUE, noHide = TRUE, direction = "bottom", opacity = 0.7, textsize = "13pt", style = "color:#03F")
   #labelPolyopts <- labelOptions(direction = "right", style = "color:yellow; text-shadow: 0 0 0.1em black, 0 0 0.1em black,
    #     0 0 0.1em black,0 0 0.1em black,0 0 0.1em;")
   m <-
@@ -82,20 +82,23 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
     addPolygons(data = g4bounds,weight = 2, group = "adm4", fill=TRUE) %>%
     addPolygons(data = s4bounds,weight = 2, label = s4bounds$localname, group  = "adm4", fill=TRUE) %>%
     addPolygons(data = a4bounds,weight = 2, group = "adm4", fill=TRUE) %>%
-    addLabelOnlyMarkers(data = gCentroid(geometry(g4bounds), byid = TRUE), label = g4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
-    addLabelOnlyMarkers(data = gCentroid(geometry(a4bounds), byid = TRUE), label = a4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
+    addLabelOnlyMarkers(data = gPointOnSurface(geometry(g4bounds), byid = TRUE), label = g4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
+    addLabelOnlyMarkers(data = gPointOnSurface(geometry(a4bounds), byid = TRUE), label = a4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
     #addLabelOnlyMarkers(data = gCentroid(geometry(s4bounds), byid = TRUE), label = s4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
     addPolygons(data = g2bounds,weight = 2, color= "black",group = "adm2", fill = FALSE) %>%
     addPolygons(data = s2bounds,weight = 2, color= "black",group  = "adm2", fill = FALSE) %>%
     addPolygons(data = a2bounds,weight = 2, color= "black",group = "adm2", fill = FALSE) %>%
     addControl(paste(gdi_legend, odp_legend, sep="<br/>\n"),position = "topright") %>%
     addScaleBar(position = "bottomright", options = scaleBarOptions(imperial = FALSE, metric = TRUE)) %>%
-    addLabelOnlyMarkers(data=pplc, label = pplc$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE, textsize = 13, style = "text-decoration: underline;")) %>%
-    addLabelOnlyMarkers(data=ppla, label = ppla$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE), group = "adm4_labels") %>%
-    addLabelOnlyMarkers(data=ppl, label = ppl$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE), group = "adm6_labels") %>%
+    addLabelOnlyMarkers(data=pplc, label = pplc$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE, textsize = "10pt")) %>%
+    addLabelOnlyMarkers(data=ppla, label = ppla$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE, textsize = "10pt"), group = "adm4_labels") %>%
+    addLabelOnlyMarkers(data=ppl, label = ppl$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE, textsize = "10pt"), group = "adm6_labels") %>%
     addCircleMarkers(data=pplc, color = "red",radius=1) %>%
     addCircleMarkers(data=ppla, color = "black", radius=1, group = "adm4_labels") %>%
     addCircleMarkers(data=ppl, color = "#696969",radius=1, group = "adm6_labels") %>%
+    #addCircleMarkers(data=pplc, color = "red",radius=1, group = "adm2_labels", options = markerOptions(clickable = FALSE),label = pplc$name, labelOptions = labelOptions(noHide = TRUE, zoomAnimation = FALSE, textsize = 13, className = "ppl_label" )) %>%
+    #addCircleMarkers(data=ppla, color = "black", radius=1, group = "adm4_labels", options = markerOptions(clickable = FALSE, zIndexOffset = -500), label = ppla$name, labelOptions = labelOptions(noHide = TRUE, zoomAnimation = FALSE, style = "z-index: -1")) %>%
+    #addCircleMarkers(data=ppl, color = "#696969",radius=1, group = "adm6_labels", options = markerOptions(clickable = FALSE, zIndexOffset = -500), label = ppl$name, labelOptions = labelOptions(noHide = TRUE, zoomAnimation = FALSE, style = "z-index: -1")) %>%
     hideGroup("adm6") %>% hideGroup("adm5") %>% hideGroup("adm6_labels") %>% hideGroup("adm4_labels")  %>% 
     leaflet.extras::enableTileCaching()
       #addGeoJSON("data/bounds/Germany_AL2.GeoJson")

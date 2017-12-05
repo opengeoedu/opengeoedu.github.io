@@ -24,3 +24,11 @@
   z-index: 1002;
   overflow: auto;
 }
+
+
+        ppl_label{
+        	text-decoration: underline;
+        	font-size: 10pt;
+        }
+
+

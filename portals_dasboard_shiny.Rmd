@@ -158,6 +158,11 @@ Die geokodierten Rohdaten (mit überlappenden Koordinaten) sind als CSV-Tabelle 
 
 * [Rohdaten (CSV Tabelle)](data/portale_geocoded3.csv)
 
+#### Statistik
+
+```{r}
+
+```
 
 ### Neuer Eintrag / Korrektur beantragen
 
