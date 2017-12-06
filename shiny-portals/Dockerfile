@@ -7,6 +7,8 @@ RUN apt-get update && apt-get install -y \
 RUN ["install2.r", "-r 'https://cloud.r-project.org'", "RColorBrewer", "htmltools", "flexdashboard", "Rcpp", "knitr", "magrittr", "xtable", "R6", "stringr", "yaml", "rprojroot", "digest", "shiny", "shinyjs","rgeos","htmlwidgets", "evaluate", "mime", "rmarkdown", "stringi", "backports", "jsonlite", "markdown", "httpuv", "remotes"]
 RUN ["installGithub.r", "bhaskarvk/leaflet.extras@23de9ea", "rstudio/crosstalk@d8f29eb", "rstudio/DT@ea15ab9", "rstudio/leaflet@d489e2c", "hadley/lazyeval@c155c3d"]
 
+RUN ["install2.r", "-r 'https://cloud.r-project.org'", "rtable", "ReporteRs"]
+
 EXPOSE 80
 
 COPY shiny-server.sh /usr/bin/shiny-server.sh

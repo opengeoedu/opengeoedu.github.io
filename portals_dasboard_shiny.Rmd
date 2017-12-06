@@ -27,6 +27,7 @@ library(shiny)
 library(shinyjs)
 shiny::addResourcePath("icontemp", file.path(getwd(), "icontemp"))
 shiny::addResourcePath("out_geodata", file.path(getwd(), "out_geodata"))
+shiny::addResourcePath("out", file.path(getwd(), "out"))
 shiny::addResourcePath("data", file.path(getwd(), "data"))
 #portale <- read.csv("../data/portale_geocoded3.csv")
 portale <- read.csv("out_geodata/portale_shifted.csv")
@@ -50,6 +51,36 @@ source("R/create_map_function.R")
 
 #Column {data-width=650}
 #Column {data-width=350}
+
+#Statistik über die eingetragenen Datenportale:
+library(rtable)
+library(ReporteRs)
+#selector for country-values that involve multiple values (not one of either austria, swiss or germany)
+sel <- which(!(portale$Land %in% c("Deutschland", "Österreich", "Schweiz")))
+# create simplified categories for the statistics
+Land <- as.character(portale$Land)
+Land[sel] <- "länderübergreifend"
+Land <- factor(Land, levels = c("Deutschland", "Österreich","Schweiz", "länderübergreifend"), ordered = TRUE)
+ftab <- ftable(data.frame(Typ = portale$Typ, Land = Land, Bezug = portale$Bezug))
+flext <- as.FlexTable(ftab)
+
+flext <- spanFlexTableRows(flext, j = "Typ", 1,4)
+flext <- spanFlexTableRows(flext, j = "Typ", 5,8)
+flext[,1, newpar = TRUE] <- paste0("(",sapply(summary(portale$Typ), function(x) rep(x,4)),")")
+
+flext[,2] <- paste0(" (",as.numeric(rowSums(as.matrix(ftab))),")")
+flext <- addFooterRow(flext, paste0("Datenportale insgesamt: ",dim(portale)[1]), colspan = 6)
+flext <- setZebraStyle(flext, even = '#eeeeee', odd = 'white' )
+
+
+statdoc <- docx() %>%
+  addTitle("Übersicht über das Open Data Suchportal", level = 1 ) %>%
+  addFlexTable(flext) %>%
+  addParagraph("Anzahl der Datenportale im Verzeichnis",stylename = "rTableLegend") %>%
+  writeDoc(file="out/verzeichnis_statistik.docx")
+
+
+
 #-----------------------------------------------------------------------
 ```
 
@@ -161,7 +192,7 @@ DT::datatable(sd_table, escape = FALSE, options = list(
 ```
 
 
-### Daten
+### Metadaten
 
 Die dargestellten Geodaten zu den Open Data Portalen und GDIs in Deutschland, Österreich und Schweiz können in verschiedenen Dateiformaten herunterladen werden. Beachten Sie, dass die Koordinaten sich überlappender Punkte zwecks besserer Darstellung leicht verschoben wurden. Alle Koordinaten sind in Längen- und Breitengrade angegeben (Tabellenspalten mit Namen "lon" und "lat") und beziehen sich auf das Datum WGS84.
 
@@ -176,10 +207,13 @@ Die geokodierten Rohdaten (mit überlappenden Koordinaten) sind als CSV-Tabelle 
 
 * [Rohdaten (CSV Tabelle)](data/portale_geocoded3.csv)
 
-#### Statistik
+### Statistik
 
-```{r}
+```{r echo=FALSE}
 
+
+
+renderFlexTable(flext)
 ```
 
 ### Neuer Eintrag / Korrektur beantragen
