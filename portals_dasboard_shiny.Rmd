@@ -55,6 +55,12 @@ source("R/create_map_function.R")
 #Statistik über die eingetragenen Datenportale:
 library(rtable)
 library(ReporteRs)
+#blue table (matching the design color)
+colorP <- colorRampPalette(colors = c("white","#044e96"))
+#gray table
+#colorP <- colorRampPalette(colors = c("white","gray"))
+tab_colors <- colorP(10)
+
 #selector for country-values that involve multiple values (not one of either austria, swiss or germany)
 sel <- which(!(portale$Land %in% c("Deutschland", "Österreich", "Schweiz")))
 # create simplified categories for the statistics
@@ -62,15 +68,18 @@ Land <- as.character(portale$Land)
 Land[sel] <- "länderübergreifend"
 Land <- factor(Land, levels = c("Deutschland", "Österreich","Schweiz", "länderübergreifend"), ordered = TRUE)
 ftab <- ftable(data.frame(Typ = portale$Typ, Land = Land, Bezug = portale$Bezug))
-flext <- as.FlexTable(ftab)
+flext <- as.FlexTable(ftab) %>%
+  spanFlexTableRows( j = "Typ", 1,4) %>%
+  spanFlexTableRows(j = "Typ", 5,8) %>%
+  addFooterRow(paste0("Datenportale insgesamt: ",dim(portale)[1]), colspan = 6) %>%
+  setZebraStyle(even = tab_colors[2], odd = 'white' ) %>%
+  setFlexTableBackgroundColors(colors = tab_colors[5],to = c("header")) %>%
+  setFlexTableBackgroundColors(colors = tab_colors[5],to = c("footer"))
 
-flext <- spanFlexTableRows(flext, j = "Typ", 1,4)
-flext <- spanFlexTableRows(flext, j = "Typ", 5,8)
 flext[,1, newpar = TRUE] <- paste0("(",sapply(summary(portale$Typ), function(x) rep(x,4)),")")
 
 flext[,2] <- paste0(" (",as.numeric(rowSums(as.matrix(ftab))),")")
-flext <- addFooterRow(flext, paste0("Datenportale insgesamt: ",dim(portale)[1]), colspan = 6)
-flext <- setZebraStyle(flext, even = '#eeeeee', odd = 'white' )
+
 
 
 statdoc <- docx() %>%
@@ -209,10 +218,9 @@ Die geokodierten Rohdaten (mit überlappenden Koordinaten) sind als CSV-Tabelle 
 
 ### Statistik
 
+Die nachfolgende Tabelle gibt einen Überblick über die gegenwärtig eingetragenen Datenportale und ist von links nach rechts zu lesen. Die Linke Spalte gibt die Anzahl der Einträge nach Typ des Portales (Open Data Portal oder GDI-Knotenpunkt bzw. Geoportal) an. Die Spalte rechts daneben gibt, nach Portal-Typ aufgeschlüsselt, das Land an, in welchem das Portal bzw. der Herausgeber der Inhalte verortet ist. In einigen Fällen beteiligen sich mehrere Länder an einem Portal (Beispiel: [GeoRhena](http://www.georhena.eu/), ein deutsch/französisch/schweizer Projekt zur Erfassung der Oberrhein-Region). Diese Portale sind hier als *länderübergreifend* kategorisiert. Die rechten vier Spalten schlüsseln die Portale nach ihrem räumlichen bzw. administrativen Bezug, spezifisch für jedes Land und jede Portal-Art, auf. Dabei halten kommunale Portale Daten über einzelne Kommunen, Landkreise oder Städte bereit. Regionale Portale beziehen sich auf einzelne Regionen oder Bundesländer. Nationale Portale halten für ein bestimmtes Land umfassende Daten bereit. Internationale Portale führen Daten über mehrere Länder, Kontinente oder weltweite Datensätze.
+
 ```{r echo=FALSE}
-
-
-
 renderFlexTable(flext)
 ```
 
