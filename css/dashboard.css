@@ -1,3 +1,9 @@
+body p {
+max-width: 900px;
+text-align: justify;
+}
+
+
 .black_overlay {
   display: none;
   position: absolute;
