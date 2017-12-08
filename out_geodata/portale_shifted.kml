@@ -2648,7 +2648,7 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
 		<SimpleData name="Bezug">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">teilweise</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
-		<SimpleData name="GDI"></SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">51.0504 N, 13.7373 E </SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>13.7335684542809,51.0045379825791</coordinates></Point>
@@ -2664,7 +2664,7 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
 		<SimpleData name="Bezug">regional</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
-		<SimpleData name="GDI"></SimpleData>
+		<SimpleData name="GDI">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Zum Amtsbrink 2,  17192 Waren (Müritz)</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>12.6807290053744,53.5183012049355</coordinates></Point>

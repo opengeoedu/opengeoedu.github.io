@@ -2645,7 +2645,7 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
       <ogr:Bezug>national</ogr:Bezug>
       <ogr:Staatlich_Öffentlich>teilweise</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
+      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>51.0504 N, 13.7373 E </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2661,7 +2661,7 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
       <ogr:Bezug>regional</ogr:Bezug>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
+      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Zum Amtsbrink 2,  17192 Waren (Müritz)</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
