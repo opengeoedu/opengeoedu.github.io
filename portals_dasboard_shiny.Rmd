@@ -247,6 +247,7 @@ saveData <- function(data) {
 loadData <- function() {
   # Read all the files into a list
   files <- list.files(outputDir, full.names = TRUE)
+  files <- files[stringr::str_detect(files,"\\.csv$")]
   if(length(files)==0)
     return(NULL)
   data <- lapply(files, read.csv, stringsAsFactors = FALSE) 
