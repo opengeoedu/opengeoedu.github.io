@@ -38,3 +38,29 @@ text-align: justify;
         }
 
 
+@media screen and (min-width: 300px) and (max-width: 400px){
+	.statwrapper{
+		overflow-x: scroll; 
+		width: 290px;
+		font-size: 8pt;
+	}
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px) {
+	.statwrapper{
+		#display: inline-block;
+		overflow-x: scroll; 
+		width: 390px;
+		font-size: 9pt;
+	}
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 600px){
+	.statwrapper{
+		#display: inline-block;
+		overflow-x: scroll; 
+		width: 490px
+		font-size: 10pt;
+	}
+}
