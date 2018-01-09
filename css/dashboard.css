@@ -1,6 +1,8 @@
 body p {
 max-width: 900px;
 text-align: justify;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 
@@ -36,9 +38,19 @@ text-align: justify;
         	text-decoration: underline;
         	font-size: 10pt;
         }
+        
+.statwrapper{
+	
+	padding-left: 10px;
+}
+	
+@media screen and (min-width: 0px) and (max-width: 700px){
+	.metawrapper{ 
+		width: 95%;
+	}
+}
 
-
-@media screen and (min-width: 300px) and (max-width: 400px){
+@media screen and (min-width: 0px) and (max-width: 400px){
 	.statwrapper{
 		overflow-x: scroll; 
 		width: 290px;

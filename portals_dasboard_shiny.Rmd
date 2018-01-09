@@ -54,8 +54,8 @@ source("R/create_map_function.R")
 
 #Statistik über die eingetragenen Datenportale:
 library(rtable)
-#library(ReporteRs)
-library(flextable)
+library(ReporteRs)
+#library(flextable)
 #blue table (matching the design color)
 colorP <- colorRampPalette(colors = c("white","#044e96"))
 #gray table
@@ -111,11 +111,7 @@ Row {.tabset .tabset-fade data-height=800}
 
 ### Karte 
 
-```{r fig.height=8}
-
-
-
-
+```{r, fig.height=8}
 portalMapUI <- function(id) {
   ns <- NS(id)
   tagList(leafletOutput(ns("map")))
@@ -195,9 +191,11 @@ callModule(portalMap, "oge")
 
 #DT::datatable(data.frame(blablabla = 1:4, blablabla2 = 1:4, blablub = 1:4), escape = FALSE, extensions = c("Responsive"))
 
-div(class="statwrapper",
+div(class="metawrapper", style="height:100%",
+#div(style="height:100%",
 DT::datatable(sd_table, escape = FALSE, extensions = c("Responsive"), options = list(columnDefs= list(list(responsivePriority= 12000, targets=2))))
 )
+#)
 
 
 
@@ -361,10 +359,9 @@ shinyApp(
 
 Row {data-height=20 color="white"}
 -----------------------------------------------------------------------
-© 2017. All rights reserved | &nbsp; [Impressum](https://www.auf.uni-rostock.de/footer/impressum/){target="_blank"} &nbsp; | &nbsp; [Source Code](https://github.com/opengeoedu/opengeoedu.github.io/){target="_blank"} &nbsp; | &nbsp;
+© 2017. All rights reserved &nbsp;|&nbsp; [Impressum](https://www.auf.uni-rostock.de/footer/impressum/){target="_blank"} &nbsp; | &nbsp; [Source Code](https://github.com/opengeoedu/opengeoedu.github.io/){target="_blank"} &nbsp; | &nbsp;
  <a href="javascript:void(0)" onclick="document.getElementById('section-light').style.display='block';document.getElementById('section-fade').style.display='block'">Quellenhinweise</a> 
-  </p>
-  <div id="light" class="white_content"><p align=right><a href="javascript:void(0)" onclick="document.getElementById('section-light').style.display='none';document.getElementById('section-fade').style.display='none'">X Fenster schließen</a></p>
+<div id="light" class="white_content"><p align=right><a href="javascript:void(0)" onclick="document.getElementById('section-light').style.display='none';document.getElementById('section-fade').style.display='none'">X Fenster schließen</a></p>
   <span align="left">
   <h1>Quellenhinweise</h1>
   Diese Übersicht beruht auf folgenden externen Datenquellen:
@@ -375,7 +372,5 @@ Row {data-height=20 color="white"}
 * **Grundkarte:** Positron von [CartoDB](https://carto.com/attribution/), abgeleitet von [OpenStreetMap](http://www.openstreetmap.org/copyright) Daten
 </span>
 
-  </div>
-  <div id="fade" class="black_overlay"></div> &nbsp; | &nbsp;
-  
+  </div><div id="fade" class="black_overlay"></div> &nbsp;|&nbsp; 
   [OpenGeoEdu Website](http://www.opengeoedu.de/){target="_blank"}
