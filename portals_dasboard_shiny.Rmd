@@ -1,5 +1,5 @@
 ---
-title: "Open Data Portale"
+title: "OpenDataPortal"
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
@@ -374,3 +374,7 @@ Row {data-height=20 color="white"}
 
   </div><div id="fade" class="black_overlay"></div> &nbsp;|&nbsp; 
   [OpenGeoEdu Website](http://www.opengeoedu.de/){target="_blank"}
+  
+<script>
+document.title = "OpenDataPortal: Öffentliche Datenportale im Deutschland, Österreich und der Schweiz";
+</script>
