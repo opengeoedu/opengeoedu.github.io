@@ -80,9 +80,9 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
     #addLabelOnlyMarkers(data = gCentroid(geometry(a6bounds), byid = TRUE), label = a6bounds$localname, group = "adm6_labels", labelOptions = labeladm6opts) %>%
     addPolygons(data = g5bounds,color="#696969", weight = 1.5,label = g5bounds$localname, group = "adm5",fill=FALSE) %>%
     addPolygons(data = s5bounds,color="#696969",weight = 1.5,label = s5bounds$localname, group  = "adm5", fill=TRUE, fillOpacity = 0) %>%
-    addPolygons(data = g4bounds,weight = 2, group = "adm4", fill=TRUE) %>%
+    addPolygons(data = g4bounds,weight = 2, label = g4bounds$localname, group = "adm4", fill=TRUE) %>%
     addPolygons(data = s4bounds,weight = 2, label = s4bounds$localname, group  = "adm4", fill=TRUE) %>%
-    addPolygons(data = a4bounds,weight = 2, group = "adm4", fill=TRUE) %>%
+    addPolygons(data = a4bounds,weight = 2, label = a4bounds$localname, group = "adm4", fill=TRUE) %>%
     addLabelOnlyMarkers(data = gPointOnSurface(geometry(g4bounds), byid = TRUE), label = g4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
     addLabelOnlyMarkers(data = gPointOnSurface(geometry(a4bounds), byid = TRUE), label = a4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
     #addLabelOnlyMarkers(data = gCentroid(geometry(s4bounds), byid = TRUE), label = s4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%

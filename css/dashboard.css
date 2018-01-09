@@ -76,3 +76,11 @@ padding-right: 10px;
 		font-size: 10pt;
 	}
 }
+
+
+#bezug_portal input:checked ~ .checkmark{
+	background-color: black;
+}
+
+
+

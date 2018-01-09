@@ -377,4 +377,6 @@ Row {data-height=20 color="white"}
   
 <script>
 document.title = "OpenDataPortal: Öffentliche Datenportale im Deutschland, Österreich und der Schweiz";
-</script>
+document.body.style.background = "#E3EBF3";
+
+ </script>

@@ -223,10 +223,10 @@ if(!file.exists("data/auxiliary.RData")){
     #s5bounds <- SpatialPolygonsDataFrame(data = s5bounds@data, Sr = ms_simplify(s5bounds))
     s6bounds <- readOGR("data/bounds/Switzerland_AL6.GeoJson")
     #s6bounds <- SpatialPolygonsDataFrame(data = s6bounds@data, Sr = ms_simplify(s6bounds))
-    
+    b_objs <- ls()[stringr::str_detect(ls(), "bounds$")]
     sapply(b_objs, function(.boundary){
       obj <- get(.boundary)
-      assign(.boundary, SpatialPolygonsDataFrame(data = obj@data, Sr = ms_simplify(obj, keep = 0.02)), inherits = TRUE,)
+      assign(.boundary, SpatialPolygonsDataFrame(data = obj@data, Sr = ms_simplify(obj, keep = 0.015, keep_shapes=TRUE)), inherits = TRUE,)
       return(invisible())
     })
     g2bounds <- readOGR("data/bounds/Germany_AL2.GeoJson")
@@ -245,7 +245,7 @@ if(!file.exists("data/auxiliary.RData")){
     a2bounds <- SpatialPolygonsDataFrame(data = noId(a2bounds@data), gUnaryUnion(a4bounds))
     s2bounds <- readOGR("data/bounds/Switzerland_AL2.GeoJson")
     s2bounds <- SpatialPolygonsDataFrame(data = noId(s2bounds@data), gUnaryUnion(s4bounds))
-    b_objs <- ls()[stringr::str_detect(ls(), "bounds$")]
+    
     save(file = "data/auxiliary.RData", list = ls()[stringr::str_detect(ls(), "bounds$")])
 }
 
