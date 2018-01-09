@@ -71,6 +71,7 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
       title = "Legende"
     ) %>%
     addResetMapButton() %>%
+    addFullscreenControl() %>%
     addPolygons(data = g6bounds,color="#696969",weight = 1, group = "adm6",fill=TRUE,label = g6bounds$localname, fillOpacity = 0) %>%
     #addLabelOnlyMarkers(data = gCentroid(geometry(g6bounds), byid = TRUE), label = g6bounds$localname, group = "adm6_labels", labelOptions = labeladm6opts) %>%
     addPolygons(data = s6bounds,color="#696969",weight = 1, group  = "adm6",label = s6bounds$localname,fill=TRUE, fillOpacity = 0) %>%
