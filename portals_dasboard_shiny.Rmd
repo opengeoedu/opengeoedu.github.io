@@ -131,7 +131,14 @@ portalMapUI <- function(id) {
 
 # Server function
 portalMap <- function(input, output, session) {
-  output$map <- renderLeaflet(m)
+  output$map <- renderLeaflet({
+    withProgress(message = "Karte wird geladen...", expr = {
+      isolate({
+      setProgress(value = 1)
+      m
+      })
+    })
+  })
   # output$map <- renderLeaflet({
   #   withProgress(message = "Karte wird geladen...", expr = {
   #   isolate({
