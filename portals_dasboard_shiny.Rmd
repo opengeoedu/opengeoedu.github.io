@@ -91,7 +91,11 @@ statdoc <- docx() %>%
   addParagraph("Anzahl der Datenportale im Verzeichnis",stylename = "rTableLegend") %>%
   writeDoc(file="out/verzeichnis_statistik.docx")
 
-
+m <- createMap(portale,
+    clustering = FALSE,
+    layerControls = FALSE,
+    polygon_fill_color = "#AFBF56",
+    polygon_fill_opacity = 0.1)
 
 #-----------------------------------------------------------------------
 ```
@@ -117,28 +121,28 @@ portalMapUI <- function(id) {
   tagList(leafletOutput(ns("map")))
 }
 
-m <- NULL
+#m <- NULL
 
-withProgress(message = "Karte wird geladen...", expr ={
-  m <<- createMap(portale, clustering = FALSE, layerControls=FALSE)
-    setProgress(value = 1)
-})
+#withProgress(message = "Karte wird geladen...", expr ={
+#  m <<- createMap(portale, clustering = FALSE, layerControls=FALSE)
+#    setProgress(value = 1)
+#})
 
 
 # Server function
 portalMap <- function(input, output, session) {
-  
-  output$map <- renderLeaflet({
-    withProgress(message = "Karte wird geladen...", expr = {
-    isolate({
-    m <<- createMap(portale,
-    clustering = FALSE,
-    layerControls = FALSE)
-    })
-    setProgress(value = 1)
-    m
-    })
-  })
+  output$map <- renderLeaflet(m)
+  # output$map <- renderLeaflet({
+  #   withProgress(message = "Karte wird geladen...", expr = {
+  #   isolate({
+  #   m <<- createMap(portale,
+  #   clustering = FALSE,
+  #   layerControls = FALSE)
+  #   })
+  #   setProgress(value = 1)
+  #   m
+  #   })
+  # })
   
   observe({
    if(length(input$map_zoom) == 1){

@@ -44,7 +44,7 @@ pchIcons <- function(col, width = 35, height = 35, pch = 24, file_prefix="gdi-ic
 group_gdi <- NULL
 group_nogdi <- NULL
 
-createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, layerControls = TRUE) {
+createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, layerControls = TRUE, polygon_fill_color = "#696969", polygon_fill_opacity = 0.2) {
   categories <- c("international","national","regional","kommunal")
   colorlf <- c("green", "#FFA500", "blue", "brown")
   names(colorlf) <- categories
@@ -59,6 +59,7 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
   labeladm4opts <- labelOptions(textOnly = TRUE, noHide = TRUE, direction = "bottom", opacity = 0.5, textsize = "13pt", style = "color:#03F")
   #labelPolyopts <- labelOptions(direction = "right", style = "color:yellow; text-shadow: 0 0 0.1em black, 0 0 0.1em black,
    #     0 0 0.1em black,0 0 0.1em black,0 0 0.1em;")
+  
   m <-
     leaflet(data = portale_shared, options = list(preferCanvas = TRUE))  %>%
     #  addProviderTiles(providers$Stamen.TonerBackground) %>%
@@ -72,17 +73,17 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
     ) %>%
     addResetMapButton() %>%
     addFullscreenControl() %>%
-    addPolygons(data = g6bounds,color="#696969",weight = 1, group = "adm6",fill=TRUE,label = g6bounds$localname, fillOpacity = 0) %>%
+    addPolygons(data = g6bounds, color = "grey", fillColor = polygon_fill_color, weight = 1, group = "adm6",fill=TRUE,label = g6bounds$localname, fillOpacity = 0) %>%
     #addLabelOnlyMarkers(data = gCentroid(geometry(g6bounds), byid = TRUE), label = g6bounds$localname, group = "adm6_labels", labelOptions = labeladm6opts) %>%
-    addPolygons(data = s6bounds,color="#696969",weight = 1, group  = "adm6",label = s6bounds$localname,fill=TRUE, fillOpacity = 0) %>%
+    addPolygons(data = s6bounds, color = "grey", fillColor = polygon_fill_color, weight = 1, group  = "adm6",label = s6bounds$localname,fill=TRUE, fillOpacity = 0) %>%
     #addLabelOnlyMarkers(data = gCentroid(geometry(s6bounds), byid = TRUE), label = s6bounds$localname, group = "adm6_labels", labelOptions = labeladm6opts) %>%
-    addPolygons(data = a6bounds,color="#696969",weight = 1,label = a6bounds$localname, group = "adm6",fill=TRUE, fillOpacity = 0) %>%
+    addPolygons(data = a6bounds, color = "grey", fillColor = polygon_fill_color, weight = 1,label = a6bounds$localname, group = "adm6",fill=TRUE, fillOpacity = 0) %>%
     #addLabelOnlyMarkers(data = gCentroid(geometry(a6bounds), byid = TRUE), label = a6bounds$localname, group = "adm6_labels", labelOptions = labeladm6opts) %>%
-    addPolygons(data = g5bounds,color="#696969", weight = 1.5,label = g5bounds$localname, group = "adm5",fill=FALSE) %>%
-    addPolygons(data = s5bounds,color="#696969",weight = 1.5,label = s5bounds$localname, group  = "adm5", fill=TRUE, fillOpacity = 0) %>%
-    addPolygons(data = g4bounds,weight = 2, label = g4bounds$localname, group = "adm4", fill=TRUE) %>%
-    addPolygons(data = s4bounds,weight = 2, label = s4bounds$localname, group  = "adm4", fill=TRUE) %>%
-    addPolygons(data = a4bounds,weight = 2, label = a4bounds$localname, group = "adm4", fill=TRUE) %>%
+    addPolygons(data = g5bounds, color = "grey", fillColor = polygon_fill_color, weight = 1.5,label = g5bounds$localname, group = "adm5",fill=FALSE) %>%
+    addPolygons(data = s5bounds, color = "grey", fillColor = polygon_fill_color, weight = 1.5,label = s5bounds$localname, group  = "adm5", fill=TRUE, fillOpacity = 0) %>%
+    addPolygons(data = g4bounds, color = "grey", fillColor = polygon_fill_color, weight = 2, label = g4bounds$localname, group = "adm4", fill=TRUE, fillOpacity = polygon_fill_opacity) %>%
+    addPolygons(data = s4bounds, color = "grey", fillColor = polygon_fill_color, weight = 2, label = s4bounds$localname, group  = "adm4", fill=TRUE, fillOpacity = polygon_fill_opacity) %>%
+    addPolygons(data = a4bounds, color = "grey", fillColor = polygon_fill_color, weight = 2, label = a4bounds$localname, group = "adm4", fill=TRUE, fillOpacity = polygon_fill_opacity) %>%
     addLabelOnlyMarkers(data = gPointOnSurface(geometry(g4bounds), byid = TRUE), label = g4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
     addLabelOnlyMarkers(data = gPointOnSurface(geometry(a4bounds), byid = TRUE), label = a4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
     #addLabelOnlyMarkers(data = gCentroid(geometry(s4bounds), byid = TRUE), label = s4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
@@ -96,10 +97,10 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
     addLabelOnlyMarkers(data=ppl, label = ppl$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE, textsize = "10pt"), group = "adm6_labels") %>%
     addCircleMarkers(data=pplc, color = "red",radius=1) %>%
     addCircleMarkers(data=ppla, color = "black", radius=1, group = "adm4_labels") %>%
-    addCircleMarkers(data=ppl, color = "#696969",radius=1, group = "adm6_labels") %>%
+    addCircleMarkers(data=ppl, color = polygon_fill_color ,radius=1, group = "adm6_labels") %>%
     #addCircleMarkers(data=pplc, color = "red",radius=1, group = "adm2_labels", options = markerOptions(clickable = FALSE),label = pplc$name, labelOptions = labelOptions(noHide = TRUE, zoomAnimation = FALSE, textsize = 13, className = "ppl_label" )) %>%
     #addCircleMarkers(data=ppla, color = "black", radius=1, group = "adm4_labels", options = markerOptions(clickable = FALSE, zIndexOffset = -500), label = ppla$name, labelOptions = labelOptions(noHide = TRUE, zoomAnimation = FALSE, style = "z-index: -1")) %>%
-    #addCircleMarkers(data=ppl, color = "#696969",radius=1, group = "adm6_labels", options = markerOptions(clickable = FALSE, zIndexOffset = -500), label = ppl$name, labelOptions = labelOptions(noHide = TRUE, zoomAnimation = FALSE, style = "z-index: -1")) %>%
+    #addCircleMarkers(data=ppl, color = polygon_fill_color ,radius=1, group = "adm6_labels", options = markerOptions(clickable = FALSE, zIndexOffset = -500), label = ppl$name, labelOptions = labelOptions(noHide = TRUE, zoomAnimation = FALSE, style = "z-index: -1")) %>%
     hideGroup("adm6") %>% hideGroup("adm5") %>% hideGroup("adm6_labels") %>% hideGroup("adm4_labels")  %>% 
     leaflet.extras::enableTileCaching()
       #addGeoJSON("data/bounds/Germany_AL2.GeoJson")
