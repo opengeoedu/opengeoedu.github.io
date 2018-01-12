@@ -7,7 +7,7 @@ library(rgeos)
 
 # helper function that creates triangular icon files in differnet colors in folder tempicon
 # use point symbols from base R graphics as icons
-pchIcons <- function(col, width = 35, height = 35, pch = 24, file_prefix="gdi-icon-",...) {
+pchIcons <- function(col, width = 35, height = 35, pch = 24, file_prefix="gdi-icon-",plotOnly = FALSE,...) {
   #see https://github.com/mylesmharrison/colorRampPaletteAlpha
   addalpha <- function(colors, alpha=1.0) {
     r <- col2rgb(colors, alpha=T)
@@ -21,6 +21,11 @@ pchIcons <- function(col, width = 35, height = 35, pch = 24, file_prefix="gdi-ic
   files = character(n)
   # create a sequence of png images
   
+  if(plotOnly){
+    plot((1:n-1)+.5, rep(1,n)*.5, pch = pch, cex = (min(width, height) / 8) -1, ..., col=col, bg=addalpha(col, 0.3), lwd=5,xlim = c(0,n+0.5))
+    return()
+  }
+  
   for (i in seq_len(n)) {
     #f = tempfile(tmpdir = "icontemp", fileext = '.png')
     col_transp <- addalpha(col[i], 0.3)
@@ -29,6 +34,7 @@ pchIcons <- function(col, width = 35, height = 35, pch = 24, file_prefix="gdi-ic
       cat("Created directory 'icontemp' in order to store icon files. You can remove this folder manually after the output was created: \n\t",path.expand("./icontemp"))
       dir.create("icontemp")
     }
+    
     file.create(f)
     png(f, width = width, height = height, bg = 'transparent')
     par(mar = c(0, 0, 0, 0))
@@ -42,7 +48,7 @@ pchIcons <- function(col, width = 35, height = 35, pch = 24, file_prefix="gdi-ic
 }
 
 group_gdi <- NULL
-group_nogdi <- NULL
+group_odp <- NULL
 
 createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, layerControls = TRUE, polygon_fill_color = "#696969", polygon_fill_opacity = 0.2) {
   categories <- c("international","national","regional","kommunal")
@@ -119,9 +125,9 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
   }"
     )
 
-    iconfile <- pchIcons(colorlf[[category]])
+    gdi_iconfile <- pchIcons(colorlf[[category]])
 
-    group_nogdi <<- SharedData$new(portale[portale$Bezug==category & !portale$GDI,], group = crosstalk_group)
+    group_odp <<- SharedData$new(portale[portale$Bezug==category & !portale$GDI,], group = crosstalk_group)
     group_gdi <<- SharedData$new(portale[portale$Bezug==category & portale$GDI,], group = crosstalk_group)
 
     clusterOptions <- NULL
@@ -138,7 +144,7 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
         popupOptions = popupOptions(closeOnClick = TRUE),
         group = "portals",
         icon =  ~ icons(
-          iconUrl = iconfile,
+          iconUrl = gdi_iconfile,
           iconWidth = 30,
           iconHeight = 30
         ),
@@ -152,7 +158,7 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
         data =  group_gdi
       )
 
-    if(dim(group_nogdi$data())[1]>0)
+    if(dim(group_odp$data())[1]>0)
       m <<-
       addCircleMarkers(
         m,
@@ -168,7 +174,7 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
         clusterOptions = clusterOptions,
         clusterId = category,
         labelOptions = labelOptions(noHide = FALSE),#, className = "needAbsolute",offset= c(-8, -8)),
-        data = group_nogdi,
+        data = group_odp,
         opacity = 0.7,
         fillOpacity = 0.2
       )
