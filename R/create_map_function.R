@@ -52,31 +52,74 @@ group_odp <- NULL
 
 createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, layerControls = TRUE, polygon_fill_color = "#696969", polygon_fill_opacity = 0.2) {
   categories <- c("international","national","regional","kommunal")
-  colorlf <- c("green", "#FFA500", "blue", "brown")
+  colorlf <- c("#006400", "#FFA500", "#0000FF", "#8B0000")
   names(colorlf) <- categories
+  
+  odp_legend_icon <- pchIcons(file_prefix = "odp_", pch = 21, col = "grey")
+  gdi_legend_icon <- pchIcons(col = "grey")
+  stat_legend_icon <- pchIcons(file_prefix = "stat_", pch = 23, col = "grey")
+  umw_legend_icon <- pchIcons(file_prefix = "umw_", pch = 22, col = "grey")
+  for_legend_icon <- pchIcons(file_prefix = "for_", pch = 3, col = "grey")
+  cc_legend_icon <- pchIcons(file_prefix = "cc_", pch = 4, col = "grey")
+  
+  htmlLegend <- 
+    tags$div(class="legend_div",  htmltools::tagList(
+    div(class="legend_toggle info", style="width:40px; height:40px; text-align:center",icon("info", "fa-2x")),
+    tags$div(class = "legend_map info legend leaflet-control",
+                         div(style = "margin-bottom:3px", tags$strong("Legende")),
+                         htmltools::tagList(
+                           tag("nobr",list(tags$img(src=paste0("/",odp_legend_icon), width="25px"), tags$span("Open Data Portal"))), tags$br(clear="all"),
+                           tag("nobr",list(tags$img(src=paste0("/",gdi_legend_icon), width="25px"), tags$span("GDI/ Geoportal"))), tags$br(clear="all"),
+                           tag("nobr",list(tags$img(src=paste0("/",stat_legend_icon), width="25px"), tags$span("Statistikamt"))), tags$br(clear="all"),
+                           tag("nobr",list(tags$img(src=paste0("/",umw_legend_icon), width="25px"), tags$span("Umweltamt"))), tags$br(clear="all"),
+                           tag("nobr",list(tags$img(src=paste0("/",for_legend_icon), width="25px"), tags$span("Forschungsdatenportal"))), tags$br(clear="all"),
+                           tag("nobr",list(tags$img(src=paste0("/",cc_legend_icon), width="25px"), tags$span("Citizen Science Projekt"))), tags$br(clear="all"),
+                           #optionally include controls in legend (would have to be synchronized with other controls on the map)
+                           #filter_checkbox("bezug_portal2", "Portal-Art", sd, ~Typ, inline = TRUE),
+                           #filter_checkbox("bezug_check2", "Räumlicher Bezug", sd, ~Bezug, inline = TRUE),
+                           mapply(
+                             function(color, label) {
+                               htmltools::tagList(tag("nobr", list(tags$i(
+                                 style = paste0("background:", color, "; opacity:0.5; margin:0; padding:0; margin-right:3px")
+                               ), label)), HTML("&nbsp;"), tags$br(clear = "all"))
+                             },
+                             color = colorlf,
+                             label = categories,
+                             SIMPLIFY = FALSE
+                           )
+                           
+                         ))
+    ))
   #portale$searchmeta <- paste(portale$Titel, portale$Ort, sep = " | ")
 
   portale_shared <- SharedData$new(portale, group = crosstalk_group)
 
-  gdi_legend = paste0("<img src=\"/",pchIcons(col = "grey"), "\"></img> GDI")
-  odp_legend = paste0("<img src=\"/",pchIcons(file_prefix = "portals_", col = "grey", pch = 21), "\"></img> Open Data Portale")
-
+  #label options for admin boundaries
   labeladm6opts <- labelOptions(textOnly = TRUE, noHide = TRUE, direction = "bottom", opacity = 0.5, textsize = "10pt")
   labeladm4opts <- labelOptions(textOnly = TRUE, noHide = TRUE, direction = "bottom", opacity = 0.5, textsize = "13pt", style = "color:#03F")
   #labelPolyopts <- labelOptions(direction = "right", style = "color:yellow; text-shadow: 0 0 0.1em black, 0 0 0.1em black,
    #     0 0 0.1em black,0 0 0.1em black,0 0 0.1em;")
   
   m <-
-    leaflet(data = portale_shared, options = list(preferCanvas = TRUE))  %>%
+    leaflet(data = portale_shared, options = leafletOptions(minZoom = 4, maxZoom = 12, preferCanvas = TRUE))  %>%
+    # map view and max bounds
+    #fitBounds(5.86,43,17.16,55.1) %>%
+    #setView(10.8418, 50.5, zoom = 6)  %>%
+    #setMaxBounds(2,10,22,60) %>%
+    #Background map:
     #  addProviderTiles(providers$Stamen.TonerBackground) %>%
-    #addProviderTiles(providers$Esri.WorldGrayCanvas) %>%
+    # addProviderTiles(providers$Esri.WorldGrayCanvas) %>%
     addProviderTiles(providers$CartoDB.PositronNoLabels) %>%
-    addLegend(
-      colors = colorlf,
-      values = categories,
-      labels = categories,
-      title = "Legende"
-    ) %>%
+    addScaleBar(position = "bottomright", options = scaleBarOptions(imperial = FALSE, metric = TRUE)) %>%
+    #Map legend
+  # build-in legend not suitable for symbols, use html instead:
+   # / addLegend(
+   #    colors = colorlf,
+   #    values = categories,
+   #    labels = categories,
+   #    title = "Legende"
+   #  ) %>%
+    addControl(htmlLegend ,position = "topright", className="") %>%
     addResetMapButton() %>%
     addFullscreenControl() %>%
     addPolygons(data = g6bounds, color = "grey", fillColor = polygon_fill_color, weight = 1, group = "adm6",fill=TRUE,label = g6bounds$localname, fillOpacity = 0) %>%
@@ -96,8 +139,6 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
     addPolygons(data = g2bounds,weight = 2, color= "black",group = "adm2", fill = FALSE) %>%
     addPolygons(data = s2bounds,weight = 2, color= "black",group  = "adm2", fill = FALSE) %>%
     addPolygons(data = a2bounds,weight = 2, color= "black",group = "adm2", fill = FALSE) %>%
-    addControl(paste(gdi_legend, odp_legend, sep="<br/>\n"),position = "topright") %>%
-    addScaleBar(position = "bottomright", options = scaleBarOptions(imperial = FALSE, metric = TRUE)) %>%
     addLabelOnlyMarkers(data=pplc, label = pplc$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE, textsize = "10pt")) %>%
     addLabelOnlyMarkers(data=ppla, label = ppla$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE, textsize = "10pt"), group = "adm4_labels") %>%
     addLabelOnlyMarkers(data=ppl, label = ppl$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE, textsize = "10pt"), group = "adm6_labels") %>%
@@ -112,8 +153,6 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
       #addGeoJSON("data/bounds/Germany_AL2.GeoJson")
 
 
-  
-
   sapply(categories, function(category) {
     cf <- paste0(
       "function (cluster) {
@@ -125,7 +164,7 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
   }"
     )
 
-    gdi_iconfile <- pchIcons(colorlf[[category]])
+    
 
     group_odp <<- SharedData$new(portale[portale$Bezug==category & !portale$GDI,], group = crosstalk_group)
     group_gdi <<- SharedData$new(portale[portale$Bezug==category & portale$GDI,], group = crosstalk_group)
@@ -133,54 +172,42 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
     clusterOptions <- NULL
     if(clustering)
       clusterOptions <- markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE)
-
-    if(dim(group_gdi$data())[1]>0)
-      m <<-
-      addMarkers(
-        m,
-        ~lon,
-        ~lat,
-        popup = ~popup,
-        popupOptions = popupOptions(closeOnClick = TRUE),
-        group = "portals",
-        icon =  ~ icons(
-          iconUrl = gdi_iconfile,
-          iconWidth = 30,
-          iconHeight = 30
-        ),
-        #color =  colorlf[[category]],
-        label = ~label,
-        #options = markerOptions(alt = group$searchmeta),
-        #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
-        clusterOptions = clusterOptions,
-        clusterId = category,
-        labelOptions = labelOptions(noHide = FALSE),#, className = "needAbsolute",offset= c(-8, -8)),
-        data =  group_gdi
-      )
-
-    if(dim(group_odp$data())[1]>0)
-      m <<-
-      addCircleMarkers(
-        m,
-        ~lon,
-        ~lat,
-        popup = ~popup,
-        popupOptions = popupOptions(closeOnClick = TRUE),
-        group = "portals",
-        color =  colorlf[[category]],
-        label = ~label,
-        #options = markerOptions(alt = group$searchmeta),
-        #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
-        clusterOptions = clusterOptions,
-        clusterId = category,
-        labelOptions = labelOptions(noHide = FALSE),#, className = "needAbsolute",offset= c(-8, -8)),
-        data = group_odp,
-        opacity = 0.7,
-        fillOpacity = 0.2
-      )
-    # m <<- addCircleMarkers(m, group$lon, group$lat, popup = group$popup, group = category, color =  colormarker[[category]], label = group$Titel)
-    #m <<- addAwesomeMarkers(m, group$lon, group$lat, popup = group$popup, group = category, label = group$Titel)
-
+      #markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE)
+    
+    
+    addPortalMarker <- function(m, datagroup, iconfiles, iconWidth = 30, iconHeight = 30, group = "portals"){
+      if(dim(datagroup$data())[1]>0)
+        m <-addMarkers(
+            m,
+            ~lon,
+            ~lat,
+            popup = ~popup,
+            popupOptions = popupOptions(closeOnClick = TRUE),
+            group = group,
+            icon =  ~ icons(
+              iconUrl = iconfiles,
+              iconWidth = iconWidth,
+              iconHeight = iconHeight
+            ),
+            #color =  colorlf[[category]],
+            label = ~label,
+            #options = markerOptions(alt = group$searchmeta),
+            #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
+            clusterOptions = clusterOptions,
+            clusterId = category,
+            labelOptions = labelOptions(noHide = FALSE),#, className = "needAbsolute",offset= c(-8, -8)),
+            data =  datagroup
+          )
+      return(m)
+    }
+    
+    
+    gdi_iconfiles <- pchIcons(colorlf[[category]])
+    m <<- addPortalMarker(m, group_gdi, gdi_iconfiles)
+    
+    odp_iconfiles <- pchIcons(colorlf[[category]], pch = 21, file_prefix="odp-icon-")
+    m <<- addPortalMarker(m, group_odp, odp_iconfiles)
+    
     invisible()
   })
 

@@ -3,7 +3,7 @@ title: "OpenDataPortal"
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
-    vertical_layout: fill
+    #vertical_layout: fill
     logo: oge_logo/icon_scaled.jpg
     favicon: oge_logo/icon_scaled.jpg
     theme: cerulean
@@ -101,15 +101,16 @@ m <- createMap(portale,
 ```
 
 
-```{r background="white"}
-
- bscols(widths = c(1,NA,NA),
-        HTML("&nbsp;"),
-        filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE),
-        filter_checkbox("bezug_check", "Räumlicher Bezug", sd, ~Bezug, inline = TRUE))
+```{r}
+tags$div(align="middle", style="text-align:center",
+ bscols(widths = c(6,6),
+        div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE)),
+        div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_check", "Räumlicher Bezug", sd, ~Bezug, inline = TRUE))
+   )
+ )
 ```
 
-Row {.tabset .tabset-fade data-height=800}
+Row {.tabset .tabset-fade}
 -----------------------------------------------------------------------
 
 

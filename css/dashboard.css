@@ -78,9 +78,41 @@ padding-right: 10px;
 }
 
 
+
 #bezug_portal input:checked ~ .checkmark{
 	background-color: black;
 }
+
+
+.legend_toggle { 
+ display: none;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 600px){
+	.legend_div {
+		display: block;
+	}
+	.legend_toggle { 
+ 	display: block;
+	}
+
+	.legend_map{
+ 		display: none;
+	}
+
+
+	.legend_div:hover .legend_map {
+		display: block;
+	}
+
+	.legend_div:hover .legend_toggle {
+		display: none;
+	}
+}
+
+
+
 
 
 
