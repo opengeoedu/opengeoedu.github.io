@@ -104,10 +104,17 @@ m <- createMap(portale,
 ```{r}
 tags$div(align="middle", style="text-align:center",
  bscols(widths = c(6,6),
-        div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = TRUE)),
-        div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_check", "Räumlicher Bezug", sd, ~Bezug, inline = TRUE))
+        div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_portal", "Portal-Art", sd, ~Typ, inline = FALSE)),
+        div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_check", "Räumlicher Bezug", sd, ~Bezug, inline = FALSE))
    )
  )
+
+# tags$div(align="middle", style="text-align:center",
+#  bscols(widths = c(6,6),
+#         div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_portal2", "Portal-Art", sd, ~Typ, inline = TRUE)),
+#         div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_check2", "Räumlicher Bezug", sd, ~Bezug, inline = TRUE))
+#    )
+#  )
 ```
 
 Row {.tabset .tabset-fade}
@@ -391,4 +398,83 @@ Row {data-height=20 color="white"}
 document.title = "OpenDataPortal: Öffentliche Datenportale im Deutschland, Österreich und der Schweiz";
 document.body.style.background = "#E3EBF3";
 
+changeFun = function(value, obj){
+ // alert('Changed value of '+value+" to "+obj.checked);
+  /* var checkboxes = document.getElementsByTagName("input");
+  for (var i = 0; i < checkboxes.length; i++) {
+      var checkbox = checkboxes[i];
+      if(checkbox.value == value && checkbox.checked != obj.checked) {
+        checkbox.checked = obj.checked;
+      }
+   }*/
+
+var x = document.getElementsByClassName("crosstalk-input-checkboxgroup");
+  for (var j = 0; j < x.length; j++) {
+    var checkboxes = x[j].getElementsByTagName("input");
+     var noneselected = true;
+    for (var i = 0; i < checkboxes.length; i++) {
+      var checkbox = checkboxes[i];
+       //checkbox.parentNode.className = (checkbox.parentNode.className + " noneselected").trim();
+      if(checkbox.value == value && checkbox.checked != obj.checked) {
+        checkbox.checked = obj.checked;
+        noneselected = noneselected && !(checkbox.checked);
+      }
+
+    }
+    /*for (var i = 0; i < checkboxes.length; i++) {
+      var checkbox = checkboxes[i];
+      if(noneselected){
+        //alert("noneselected!");
+        checkbox.parentElement.className = (checkbox.parentElement.className + " noneselected").trim();
+      } else {
+        checkbox.parentElement.className = checkbox.parentElement.className.replace("noneselected","").trim();
+      }
+    }*/
+  
+  }
+/*
+var x = document.getElementsByClassName("crosstalk-input-checkboxgroup");
+  for (var j = 0; j < x.length; j++) {
+   // var noneselected = true;
+    var checkboxes = x[j].getElementsByTagName("input");
+    for (var i = 0; i < checkboxes.length; i++) {
+      var checkbox = checkboxes[i];
+      if(checkbox.value == value && checkbox.checked != obj.checked) {
+        checkbox.checked = obj.checked;
+      }
+     // noneselected = noneselected && !(checkbox.checked);
+
+    }
+
+    /* for (var i = 0; i < checkboxes.length; i++) {
+      if(noneselected){
+        alert("noneselected!");
+        checkbox[i].parentElement.className = (checkbox[i].parentElement.className + " noneselected").trim();
+      } else {
+        checkbox[i].parentElement.className = checkbox[i].parentElement.className.replace("noneselected","").trim();
+      }
+    }
+  }*/
+
+}
+
+var x = document.getElementsByClassName("crosstalk-input-checkboxgroup");
+var i;
+for (i = 0; i < x.length; i++) {
+    var inputs = x[i].getElementsByTagName("input");
+    for (var j = 0; j < inputs.length; j++) {
+      input = inputs[j];
+      input.className = "crosstalk_checkbox";
+      input.nextElementSibling.className = "checkbox_label";
+      var parent = input.parentNode;
+      parent.className = (parent.className + " checkbox_container").trim();
+      var checkmark = document.createElement('span');
+      checkmark.className = "checkmark";
+      // set element as child of input
+      parent.insertBefore(checkmark, input.nextSibling);
+
+     // input.checked = true;
+      input.setAttribute("onchange", "changeFun('"+input.getAttribute("value")+"', this)");
+    }
+}
  </script>
