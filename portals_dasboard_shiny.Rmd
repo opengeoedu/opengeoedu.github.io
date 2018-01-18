@@ -473,7 +473,7 @@ for (i = 0; i < x.length; i++) {
       // set element as child of input
       parent.insertBefore(checkmark, input.nextSibling);
 
-     // input.checked = true;
+   //  input.checked = true;
       input.setAttribute("onchange", "changeFun('"+input.getAttribute("value")+"', this)");
     }
 }

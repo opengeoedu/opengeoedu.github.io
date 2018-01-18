@@ -29,7 +29,7 @@ pchIcons <- function(col, width = 35, height = 35, pch = 24, file_prefix="gdi-ic
   for (i in seq_len(n)) {
     #f = tempfile(tmpdir = "icontemp", fileext = '.png')
     col_transp <- addalpha(col[i], 0.3)
-    f <- paste0("icontemp/",file_prefix,col[i],".png")
+    f <- paste0("icontemp/",file_prefix,stringr::str_replace(col[i],"#",""),".png")
     if(!dir.exists("icontemp")){
       cat("Created directory 'icontemp' in order to store icon files. You can remove this folder manually after the output was created: \n\t",path.expand("./icontemp"))
       dir.create("icontemp")
@@ -50,6 +50,8 @@ pchIcons <- function(col, width = 35, height = 35, pch = 24, file_prefix="gdi-ic
 group_gdi <- NULL
 group_odp <- NULL
 
+htmlLegend <- NULL
+
 createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, layerControls = TRUE, polygon_fill_color = "#696969", polygon_fill_opacity = 0.2) {
   categories <- c("international","national","regional","kommunal")
   colorlf <- c("#006400", "#FFA500", "#0000FF", "#8B0000")
@@ -62,7 +64,7 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
   for_legend_icon <- pchIcons(file_prefix = "for_", pch = 3, col = "grey")
   cc_legend_icon <- pchIcons(file_prefix = "cc_", pch = 4, col = "grey")
   
-  htmlLegend <- 
+  htmlLegend <<- 
     tags$div(class="legend_div",  htmltools::tagList(
     div(class="legend_toggle info", style="width:40px; height:40px; text-align:center",icon("info", "fa-2x")),
     tags$div(class = "legend_map info legend leaflet-control",
