@@ -6,7 +6,7 @@
      xmlns:gml="http://www.opengis.net/gml">
   <gml:boundedBy>
     <gml:Box>
-      <gml:coord><gml:X>6.078649886459396</gml:X><gml:Y>46.17785185479802</gml:Y></gml:coord>
+      <gml:coord><gml:X>6.078649886459402</gml:X><gml:Y>46.17785185479804</gml:Y></gml:coord>
       <gml:coord><gml:X>16.52856400843007</gml:X><gml:Y>54.33628470550668</gml:Y></gml:coord>
     </gml:Box>
   </gml:boundedBy>
@@ -20,26 +20,26 @@
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Open Data Portal der Stadt Aachen mit über 70 Datensätzen verschiedener Organisationen, einschließlich der Stadt Stolberg und der Gemeinde Roetgen (Stand: 7.11.2017)</ogr:Beschreibung>
       <ogr:Ort>Aachen</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Aachen, Markt, 52058 Aachen</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.2">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.17124748688952,48.8243936814513</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.17124748688953,48.8243936814513</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>2</ogr:ID>
       <ogr:URL>http://www.geoportal-bw.de</ogr:URL>
       <ogr:Titel>GDI Baden-Württemberg</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Die Amtliche informations- und Kommunikationsplattform des Landes Baden-Würtenberg dient als Zugangsknoten zur Geodateninfrastruktur des Landes und informiert über aktuelle Entwicklungen und Projekte. Angeboten werden Datensuche und interaktive Dartstellung von Geodaten für Verwaltung, Wirtschaft, Wissenschaft und den Bürger. (Stand: 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Baden-Württemberg</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Büchsenstraße 54, 70174 Stuttgart</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -53,10 +53,10 @@
       <ogr:Beschreibung>Knotenpunkt der Geodatenifrastruktur der bayrischen Landesregierung: Zugriff u.a. auf das Geoportal Bayern, den BayernAtlas, das Bayrische Frachinformationssystem Naturschutz, Das integrierte Bayerische Landwirtschaftliche Informations-System (iBALIS), das Bodeninformations-
 system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</ogr:Beschreibung>
       <ogr:Ort>Bayern</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Alexandrastraße 4, 80538 München</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -69,10 +69,10 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</ogr:Beschre
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Open Data Portal der bayrischen Landesregierung</ogr:Beschreibung>
       <ogr:Ort>Bayern</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Odeonsplatz 4, 80539 München</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -85,10 +85,10 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</ogr:Beschre
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Das Geoportal Berlin bietet Informationen und Zugang zur Geodateninfrastruktur des Landes, der Landesvermessung, Liegenschaftskataster, Grundstückswerten und dem Umweltatlas Berlin (Stand: 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Berlin</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Württembergische Straße 6, 10707 Berlin</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -101,10 +101,10 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</ogr:Beschre
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Open Data Portal der Stadt Berlin</ogr:Beschreibung>
       <ogr:Ort>Berlin</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Martin-Luther-Straße 105, 10825 Berlin</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -117,10 +117,10 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</ogr:Beschre
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Online-Anwendungen und verschiedene Datensätze der Stadtverwaltung Bochum.“ (Stand 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Bochum</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Willy-Brandt-Platz 2-6, 44787 Bochum</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -133,10 +133,10 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</ogr:Beschre
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Dieses Open Data Portal richtet sich in erster Linie an IT-Entwickler, die mit den angebotenen Datensätze Anwendungen erstellen möchten. So können die Datensätze z.B. für wissenschaftliche Zwecke und Bildungseinrichtungen, für bürgerschaftliches Engagement oder die Anwendungsentwicklung von Internetangeboten bzw. Apps, auch für die kommerzielle Weiternutzung, frei verwendet werden.“ (Quelle: Open Data Katalog Bonn, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Bonn</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Bundesstadt Bonn, Berliner Platz 2, 53111 Bonn</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -149,10 +149,10 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</ogr:Beschre
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Das Land Brandenburg bietet den Nutzern und Anbietern von Geodaten mit dem Geoportal Brandenburg einen zentralen Zugang zu Geodaten. Einfach und komfortabel können Geodaten gesucht und dargestellt werden. Der Zugriff auf verteilte Geodatenbestände wird somit von einer zentralen Stelle aus möglich.“ (Quelle: GDI Brandenburg, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Brandenburg</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Heinrich-Mann-Allee 103, 14473 Potsdam</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -165,10 +165,10 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</ogr:Beschre
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Die Stadt Braunschweig veröffentlicht an dieser Stelle ausgewählte Geodaten zur freien Verwendung durch die Bevölkerung, Vereine, Kongressveranstalter und Gewerbeunternehmen.“ (Quelle: Braunschweig OpenGeoData, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Braunschweig</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Platz der Deutschen Einheit 1, 38100 Braunschweig</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -181,10 +181,10 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</ogr:Beschre
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Die Geodateninfrastruktur der Freien Hansestadt Bremen (GDI-FHB) hat zum Ziel, die in den Verwaltungen des Landes, bei der Stadt Bremen und beim Magistrat Bremerhaven vorhandenen Geodaten und Geodatendienste für Politik, Verwaltung, Wirtschaft, Wissenschaft und Öffentlichkeit zu vernetzen, verfügbar zu machen und deren Nutzung zu erleichtern.“  (Quelle: GDI Bremen, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Bremen</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Lloydstr. 4, 28217 Bremen</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -199,10 +199,10 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</ogr:Beschre
 
 Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert in das Transparenzportal.“ (Quelle: Transparenzportal Bremen. Technischer Aufbau und Funktionsweise des Transparenzportals, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Bremen</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Rudolf-Hilferding-Platz 1, 28195 Bremen</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -215,10 +215,10 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Open-Data-Portal der Stadt Chemnitz</ogr:Beschreibung>
       <ogr:Ort>Chemnitz</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Markt 1, 09111 Chemnitz, </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -231,10 +231,10 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Die hier angebotenen Geodaten stehen unter verschiedenen Lizenzen geldleistungsfrei zum Download und zur Online-Nutzung zur Verfügung.“ (Quelle: Open Data BKG , abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Deutschland</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Richard-Strauss-Allee 11, 60598 Frankfurt am Main</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -247,26 +247,26 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„CODE-DE ist der deutsche Zugang zu den Daten des europäischen Erdbeobachtungsprogramms Copernicus. Dieses Programm der Europäischen Union stellt als Basis der Umweltbeobachtungen Satellitendaten der sogenannten Sentinel-Reihe zur Verfügung.“ (Quelle: CODE-DE, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Deutschland</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>teilweise</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Invalidenstraße 44, D-10115 Berlin</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.16">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.7352943706537,50.0904775980271</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.73529437065369,50.0904775980271</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>16</ogr:ID>
       <ogr:URL>http://www.geoportal.de/</ogr:URL>
       <ogr:Titel>GDI-DE - Geodaten aus Deutschland</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Geodaten aus Deutschland. Ihr Weg zu mehr Wissen. Landkarten, Luftbilder, Themenkarten. Von Energie bis Naturschutz: Hier bei Geoportal.de können Sie Geodaten aus ganz Deutschland recherchieren. Viele Suchergebnisse können Sie sich schon heute als Karte anzeigen lassen und miteinander verknüpfen. Geoportal.de ist ein Service von Bund, Ländern und Kommunen. Für interessierte Bürgerinnen und Bürger und für die Fachwelt. Ein Beitrag zur offenen Wissens- und Informationsgesellschaft. Geoportal.de bietet Ihnen einen umfassenden Überblick. Derzeit stehen hier mehr als 120 000 Einträge. Und die Zahl wächst. Themenkarten verknüpfen Daten zu Informationen für die Praxis. Etwa zu chancenreichen Standorten für neue Windkraftwerke.“ (Quelle: GDI-DE, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Deutschland</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Richard-Strauss-Allee 11, 60598 Frankfurt am Main</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -279,10 +279,10 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„The dblp computer science bibliography is the on-line reference for open bibliographic information on computer science journals and proceedings“ (Quelle: DBLP computer science bibliography, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Deutschland</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Behringstraße 1, 54296 Trier</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -295,10 +295,10 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Internetangebot des Statistischen Bundesamtes mit aktuellen Informationen, Publikationen, Zahlen und Fakten der amtlichen Statistik</ogr:Beschreibung>
       <ogr:Ort>Deutschland</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Gustav-Stresemann-Ring 11, D-65189 Wiesbaden</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -311,10 +311,10 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Auf diesem Portal veröffentlicht die Deutsche Bahn AG einen wachsenden Datenbestand rund um Infrastruktur und Mobilität.“ (Quelle: Deutsche Bahn Open Data, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Deutschland</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Potsdamer Platz 2 10785 Berlin</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -327,10 +327,10 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Entdecken Sie hier Open (Geo-)Data, Karten und Apps aus Deutschland zur sofortigen Nutzung und zum Download. Sie können nach Tags in Kategorien, nach beliebigen Begriffen oder Orten im Suchfeld fahnden. Entwickler können über den API Explorer direkt eine Verbindung zu jedem hier gelisteten Datensatz aufbauen oder die Daten als GeoJSON herunterladen. Dieses Portal stellt in ArcGIS Online veröffentlichte Open Data-Beiträge von Kunden und von Esri Deutschland sowie ausgewählte und republizierte Open Data aus fremden Portalen bereit.“ (Quelle: Esri Deutschland Open Data Portal)</ogr:Beschreibung>
       <ogr:Ort>Deutschland</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Esri Deutschland GmbH, Ringstraße 7, 85402 Kranzberg</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -343,10 +343,10 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„SDW provides features to access, find, compare, download and share the ECB’s published statistical information.“ (Quelle: SDW, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Deutschland</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>European Central Bank, Sonnemannstrasse 22, 60314 Frankfurt am Main </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -359,10 +359,10 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„OffeneDaten.de ist ein Datenkatalog für offene Daten in Deutschland. Die Seite wurde 2010 von engagierten Bürgern initiiert, weil es bis Dato kein vergleichbares Angebot in Deutschland gab.“ (Quelle: Offenedaten.de, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Deutschland</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Singerstr. 109, 10179 Berlin</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -375,10 +375,10 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Die Kommunalverwaltungen in Deutschland bietet Ihnen auf diesem Portal zahlreiche Datensätze, Dienste und Anwendungen der Behörden und Ämter an. Die Datensätze werden von der Verwaltung im Sinne von „Open Data“ frei verfügbar und nutzbar in entsprechenden Kommunalportalen zur Verfügung gestellt. Sie können entsprechend der Nutzungsbedingungen und Lizenzen weiterverwendet werden, beispielweise für die Entwicklung von Apps.“ (Quelle: Offenesdatenportal.de, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Deutschland</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Friedrich-Heinrich-Allee 130, 47475 Kamp-Lintfort</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -391,10 +391,10 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„WELT2000 ist eine freie Datenbank mit Daten von Flugplätzen und Außenlandefeldern weltweit. Die Daten sind Basis vieler Geräte und Programme für den Luftsport. WELT2000 wird von Luftsportlern für Luftsportler gemacht.“ (Quelle: WELT2000, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Deutschland</ogr:Ort>
-      <ogr:Bezug>international</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>international</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber></ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -407,10 +407,10 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Auf GovData, dem Datenportal für Deutschland sind Daten aller Verwaltungsebenen zentral zugänglich. Aktuelle Infos und Ähnliches finden Sie im Blog von GovData.“ (Quelle: GovData, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Deutschland</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Gänsemarkt 36, 20354 Hamburg</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -423,26 +423,26 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Die mCLOUD ist eine Rechercheplattform zu offenen Daten aus dem Bereich Mobilität und angrenzender Themen. Das BMVI stellt mit der mCLOUD einen zentralen Zugangspunkt zu allen offenen Daten seines Geschäftsbereiches zur Verfügung und öffnet das Portal auch für private Anbieter aus dem Mobilitätsbereich, um ihre Daten dort anzubieten.“ (Quelle: mCloud, abgerufen am 26.10.2017/</ogr:Beschreibung>
       <ogr:Ort>Deutschland</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Robert-Schuman-Platz 1, D 53175 Bonn</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.27">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.37532804933416,52.6086147056207</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.37532804933415,52.6086147056207</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>27</ogr:ID>
       <ogr:URL>http://freiegeodatenlandkreisdiepholz-geoweb-diepholz.opendata.arcgis.com/</ogr:URL>
       <ogr:Titel>Open Geodata Landkreis Diepholz</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Die hier angebotenen Geodaten sind für alle interessierten Nutzer in maschinenlesbaren Formaten frei zugänglich. Sie beinhalteten anwendungsspezifische Fachinformationen zum Landkreis Diepholz und stammen aus der zentralen Geodatenbank des Geoinformationssystems. Die angebotenen Geodaten werden in Echtzeit zur Verfügung gestellt, so dass die verfügbaren Inhalte den intern verwendeten Strukturen entsprechen. Lediglich personenbezogene Inhalte bzw. Inhalte nur für den Dienstgebrauch sind ausgeblendet. Daten, die der Landkreis in Lizenz nutzt, können hier nicht angeboten werden. Die angebotene Inhalte sind lizenziert unter einer Datenlizenz Deutschland – Namensnennung – Version 2.0“ (Quelle: Open Geodata Landkreis Diepholz, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Diepholz</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Niedersachsenstr. 2, 49356 Diepholz</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -455,10 +455,10 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Hier finden Sie offene Daten aus den Ämtern und Betriebender Stadtverwaltung Frankfurt am Main. Es handelt sich um „offene“ Daten, weil die Stadt Frankfurt die Datensätze zur freien Nutzung und in offenen, maschinenlesbaren Formaten bereitstellt. Wir folgen hier der Idee, die allgemein als Open Data bezeichnet wird.“  (Quelle: Offene Daten Frankfurt, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Frankfurt am Main</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Frankfurt am Main, Zanderstraße 7, 60327 Frankfurt am Main</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -471,26 +471,26 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Statistik-Portal der Stadt Freiburg im Breisgau (enthält u.a. die Themen „Open Data“ und „Geodaten“)</ogr:Beschreibung>
       <ogr:Ort>Freiburg im Breisgau</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>Ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Freiburg im Breisgau, Rathausplatz 2 - 4, 79098 Freiburg</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.30">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.09247417286314,51.5109986053981</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.09247417286313,51.5109986053981</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>30</ogr:ID>
       <ogr:URL>https://opendata.gelsenkirchen.de/</ogr:URL>
       <ogr:Titel>Offene Daten Gelsenkirchen</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Die Daten Deiner Stadt gehören Dir. Wir – die Stadt Gelsenkirchen – öffnen sie und Du machst was draus. Zum Beispiel Webanwendungen wie Apps oder Internetseiten. So haben alle etwas davon: Du weißt mehr über deine Stadt und viele Menschen profitieren von Deinem Wissen. Sei Teil der digitalen Revolution!“  (Quelle: Offene Daten Gelsenkirchen, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Gelsenkirchen</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Gelsenkirchen, Ebertstraße 11, 45879 Gelsenkirchen</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -505,10 +505,10 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 
 Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien Verfügung einzustellen.“ (Quelle: http://www.daten.halle.de, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Halle an der Saale</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Halle, Marktplatz 1, 06100 Halle</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -521,10 +521,10 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Eine Geodateninfrastruktur (GDI) ist ein komplexes Netzwerk zum standardisierten Austausch von Geodaten mit dem Ziel, diese leichter zugänglich und kombinierbar zu machen. Eine GDI wird auf verschiedenen Ebenen aufgebaut. Dabei ist die Geodateninfrastruktur Hamburg (GDI-HH) sowohl eigenständig, als auch ein Bestandteil der GDI-DE.</ogr:Beschreibung>
       <ogr:Ort>Hamburg</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Neuenfelder Straße 19, 21109 Hamburg</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -537,58 +537,58 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Die bisher unter dem Open Data Portal veröffentlichten Daten, finden Sie nun hier im Transparenzportal.</ogr:Beschreibung>
       <ogr:Ort>Hamburg</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Freie und Hansestadt Hamburg, Rathausmarkt 1, 20095 Hamburg</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.34">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>12.0728875833306,54.127492954356</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>12.0728875833307,54.127492954356</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>34</ogr:ID>
       <ogr:URL>https://www.opendata-hro.de/</ogr:URL>
       <ogr:Titel>OpenData.HRO</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Die Hansestadt Rostock sammelt und pflegt eine Vielzahl von Daten. Diese Daten bergen enormes Potenzial für Innovationen, sofern sie als offene Daten für jedermann frei zugänglich gemacht werden und sie für jegliche Zwecke weiterverwendet und -verbreitet werden können – insbesondere auch für kommerzielle Zwecke. Das vorliegende Portal dient als zentrale Plattform zur Veröffentlichung offener Daten der Hansestadt Rostock.“ (Quelle: OpenData.HRO, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Hansestadt Rostock</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Hansestadt Rostock, 18050 Rostock</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.35">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.21950843898303,51.5379388554072</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.21950843898302,51.5379388554072</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>35</ogr:ID>
       <ogr:URL>http://www.herne.de/Stadt-und-Leben/Stadtfakten/Open-Data/</ogr:URL>
       <ogr:Titel>Herne Open Data</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Im Open Data Portal der Stadt Herne werden verschiedene Datensätze der Stadtverwaltung veröffentlicht.“ (Quelle: Herne Open Data, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Herne</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Herne, Friedrich-Ebert-Platz 2, 44623 Herne</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.36">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.22685858870078,50.087941804822</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.22685858870077,50.087941804822</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>36</ogr:ID>
       <ogr:URL>http://www.geoportal.hessen.de/</ogr:URL>
       <ogr:Titel>GDI Hessen</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Das Geoportal Hessen ist der zentrale Einstiegspunkt in die Geodateninfrastruktur Hessen und bietet einen einheitlichen und einfachen Zugang zu raumbezogenen Daten des Landes Hessen im Internet. Hier steht die Karte im Mittelpunkt.“ (Quelle: GDI Hessen, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Hessen</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Schaperstraße 16, 65195 Wiesbaden</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -601,10 +601,10 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Das Portal dient der Veröffentlichung von offenen Daten der Stadt Jena zur freien Verwendung und Nutzung entsprechend der Lizenzierung. Der Umfang der Datensätze wird kontinuierlich erweitert. Wir stellen sowohl dynamische als auch statische Daten zur Verfügung.“ (Quelle: Jena Open Data, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Jena</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Am Anger 15, 07743 Jena, </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -617,10 +617,10 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Open Data Portal des Kreises Kleve  auf der Plattform offenesdatenportal.de, 83 Datensätze nach 7 Gruppen geordnet, u.a. zur öffentlichen Verwalltung, Wirtschaft und Arbeit, Transport und Verkehr (Stand: 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Kleve</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Friedrich-Heinrich-Allee 130, 47475 Kamp-Lintfort</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -633,26 +633,26 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Open Data der Stadt Kleve auf der Plattform offenesdatenportal.de, 46 Datensätze mit verschiedenen Tags versehen, Bezug u.a. demographische Daten, öffentlichen Einrichtungen und Flächennutzung (Stand: 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Kleve</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Friedrich-Heinrich-Allee 130, 47475 Kamp-Lintfort</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.40">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.95100199998851,50.9422631052028</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.95100199998852,50.9422631052028</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>40</ogr:ID>
       <ogr:URL>https://www.offenedaten-koeln.de/</ogr:URL>
       <ogr:Titel>Offene Daten Köln</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Offene Daten der Stadt Köln mit Datensätzen verschiedener Einrichtungen, u. a. Kölner Zoo, Stadtbibilothek, Polizei, Verkehrsverbund Rhein-Sieg GmbH, Kölner Verkehrs-Betriebe AG, Feuerwehr Koeln, AWB Abfallwirtschaftsbetriebe Köln GmbH, FH Köln, cambio Carsharing  (Stand: 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Köln</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Köln</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -665,10 +665,10 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Open Data der Stadt Kleve auf der Plattform offenesdatenportal.de, 45 Datensätze mit verschiedenen Tags versehen, gruppiert nach den Themen „Bevolkerung, Geologie und Geobasisdaten“, „Kultur, Freizeit, Sport und Tourismus“, „Soziales“, „Bevölkerung“, „Infrastruktur“ und mehr (Stand: 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Krefeld</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Friedrich-Heinrich-Allee 130, 47475 Kamp-Lintfort</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -682,10 +682,10 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
       <ogr:Beschreibung>„Die Stadt Leipzig möchte verschiedene Datensätze aus der Verwaltung, Fachleuten sowie interessierten Nutzern zur Verfügung zu stellen. Für diesen Zweck wurde das Open Data-Portal der Stadt Leipzig eingerichtet. Zudem veröffentlicht die Stadtverwaltung Leipzig ihre Datensätze auf dem Datenportal für Deutschland.“ (Quelle: Leipzig Open Data, abgerufen am 26.10.2017)
 </ogr:Beschreibung>
       <ogr:Ort>Leipzig</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Leipzig, Martin-Luther-Ring 4-6, 04109 Leipzig</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -698,10 +698,10 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Dies ist das Open Data Portal des Landkreis Lüneburg. Open Data steht für die Öffnung von Informationen und Daten des öffentlichen Sektors für die Allgemeinheit. Mit diesem Portal möchte der Landkreis Lüneburg mehr Transparenz der Kreisverwaltung schaffen.“ (Quelle: Open Data Portal des Landkreis Lüneburg, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Lüneburg</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Landkreis Lüneburg, Auf dem Michaeliskloster 4, 21335 Lüneburg </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -715,10 +715,10 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
       <ogr:Beschreibung>„Der Stadtrat hat sich zur Bereitstellung von offenen Verwaltungsdaten der Landeshauptstadt im Rahmen eines Projektes positioniert. Der Verwaltung ist es wichtig, überschaubar zu beginnen, Erfahrungen zu sammeln und darauf aufbauend sukzessive das Vorhaben weiter voranzutreiben.“
 (Quelle: Landeshauptstadt Magdeburg, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Magdeburg</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Landeshauptstadt Magdeburg, Alter Markt 6, 39104 Magdeburg</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -733,10 +733,10 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 
 Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendungen.“ (Quelle: Stadt Mannheim, abgerufen am 26.10.2017) </ogr:Beschreibung>
       <ogr:Ort>Mannheim</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Mannheim, Rathaus, D-68159 Mannheim</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -749,26 +749,26 @@ Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendun
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Das Geodatenportal des Landes Mecklenburg-Vorpommern (GeoPortal.MV) ist der zentrale Zugangsknoten zu Geodaten und Geodatendiensten aus allen Bereichen der Landesverwaltung M-V und der Kommunalverwaltungen M-V. Politik, Wirtschaft, Wissenschaft, Verwaltung und Privatpersonen können auf diese Daten zugreifen, die eine verlässliche Grundlage für effiziente Entscheidungen bieten. Das GeoPortal.MV ist eine technische Kernkomponente der Geodateninfrastruktur Mecklenburg-Vorpommern (GDI-MV).“ (Quelle: GeoPortal.MV, abgerufen am 26.10.2017) </ogr:Beschreibung>
       <ogr:Ort>Meck­len­burg-Vor­pom­mern</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Lübecker Straße 287, 19059 Schwerin</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.47">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.6844805623926,51.2980572884251</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.68448056239259,51.2980572884251</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>47</ogr:ID>
       <ogr:URL>https://opendata.meerbusch.de/</ogr:URL>
       <ogr:Titel>Meerbusch Open Data</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Die Stadt Meerbusch stellt ab 2017 offene Daten auf diesem Portal zur Verfügung. Wir starten mit ersten Daten zu Bevölkerung und Wahlen und bauen das Angebot in den kommenden Monaten weiter aus. Wir werden nach Abstimmung mit dem Land NRW bald auf Open.NRW als Datenbereitsteller gelistet, so dass unsere Informationen auch landes- und bundesweit gefunden werden können.“ (Quelle: Stadt Meerbusch, abgerufen am 26.10.2017) </ogr:Beschreibung>
       <ogr:Ort>Meerbusch</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Meerbusch, Moerser Straße 28, 40667 Meerbusch</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -781,10 +781,10 @@ Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendun
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Open Data Portal der Stadt Mittenwalde basierend auf ArcGIS Portal.</ogr:Beschreibung>
       <ogr:Ort>Mittenwalde</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Mittenwalde, Rathausstraße 8, 15749 Mittenwalde </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -797,10 +797,10 @@ Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendun
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Open Data Portal der Stadt Mittenwalde auf Offenedaten.de, 7 Datensätze mit verschiedenen Tags, u.a. Verkehr, Bebauungsplan, Einwohner</ogr:Beschreibung>
       <ogr:Ort>Mittenwalde</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Mittenwalde, Rathausstraße 8, 15749 Mittenwalde</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -813,10 +813,10 @@ Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendun
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Geodaten der Stadt Mittenwalde zur Online-Ansicht. Es gibt gibt ein neues und ein altes Geoportal. Das Neue mit einer Liegenschaftskarte und einem Kartenthema zur Bauleitplanung ausgestattet ist. (Stand: 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Mittenwalde</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Mittenwalde, Rathausstraße 8, 15749 Mittenwalde</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -832,10 +832,10 @@ Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendun
 Nach und nach werden wir den Bestand an offenen Daten erweitern. Wir veröffentlichen in unserem Portal auch Daten von Unternehmen oder Privatleuten, wenn sie einen Bezug zu Moers haben und es keine rechtlichen Beschränkungen gibt. Wenn Sie Daten haben, melden Sie sich!“ 
 (Quelle: Stadt Moers, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Moers</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Rathaus Moers, Rathausplatz 1, 47441 Moers</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -850,10 +850,10 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern. Wir veröffentl
 
 Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grundlage bilden, für einen demokratischen Wissensaustausch, mehr Partizipation und eine bessere Kommunkation zwischen Verwaltung, Politik und Bürgerinnen und Bürgern unserer Stadt.“ (Quelle: Stadt Mönchengladbach, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Mönchengladbach</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Mönchengladbach, 41050 Mönchengladbach</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -866,10 +866,10 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Die Stadt Mülheim an der Ruhr stellt offene Daten (Open Data) als Rohdaten aus verschiedenen Bereichen der Verwaltung bereit. Eine automatisierte Aktualisierung sorgt dafür, dass stets nur die aktuellsten Daten publiziert werden.“ (Quelle: Stadt Mönchengladbach, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Mülheim an der Ruhr</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Am Rathaus 1, 45468 Mülheim an der Ruhr</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -882,10 +882,10 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Auf dem Open Data Portal München stellt die Landeshauptstadt München Datensätze der öffentlichen Verwaltung zur Verfügung. Verwaltungsmitarbeitern, Bürgerinnen und Bürgern, Unternehmen und Wissenschaftlern soll damit die Möglichkeit gegeben werden, über einen zentralen Einstiegspunkt auf Daten und Informationen der Verwaltung zuzugreifen und diese weiterzuverwenden, so dass durch neue Ideen sowie Kombination und Analyse neue Erkenntnisse aus den vorhandenen Daten gewonnen werden können.“ (Quelle: Open-Data-Portal München der Landeshauptstadt München, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>München</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Landeshauptstadt München, 80313 München</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -899,10 +899,10 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
       <ogr:Beschreibung>„Die Stadt Münster beteiligt sich am Wettbewerb &quot;Apps für Deutschland&quot;. Sie stellt dazu Datensätze über Spielplätze und Sportstätten als offene Daten zur Verfügung. Die Daten werden mit Stand Dezember 2011 bereitgestellt. Es kommt die Lizenz Creative Commons Namensnennung 3.0 zur Anwendung.“
 (Quelle: Stadt Münster, abgerufen am 26.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Münster (Westf.)</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Münster, 48127 Münster</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -915,10 +915,10 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Das internationale Datenportal der „International Aid Transparency Initiative“ (IATI) enthält offene Daten zur Entwicklungszusammenarbeit verschiedener Länder. Zu den Datenanbietern gehört unter anderem das Das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)</ogr:Beschreibung>
       <ogr:Ort>Berlin</ogr:Ort>
-      <ogr:Bezug>international</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>international</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber></ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -935,10 +935,10 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
 (Quelle: Stadt Karlsruhe, abgerufen am 27.10.2017)
 </ogr:Beschreibung>
       <ogr:Ort>Karlsruhe</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Karlsruhe, Karl-Friedrich-Str. 10, 76133 Karlsruhe </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -951,10 +951,10 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Offene Daten des Kommunalen Rechenzentrums Niederrhein (KRZN) mit Sitz in Kamp-Lintfort. Das KRZN ist ein kommunaler Zweckverband un IT-Dienster für Stadt Bottrop, Stadt Krefeld, Kreis Kleve, Kreis Viersen und Kreis Wesel. 25 Datensätze gruppiert nach den Themen „Wirtschaft und Arbeit“, „Öffentliche Verwaltung“ und „Geographie, Geologie und Geobasisdaten“ (Stand: 27.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Niederrhein</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Friedrich-Heinrich-Allee 130, 47475 Kamp-Lintfort</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -969,10 +969,10 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
 
 Ansprechpartner für das Geoportal und die Geodateninfrastruktur des Landes ist die Koordinierungsstelle GDI-NI beim Landesamt für Geoinformation und Landesvermessung Niedersachsen (LGLN) - Landesvermessung und Geobasisinformation mit Sitz in Hannover. (Stand: 27.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Niedersachsen</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Podbielskistraße 331, 30659 Hannover</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -986,10 +986,10 @@ Ansprechpartner für das Geoportal und die Geodateninfrastruktur des Landes ist 
       <ogr:Beschreibung>Die Geodateninfrastruktur des Landes Nordrhein-Westfalen besteht seit 1999 und hat sich die Aktivierung des Geodatenmarktes sowie die verbesserte Verfügbarkeit und Nutzbarkeit der behördlichen und privaten Geodaten zum Ziel gesetzt. An der Realisierung der GDI sind das Land NRW, Kommunen, IT-Unternehmen und Nutzer von Geoinformationen beteiligt.
 (Stand: 27.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Nordrhein-Westfalen</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Muffendorfer Str. 19-21, 53177 Bonn </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1006,10 +1006,10 @@ Die beteiligten Kommunen sind:
 Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stadt Bergheim, Gemeinde Langerwehe, Gemeinde Hürtgenwald, Gemeinde Vettweiß, Stadt Jülich, Gemeinde Merzenich, Stadt Wesseling, Stadt Heimbach, Gemeinde Kreuzau, Stadt Linnich, Stadt Bad Münstereifel, Gemeinde Titz, Stadt Bedburg
 (Stand: 27.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Nordrhein-Westfalen</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Bonnstraße 16-18, 50226 Frechen</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1022,10 +1022,10 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Open.NRW unterstützt Verwaltungen, Bürgerinnen und Bürger des Landes Nordrhein-Westfalen sowie weitere externe Akteure bei dem offenen Austausch und der Zusammenarbeit. Das Landesportal vereint offene Datensätze von Städten und Kommunen und beinhaltet zudem Geobasisdaten. (Stand: 27.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Nordrhein-Westfalen</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Friedrichstraße 62-80, 40217 Düsseldorf</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1038,10 +1038,10 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Über das GeoPortal.rlp können Geodaten des Landes Rheinland-Pfalz zentral gesucht und visualisiert werden. Es handelt sich um ein Projekt des Lenkungsausschuss für Geodateninfrastruktur Rheinland-Pfalz, dessen Mitglieder Vertreter der Staatskanzlei, der Ministerien und der kommunalen Spitzenverbände sind. Das Portal selbst ist als Open-Source Projekt realisiert, wovon ausgewählte Komponenten unter anderem als LiveCD heruntergeladen werden können. (Stand: 27.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Rhein­land-Pfalz</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Von-Kuhl-Str. 49, 56070 Koblenz</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1054,16 +1054,16 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Das Portal bietet einen einheitlichen, zentralen Zugang zu Verwaltungsdaten der rheinland-pfälzischen Landesbehörden und Kommunen. Unbedingt zu beachten ist, dass neben den offenen Daten hier auch Daten mit eingeschränkten Lizenzbedingungen angeboten werden, obgleich die Verwendung offener Lizenzen und maschinenlesbarer Rohdaten allgemein angestrebt wird. (Stand: 27.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Rheinland-Pfalz</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Schillerplatz 3 – 5, 55116 Mainz</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.65">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.95079331125057,49.2774313544131</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.95079331125058,49.2774313544131</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>65</ogr:ID>
       <ogr:URL>http://geoportal.saarland.de/</ogr:URL>
       <ogr:Titel>GeoPortal Saarland (GDI-SL)</ogr:Titel>
@@ -1074,10 +1074,10 @@ Die Daten werden je zu verschiedenen Nutzungsbedingungen angeboten, einige davon
 
 (Stand: 27.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Saarland</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Von der Heydt 22, 66115 Saarbrücken</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1091,10 +1091,10 @@ Die Daten werden je zu verschiedenen Nutzungsbedingungen angeboten, einige davon
       <ogr:Beschreibung>Die Geodateninfrastruktur Sachsen hat das Ziel, digitalen, raumbezogenen Daten aus der Wirtschaft und öffentlichen Verwaltung des Landes einem breiten Nutzerkreis zugänglich zu machen. Die suche nach Geodaten wird über den Metadatenkatalog GeoMIS.Sachsen und das Geoportal Sachsenatlas ermöglicht. 
 (Stand: 27.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Sachsen</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Olbrichtplatz 3, 01099 Dresden</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1110,10 +1110,10 @@ Die Daten werden je zu verschiedenen Nutzungsbedingungen angeboten, einige davon
 Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen werden könnten. Die Nutzungsbedingungen und Urheberrechtsfragen sind aber bislang noch nicht einheitlich geregelt.
 (Stand: 27.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Sachsen</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Riesaer Straße 7, Haus D, 01129 Dresden</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1127,10 +1127,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Beschreibung>Die Website des Landesamt für Vermessung und Geoinformation Sachsen-Anhalt umfasst Zugänge zu Diensten der Geodateninfrastruktur Sachsenanhalt (GDI-LSA) sowie einen Geodatenviewer. Viele der angebotenen Dienste und Daten sind käuflich zu erwerben oder unterliegen Nutzungsbeschränkungen.
 (Stand: 27.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Sachsen-Anhalt</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Otto-von-Guericke-Straße 15, 39104 Magdeburg</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1143,10 +1143,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Sie Stadt Sapzgitter stellt auf diesem Portal 9 offene Datensätze aus den Kategorien „Öffentliche Verwaltung“, „Kultur, Freizeit, Sport und Tourismus“, sowie „Geographie, Geologie und Geobasisdaten“ zur Verfügung. (Stand: 27.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Salzgitter</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Salzgitter, Joachim-Campe-Straße 6 - 8, 38226 Salzgitter</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1159,10 +1159,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Die Geodateninfrastruktur Schleswig-Holstein ermöglicht unter der Leitung des Lenkungsgremiums LG GDI-SH den Zugriff auf Geodaten des Landes Schleswig-Holstein. Die website umfasst ein Geoportal, welches das suchen und Betrachten von Geodaten, nach Themen unterteilt, ermöglicht. Zudem werden kommerzielle Dienste angeboten. (Stand: 27.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Schleswig-Holstein</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Düsternbrooker Weg 92, 24105 Kiel</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1175,10 +1175,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Die Geodateninfrastruktur (GDI) des Landes Thüringen ermöglicht den zugriff auf Geodaten und Dienste des Landes. Neben einem umfrangreichen Downloadbereich von offenen Geodaten ist der Zugriff auf eine Metadatensuche, Web-Viewer, Geoproxy und OGC-Dienste sowie versichiedene Temenbereiche möglich. (Stand: 27.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Thüringen</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Landesamt für Vermessung und Geoinformation, Hohenwindenstr. 13 a, D-99086 Erfurt</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1191,10 +1191,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Teil des Geoportal-Th und der GDI-Th ist ein Downloadbereich, in dem eine Vielzahl von Geodaten ohne Zugangsbeschränkung genutzt und heruntergeladen werden können. Zu beachten ist, dass die Datenlizenz einen Quellenvermerk vorschreibt. (Stand: 27.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Thüringen</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Landesamt für Vermessung und Geoinformation, Hohenwindenstr. 13 a, D-99086 Erfurt</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1207,10 +1207,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„daten.ulm.de ist eine Infoplattform für (offene) Geodaten und offene statistische Daten der Stadt Ulm.  Welche Geodaten und Karten gibt es bei der Stadt Ulm in welcher Aktualität? Wer ist Ansprechpartner? Welche offenen Daten kann ich sofort herunterladen und weiterverwenden?  Stöbern Sie einfach im thematisch gegliederten Datenkatalog, dessen Angebot sukzessive ausgebaut wird.“ (Quelle: daten.ulm, abgerufen am 27.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Ulm</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Ulm, Marktplatz 1, 89073 Ulm</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1223,10 +1223,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Offene Verwaltungsdaten des Kreises Viersen</ogr:Beschreibung>
       <ogr:Ort>Viersen</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Rathausmarkt 3, 41747 Viersen</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1239,10 +1239,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Offene Verwaltungsdaten der Stadt Wesel</ogr:Beschreibung>
       <ogr:Ort>Wesel</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Wesel, Klever-Tor-Platz 1, 46483 Wesel</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1255,10 +1255,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Offene Daten der Stadt Wuppertal</ogr:Beschreibung>
       <ogr:Ort>Wuppertal</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Johannes-Rau-Platz 1, 42275 Wuppertal</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1271,10 +1271,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Europa</ogr:Land>
       <ogr:Beschreibung>“Das Offene Datenportal der Europäischen Union bietet Zugang zu einer wachsenden Menge von Daten über die Organe und sonstigen Einrichtungen der Europäische Union (EU).” (Quelle: Europäische Union, abgerufen am 7.11.2017)</ogr:Beschreibung>
       <ogr:Ort>Europa</ogr:Ort>
-      <ogr:Bezug>international</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>international</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber></ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1287,10 +1287,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Graz Online - Stadtportal der Landeshauptstadt Graz</ogr:Beschreibung>
       <ogr:Ort>Graz</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Graz, Rathaus, 8011 Graz</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1303,10 +1303,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Datenauftritt des Bundeslandes Kärnten</ogr:Beschreibung>
       <ogr:Ort>Kärnten</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Arnulfplatz 1, A-9021 Klagenfurt/Wörthersee</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1319,10 +1319,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Datenauftritt der Stadt Linz</ogr:Beschreibung>
       <ogr:Ort>Linz</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Hauptplatz 1, 4041 Linz</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1335,10 +1335,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Das zentrale Datenportal für Wirtschaft, Kultur, NGO/NPO, Forschung und Zivilgesellschaft. Betrieben durch Wikimedia Österreich</ogr:Beschreibung>
       <ogr:Ort>Österreich</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stolzenthalergasse 7/1, 1080 Wien</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1351,10 +1351,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Katalog von OGD-Datensätzen des Landes Niederösterreich</ogr:Beschreibung>
       <ogr:Ort>Niederösterreich</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Landhausplatz 1, Haus 13, 3109 St. Pölten</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1367,10 +1367,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Basemap.at ist eine internetfähige Grundkarte von Österreich, basierend auf den Geodaten der Länder und deren Partnern, frei verfügbar und performant.</ogr:Beschreibung>
       <ogr:Ort>Österreich</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Wien</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1383,10 +1383,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Die Geologische Bundesanstalt (GBA) ist das größte geowissenschaftliche Forschungszentrum Österreichs. Es werden INSPIRE-Konforme Such-, Darstellungs- und Downloaddienste sowie Webapplikationen uns Services bereitgestellt.</ogr:Beschreibung>
       <ogr:Ort>Österreich</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Neulinggasse 38, 1030 Wien</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1399,10 +1399,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Website von INSPIRE Österreich mit Geoportalen und Informationen zur landesweiten Geodateninfrastruktur</ogr:Beschreibung>
       <ogr:Ort>Österreich</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Hintere Zollamtsstraße 4, A-1030 Wien</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1415,10 +1415,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Wetter, Klima, Umwelt, Geophysik, Forschung und Produkte der Zentralanstalt für Meteorologie und Geodynamik</ogr:Beschreibung>
       <ogr:Ort>Österreich</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Hohe Warte 38, A-1190 Wien</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1431,10 +1431,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Als zentraler “Österreich”-Katalog soll diese Website die Metadaten der dezentralen Metadatenkataloge der Verwaltung aufnehmen und abrufbar halten. Es handelt sich insbesondere um Open Government-Informationen (OGD) und Informationen des öffentlichen Sektors (IWG)</ogr:Beschreibung>
       <ogr:Ort>Österreich</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Bundeskanzleramt, Ballhausplatz 2, A-1010 Wien</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1447,10 +1447,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Offene Umweltdaten des Umweltbundesamtes Österreich</ogr:Beschreibung>
       <ogr:Ort>Österreich</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Spittelauer Lände 5, A-1090 Wien</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1463,10 +1463,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Offene daten der internationalen organisation REEP (Renewable Energy and Energy Efficiency Partnership) u.a. zum Thema „clean energy (English)“ als Linked Open Data</ogr:Beschreibung>
       <ogr:Ort>Österreich</ogr:Ort>
-      <ogr:Bezug>international</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>international</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Wagramerstrasse 5, A-1400 Wien</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1479,10 +1479,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Statistiken der Bundesanstalt Statistik Österreich</ogr:Beschreibung>
       <ogr:Ort>Österreich</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>A-Guglgasse 13, 1110 Wien </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1495,26 +1495,26 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Open Government Data des Landes Tirol, Österreich</ogr:Beschreibung>
       <ogr:Ort>Tirol</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Eduard-Wallnöfer-Platz 3, 6020 Innsbruck </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.92">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.74574755456704,47.5457994996097</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.74574755456703,47.5457994996097</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>92</ogr:ID>
       <ogr:URL>http://data.vorarlberg.gv.at/</ogr:URL>
       <ogr:Titel>Vorarlberg Open Data</ogr:Titel>
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Open Government Data des Landes Voralberg</ogr:Beschreibung>
       <ogr:Ort>Voralberg</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Römerstraße 15, A-6901 Bregenz</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1527,42 +1527,42 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Datenauftritt der Bundeshauptstadt (und zugleich Bundesland) Wien</ogr:Beschreibung>
       <ogr:Ort>Wien</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Ballhausplatz 2, A-1010 Wien</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.94">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.13114902563881,46.2466586646422</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.13114902563882,46.2466586646422</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>94</ogr:ID>
       <ogr:URL>http://ge.ch/sitg/sitg_catalog/sitg_donnees</ogr:URL>
       <ogr:Titel>Sitg Geneva's Territorial Information System</ogr:Titel>
       <ogr:Land>Schweiz</ogr:Land>
       <ogr:Beschreibung>Geoinformationen des Kanton und der Republik Genf (Französisch-Sprachig)</ogr:Beschreibung>
       <ogr:Ort>Genf</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Rue des Gazomètres 7, CH-1211 Genève 8</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.95">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.1906701766099,46.18066134298</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.19067017660991,46.18066134298</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>95</ogr:ID>
       <ogr:URL>http://data.tpg.ch/</ogr:URL>
       <ogr:Titel>Open Data TPG</ogr:Titel>
       <ogr:Land>Schweiz</ogr:Land>
       <ogr:Beschreibung>Offene Daten der Transports Publics Genevois (TPG), eines öffentlichen Verkehrsunternehmen des Kantons Genf (Französisch-Sprachig)</ogr:Beschreibung>
       <ogr:Ort>Genf</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>route de la Chapelle 1, CH-1212 Grand-Lancy 2</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1575,10 +1575,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Schweiz</ogr:Land>
       <ogr:Beschreibung>Offene Daten der Europäischen Organisation für Kernforschung (CERN) in englischer Sprache</ogr:Beschreibung>
       <ogr:Ort>Schweiz</ogr:Ort>
-      <ogr:Bezug>international</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>international</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>CH-1211 Geneva 23</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1591,10 +1591,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Schweiz</ogr:Land>
       <ogr:Beschreibung>Klima- und Wetterdaten, Prognosen und Kartenvisualisierungen des Bundesamt für Meteologie und Klimatologie, Schweiz</ogr:Beschreibung>
       <ogr:Ort>Schweiz</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>CH-8058 Zürich-Flughafen</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1607,10 +1607,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Schweiz</ogr:Land>
       <ogr:Beschreibung>Amtliche Statistiken der Schweiz</ogr:Beschreibung>
       <ogr:Ort>Schweiz</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Espace de l'Europe 10, CH-2010 Neuchâtel</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1623,26 +1623,26 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Schweiz</ogr:Land>
       <ogr:Beschreibung>opendata.swiss ist das Portal für Schweizer Open Government Data (OGD). Hier können Sie Schweizer Behördendaten kostenlos herunterladen.</ogr:Beschreibung>
       <ogr:Ort>Schweiz</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Archivstrasse 24, 3003 Bern</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.100">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.54137760184293,47.3692542031299</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.54137760184294,47.3692542031299</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>100</ogr:ID>
       <ogr:URL>https://data.stadt-zuerich.ch/</ogr:URL>
       <ogr:Titel>Zürich Open Data</ogr:Titel>
       <ogr:Land>Schweiz</ogr:Land>
       <ogr:Beschreibung>Datenkatalog mit über 300 Datensätzen der Stadt Zürich, geordnet nach 19 Kategorien (Stand: 9.1.2018)</ogr:Beschreibung>
       <ogr:Ort>Zürich</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadthausquai 17, CH-8001 Zürich</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1655,10 +1655,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Geoinformationsdaten im Rahmen der GIS-Anwendungen des österreichischen Bundesministeriums für Land- und Forstwirtschaft, Umwelt und Wasserwirtschaft (BMLFUW)</ogr:Beschreibung>
       <ogr:Ort>Österreich</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Stubenring 1, 1010 Wien</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1671,26 +1671,26 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Austrian Map online ist ein Service des Bundesamtes für Eich- und Vermessungswesens Österreich. Das WebGIS enthält Webkarten, die Geographischen Namensdatenbank GEONAM  und eine @map-Funktion zur Platzierung von Symbolen in der Karte u.a.</ogr:Beschreibung>
       <ogr:Ort>Österreich</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Schiffamtsgasse 1-3, 1020 Wien </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.103">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.5500720072576,47.5162309998947</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.5500720072576,47.5162309998946</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>103</ogr:ID>
       <ogr:URL>http://www.geoland.at/</ogr:URL>
       <ogr:Titel>geoland.at – Geodatenportal der österreichischen Länder</ogr:Titel>
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>GEOLAND.AT - Das Geodatenportal der österreichischen Länder ist Teil nationaler und internationalen Geodateninfrastrukturen (GDI), die die Nutzung von öffentlichen Geodaten für Verwaltung, Wirtschaft, Forschung, Bildung und Bürger wesentlich erleichtern sollen.</ogr:Beschreibung>
       <ogr:Ort>Österreich</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber></ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1703,10 +1703,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>DORIS ist das Digitale Oberösterreichische RaumInformationssystem - das Geographische Informationssystem des Landes Oberösterreich.</ogr:Beschreibung>
       <ogr:Ort>Oberösterreich</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Bahnhofplatz 1, 4021 Linz</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1719,10 +1719,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Portal zur Geodateninfrastruktur des Landes Niederösterreich mit Zugang zum NÖ Atlas und einen Downloadbereich mit frei verwendbaren Geodaten (mit Quellenangabe) (Stand: 7.11.2017)</ogr:Beschreibung>
       <ogr:Ort>Niederösterreich</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Landhausplatz 1, 3109 St. Pölten</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1735,10 +1735,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>WebGIS, Geodaten und Dienste des Landes Salzburg, Österreich</ogr:Beschreibung>
       <ogr:Ort>Salzburg</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Chiemseehof, 5010 Salzburg</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1751,10 +1751,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Offene Datensätze des Landes Salzburg</ogr:Beschreibung>
       <ogr:Ort>Salzburg</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Chiemseehof, 5010 Salzburg</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1767,10 +1767,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Das Geografische Informationssystem (GIS) der Stadt Wien stellt eine umfassende und nachhaltige Geodaten- und Geodinste-Infrastruktur bereit (Stand: 8.11.2017)</ogr:Beschreibung>
       <ogr:Ort>Wien</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Stadt Wien</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1783,26 +1783,26 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Geodaten und -Dienste des Burgenlandes in Östereich, u.a. mit Downloads, WMS Diensten und WebGIS-Inhalten wie eine Katastralmappe, Topografische Landkarte und ein Flächenwidmungsplan (Stand: 8.11.2017)</ogr:Beschreibung>
       <ogr:Ort>Burgenland</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Europaplatz 1, A-7000 Eisenstadt </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.110">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.74447388940619,47.4558635464075</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.74447388940618,47.4558635464075</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>110</ogr:ID>
       <ogr:URL>http://www.vorarlberg.at/lvg</ogr:URL>
       <ogr:Titel>Land Vorarlberg - Landesvermessungsamt</ogr:Titel>
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Geodaten und -Dienste des Landes Voralberg, Östereich, u.a. mit Downloads, WMS Diensten, dem Voralberg Atlas und dem Voralberg Atlas Mobil (Stand: 8.11.2017)</ogr:Beschreibung>
       <ogr:Ort>Voralberg</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Römerstraße 15, 6901 Bregenz</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1815,10 +1815,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>“tiris ist das geografische Informationssystem des Landes Tirol. In den Verwaltungsbereichen werden Geodaten über raumbezogene Sachverhalte im tiris Datenpool systematisch gespeichert. Daraus entstehen Geoinformationen wie tirisMaps und Geodatendienste für die amtliche und öffentliche Nutzung im Internet.” (Quelle: tiris, abgerufen am 7.11.2017)</ogr:Beschreibung>
       <ogr:Ort>Tirol</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Eduard-Wallnöfer-Platz 3, 6020 Innsbruck</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1831,10 +1831,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Portal zur Geodateninfrastruktur der Landesregierung Kärnten</ogr:Beschreibung>
       <ogr:Ort>Kärnten</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Flatschacher Straße 70, 9021 Klagenfurt am Wörthersee</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1847,10 +1847,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Österreich</ogr:Land>
       <ogr:Beschreibung>Das GIS-Steiermark versteht sich als öffentliche Serviceeinrichtung und stellt raumbezogene Daten und daraus generierte Mehrwertprodukte als Planungsgrundlagen der Landesverwaltung und Externen zur Verfügung. (Stand: 8.11.2017)</ogr:Beschreibung>
       <ogr:Ort>Steiermark</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Hofgasse 16, 8010 Graz  </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1863,10 +1863,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Schweiz</ogr:Land>
       <ogr:Beschreibung>Bundes-Geoportal der Schweiz mit Geodaten, Diensten und einer Liste von thematischen Geoportalen</ogr:Beschreibung>
       <ogr:Ort>Schweiz</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Seftigenstrasse 264, CH-3084 Wabern</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1879,10 +1879,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Barrierefrei gestalteter Internetauftritt des Ministerium für Ländlichen Raum und Verbraucherschutz Baden-Württemberg mit offenen Geobasisinformationen</ogr:Beschreibung>
       <ogr:Ort>Baden-Württemberg</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Kernerplatz 10, 70182 Stuttgart</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1895,10 +1895,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>“Die vorliegende Website richtet sich an Geodaten-Spezialisten, denen das Kataster-, Vermessungs- und Liegenschaftsamt mittels Anleitungen und Links den Zugang zur Geodateninfrastruktur der Hansestadt Rostock (GDI-HRO) erschließen möchte. “ (Quelle: Hansestadt Rostock, aberufen am 7.11.2017)</ogr:Beschreibung>
       <ogr:Ort>Rostock</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Hinter dem Rathaus 5, 18055 Rostock</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1911,10 +1911,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Portal der VAG Verkehrs-Aktiengesellschaft Nürnberg mit offenen Daten des ÖPNV</ogr:Beschreibung>
       <ogr:Ort>Nürnberg</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Südliche Fürther Straße 5, 90429 Nürnberg</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1927,10 +1927,10 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Soll-Fahrpläne des Ver­kehrs­ver­bund Groß­raum Nürn­berg GmbH</ogr:Beschreibung>
       <ogr:Ort>Nürnberg</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Rothenburger Straße 9, 90443 Nürn­berg</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1946,10 +1946,10 @@ GDI.MRH</ogr:Titel>
       <ogr:Beschreibung>Kooperation von Schleswig-Holstein, Hamburg, Niedersachsen und Mecklenburg-Vorpommern
 sowie den Kreisen, Landkreisen und kreisfreien Städten in dem Geoportal der Metropolregion Hamburg</ogr:Beschreibung>
       <ogr:Ort>Metropolregion Hamburg</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Alter Steinweg 4, 20459 Hamburg</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1963,10 +1963,10 @@ sowie den Kreisen, Landkreisen und kreisfreien Städten in dem Geoportal der Met
       <ogr:Beschreibung>Geoportal des Landkreises Ludwigslust-Parchim mit den den kreisangehörigen Gemeinden in Kooperation mit dem Amt für Geoinformation, Vermessungs- und Katasterwesen MV
 Altes Portal: https://geoportal.kreis-lup.de (Stand: 9.1.2018)</ogr:Beschreibung>
       <ogr:Ort>Landkreis Ludwigslust-Parchim</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Putlitzer Straße 25, 19370 Parchim</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1979,10 +1979,10 @@ Altes Portal: https://geoportal.kreis-lup.de (Stand: 9.1.2018)</ogr:Beschreibung
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Zusammenschluss von Institutionen und Unternehmen aus dem Münsterland zu einem Geonetzwerk</ogr:Beschreibung>
       <ogr:Ort>Münsterland</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Mendelstrasse 11, 48149 Münster</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -1995,26 +1995,26 @@ Altes Portal: https://geoportal.kreis-lup.de (Stand: 9.1.2018)</ogr:Beschreibung
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Kostenfrei und frei zugängliche Karten des Münsterlandes zu verschiedenen Themen. Dienste der Kooperationspartner Kreis Borken, Kreis Coesfeld, Stadt Münster, Kreis Steinfurt und Kreis Warendorf sowie dem Land NRW u.a. werden eingebunden</ogr:Beschreibung>
       <ogr:Ort>Münsterland</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Waldenburger Str. 2, D-48231 Warendorf</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.123">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.84849761152285,51.9370885054638</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.84849761152284,51.9370885054638</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>123</ogr:ID>
       <ogr:URL>http://geo.kreislippe.de</ogr:URL>
       <ogr:Titel>Geoportal des Kreises Lippe</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Das Geoportal des Kreises Lippe stellt u.a. den Lebenslagegenatlas bereit, welcher Informationen zu Anliegen in verschiedenen Lebenslagen mit Geoinformationen kombiniert. Das Portal ist Bestandteil der Regionalinitiative GDI-OWL</ogr:Beschreibung>
       <ogr:Ort>Kreis Lippe</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Felix-Fechenbach-Straße 5, 32756 Detmold</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2027,10 +2027,10 @@ Altes Portal: https://geoportal.kreis-lup.de (Stand: 9.1.2018)</ogr:Beschreibung
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Zentrale Zugang zu den Geoportalen im Bereich Südwestfalen</ogr:Beschreibung>
       <ogr:Ort>Südwestfalen</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Sonnenblumenallee 3, 58675 Hemer</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2043,10 +2043,10 @@ Altes Portal: https://geoportal.kreis-lup.de (Stand: 9.1.2018)</ogr:Beschreibung
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Zusammmenschluss der Kreise Kleve, Viersen und Wesel sowie der kreisfreien Stadt Krefeld und dem Kommunalen Rechenzentrum Niederrhein KRZN zu einem Geoportal</ogr:Beschreibung>
       <ogr:Ort>Niederrhein</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Friedrich-Heinrich-Allee 130, 47475 Kamp-Lintfort</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2060,10 +2060,10 @@ Altes Portal: https://geoportal.kreis-lup.de (Stand: 9.1.2018)</ogr:Beschreibung
       <ogr:Beschreibung>Initiative der Metropolregion Frankfurt/Rhein-
 Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibung>
       <ogr:Ort>Südhessen</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Odenwaldstraße 6, 64646 Heppenheim</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2076,10 +2076,10 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibu
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Kommunales Geoportal</ogr:Beschreibung>
       <ogr:Ort>Landkreis Oberhavel</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Adolf-Dechert-Straße 1, 16515 Oranienburg</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2092,10 +2092,10 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibu
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Kommunales Geoportal</ogr:Beschreibung>
       <ogr:Ort>Landkreis Teltow-Fläming</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Am Nuthefließ 2, 14943 Luckenwalde </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2108,10 +2108,10 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibu
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Geoportal und GDI-Infrastrukturknoten des Lankreises Elbe-Elster mit Bauleitplanung (XPlanung) inklusive Flächennutzungspläne, Bebauungspläne, Landschaftspläne und kommunale Satzungen</ogr:Beschreibung>
       <ogr:Ort>Landkreis Elbe-Elster</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Ludwig-Jahn-Straße 2, 04916 Herzberg (Elster) </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2124,42 +2124,42 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibu
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Kommunales Geoportal mit WMS und WFS Diensten sowie Kartenanwendungen zu den Themen Planen &amp; Bauen, Umwelt &amp; Natur, sowie Toursimus (Stand 27.11.2017)</ogr:Beschreibung>
       <ogr:Ort>Landkreis Spree-Neiße</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Heinrich-Heine-Straße 1, 03149 Forst (Lausitz)</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.131">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.40348485617109,49.0485662985977</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.4034848561711,49.0485662985977</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>131</ogr:ID>
       <ogr:URL>https://www.geoportal-raumordnung-bw.de/</ogr:URL>
       <ogr:Titel>Geoportal Raumordnung Baden-Württemberg</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Das [Geoportal] ermöglicht einen zentralen Zugang zu den Geodaten im Bereich der Landesplanung, Regionalplanung und kommunalen Bauleitplanung im Land. Es ist eine öffentliche Plattform mit Informationen in Text und Karten über die Aufgaben und Instrumente der Planungsebenen und deren inhaltlich-räumliche Ausformung in den Planwerken.“ (Quelle: Geoportal Raumordnung Baden-Württemberg, abgerufen am 27.11.2017)</ogr:Beschreibung>
       <ogr:Ort>Baden-Württemberg</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Baumeisterstraße 2, 76137 Karlsruhe</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.132">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.6870547019553,49.3601235044251</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.68705470195531,49.3601235044251</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>132</ogr:ID>
       <ogr:URL>http://maps.thermspe4ee.de</ogr:URL>
       <ogr:Titel>ThermSpe4EE-Geoportal </ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Forschungsergebnisse des Projektes „ThermSpe4EE“ (Thermische Speicher für Erneuerbare Energien) zum möglichen thermischen Gesamtspeichervolumen der Metropolregion Rhein-Neckar, erneuerbare Energien und Statistiken zu Strom und Wärme. Beteiligt waren die geomer GmbH, die PFALZWERKE AKTIENGESELLSCHAFT, die ait-Deutschland GmbH und die TU Kaiserslautern</ogr:Beschreibung>
       <ogr:Ort>Metropolregion Rhein-Neckar</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Breitspiel 11b, D-69126 Heidelberg</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2172,10 +2172,10 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibu
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Die Website umfasst Regionalpläne und das Raumbeobachtungssystem Heilbronn-Franken mit Informationen aus dem Stadtkreis Heilbronn sowie den Landkreisen Heilbronn, Hohenlohekreis, Schwäbisch Hall, Main-Tauber-Kreis</ogr:Beschreibung>
       <ogr:Ort>Region Heilbronn-Franken</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Frankfurter Straße 8, 74072 Heilbronn</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2188,10 +2188,10 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibu
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Portal des Regionalverbandes mit Links zu relevanten Statistik- und Geoportalen sowie dem Regionalplan</ogr:Beschreibung>
       <ogr:Ort>Region Ostwürtemberg</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Bahnhofplatz 5, 73525 Schwäbisch Gmünd</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2204,32 +2204,32 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibu
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Aufgabe des [...] RegioRISS ist es, Verknüpfungen in Form von kartografischen Darstellungen, Satelliten- und Luftbildern zu visualisieren. Verbunden mit dem Ziel, Gemeinsamkeiten, Verflechtungen, Relationen, aber auch räumliche Konfliktpotenziale deutlich und anschaulich zu machen.“ (Quelle: Verband Region Stuttgart, abgerufen am 27.11.2017)</ogr:Beschreibung>
       <ogr:Ort>Region Stuttgart</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Kronenstraße 25, 70174 Stuttgart</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.136">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.36533580045997,48.0780696036643</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.36533580045998,48.0780696036643</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>136</ogr:ID>
       <ogr:URL>http://www.georhena.eu/</ogr:URL>
       <ogr:Titel>GeoRhena</ogr:Titel>
       <ogr:Land>Deutschland, Frankreich, Schweiz</ogr:Land>
       <ogr:Beschreibung>Grenzüberschreitendes Projekt zwischen Deutschland, Frankreich und der Schweiz zur geografischen Erfassung der Oberrhein-Region. Nachfolgeprojekt von GISOR</ogr:Beschreibung>
       <ogr:Ort>Region Oberrhein</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Avenue d'Alsace 100, 68006 COLMAR</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.137">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.53920855384028,48.0673903036282</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.53920855384027,48.0673903036282</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>137</ogr:ID>
       <ogr:URL>http://regionalverband-sbh.de</ogr:URL>
       <ogr:Titel>Regionalverband Schwarzwald-Baar-Heuberg</ogr:Titel>
@@ -2237,16 +2237,16 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibu
       <ogr:Beschreibung>Kooperation des Schwarzwald-Baar-Kreises, der Kreise Rottweil und
 Tuttlingen im Bereich Regionalplanung und -entwicklung.</ogr:Beschreibung>
       <ogr:Ort>Region Schwarzwald / Baar / Heuberg</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Johannesstr. 27, 78056 Villingen-Schwenningen</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.138">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.20985390145142,47.6233750033283</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.20985390145141,47.6233750033283</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>138</ogr:ID>
       <ogr:URL>http://dachplus.org/</ogr:URL>
       <ogr:Titel>DACH+ Raumbeobachtung und Raumentwicklung</ogr:Titel>
@@ -2255,10 +2255,10 @@ Tuttlingen im Bereich Regionalplanung und -entwicklung.</ogr:Beschreibung>
 Deutschland, Österreich, der Schweiz und
 Liechtenstein mit Bezug auf Raumordnung und Raumentwicklung</ogr:Beschreibung>
       <ogr:Ort>Grenzraum Deutschland, Österreich, Schweiz und Liechtenstein</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Im Wallgraben 50, 79761 Waldshut-Tiengen</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2271,10 +2271,10 @@ Liechtenstein mit Bezug auf Raumordnung und Raumentwicklung</ogr:Beschreibung>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Die Website bietet neben dem Regionalplan, Karten zum Download als pdf an und verweist auf die Geoportale Badenwürtenberg und Bayern</ogr:Beschreibung>
       <ogr:Ort>Region Donau-Iller</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Schwambergerstr. 35, 89073 Ulm</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2287,10 +2287,10 @@ Liechtenstein mit Bezug auf Raumordnung und Raumentwicklung</ogr:Beschreibung>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Kommunale Geodateninfrastruktur für Verwaltung, Bürger und Wirtschaft des Landkreises Cham</ogr:Beschreibung>
       <ogr:Ort>Landkreis Cham</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>
 Rachelstraße 6, 93413 Cham
 </ogr:Adresse_Herausgeber>
@@ -2305,10 +2305,10 @@ Rachelstraße 6, 93413 Cham
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Frei zugängliche Daten des Lankreises Cham in Maschinenlesbarer Form, hauptsächlich aus der datenBank des Geoinformationssystems IkGIS-Cham</ogr:Beschreibung>
       <ogr:Ort>Landkreis Cham</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Rachelstraße 6, 93413 Cham</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2321,10 +2321,10 @@ Rachelstraße 6, 93413 Cham
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Aktuelle, stadtbezogene, geografische Basis- und Fachdaten von Erfurt. Themen sind u.a. Tourismus, Informationen für Migranten und Flüchtlinge, Parken, Baustellen, Solarkataster und Wirtschaft</ogr:Beschreibung>
       <ogr:Ort>Erfurt</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Fischmarkt 1, 99084 Erfurt</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2337,10 +2337,10 @@ Rachelstraße 6, 93413 Cham
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Kartenmaterial des Landkreises Bautzen zur Ansicht im WebGIS</ogr:Beschreibung>
       <ogr:Ort>Landkreis Bautzen</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Bahnhofstraße 9, 02625 Bautzen</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2353,10 +2353,10 @@ Rachelstraße 6, 93413 Cham
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Geodatendienste und -Dateidownloads (inbes. Zum Thema Windkraft) des Kreises Soest. Für die Verwendung der Kartendienste sind die Nutzungsbedinugen und -beschränkungen des Geoportals zu beachten</ogr:Beschreibung>
       <ogr:Ort>Landkreis Soest</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Hoher Weg 1-3, 59494 Soest</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2369,10 +2369,10 @@ Rachelstraße 6, 93413 Cham
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Öffentliches Geoinformationssystem des Kreises Soest auf Grundlage des amtlichen Liegenschaftskatasters, topografischen und thematischen Karten</ogr:Beschreibung>
       <ogr:Ort>Lankreis Soest</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Hoher Weg 1-3, 59494 Soest</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2385,26 +2385,26 @@ Rachelstraße 6, 93413 Cham
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Karten, Pläne, Luftbilder der Stadt Soest, inkl. eines 3D-Stadtmodelles der Altstadt</ogr:Beschreibung>
       <ogr:Ort>Soest</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Am Vreithof 8, 59494 Soest </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.147">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.39347157084971,51.1793550736719</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.39347157084972,51.1793550736719</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>147</ogr:ID>
       <ogr:URL>https://www.viersen.de/de/inhalt/geoportal-der-stadt-viersen/</ogr:URL>
       <ogr:Titel>Geoportal der Stadt Viersen</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Das Geoportal steht Auskunftssystem für alle interessierten Bürgerinnen und Bürger zur Verfügung</ogr:Beschreibung>
       <ogr:Ort>Viersen</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Bahnhofstr. 23-29, 41747 Viersen</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2417,26 +2417,26 @@ Rachelstraße 6, 93413 Cham
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Umfangreiches Angebot an Geodatenbeständen, Kartendiesnten und Geoportalen des Regionalverbandes Ruhr</ogr:Beschreibung>
       <ogr:Ort>Ruhrgebiet</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Kronprinzenstraße 35, 45128 Essen</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.149">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.10306171787487,48.7795135893521</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.10306171787488,48.7795135893521</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>150</ogr:ID>
       <ogr:URL>http://www.geonline-gis.de/portale/weinstadt.htm</ogr:URL>
       <ogr:Titel>BürgerGIS Weinstadt</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Geoportal von Weinstadt mit Bebauungsplänen, öffentlichen Einrichtungen, demographischen Daten, Umweltdaten, Wasserhärtegraden und vielen interaktiven Möglichkeiten.</ogr:Beschreibung>
       <ogr:Ort>Weinstadt</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Marktplatz 1, 71384 Weinstadt</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2449,10 +2449,10 @@ Rachelstraße 6, 93413 Cham
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Zugang zur seit 1994 gepflegten Geodateninfrastruktur der Stadt Aalen mit Visualisierungen von Geobasisdaten, einem 3D-Stadtmodell, Statistiken, Flächennutzung, Windkraft, Urkarte 1830, Höhenmodell und mehr (erfordert Flash-Plugin, Stand 28.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Aalen</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Marktplatz 30, 73430 Aalen</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2465,10 +2465,10 @@ Rachelstraße 6, 93413 Cham
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Geoportal mit Stadtplan, Liegenschaftskarte, Bodenrichtwerten, Gemarkungen, Grundschulbezirken, Statistiken, Umwelt und Natur und Geschichte (erfordert Flash-Plugin). Die zugehörige Schwäbisch Hall App wurde mit dem GIS Best Practice Award 2015 ausgezeichnet (Stand 28.10.2017).</ogr:Beschreibung>
       <ogr:Ort>Schwäbisch Hall</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Am Markt 6, 74523 Schwäbisch Hall </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2481,10 +2481,10 @@ Rachelstraße 6, 93413 Cham
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Interaktiver Stadtplan von Heilbronn mit öffentlichen Einrichtungen, die sich je nach Kategorie aus er Web-Karte ein-und ausblenden lassen</ogr:Beschreibung>
       <ogr:Ort>Heilbronn</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Marktplatz 7, 74072 Heilbronn </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2497,10 +2497,10 @@ Rachelstraße 6, 93413 Cham
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Online-Visualisierungen der Stadtkarte, Bebauungspläne, Umweltdaten, Luftbilder, Grünflächen, Schutgebiete, kleinräumige Gliederung und Topographie (erfordert Flash-Plugin, Stand 28.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Heilbronn</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Marktplatz 7, 74072 Heilbronn </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2513,10 +2513,10 @@ Rachelstraße 6, 93413 Cham
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Hohenlohekreis-informationssystem (HOKis) bietet u.a. Geoinformationen und Services zu den folgenden Themen an: Bebauungsplan und Flächennutzung, Flurstück und Umwelt, Rettungskarte Forst, Luftbilder, Schulstandorte, Pflegeeinrichtungen, Abfallwirtschaft, Kleindenkmale, Kocher- und Jagstverordnung, Potenzialatlas Erneuerbare Energien, Radroutenplaner (Stand 28.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Hohenlohe Kreis</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Allee 17, 74653 Künzelsau</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2529,10 +2529,10 @@ Rachelstraße 6, 93413 Cham
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Inoffizielle Übersicht über OpenData-Projekte in und um Dresden, geführt von Open Data Aktivisten der Stadt.</ogr:Beschreibung>
       <ogr:Ort>Dresden</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Dresden</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2545,26 +2545,26 @@ Rachelstraße 6, 93413 Cham
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Interaktive Karte von raumbezogenen, verwaltungsspezifischen Geodaten des Landkreises Emmendingen</ogr:Beschreibung>
       <ogr:Ort>Landkreis Emmedingen</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Bahnhofstraße 2-4, D-79312 Emmendingen</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.157">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.78804434599163,48.7555530067181</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.78804434599162,48.7555530067181</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>157</ogr:ID>
       <ogr:URL>http://www.gisserver.de/schwaebisch-gmuend/</ogr:URL>
       <ogr:Titel>Geodatenportal der Stadt Schwäbisch Gmüd</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Online-Visualisierungen u.a. der Stadtkarte, Bebauungspläne, Landschaftsplan, Katasterkarte, Bodenrichtwerte, Baulücken, Solarkataster, historische Karten, Umweltdaten, Luftbilder, Topographie (erfordert Flash-Plugin, Stand 28.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Schwäbisch Gmüd</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Marktplatz 37, 73525 Schwäbisch Gmünd</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2578,42 +2578,42 @@ Rachelstraße 6, 93413 Cham
       <ogr:Beschreibung>Intaraktive Web-Karten zu den Themen Abfallwirtschaft, Behörden/Gemeinden, Bewegungsatlas, Bebauungspläne/Kehrbezirke
 Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahrradwegweisungsnetz, Tourismus/ÖPNV, Umwelt &amp; bergbaubedingte Belastungen (erfordert Flash-Plugin, Stand 28.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Landreis Lörrach</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Palmstraße 3,79539 Lörrach</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.159">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.40455671469393,48.9586511540218</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.40455671469394,48.9586511540218</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>159</ogr:ID>
       <ogr:URL>http://www.energieatlas-bw.de/</ogr:URL>
       <ogr:Titel>Energieatlas Baden-Württemberg</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Gemeinsames Internet-Portal des Umweltministeriums und der LUBW für Daten und Karten zum Thema erneuerbare Energien</ogr:Beschreibung>
       <ogr:Ort>Baden-Württemberg</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Griesbachstraße 1, 76185 Karlsruhe </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.160">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.85035119316973,47.9512708916925</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.85035119316972,47.9512708916925</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>160</ogr:ID>
       <ogr:URL>http://isong.lgrb-bw.de/</ogr:URL>
       <ogr:Titel>Informationssystem Oberflächennahe Geothermie für Baden-Württemberg (ISONG)</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Informationen zur Planung von Erdwärmesonden bis max. 400 m Tiefe </ogr:Beschreibung>
       <ogr:Ort>Baden-Württemberg</ogr:Ort>
-      <ogr:Bezug>regional</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Albertstr. 5, D-79104 Freiburg</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2626,10 +2626,10 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Kommunales Geoportal von Radolfzell mit Bebauungsplänen, Karten zu Verkehr, öffentlichen Einrichtungen u.a. (erfordert Flash-Plugin, Stand 28.10.2017)</ogr:Beschreibung>
       <ogr:Ort>Radolfzell</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Marktplatz 2, 78315 Radolfzell am Bodensee</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2642,10 +2642,10 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Der Monitor der Siedlungs- und Freiraumentwicklung (IÖR-Monitor) stellt Informationen zur Flächennutzungsstruktur und deren Entwicklung sowie zur Landschaftsqualität für die Bundesrepublik Deutschland bereit. (Stand: 29.11.2017)</ogr:Beschreibung>
       <ogr:Ort>Dresden</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>teilweise</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>51.0504 N, 13.7373 E </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2658,26 +2658,26 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Geoportal des Landkreises mit Bürger-Portal für jeden und WebGIS-Karten über kvwmap für Berechtigte (Stand: 8.1.2018)</ogr:Beschreibung>
       <ogr:Ort>Landkreis Mecklenburgische Seenplatte</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Zum Amtsbrink 2,  17192 Waren (Müritz)</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.164">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.77300727387831,48.5498836479192</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.7730072738783,48.5498836479192</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>164</ogr:ID>
       <ogr:URL>https://open-data.europa.eu/de/about</ogr:URL>
       <ogr:Titel>Europäisches Datenportal</ogr:Titel>
       <ogr:Land>Europa</ogr:Land>
       <ogr:Beschreibung>“Das Europäische Datenportal greift Metadaten von Informationen des öffentlichen Sektors ab, die auf öffentlichen Datenportalen in europäischen Ländern zur Verfügung stehen. Dazu gehören auch Informationen zur Bereitstellung von Daten und den Vorteilen ihrer Weiterverwendung.” (Quelle: Europäische Union, abgerufen am 21.12.2017)</ogr:Beschreibung>
       <ogr:Ort>Europa</ogr:Ort>
-      <ogr:Bezug>international</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>international</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber></ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2690,10 +2690,10 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Geoportal des Landkreises mit Web-Atlas für jeden, WebGIS-Karten über kvwmap für Berechtigte und GeoShop (Stand: 8.1.2018)</ogr:Beschreibung>
       <ogr:Ort>Landkreis Vorpommern-Greifswald</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Feldstraße 85a, 17489 Greifswald</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2706,10 +2706,10 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Geoportal des Landkreises Vorpommern-Rügen mit Bürger-Portal für jeden und Kartenteil von GeoPORT.VR für registierte Berechtigte sowie freie Geodienste und Shop (Stand: 8.1.2018)</ogr:Beschreibung>
       <ogr:Ort>Landkreis Vorpommern-Rügen</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>Tribseer Damm 1a, 18437 Stralsund</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2722,10 +2722,10 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Webkarten-Viewer zu unterschiedlichen Themen des öffentlichen Raumes (Verkehr/Infrastruktur, Naturdenkmale, Gesundheit, Geflügelpest u.a.) im Landkreis Rostock (Stand: 8.1.2018)</ogr:Beschreibung>
       <ogr:Ort>Landkreis Rostock</ogr:Ort>
-      <ogr:Bezug>kommunal</ogr:Bezug>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
-      <ogr:GDI>ja</ogr:GDI>
       <ogr:Adresse_Herausgeber>August-Bebel-Str. 3, 18209 Bad Doberan</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
@@ -2738,10 +2738,10 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Bidirektionale Plattform für den Austausch zwischen Behörden und Bürgern, betrieben von der Firma ESRI. Die Plattform bietet u.a. Funktionen zum Freigeben von Open Data und zur Suche nach Daten anhand von Stichwörtern, Kategorien, Stadt oder Land (Stand: 8.1.2018)</ogr:Beschreibung>
       <ogr:Ort>Deutschland</ogr:Ort>
-      <ogr:Bezug>national</ogr:Bezug>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
-      <ogr:GDI></ogr:GDI>
       <ogr:Adresse_Herausgeber>Ringstrasse 7, 85402 Kranzberg</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>

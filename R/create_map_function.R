@@ -47,35 +47,44 @@ pchIcons <- function(col, width = 35, height = 35, pch = 24, file_prefix="gdi-ic
   files
 }
 
-group_gdi <- NULL
-group_odp <- NULL
 
-htmlLegend <- NULL
-
-createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, layerControls = TRUE, polygon_fill_color = "#696969", polygon_fill_opacity = 0.2) {
-  categories <- c("international","national","regional","kommunal")
-  colorlf <- c("#006400", "#FFA500", "#0000FF", "#8B0000")
+createMap <- function(portale, table_meta, crosstalk_group = "portale", clustering = TRUE, layerControls = TRUE, polygon_fill_color = "#696969", polygon_fill_opacity = 0.2) {
+  categories <- table_meta$reichw
+  colorlf <- table_meta$reichw_col
   names(colorlf) <- categories
   
-  odp_legend_icon <- pchIcons(file_prefix = "odp_", pch = 21, col = "grey")
-  gdi_legend_icon <- pchIcons(col = "grey")
-  stat_legend_icon <- pchIcons(file_prefix = "stat_", pch = 23, col = "grey")
-  umw_legend_icon <- pchIcons(file_prefix = "umw_", pch = 22, col = "grey")
-  for_legend_icon <- pchIcons(file_prefix = "for_", pch = 3, col = "grey")
-  cc_legend_icon <- pchIcons(file_prefix = "cc_", pch = 4, col = "grey")
   
-  htmlLegend <<- 
+  create_legend_entry <- function(iconpath, entryname, iconwidth = "25px"){
+    htmltools::tagList(
+      tag("nobr",list(tags$img(src=paste0("/",iconpath), width=iconwidth), 
+                      tags$span(entryname))), 
+      tags$br(clear="all"))
+  }
+  #test:
+  #create_legend_entry("test/test","Hi")
+  
+  type_legend_entries <-
+    mapply(
+      function(icon_prefix, icon_pch, entryname) {
+        iconpath <-
+          pchIcons(col = "grey",
+                   file_prefix = icon_prefix,
+                   pch = icon_pch)
+        create_legend_entry(iconpath, entryname)
+      },
+      icon_prefix = paste0(table_meta$typ, "_"),
+      icon_pch = as.numeric(table_meta$typ_pch),
+      entryname = table_meta$typ_names,
+      SIMPLIFY = FALSE
+    )
+  
+  htmlLegend <- 
     tags$div(class="legend_div",  htmltools::tagList(
     div(class="legend_toggle info", style="width:40px; height:40px; text-align:center",icon("info", "fa-2x")),
     tags$div(class = "legend_map info legend leaflet-control",
                          div(style = "margin-bottom:3px", tags$strong("Legende")),
                          htmltools::tagList(
-                           tag("nobr",list(tags$img(src=paste0("/",odp_legend_icon), width="25px"), tags$span("Open Data Portal"))), tags$br(clear="all"),
-                           tag("nobr",list(tags$img(src=paste0("/",gdi_legend_icon), width="25px"), tags$span("GDI/ Geoportal"))), tags$br(clear="all"),
-                           tag("nobr",list(tags$img(src=paste0("/",stat_legend_icon), width="25px"), tags$span("Statistikamt"))), tags$br(clear="all"),
-                           tag("nobr",list(tags$img(src=paste0("/",umw_legend_icon), width="25px"), tags$span("Umweltamt"))), tags$br(clear="all"),
-                           tag("nobr",list(tags$img(src=paste0("/",for_legend_icon), width="25px"), tags$span("Forschungsdatenportal"))), tags$br(clear="all"),
-                           tag("nobr",list(tags$img(src=paste0("/",cc_legend_icon), width="25px"), tags$span("Citizen Science Projekt"))), tags$br(clear="all"),
+                          type_legend_entries,
                            #optionally include controls in legend (would have to be synchronized with other controls on the map)
                            #filter_checkbox("bezug_portal2", "Portal-Art", sd, ~Typ, inline = TRUE),
                            #filter_checkbox("bezug_check2", "Räumlicher Bezug", sd, ~Bezug, inline = TRUE),
@@ -114,7 +123,7 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
     addProviderTiles(providers$CartoDB.PositronNoLabels) %>%
     addScaleBar(position = "bottomright", options = scaleBarOptions(imperial = FALSE, metric = TRUE)) %>%
     #Map legend
-  # build-in legend not suitable for symbols, use html instead:
+  # (build-in legend not suitable for symbols, html-legend used instead)
    # / addLegend(
    #    colors = colorlf,
    #    values = categories,
@@ -168,15 +177,14 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
 
     
 
-    group_odp <<- SharedData$new(portale[portale$Bezug==category & !portale$GDI,], group = crosstalk_group)
-    group_gdi <<- SharedData$new(portale[portale$Bezug==category & portale$GDI,], group = crosstalk_group)
+
 
     clusterOptions <- NULL
     if(clustering)
       clusterOptions <- markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE)
       #markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE)
     
-    
+    ##function to add a set of markers as one layer
     addPortalMarker <- function(m, datagroup, iconfiles, iconWidth = 30, iconHeight = 30, group = "portals"){
       if(dim(datagroup$data())[1]>0)
         m <-addMarkers(
@@ -203,12 +211,12 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
       return(m)
     }
     
+    mapply(function(portal_typ, group_pch){
+      group_data <- SharedData$new(portale[portale$Reichweite == category & portale$Typ==portal_typ,], group = crosstalk_group)
+      group_iconfile <- pchIcons(colorlf[[category]],  pch = group_pch, file_prefix = paste0(portal_typ,"_"))
+      m <<- addPortalMarker(m, group_data, group_iconfile)
+    }, portal_typ = table_meta$typ, group_pch = as.numeric(table_meta$typ_pch))
     
-    gdi_iconfiles <- pchIcons(colorlf[[category]])
-    m <<- addPortalMarker(m, group_gdi, gdi_iconfiles)
-    
-    odp_iconfiles <- pchIcons(colorlf[[category]], pch = 21, file_prefix="odp-icon-")
-    m <<- addPortalMarker(m, group_odp, odp_iconfiles)
     
     invisible()
   })
@@ -216,7 +224,7 @@ createMap <- function(portale, crosstalk_group = "portale", clustering = TRUE, l
   if(layerControls)
     m <-
       addLayersControl(m,
-                       overlayGroups = levels(portale$Bezug),
+                       overlayGroups = levels(portale$Reichweite),
                        options = layersControlOptions())
 
 

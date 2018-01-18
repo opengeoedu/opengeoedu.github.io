@@ -53,7 +53,13 @@
             </xs:restriction>
           </xs:simpleType>
         </xs:element>
-        <xs:element name="Bezug" nillable="true" minOccurs="0" maxOccurs="1">
+        <xs:element name="Typ" nillable="true" minOccurs="0" maxOccurs="1">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="Reichweite" nillable="true" minOccurs="0" maxOccurs="1">
           <xs:simpleType>
             <xs:restriction base="xs:string">
             </xs:restriction>
@@ -66,12 +72,6 @@
           </xs:simpleType>
         </xs:element>
         <xs:element name="Geodaten" nillable="true" minOccurs="0" maxOccurs="1">
-          <xs:simpleType>
-            <xs:restriction base="xs:string">
-            </xs:restriction>
-          </xs:simpleType>
-        </xs:element>
-        <xs:element name="GDI" nillable="true" minOccurs="0" maxOccurs="1">
           <xs:simpleType>
             <xs:restriction base="xs:string">
             </xs:restriction>

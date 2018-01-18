@@ -6,7 +6,7 @@ require(xml2)
 require(htmltools)
 require(stringr)
 
-portale <- read.csv("data/portale_geocoded3.csv", as.is = TRUE)
+portale <- read.csv("data/portale_geocoded4.csv", as.is = TRUE)
 
 #dp geocoding if coordinates are missing
 for(i in 1:dim(portale)[1]){
@@ -141,7 +141,7 @@ proj4string(portale.sp) <- CRS("+proj=longlat +datum=WGS84")
 #plot(portale.sp)
 writeOGR(portale.sp, dsn = "out_geodata/portale.geojson", layer = "portale", driver = "GeoJSON", overwrite_layer = TRUE)
 writeOGR(portale.sp, dsn = "out_geodata/portale.shp", layer = "portale", driver = "ESRI Shapefile", overwrite_layer = TRUE)
-write.csv(portale, file = "data/portale_geocoded3.csv", row.names = FALSE)
+write.csv(portale, file = "data/portale_geocoded4.csv", row.names = FALSE)
 
 portale.gk3 <- spTransform(portale.sp, CRS("+init=epsg:31467")) #GK Zone 3
 portale.gk3.shifted <- as.data.frame(portale.gk3)
