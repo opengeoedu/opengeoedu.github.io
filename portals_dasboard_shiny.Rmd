@@ -3,11 +3,13 @@ title: "OpenDataPortal"
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
-    #vertical_layout: fill
+    vertical_layout: fill
     logo: oge_logo/icon_scaled.jpg
     favicon: oge_logo/icon_scaled.jpg
     theme: cerulean
     css: css/dashboard.css
+    #includes:
+    #  after_body: footer.html
   #  source_code: https://github.com/opengeoedu/opengeoedu.github.io
 runtime: shiny
 
@@ -114,27 +116,10 @@ m <- createMap(portale,
 ```
 
 
-```{r}
-tags$div(align="middle", style="text-align:center",
- bscols(widths = c(6,6),
-        div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_portal", "Portal-Typ", sd, ~Typ_names, inline = FALSE, allLevels = TRUE)),
-        div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_check", "Reichweite", sd, ~Reichweite, inline = FALSE))
-   )
- )
-
-# tags$div(align="middle", style="text-align:center",
-#  bscols(widths = c(6,6),
-#         div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_portal2", "Portal-Art", sd, ~Typ, inline = TRUE)),
-#         div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_check2", "Räumlicher Bezug", sd, ~Bezug, inline = TRUE))
-#    )
-#  )
-```
-
-#Row {.tabset .tabset-fade}
------------------------------------------------------------------------
 
 
-### Karte 
+Karte {data-icon="glyphicon-globe"}
+=========================================================
 
 ```{r, fig.height=8}
 portalMapUI <- function(id) {
@@ -212,7 +197,8 @@ callModule(portalMap, "oge")
 ```
 
 
-### Tabelle
+Tabelle {data-icon="glyphicon-list"}
+=========================================================
 
 ```{r fig.height=8}
 #DT::datatable(portale[c("Link","Beschreibung","Ort","Land","Bezug", "Lizenz")], escape = FALSE, options = list(
@@ -234,8 +220,28 @@ DT::datatable(sd_table, escape = FALSE, extensions = c("Responsive"), options = 
 
 ```
 
+Filter {data-icon="ion-settings"}
+=========================================================
+```{r}
+tags$div(align="middle", style="text-align:center",
+ bscols(widths = c(6,6),
+        div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_portal", "Portal-Typ", sd, ~Typ_names, inline = FALSE, allLevels = TRUE)),
+        div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_check", "Reichweite", sd, ~Reichweite, inline = FALSE))
+   )
+ )
 
-### Metadaten
+# tags$div(align="middle", style="text-align:center",
+#  bscols(widths = c(6,6),
+#         div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_portal2", "Portal-Art", sd, ~Typ, inline = TRUE)),
+#         div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_check2", "Räumlicher Bezug", sd, ~Bezug, inline = TRUE))
+#    )
+#  )
+```
+
+
+
+Metadata {data-icon="glyphicon-download"}
+=========================================================
 
 Die dargestellten Geodaten zu den Open Data Portalen und GDIs in Deutschland, Österreich und Schweiz können in verschiedenen Dateiformaten heruntergeladen werden. Beachten Sie, dass die Koordinaten sich überlappender Punkte zwecks besserer Darstellung leicht verschoben wurden. Alle Koordinaten sind in Längen- und Breitengraden angegeben (Tabellenspalten mit Namen "lon" und "lat") und beziehen sich auf das Datum WGS84.
 
@@ -250,7 +256,8 @@ Die geokodierten Rohdaten (mit überlappenden Koordinaten) sind als CSV-Tabelle 
 
 * [Rohdaten (CSV Tabelle)](data/portale_geocoded3.csv)
 
-### Statistik
+Statistik {data-icon="ion-stats-bars"}
+=========================================================
 
 Die nachfolgende Tabelle gibt einen Überblick über die gegenwärtig eingetragenen Datenportale und ist von links nach rechts zu lesen. Die linke Spalte gibt die Anzahl der Einträge nach Typ des Portales (Open Data Portal oder GDI-Knotenpunkt bzw. Geoportal) an. Die Spalte rechts daneben gibt, nach Portal-Typ aufgeschlüsselt, das Land an, in welchem das Portal bzw. der Herausgeber der Inhalte verortet ist. In einigen Fällen beteiligen sich mehrere Länder an einem Portal (Beispiel: [GeoRhena](http://www.georhena.eu/), ein deutsch/französisch/schweizer Projekt zur Erfassung der Oberrhein-Region). Diese Portale sind hier als *länderübergreifend* kategorisiert. Die rechten vier Spalten schlüsseln die Portale nach ihrer Reichweite, spezifisch für jedes Land und jede Portal-Art, auf. Dabei halten kommunale Portale Daten über einzelne Kommunen, Landkreise oder Städte bereit. Regionale Portale beziehen sich auf einzelne Regionen oder Bundesländer. Nationale Portale halten für ein bestimmtes Land umfassende Daten bereit. Internationale Portale führen Daten über mehrere Länder, Kontinente oder weltweite Datensätze.
 
@@ -260,9 +267,9 @@ tags$div(class = "statwrapper", renderFlexTable(flext))
 #renderFlexTable(flext)
 ```
 
-### Neuer Eintrag / Korrektur beantragen
-
-```{r}
+Neuer Eintrag / Korrektur {data-icon="ion-compose"}
+=========================================================
+```{r }
 outputDir <- "data/user_input"
 
 saveData <- function(data) {
@@ -389,23 +396,7 @@ shinyApp(
 
 ```
 
-Row {data-height=20 color="white"}
------------------------------------------------------------------------
-© 2017. All rights reserved &nbsp;|&nbsp; [Impressum](https://www.auf.uni-rostock.de/footer/impressum/){target="_blank"} &nbsp; | &nbsp; [Source Code](https://github.com/opengeoedu/opengeoedu.github.io/){target="_blank"} &nbsp; | &nbsp;
- <a href="javascript:void(0)" onclick="document.getElementById('section-light').style.display='block';document.getElementById('section-fade').style.display='block'">Quellenhinweise</a> 
-<div id="light" class="white_content"><p align=right><a href="javascript:void(0)" onclick="document.getElementById('section-light').style.display='none';document.getElementById('section-fade').style.display='none'">X Fenster schließen</a></p>
-  <span align="left">
-  <h1>Quellenhinweise</h1>
-  Diese Übersicht beruht auf folgenden externen Datenquellen:
 
-* **Ortsnamen und Beschriftungen (Städte):** <a href="http://www.geonames.org/export/">GeoNames Data</a>, lizensiert unter <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>
-* **Verwaltungsgebiete (DE, AT, CH):** [OpenStreetMap](http://www.openstreetmap.org/copyright) contributors, lizensiert unter [Open Database License](https://opendatacommons.org/licenses/odbl/)
-* **Geocoding Service (einmalige Geolokalisierung einzelner Portale):** [Nomanitim](https://operations.osmfoundation.org/policies/nominatim/)
-* **Grundkarte:** Positron von [CartoDB](https://carto.com/attribution/), abgeleitet von [OpenStreetMap](http://www.openstreetmap.org/copyright) Daten
-</span>
-
-  </div><div id="fade" class="black_overlay"></div> &nbsp;|&nbsp; 
-  [OpenGeoEdu Website](http://www.opengeoedu.de/){target="_blank"}
   
 <script>
 document.title = "OpenDataPortal: Öffentliche Datenportale im Deutschland, Österreich und der Schweiz";
