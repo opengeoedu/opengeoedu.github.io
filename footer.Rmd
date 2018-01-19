@@ -1,0 +1,15 @@
+© 2017. All rights reserved &nbsp;|&nbsp; [Impressum](https://www.auf.uni-rostock.de/footer/impressum/){target="_blank"} &nbsp; | &nbsp; [Source Code](https://github.com/opengeoedu/opengeoedu.github.io/){target="_blank"} &nbsp; | &nbsp;
+ <a href="javascript:void(0)" onclick="document.getElementById('section-light').style.display='block';document.getElementById('section-fade').style.display='block'">Quellenhinweise</a> 
+<div id="light" class="white_content"><p align=right><a href="javascript:void(0)" onclick="document.getElementById('section-light').style.display='none';document.getElementById('section-fade').style.display='none'">X Fenster schließen</a></p>
+  <span align="left">
+  <h1>Quellenhinweise</h1>
+  Diese Übersicht beruht auf folgenden externen Datenquellen:
+
+* **Ortsnamen und Beschriftungen (Städte):** <a href="http://www.geonames.org/export/">GeoNames Data</a>, lizensiert unter <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>
+* **Verwaltungsgebiete (DE, AT, CH):** [OpenStreetMap](http://www.openstreetmap.org/copyright) contributors, lizensiert unter [Open Database License](https://opendatacommons.org/licenses/odbl/)
+* **Geocoding Service (einmalige Geolokalisierung einzelner Portale):** [Nomanitim](https://operations.osmfoundation.org/policies/nominatim/)
+* **Grundkarte:** Positron von [CartoDB](https://carto.com/attribution/), abgeleitet von [OpenStreetMap](http://www.openstreetmap.org/copyright) Daten
+</span>
+
+  </div><div id="fade" class="black_overlay"></div> &nbsp;|&nbsp; 
+  [OpenGeoEdu Website](http://www.opengeoedu.de/){target="_blank"}

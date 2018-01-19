@@ -56,7 +56,7 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
   
   create_legend_entry <- function(iconpath, entryname, iconwidth = "25px"){
     htmltools::tagList(
-      tag("nobr",list(tags$img(src=paste0("/",iconpath), width=iconwidth), 
+      tag("nobr",list(tags$input(type="checkbox", value=entryname)  ,tags$img(src=paste0("/",iconpath), width=iconwidth), 
                       tags$span(entryname))), 
       tags$br(clear="all"))
   }
@@ -90,9 +90,17 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
                            #filter_checkbox("bezug_check2", "Räumlicher Bezug", sd, ~Bezug, inline = TRUE),
                            mapply(
                              function(color, label) {
-                               htmltools::tagList(tag("nobr", list(tags$i(
-                                 style = paste0("background:", color, "; opacity:0.5; margin:0; padding:0; margin-right:3px")
-                               ), label)), HTML("&nbsp;"), tags$br(clear = "all"))
+                               htmltools::tagList(tag("nobr", list(
+                                 tags$input(type = "checkbox", value = label),
+                                 tags$i(
+                                   style = paste0(
+                                     "background:",
+                                     color,
+                                     "; opacity:0.5; margin:0; padding:0; margin-right:3px"
+                                   )
+                                 ),
+                                 label
+                               )), HTML("&nbsp;"), tags$br(clear = "all"))
                              },
                              color = colorlf,
                              label = categories,
@@ -109,7 +117,7 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
   labeladm6opts <- labelOptions(textOnly = TRUE, noHide = TRUE, direction = "bottom", opacity = 0.5, textsize = "10pt")
   labeladm4opts <- labelOptions(textOnly = TRUE, noHide = TRUE, direction = "bottom", opacity = 0.5, textsize = "13pt", style = "color:#03F")
   #labelPolyopts <- labelOptions(direction = "right", style = "color:yellow; text-shadow: 0 0 0.1em black, 0 0 0.1em black,
-   #     0 0 0.1em black,0 0 0.1em black,0 0 0.1em;")
+   #     0 0 0.1em black,0 0 0.1em black,0 0 0.1emtags$input(type="checkbox", value=entryname);")
   
   m <-
     leaflet(data = portale_shared, options = leafletOptions(minZoom = 4, maxZoom = 12, preferCanvas = TRUE))  %>%
