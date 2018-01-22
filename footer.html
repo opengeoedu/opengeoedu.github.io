@@ -27,32 +27,39 @@
   z-index: 1002;
   overflow: auto;
 }
+
+footer {
+  position:absolute;
+  bottom:0;
+  height:30px; /* Height of the footer */
+  overflow: scroll;
+  z-index: 1000;
+}
+
+
 </style>
 
 <body>
 
-<div>
-		© 2017. All rights reserved | <a href="https://www.auf.uni-rostock.de/footer/impressum/" target="_blank">Impressum</a> | <a href="https://github.com/opengeoedu/opengeoedu.github.io/" target="_blank">Source Code</a>   |   <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Quellenhinweise</a>
-	<div id="light" class="white_content">
-		<p align="right">
-		<a href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">X Fenster schließen</a>
-		</p>
-		<span align="left">
-			<h1>
-				Quellenhinweise
-			</h1>
-			<p>Diese Übersicht beruht auf folgenden externen Datenquellen:</p>
-			<ul>
-				<li><strong>Ortsnamen und Beschriftungen (Städte):</strong> <a href="http://www.geonames.org/export/">GeoNames Data</a>, lizensiert unter <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a></li>
-				<li><strong>Verwaltungsgebiete (DE, AT, CH):</strong> <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, lizensiert unter <a href="https://opendatacommons.org/licenses/odbl/">Open Database License</a></li>
-				<li><strong>Geocoding Service (einmalige Geolokalisierung einzelner Portale):</strong> <a href="https://operations.osmfoundation.org/policies/nominatim/">Nomanitim</a></li>
-				<li><strong>Grundkarte:</strong> Positron von <a href="https://carto.com/attribution/">CartoDB</a>, abgeleitet von <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> Daten </span></li>
-			</ul>
-	</div>
-	<div id="fade" class="black_overlay"></div> | <a href="http://www.opengeoedu.de/" target="_blank">OpenGeoEdu Website</a>
+<footer>
+© 2017. All rights reserved | <a href="https://www.auf.uni-rostock.de/footer/impressum/" target="_blank">Impressum</a> | <a href="https://github.com/opengeoedu/opengeoedu.github.io/" target="_blank">Source Code</a>   |   <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Quellenhinweise</a> | <a href="http://www.opengeoedu.de/" target="_blank">OpenGeoEdu Website</a>
+</footer>
+<div id="light" class="white_content">
+  <p align="right">
+  <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">X Fenster schließen</a>
+  </p>
+  <span align="left">
+    <h1>
+      Quellenhinweise
+    </h1>
+    <p>Diese Übersicht beruht auf folgenden externen Datenquellen:</p>
+    <ul>
+      <li><strong>Ortsnamen und Beschriftungen (Städte):</strong> <a href="http://www.geonames.org/export/">GeoNames Data</a>, lizensiert unter <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a></li>
+      <li><strong>Verwaltungsgebiete (DE, AT, CH):</strong> <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, lizensiert unter <a href="https://opendatacommons.org/licenses/odbl/">Open Database License</a></li>
+      <li><strong>Geocoding Service (einmalige Geolokalisierung einzelner Portale):</strong> <a href="https://operations.osmfoundation.org/policies/nominatim/">Nomanitim</a></li>
+      <li><strong>Grundkarte:</strong> Positron von <a href="https://carto.com/attribution/">CartoDB</a>, abgeleitet von <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> Daten </span></li>
+    </ul>
 </div>
-
-<script>
-</script>
+<div id="fade" class="black_overlay"></div>
 </body>
 </html>

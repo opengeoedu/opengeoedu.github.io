@@ -114,6 +114,7 @@ m <- createMap(portale,
     polygon_fill_color = "#AFBF56",
     polygon_fill_opacity = 0.1)
 
+
 #-----------------------------------------------------------------------
 ```
 
@@ -123,7 +124,8 @@ m <- createMap(portale,
 Karte {data-icon="glyphicon-globe"}
 =========================================================
 
-```{r, fig.height=8}
+
+```{r}
 portalMapUI <- function(id) {
   ns <- NS(id)
   tagList(leafletOutput(ns("map")))
@@ -195,13 +197,21 @@ portalMap <- function(input, output, session) {
 # call the module
 portalMapUI("oge")
 callModule(portalMap, "oge")
-
 ```
+
+
 
 Tabelle {data-icon="glyphicon-list"}
 =========================================================
 
 ```{r fig.height=8}
+tags$div(align="middle", style="text-align:center",
+ bscols(widths = c(6,6),
+        div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_portal", "Portal-Typ", sd, ~Typ_names, inline = FALSE, allLevels = TRUE, columns = 2)),
+        div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_check", "Reichweite", sd, ~Reichweite, inline = FALSE, columns = 2))
+   )
+ )
+
 #DT::datatable(portale[c("Link","Beschreibung","Ort","Land","Bezug", "Lizenz")], escape = FALSE, options = list(
 #  bPaginate = TRUE
 #))
@@ -212,24 +222,62 @@ Tabelle {data-icon="glyphicon-list"}
 
 div(class="metawrapper", style="height:100%",
 #div(style="height:100%",
-DT::datatable(sd_table, escape = FALSE, extensions = c("Responsive"), options = list(columnDefs= list(list(responsivePriority= 12000, targets=2))))
+  htmltools::tagList(DT::datatable(sd_table, escape = FALSE, extensions = c("Responsive"), options = list(columnDefs= list(list(responsivePriority= 12000, targets=2)))))
 )
 #)
 
 
-
-
 ```
+
 
 Filter {data-icon="ion-settings"}
 =========================================================
 ```{r}
+#make a checkbox-row according to croosstalk
+makerow <- function(value, label){
+ tags$div(class="checkbox", tags$label(class="checkbox_container", list(
+   tags$input(class="crosstalk_checkbox", value = value, type="checkbox"),
+   tags$span(class="checkmark"),
+   tags$span(class="checkbox_label", label)
+ )))
+}
+
+#devide rows into n columns
+makecols <- function(rows,n){
+  step <- ceiling(length(rows)/n)
+  sel1 <- seq(1, length(rows), by = step)
+  sel2 <- sel1 + (step -1)
+  sel2[length(sel2)] <- n*step
+  mapply(function(a,b){
+    tags$div(class="crosstalk-options-column",
+      tagList(
+        rows[a:b]
+      )         
+    ) 
+    
+  }, a  = sel1, b = sel2, SIMPLIFY = FALSE)
+}
+
+makefiltergroup <-function(values, labels, heading){
+    tags$div(style="display:inline-block; text-align:left", 
+        tags$label(class="control-label",heading),
+        tags$div(class = "form-group crosstalk-input crosstalk-input-bound shiny-bound-input",
+        tags$div(class="crosstalk-options-group", 
+               makecols(
+                  mapply(makerow, value=values, label=labels, SIMPLIFY = FALSE)
+                  , 2
+                ) 
+        )
+      )
+    )
+}
 tags$div(align="middle", style="text-align:center",
- bscols(widths = c(6,6),
-        div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_portal", "Portal-Typ", sd, ~Typ_names, inline = FALSE, allLevels = TRUE)),
-        div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_check", "Reichweite", sd, ~Reichweite, inline = FALSE))
-   )
- )
+  bscols(widths = c(6,6),
+      makefiltergroup(levels(portale$Typ_names), levels(portale$Typ_names), "Portal-Typ"),
+      makefiltergroup(levels(portale$Reichweite), levels(portale$Reichweite), "Reichweite")
+  )
+)
+
 
 # tags$div(align="middle", style="text-align:center",
 #  bscols(widths = c(6,6),
