@@ -1,0 +1,8 @@
+{
+  "reichw": ["international", "national", "regional", "kommunal"],
+  "reichw_col": ["#006400", "#FFA500", "#0000FF", "#8B0000"],
+  "typ": ["odp", "gdi", "stat", "umw", "for", "cc"],
+  "typ_names": ["Open Data Portal", "GDI/ Geoportal", "Statistikportal", "Umweltportal", "Forschungsdatenportal", "Citizen Science Projekt"],
+  "typ_pch": ["21", "24", "23", "22", "3", "4"],
+  "staatl": ["ja", "nein", "teilweise"]
+}
