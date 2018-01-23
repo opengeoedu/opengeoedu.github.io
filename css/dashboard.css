@@ -1,9 +1,23 @@
+
+
+
 body p {
 max-width: 900px;
 text-align: justify;
 padding-left: 10px;
 padding-right: 10px;
+}
 
+.navbar-logo{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  height: 45px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px){
+  .navbar-logo{
+    padding-left: 10px;
+  }
 }
 
 .black_overlay {

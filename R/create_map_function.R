@@ -56,7 +56,7 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
   
   create_legend_entry <- function(iconpath, entryname, iconwidth = "25px"){
     htmltools::tagList(
-      tag("nobr",list(tags$input(type="checkbox", value=entryname)  ,tags$img(src=paste0("/",iconpath), width=iconwidth), 
+      tag("nobr",list(tags$input(type="checkbox", class="crosstalk_checkbox", value=entryname, checked=TRUE, onChange = paste0("toggleFilter('",entryname,"', this)"))  ,tags$img(src=paste0("/",iconpath), width=iconwidth), 
                       tags$span(entryname))), 
       tags$br(clear="all"))
   }
@@ -93,18 +93,19 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
                              function(color, label) {
                                tags$tr(tagList(
                                  tags$td(
-                                 tags$input(type = "checkbox", value = label,label="")),
+                                  tags$input(type = "checkbox", checked=TRUE, class="crosstalk_checkbox", value = label,label="", onChange = paste0("toggleFilter('",label,"', this)"))
+                                 ),
                                  tags$td(
                                    tagList(
-                                 tags$i(
-                                   style = paste0(
-                                     "background:",
-                                     color,
-                                     "; opacity:0.5; margin:0; padding:0; margin-right:3px; margin-left:7px"
-                                   )
-                                 ),
-                                 label
-                               ))
+                                    tags$i(
+                                      style = paste0(
+                                      "background:",
+                                      color,
+                                      "; opacity:0.5; margin:0; padding:0; margin-right:10px; margin-left:10px"
+                                      )
+                                    ),
+                                 label)
+                                 )
                                ))
                              },
                              color = colorlf,
@@ -136,6 +137,7 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
     # addProviderTiles(providers$Esri.WorldGrayCanvas) %>%
     addProviderTiles(providers$CartoDB.PositronNoLabels) %>%
     addScaleBar(position = "bottomright", options = scaleBarOptions(imperial = FALSE, metric = TRUE)) %>%
+    #addMeasure(position = "bottomright", primaryLengthUnit = "meters", localization = "de") %>%
     #Map legend
   # (build-in legend not suitable for symbols, html-legend used instead)
    # / addLegend(
@@ -174,7 +176,9 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
     #addCircleMarkers(data=ppla, color = "black", radius=1, group = "adm4_labels", options = markerOptions(clickable = FALSE, zIndexOffset = -500), label = ppla$name, labelOptions = labelOptions(noHide = TRUE, zoomAnimation = FALSE, style = "z-index: -1")) %>%
     #addCircleMarkers(data=ppl, color = polygon_fill_color ,radius=1, group = "adm6_labels", options = markerOptions(clickable = FALSE, zIndexOffset = -500), label = ppl$name, labelOptions = labelOptions(noHide = TRUE, zoomAnimation = FALSE, style = "z-index: -1")) %>%
     hideGroup("adm6") %>% hideGroup("adm5") %>% hideGroup("adm6_labels") %>% hideGroup("adm4_labels")  %>% 
-    leaflet.extras::enableTileCaching()
+    leaflet.extras::enableTileCaching()  %>% 
+  #  htmlwidgets::onRender("alert('test after Rendering');")
+     htmlwidgets::onRender("onRenderMap()")
       #addGeoJSON("data/bounds/Germany_AL2.GeoJson")
 
 

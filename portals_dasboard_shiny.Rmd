@@ -6,8 +6,8 @@ output:
     vertical_layout: fill
     logo: oge_logo/icon_scaled.jpg
     favicon: oge_logo/icon_scaled.jpg
-    theme: cerulean
-    css: css/dashboard.css
+    theme: cosmo
+    css: ['css/dashboard.css', 'css/navbar.css']
     includes:
       after_body: footer.html
   # source_code: https://github.com/opengeoedu/opengeoedu.github.io
@@ -65,7 +65,10 @@ library(rtable)
 library(ReporteRs)
 #library(flextable)
 #blue table (matching the design color)
-colorP <- colorRampPalette(colors = c("white","#044e96"))
+colorP <- colorRampPalette(colors = c("white","#009de0"))
+
+#'old' blue table
+#colorP <- colorRampPalette(colors = c("white","#044e96"))
 #gray table
 #colorP <- colorRampPalette(colors = c("white","gray"))
 tab_colors <- colorP(10)
@@ -149,6 +152,8 @@ portalMap <- function(input, output, session) {
       })
     })
   })
+  
+
   # output$map <- renderLeaflet({
   #   withProgress(message = "Karte wird geladen...", expr = {
   #   isolate({
@@ -197,6 +202,7 @@ portalMap <- function(input, output, session) {
 # call the module
 portalMapUI("oge")
 callModule(portalMap, "oge")
+
 ```
 
 
@@ -205,12 +211,51 @@ Tabelle {data-icon="glyphicon-list"}
 =========================================================
 
 ```{r fig.height=8}
-tags$div(align="middle", style="text-align:center",
+tags$div(align="middle", style="text-align:center", id="main-filter-group",
  bscols(widths = c(6,6),
-        div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_portal", "Portal-Typ", sd, ~Typ_names, inline = FALSE, allLevels = TRUE, columns = 2)),
-        div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam", filter_checkbox("bezug_check", "Reichweite", sd, ~Reichweite, inline = FALSE, columns = 2))
-   )
+    div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam",                   filter_checkbox("bezug_portal", "Portal-Typ", sd, ~Typ_names, inline = FALSE, allLevels = TRUE, columns = 2)
+    ),
+    div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam",                   tagList(
+          filter_checkbox("bezug_check", "Reichweite", sd, ~Reichweite, inline = FALSE, columns = 2),                                                               tags$div(filter_select(id="country_select", "Länder-Filter: ", sd, ~Land), style="max-width:300px")
+        )
+    )
+    )
  )
+
+
+#tags$input()
+
+#create and save costum selection 
+
+country_options <- list("Deutschland", "Österreich", "Schweiz")
+country_chr <- as.character(portale$Land)
+country_map <- sapply(country_options, function(country){
+  out <- list(which(stringr::str_detect(country, country_chr) | portale$Land == "Europa"))
+  names(out) <- country
+  out
+})
+country_json <- list(
+  items= list(value = country_options, label=country_options),
+  map = country_map,
+  group = "portale"
+  )
+#jsonlite::write_json(country_json, "data/country_map.json",pretty = TRUE)
+htmltools::tags$script(id="country_select_map", type= "application/json",
+                       as.character(jsonlite::toJSON(country_json, pretty = TRUE)))
+
+# htmltools::tags$script(paste0("
+# var c_select = document.getElementById('country_select');
+# var scripts = c_select.getElementsByTagName('script');
+# for(i = 0; i < scripts.length; i++){
+#   if(scripts[i].getAttribute('data-for') == 'country-select'){
+#     var dataNode = scripts[i];
+#     dataNode.innerText =  ", jsonlite::toJSON(country_json, pretty = TRUE), ";
+#   }
+# }
+# "))
+# #div(style = "display:inline", )
+# 
+# 
 
 #DT::datatable(portale[c("Link","Beschreibung","Ort","Land","Bezug", "Lizenz")], escape = FALSE, options = list(
 #  bPaginate = TRUE
@@ -230,13 +275,13 @@ div(class="metawrapper", style="height:100%",
 ```
 
 
-Filter {data-icon="ion-settings"}
+Filter {data-icon="ion-settings" .hidden}
 =========================================================
 ```{r}
 #make a checkbox-row according to croosstalk
 makerow <- function(value, label){
  tags$div(class="checkbox", tags$label(class="checkbox_container", list(
-   tags$input(class="crosstalk_checkbox", value = value, type="checkbox"),
+   tags$input(class="crosstalk_checkbox", value = value, type="checkbox", onChange = paste0("toggleFilter('",value,"', this)")),
    tags$span(class="checkmark"),
    tags$span(class="checkbox_label", label)
  )))
@@ -261,7 +306,7 @@ makecols <- function(rows,n){
 makefiltergroup <-function(values, labels, heading){
     tags$div(style="display:inline-block; text-align:left", 
         tags$label(class="control-label",heading),
-        tags$div(class = "form-group crosstalk-input crosstalk-input-bound shiny-bound-input",
+        tags$div(class = "form-group crosstalk-input-checkboxgroup crosstalk-input crosstalk-input-bound shiny-bound-input",
         tags$div(class="crosstalk-options-group", 
                makecols(
                   mapply(makerow, value=values, label=labels, SIMPLIFY = FALSE)
@@ -386,7 +431,7 @@ shinyApp(
       
        textInput("Autor", label = "Kontakt (Optional)", placeholder = "Ihr Name / E-Mail"),
       tags$head(
-            tags$style(HTML('#submit{background-color:#044D94; color: white;} #submit:hover{background-color:#e7e7e7; color: black;} '))
+            tags$style(HTML('#submit{background-color:#009de0;; color: white;} #submit:hover{background-color:#e7e7e7; color: black;} '))
       ),
       actionButton("submit","Anfrage senden"),  actionButton("reset","Formular zurücksetzen"),
       tags$hr(),
