@@ -110,7 +110,7 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</SimpleData>
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Martin-Luther-Straße 105, 10825 Berlin</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.3884801786252,52.4899462146091</coordinates></Point>
+      <Point><coordinates>13.3862683706493,52.5039240227154</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -298,7 +298,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="Land">Deutschland</SimpleData>
 		<SimpleData name="Beschreibung">Internetangebot des Statistischen Bundesamtes mit aktuellen Informationen, Publikationen, Zahlen und Fakten der amtlichen Statistik</SimpleData>
 		<SimpleData name="Ort">Deutschland</SimpleData>
-		<SimpleData name="Typ">odp</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
 		<SimpleData name="Reichweite">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
 		<SimpleData name="Geodaten"></SimpleData>
@@ -320,7 +320,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Potsdamer Platz 2 10785 Berlin</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.3106918241812,52.4478455019274</coordinates></Point>
+      <Point><coordinates>13.3546384835175,52.4548202481771</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -368,7 +368,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Singerstr. 109, 10179 Berlin</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.2416694629581,52.4953109513302</coordinates></Point>
+      <Point><coordinates>13.2684157601427,52.4579694620516</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -432,7 +432,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Robert-Schuman-Platz 1, D 53175 Bonn</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.15680501233722,50.7156215664659</coordinates></Point>
+      <Point><coordinates>7.16540794789573,50.7382328257267</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -476,7 +476,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="Ort">Freiburg im Breisgau</SimpleData>
 		<SimpleData name="Typ">odp</SimpleData>
 		<SimpleData name="Reichweite">kommunal</SimpleData>
-		<SimpleData name="Staatlich_Öffentlich">Ja</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Freiburg im Breisgau, Rathausplatz 2 - 4, 79098 Freiburg</SimpleData>
 	</SchemaData></ExtendedData>
@@ -530,7 +530,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Neuenfelder Straße 19, 21109 Hamburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.0631751041659,53.5545912738773</coordinates></Point>
+      <Point><coordinates>10.059830345404,53.5685042454773</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -546,7 +546,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Freie und Hansestadt Hamburg, Rathausmarkt 1, 20095 Hamburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.9866964785588,53.5103199867468</coordinates></Point>
+      <Point><coordinates>10.03119682754,53.5185245306849</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -995,7 +995,7 @@ Ansprechpartner für das Geoportal und die Geodateninfrastruktur des Landes ist 
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Muffendorfer Str. 19-21, 53177 Bonn </SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.03425399271246,50.713619699354</coordinates></Point>
+      <Point><coordinates>7.09643739340495,50.6921757514078</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1063,7 +1063,7 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Schillerplatz 3 – 5, 55116 Mainz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.25199264897027,50.026120580886</coordinates></Point>
+      <Point><coordinates>8.31209593550174,50.0489683478742</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1168,7 +1168,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Düsternbrooker Weg 92, 24105 Kiel</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.1552105567063,54.3362847055067</coordinates></Point>
+      <Point><coordinates>10.1564720990202,54.3811945027001</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1955,7 +1955,7 @@ sowie den Kreisen, Landkreisen und kreisfreien Städten in dem Geoportal der Met
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Alter Steinweg 4, 20459 Hamburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.91230604394043,53.5558380684055</coordinates></Point>
+      <Point><coordinates>9.94259406976894,53.5192564126813</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2532,7 +2532,7 @@ Rachelstraße 6, 93413 Cham
 		<SimpleData name="Land">Deutschland</SimpleData>
 		<SimpleData name="Beschreibung">Inoffizielle Übersicht über OpenData-Projekte in und um Dresden, geführt von Open Data Aktivisten der Stadt.</SimpleData>
 		<SimpleData name="Ort">Dresden</SimpleData>
-		<SimpleData name="Typ">odp</SimpleData>
+		<SimpleData name="Typ">cc</SimpleData>
 		<SimpleData name="Reichweite">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
 		<SimpleData name="Geodaten"></SimpleData>
@@ -2748,6 +2748,102 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
 		<SimpleData name="Adresse_Herausgeber">Ringstrasse 7, 85402 Kranzberg</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>11.6067842331506,48.361318107023</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">169</SimpleData>
+		<SimpleData name="URL">https://www.kiel.de/de/kiel_zukunft/statistik_kieler_zahlen/open_data/</SimpleData>
+		<SimpleData name="Titel">Open Data der Kieler Stadtverwaltung</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Kostenfreie Daten der Landeshauptstadt Kiel, veröffentlicht in maschinenlesbaren Formaten und jährlich fortgeschrieben (Stand: 30.1.2018)</SimpleData>
+		<SimpleData name="Ort"></SimpleData>
+		<SimpleData name="Typ">odp</SimpleData>
+		<SimpleData name="Reichweite">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Fleethörn 9, 24103 Kiel</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.1539524690123,54.2913745530536</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">170</SimpleData>
+		<SimpleData name="URL">https://data.open-power-system-data.org/</SimpleData>
+		<SimpleData name="Titel">Open Power System Data platform (OPSD)</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Englischsprachiges Forschungsdatenportal mit Energie- und Stromversorgungssystemen in Deutschland und Europa mit offenen Daten und quelloffenen Skripten zur Datenauswertung</SimpleData>
+		<SimpleData name="Ort">Europa</SimpleData>
+		<SimpleData name="Typ">for</SimpleData>
+		<SimpleData name="Reichweite">international</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich"></SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Karl-Marx-Platz 12, 12043 Berlin</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.2465994575136,52.5090287286672</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">171</SimpleData>
+		<SimpleData name="URL">http://www.datenportal.bmbf.de</SimpleData>
+		<SimpleData name="Titel">Daten-Portal des Bundesministerium für Bildung und Forschung (BMBF)</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Zahlen und Fakten zu Themenbereichen aus Wissenschaft, Forschung, Entwicklung und Zusammenarbeit, veröffentlicht unter Datenlizenz Deutschland</SimpleData>
+		<SimpleData name="Ort">Deutschland</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">national</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Heinemannstraße 2, D-53175 Bonn </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.02383063549427,50.7359194312678</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">172</SimpleData>
+		<SimpleData name="URL">https://www-genesis.destatis.de/</SimpleData>
+		<SimpleData name="Titel">GENESIS-Online Portal des Statistischen Bundesamtes</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Online-Zugriff auf das gemeinsame neue statistisches Informationssystem (GENESIS) für amtliche Daten der statistischen Ämter des Bundes und der Länder (Stand: 30.01.2018)</SimpleData>
+		<SimpleData name="Ort">Deutschland</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">national</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Gustav-Stresemann-Ring 11, D-65189 Wiesbaden</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.19119274873154,50.0481894446333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">173</SimpleData>
+		<SimpleData name="URL">http://metaver.de</SimpleData>
+		<SimpleData name="Titel">Metaver – MetadatenVerbund</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Zentraler Zugangspunkt zu den Metadaten von Brandenburg, Bremen, Hamburg, Mecklenburg-Vorpommern, Saarland und Sachsen-Anhalt; Enthält u.a. 3207 Einträge in der Kategorie Opendata (Stand: 30.1.2018)</SimpleData>
+		<SimpleData name="Ort">Brandenburg, Bremen, Hamburg, Mecklenburg-Vorpommern, Saarland, Sachsen-Anhalt</SimpleData>
+		<SimpleData name="Typ">odp</SimpleData>
+		<SimpleData name="Reichweite">national</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Neuenfelder Straße 19, D-21109 Hamburg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.91629836991078,53.5696906153536</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">174</SimpleData>
+		<SimpleData name="URL">http://numis.niedersachsen.de/</SimpleData>
+		<SimpleData name="Titel">NUMIS – Das Niedersächsische Umweltportal</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Umweltdatenportal des Landes Niedersachsen</SimpleData>
+		<SimpleData name="Ort">Niedersachsen</SimpleData>
+		<SimpleData name="Typ">umw</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Archivstraße 2, 30169 Hannover</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.72958500285811,52.3701230054885</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

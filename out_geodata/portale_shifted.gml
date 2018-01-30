@@ -7,7 +7,7 @@
   <gml:boundedBy>
     <gml:Box>
       <gml:coord><gml:X>6.078649886459402</gml:X><gml:Y>46.17785185479804</gml:Y></gml:coord>
-      <gml:coord><gml:X>16.52856400843007</gml:X><gml:Y>54.33628470550668</gml:Y></gml:coord>
+      <gml:coord><gml:X>16.52856400843007</gml:X><gml:Y>54.38119450270009</gml:Y></gml:coord>
     </gml:Box>
   </gml:boundedBy>
                                                                                                 
@@ -94,7 +94,7 @@ system Bayern und den Bayerischen Denkmal-Atlas. (Stand: 7.11.2017)</ogr:Beschre
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.6">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.3884801786252,52.4899462146091</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.3862683706493,52.5039240227154</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>6</ogr:ID>
       <ogr:URL>http://daten.berlin.de/</ogr:URL>
       <ogr:Titel>Offene Daten Berlin</ogr:Titel>
@@ -295,7 +295,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Internetangebot des Statistischen Bundesamtes mit aktuellen Informationen, Publikationen, Zahlen und Fakten der amtlichen Statistik</ogr:Beschreibung>
       <ogr:Ort>Deutschland</ogr:Ort>
-      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Typ>stat</ogr:Typ>
       <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
@@ -304,7 +304,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.19">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.3106918241812,52.4478455019274</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.3546384835175,52.4548202481771</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>19</ogr:ID>
       <ogr:URL>http://data.deutschebahn.com/</ogr:URL>
       <ogr:Titel>Deutsche Bahn Open Data</ogr:Titel>
@@ -352,7 +352,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.22">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.2416694629581,52.4953109513302</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.2684157601427,52.4579694620516</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>22</ogr:ID>
       <ogr:URL>http://offenedaten.de/</ogr:URL>
       <ogr:Titel>Offenedaten.de</ogr:Titel>
@@ -416,7 +416,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.26">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.15680501233722,50.7156215664659</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.16540794789573,50.7382328257267</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>26</ogr:ID>
       <ogr:URL>https://www.mcloud.de/</ogr:URL>
       <ogr:Titel>mCloud</ogr:Titel>
@@ -473,7 +473,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Ort>Freiburg im Breisgau</ogr:Ort>
       <ogr:Typ>odp</ogr:Typ>
       <ogr:Reichweite>kommunal</ogr:Reichweite>
-      <ogr:Staatlich_Öffentlich>Ja</ogr:Staatlich_Öffentlich>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
       <ogr:Adresse_Herausgeber>Stadt Freiburg im Breisgau, Rathausplatz 2 - 4, 79098 Freiburg</ogr:Adresse_Herausgeber>
     </ogr:portale>
@@ -514,7 +514,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.32">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.0631751041659,53.5545912738773</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.059830345404,53.5685042454773</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>32</ogr:ID>
       <ogr:URL>http://www.hamburg.de/gdi-hh</ogr:URL>
       <ogr:Titel>GDI Hamburg</ogr:Titel>
@@ -530,7 +530,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.33">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.9866964785588,53.5103199867468</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.03119682754,53.5185245306849</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>33</ogr:ID>
       <ogr:URL>http://daten.hamburg.de/</ogr:URL>
       <ogr:Titel>Transparenzportal Hamburg</ogr:Titel>
@@ -978,7 +978,7 @@ Ansprechpartner für das Geoportal und die Geodateninfrastruktur des Landes ist 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.60">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.03425399271246,50.713619699354</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.09643739340495,50.6921757514078</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>60</ogr:ID>
       <ogr:URL>https://www.geoportal.nrw/</ogr:URL>
       <ogr:Titel>GDI NRW</ogr:Titel>
@@ -1047,7 +1047,7 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.64">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.25199264897027,50.026120580886</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.31209593550174,50.0489683478742</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>64</ogr:ID>
       <ogr:URL>https://daten.rlp.de/</ogr:URL>
       <ogr:Titel>Open-Government-Data-Portal Rheinland-Pfalz  (OGDP-RP)</ogr:Titel>
@@ -1152,7 +1152,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.70">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.1552105567063,54.3362847055067</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.1564720990202,54.3811945027001</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>70</ogr:ID>
       <ogr:URL>http://www.gdi-sh.de/</ogr:URL>
       <ogr:Titel>GDI Schleswig-Holstein</ogr:Titel>
@@ -1936,7 +1936,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.119">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.91230604394043,53.5558380684055</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.94259406976894,53.5192564126813</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>119</ogr:ID>
       <ogr:URL>http://geoportal.metropolre
 gion.hamburg.de/</ogr:URL>
@@ -2529,7 +2529,7 @@ Rachelstraße 6, 93413 Cham
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Inoffizielle Übersicht über OpenData-Projekte in und um Dresden, geführt von Open Data Aktivisten der Stadt.</ogr:Beschreibung>
       <ogr:Ort>Dresden</ogr:Ort>
-      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Typ>cc</ogr:Typ>
       <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
@@ -2743,6 +2743,102 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
       <ogr:Adresse_Herausgeber>Ringstrasse 7, 85402 Kranzberg</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.169">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.1539524690123,54.2913745530536</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>169</ogr:ID>
+      <ogr:URL>https://www.kiel.de/de/kiel_zukunft/statistik_kieler_zahlen/open_data/</ogr:URL>
+      <ogr:Titel>Open Data der Kieler Stadtverwaltung</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Kostenfreie Daten der Landeshauptstadt Kiel, veröffentlicht in maschinenlesbaren Formaten und jährlich fortgeschrieben (Stand: 30.1.2018)</ogr:Beschreibung>
+      <ogr:Ort></ogr:Ort>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Fleethörn 9, 24103 Kiel</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.170">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.2465994575136,52.5090287286672</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>170</ogr:ID>
+      <ogr:URL>https://data.open-power-system-data.org/</ogr:URL>
+      <ogr:Titel>Open Power System Data platform (OPSD)</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Englischsprachiges Forschungsdatenportal mit Energie- und Stromversorgungssystemen in Deutschland und Europa mit offenen Daten und quelloffenen Skripten zur Datenauswertung</ogr:Beschreibung>
+      <ogr:Ort>Europa</ogr:Ort>
+      <ogr:Typ>for</ogr:Typ>
+      <ogr:Reichweite>international</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich></ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Karl-Marx-Platz 12, 12043 Berlin</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.171">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.02383063549427,50.7359194312678</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>171</ogr:ID>
+      <ogr:URL>http://www.datenportal.bmbf.de</ogr:URL>
+      <ogr:Titel>Daten-Portal des Bundesministerium für Bildung und Forschung (BMBF)</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Zahlen und Fakten zu Themenbereichen aus Wissenschaft, Forschung, Entwicklung und Zusammenarbeit, veröffentlicht unter Datenlizenz Deutschland</ogr:Beschreibung>
+      <ogr:Ort>Deutschland</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Heinemannstraße 2, D-53175 Bonn </ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.172">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.19119274873154,50.0481894446333</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>172</ogr:ID>
+      <ogr:URL>https://www-genesis.destatis.de/</ogr:URL>
+      <ogr:Titel>GENESIS-Online Portal des Statistischen Bundesamtes</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Online-Zugriff auf das gemeinsame neue statistisches Informationssystem (GENESIS) für amtliche Daten der statistischen Ämter des Bundes und der Länder (Stand: 30.01.2018)</ogr:Beschreibung>
+      <ogr:Ort>Deutschland</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Gustav-Stresemann-Ring 11, D-65189 Wiesbaden</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.173">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.91629836991078,53.5696906153536</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>173</ogr:ID>
+      <ogr:URL>http://metaver.de</ogr:URL>
+      <ogr:Titel>Metaver – MetadatenVerbund</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Zentraler Zugangspunkt zu den Metadaten von Brandenburg, Bremen, Hamburg, Mecklenburg-Vorpommern, Saarland und Sachsen-Anhalt; Enthält u.a. 3207 Einträge in der Kategorie Opendata (Stand: 30.1.2018)</ogr:Beschreibung>
+      <ogr:Ort>Brandenburg, Bremen, Hamburg, Mecklenburg-Vorpommern, Saarland, Sachsen-Anhalt</ogr:Ort>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Neuenfelder Straße 19, D-21109 Hamburg</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.174">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.72958500285811,52.3701230054885</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>174</ogr:ID>
+      <ogr:URL>http://numis.niedersachsen.de/</ogr:URL>
+      <ogr:Titel>NUMIS – Das Niedersächsische Umweltportal</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Umweltdatenportal des Landes Niedersachsen</ogr:Beschreibung>
+      <ogr:Ort>Niedersachsen</ogr:Ort>
+      <ogr:Typ>umw</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Archivstraße 2, 30169 Hannover</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
 </ogr:FeatureCollection>
