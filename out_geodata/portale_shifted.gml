@@ -793,13 +793,13 @@ Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendun
       <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.6088331472149,52.2351157088363</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>49</ogr:ID>
       <ogr:URL>https://offenedaten.de/organization/mittenwalde</ogr:URL>
-      <ogr:Titel>Open Data der Stadt Mittenwalde</ogr:Titel>
+      <ogr:Titel>Stadt Mittenwalde auf Offenedaten.de</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Open Data Portal der Stadt Mittenwalde auf Offenedaten.de, 7 Datensätze mit verschiedenen Tags, u.a. Verkehr, Bebauungsplan, Einwohner</ogr:Beschreibung>
       <ogr:Ort>Mittenwalde</ogr:Ort>
       <ogr:Typ>odp</ogr:Typ>
       <ogr:Reichweite>kommunal</ogr:Reichweite>
-      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
       <ogr:Adresse_Herausgeber>Stadt Mittenwalde, Rathausstraße 8, 15749 Mittenwalde</ogr:Adresse_Herausgeber>
     </ogr:portale>
@@ -894,7 +894,7 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
       <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.67223111282736,51.9467662304016</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>55</ogr:ID>
       <ogr:URL>http://www.stadt-muenster.de/katasteramt/geodatenmanagement/open-data.html</ogr:URL>
-      <ogr:Titel>Münster GeoData</ogr:Titel>
+      <ogr:Titel>https://www.google.de/search?client=ubuntu&amp;channel=fs&amp;q=qgis+string+to+number&amp;ie=utf-8&amp;oe=utf-8&amp;gfe_rd=cr&amp;dcr=0&amp;ei=zg17Wt6EH-yA8Qf2wqzIDQ</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„Die Stadt Münster beteiligt sich am Wettbewerb &quot;Apps für Deutschland&quot;. Sie stellt dazu Datensätze über Spielplätze und Sportstätten als offene Daten zur Verfügung. Die Daten werden mit Stand Dezember 2011 bereitgestellt. Es kommt die Lizenz Creative Commons Namensnennung 3.0 zur Anwendung.“
 (Quelle: Stadt Münster, abgerufen am 26.10.2017)</ogr:Beschreibung>
@@ -1139,13 +1139,13 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.3264841034852,52.1549617053861</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>69</ogr:ID>
       <ogr:URL>https://offenedaten.de/organization/salzgitter</ogr:URL>
-      <ogr:Titel>Salzgitter</ogr:Titel>
+      <ogr:Titel>Salzgitter auf OffeneDaten.de</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
-      <ogr:Beschreibung>Sie Stadt Sapzgitter stellt auf diesem Portal 9 offene Datensätze aus den Kategorien „Öffentliche Verwaltung“, „Kultur, Freizeit, Sport und Tourismus“, sowie „Geographie, Geologie und Geobasisdaten“ zur Verfügung. (Stand: 27.10.2017)</ogr:Beschreibung>
+      <ogr:Beschreibung>OffeneDaten.de registriert von der Stadt Salzgitter 9 offene Datensätze aus den Kategorien „Öffentliche Verwaltung“, „Kultur, Freizeit, Sport und Tourismus“, sowie „Geographie, Geologie und Geobasisdaten“ (Stand: 8.2.2018)</ogr:Beschreibung>
       <ogr:Ort>Salzgitter</ogr:Ort>
       <ogr:Typ>odp</ogr:Typ>
       <ogr:Reichweite>kommunal</ogr:Reichweite>
-      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
       <ogr:Adresse_Herausgeber>Stadt Salzgitter, Joachim-Campe-Straße 6 - 8, 38226 Salzgitter</ogr:Adresse_Herausgeber>
     </ogr:portale>
@@ -2839,6 +2839,38 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
       <ogr:Adresse_Herausgeber>Archivstraße 2, 30169 Hannover</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.175">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.16781249975216,49.6768441256841</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>175</ogr:ID>
+      <ogr:URL>http://ec.europa.eu/eurostat/</ogr:URL>
+      <ogr:Titel>Eurostat – Statistisches Amt der EU</ogr:Titel>
+      <ogr:Land>Luxemburg</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken für die Europäische Union (Stand: 7.2.2018)</ogr:Beschreibung>
+      <ogr:Ort>Europa</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>international</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Rue Alphonse Weicker, L-2721 Luxemburg </ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.176">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.17301777955112,49.5870436333597</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>176</ogr:ID>
+      <ogr:URL>http://ec.europa.eu/eurostat/web/gisco/</ogr:URL>
+      <ogr:Titel>GISCO – Geographiches Informationssystem der Kommission</ogr:Titel>
+      <ogr:Land>Luxemburg</ogr:Land>
+      <ogr:Beschreibung>Als permanenter Service von Eurostat stellt GISCO Geographische Informationen für den Bedarf von Eurostat und Europäischen Kommission auf drei Ebenen bereit: unionsweit, nach EU-Land, nach Region (Stand: 7.2.2018)</ogr:Beschreibung>
+      <ogr:Ort>Europa</ogr:Ort>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>international</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Rue Alphonse Weicker, L-2721 Luxemburg </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
 </ogr:FeatureCollection>

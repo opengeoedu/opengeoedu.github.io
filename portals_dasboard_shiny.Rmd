@@ -28,8 +28,11 @@ library(crosstalk)
 library(shiny)
 library(shinyjs)
 
-source("R/portal_prerendering.R")
-
+if(FALSE) { #for debugging purposes, you might want to enable this script that pre-renders map (m), statistics (flext) and data table (portale), otherwise the data is loaded from a file where these intermnediate objects are cached for performance reasons, i.e. reducing the number of packages and data loaded into the app
+  source("R/portal_prerendering.R")
+} else {
+  load("out/prerendered_content.RData")
+}
 
 library(shiny)
 library(shinyjs)
@@ -142,37 +145,9 @@ tags$div(align="middle", style="text-align:center", id="main-filter-group",
     )
  )
 
-
-#tags$input()
-
-#create and save costum selection 
-
-
-#jsonlite::write_json(country_json, "data/country_map.json",pretty = TRUE)
+#customize the country selection box with javascript
 htmltools::tags$script(id="country_select_map", type= "application/json",
                        country_json)
-
-# htmltools::tags$script(paste0("
-# var c_select = document.getElementById('country_select');
-# var scripts = c_select.getElementsByTagName('script');
-# for(i = 0; i < scripts.length; i++){
-#   if(scripts[i].getAttribute('data-for') == 'country-select'){
-#     var dataNode = scripts[i];
-#     dataNode.innerText =  ", jsonlite::toJSON(country_json, pretty = TRUE), ";
-#   }
-# }
-# "))
-# #div(style = "display:inline", )
-# 
-# 
-
-#DT::datatable(portale[c("Link","Beschreibung","Ort","Land","Bezug", "Lizenz")], escape = FALSE, options = list(
-#  bPaginate = TRUE
-#))
-#data(iris)
-#DT::datatable(iris, escape = FALSE, extensions = "Responsive")
-
-#DT::datatable(data.frame(blablabla = 1:4, blablabla2 = 1:4, blablub = 1:4), escape = FALSE, extensions = c("Responsive"))
 
 div(class="metawrapper", style="height:75%",
 #div(style="height:100%",
@@ -257,7 +232,7 @@ Die dargestellten Geodaten zu den Open Data Portalen und GDIs in Deutschland, Ö
 
 Die geokodierten Rohdaten (mit überlappenden Koordinaten) sind als CSV-Tabelle verfügbar:
 
-* [Rohdaten (CSV Tabelle)](data/portale_geocoded3.csv)
+* [Rohdaten (CSV Tabelle)](data/portale_geocoded4.csv)
 
 Statistik {data-icon="ion-stats-bars"}
 =========================================================
@@ -265,9 +240,10 @@ Statistik {data-icon="ion-stats-bars"}
 Die nachfolgende Tabelle gibt einen Überblick über die gegenwärtig eingetragenen Datenportale und ist von links nach rechts zu lesen. Die linke Spalte gibt die Anzahl der Einträge nach Typ des Portales (Open Data Portal oder GDI-Knotenpunkt bzw. Geoportal) an. Die Spalte rechts daneben gibt, nach Portal-Typ aufgeschlüsselt, das Land an, in welchem das Portal bzw. der Herausgeber der Inhalte verortet ist. In einigen Fällen beteiligen sich mehrere Länder an einem Portal (Beispiel: [GeoRhena](http://www.georhena.eu/), ein deutsch/französisch/schweizer Projekt zur Erfassung der Oberrhein-Region). Diese Portale sind hier als *länderübergreifend* kategorisiert. Die rechten vier Spalten schlüsseln die Portale nach ihrer Reichweite, spezifisch für jedes Land und jede Portal-Art, auf. Dabei halten kommunale Portale Daten über einzelne Kommunen, Landkreise oder Städte bereit. Regionale Portale beziehen sich auf einzelne Regionen oder Bundesländer. Nationale Portale halten für ein bestimmtes Land umfassende Daten bereit. Internationale Portale führen Daten über mehrere Länder, Kontinente oder weltweite Datensätze.
 
 ```{r echo=FALSE, tidy=TRUE}
-tags$div(class = "statwrapper", renderFlexTable(flext))
-#flext
-#renderFlexTable(flext)
+
+tags$div(class = "statwrapper", HTML(statistics_html))
+# for rendering the original flextable-object (reacitvely):
+#tags$div(class = "statwrapper", renderFlexTable(flext))
 ```
 
 Neuer Eintrag / Korrektur {data-icon="ion-compose"}

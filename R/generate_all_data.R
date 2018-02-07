@@ -24,13 +24,21 @@ library(htmlwidgets)
 
 source("R/data_processing.R")
 
-source("R/createTable.R")
+source("R/portal_prerendering.R")
+# cache the R objects that are consumed by the shiny application:
+save("m", "portale","sd", "sd_table","table_meta","statistics_html", "country_json", file = "out/prerendered_content.RData")
+
+# in interactive sessions test-render the map
+if(interactive()) {
+  rmarkdown::run("portals_dasboard_shiny.Rmd")
+}
+#source("R/createTable.R")
 
 #if pandoc fails with error in RStudio, just run again...
-rmarkdown::render("R/portals_dashboard.Rmd", output_dir = "out")
+#rmarkdown::render("R/portals_dashboard.Rmd", output_dir = "out")
 
-source("R/create_map_function.R")
+#source("R/create_map_function.R")
 
-source("R/generate_leaflet_map.R")
+#source("R/generate_leaflet_map.R")
 
 m

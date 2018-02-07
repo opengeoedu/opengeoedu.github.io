@@ -1,5 +1,7 @@
 FETCH_WEBMETA = FALSE
-EMAIL = "" #pass email adress in order to use nominatim service of openstreetmap, 
+
+if(!exists("EMAIL"))
+  EMAIL = "" #pass email adress in order to use nominatim service of openstreetmap, 
 # see terms of use: https://operations.osmfoundation.org/policies/nominatim/)
 # more information: https://wiki.openstreetmap.org/wiki/Nominatim, http://nominatim.openstreetmap.org/
 require(xml2)
@@ -41,7 +43,8 @@ for(i in 1:dim(portale)[1]){
         success <- TRUE
         desc <- NULL
         tryCatch({
-          xres <- read_xml(.url)
+          con <- url(.url)
+          xres <- read_xml(con)
           xloc <- xml_find_first(xres, ".//place")
           lon <- xml_attr(xloc,"lon")
           lat <- xml_attr(xloc,"lat")
@@ -57,7 +60,8 @@ for(i in 1:dim(portale)[1]){
           success <- FALSE
           print(e)
         },finally = {
-          # close(con)
+          try(close(con), silent = TRUE)
+          
         })
         if (!success) {
           warning("Failed determine geolocation of ", address)

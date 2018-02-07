@@ -6,6 +6,7 @@ library(crosstalk)
 requireNamespace("jsonlite")
 library(sp)
 library(rgeos)
+library(shiny)
 
 #portale <- read.csv("../data/portale_geocoded3.csv")
 portale <- read.csv("out_geodata/portale_shifted.csv")
@@ -78,12 +79,18 @@ flext[,2] <- paste0(" (",as.numeric(rowSums(as.matrix(ftab))),")")
 
 
 
+
 statdoc <- docx() %>%
   addTitle("Übersicht über das Open Data Suchportal", level = 1 ) %>%
   addFlexTable(flext) %>%
   addParagraph("Anzahl der Datenportale im Verzeichnis",stylename = "rTableLegend") %>%
   writeDoc(file="out/verzeichnis_statistik.docx")
 
+#render statistics table
+statistics_html <- as.html(flext)
+
+
+# render leaflet map
 m <- createMap(portale,
                table_meta = table_meta,
                clustering = FALSE,
@@ -97,7 +104,7 @@ m <- createMap(portale,
 country_options <- list("Deutschland", "Österreich", "Schweiz")
 country_chr <- as.character(portale$Land)
 country_map <- sapply(country_options, function(country){
-  out <- list(which(stringr::str_detect(country, country_chr) | portale$Land == "Europa"))
+  out <- list(which(stringr::str_detect(country, country_chr) | portale$Land == "Europa" | portale$Reichweite == "international"))
   names(out) <- country
   out
 })
