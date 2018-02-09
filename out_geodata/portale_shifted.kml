@@ -208,7 +208,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Rudolf-Hilferding-Platz 1, 28195 Bremen</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.8516427726378,53.0998777924059</coordinates></Point>
+      <Point><coordinates>8.85164277263779,53.0998777924059</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -448,7 +448,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Niedersachsenstr. 2, 49356 Diepholz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.37532804933416,52.6086147056207</coordinates></Point>
+      <Point><coordinates>8.37532804933415,52.6086147056207</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -480,7 +480,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Freiburg im Breisgau, Rathausplatz 2 - 4, 79098 Freiburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.80489228811893,47.9800142485881</coordinates></Point>
+      <Point><coordinates>7.80489228811892,47.9800142485881</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -496,7 +496,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Gelsenkirchen, Ebertstraße 11, 45879 Gelsenkirchen</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.09247417286314,51.5109986053981</coordinates></Point>
+      <Point><coordinates>7.09247417286313,51.5109986053981</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -578,7 +578,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Herne, Friedrich-Ebert-Platz 2, 44623 Herne</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.21950843898303,51.5379388554072</coordinates></Point>
+      <Point><coordinates>7.21950843898302,51.5379388554072</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -594,7 +594,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Schaperstraße 16, 65195 Wiesbaden</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.22685858870078,50.087941804822</coordinates></Point>
+      <Point><coordinates>8.22685858870077,50.087941804822</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -658,7 +658,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Köln</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.95100199998851,50.9422631052028</coordinates></Point>
+      <Point><coordinates>6.95100199998852,50.9422631052028</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -674,7 +674,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Krefeld</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.54570836329433,51.374195867076</coordinates></Point>
+      <Point><coordinates>6.54570836329434,51.374195867076</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -841,7 +841,7 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern. Wir veröffentl
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Rathaus Moers, Rathausplatz 1, 47441 Moers</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.64327536601163,51.4121592958096</coordinates></Point>
+      <Point><coordinates>6.64327536601164,51.4121592958096</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1063,7 +1063,7 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Schillerplatz 3 – 5, 55116 Mainz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.29231222707779,50.0744120262851</coordinates></Point>
+      <Point><coordinates>8.29231222707778,50.0744120262851</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1083,7 +1083,7 @@ Die Daten werden je zu verschiedenen Nutzungsbedingungen angeboten, einige davon
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Von der Heydt 22, 66115 Saarbrücken</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.95079331125057,49.2774313544131</coordinates></Point>
+      <Point><coordinates>6.95079331125058,49.2774313544131</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1552,7 +1552,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Rue des Gazomètres 7, CH-1211 Genève 8</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.08878252009857,46.195220326608</coordinates></Point>
+      <Point><coordinates>6.08878252009858,46.195220326608</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1584,7 +1584,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">CH-1211 Geneva 23</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.17192680911644,46.2186274807076</coordinates></Point>
+      <Point><coordinates>6.17192680911645,46.2186274807076</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1648,7 +1648,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadthausquai 17, CH-8001 Zürich</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.54137760184293,47.3692542031299</coordinates></Point>
+      <Point><coordinates>8.54137760184294,47.3692542031299</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1696,7 +1696,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber"></SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>14.5500720072576,47.5162309998947</coordinates></Point>
+      <Point><coordinates>14.5500720072576,47.5162309998946</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2020,7 +2020,7 @@ Altes Portal: https://geoportal.kreis-lup.de (Stand: 9.1.2018)</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Felix-Fechenbach-Straße 5, 32756 Detmold</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.84849761152285,51.9370885054638</coordinates></Point>
+      <Point><coordinates>8.84849761152284,51.9370885054638</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2165,7 +2165,7 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Breitspiel 11b, D-69126 Heidelberg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.6870547019553,49.3601235044251</coordinates></Point>
+      <Point><coordinates>8.68705470195531,49.3601235044251</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2229,7 +2229,7 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Avenue d'Alsace 100, 68006 COLMAR</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.36533580045997,48.0780696036643</coordinates></Point>
+      <Point><coordinates>7.36533580045998,48.0780696036643</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2246,7 +2246,7 @@ Tuttlingen im Bereich Regionalplanung und -entwicklung.</SimpleData>
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Johannesstr. 27, 78056 Villingen-Schwenningen</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.53920855384028,48.0673903036282</coordinates></Point>
+      <Point><coordinates>8.53920855384027,48.0673903036282</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2264,7 +2264,7 @@ Liechtenstein mit Bezug auf Raumordnung und Raumentwicklung</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Im Wallgraben 50, 79761 Waldshut-Tiengen</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.20985390145142,47.6233750033283</coordinates></Point>
+      <Point><coordinates>8.20985390145141,47.6233750033283</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2280,7 +2280,7 @@ Liechtenstein mit Bezug auf Raumordnung und Raumentwicklung</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Schwambergerstr. 35, 89073 Ulm</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.044213381967,48.4173446430823</coordinates></Point>
+      <Point><coordinates>10.0442133819669,48.4173446430823</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2410,7 +2410,7 @@ Rachelstraße 6, 93413 Cham
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Bahnhofstr. 23-29, 41747 Viersen</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.35839642365787,51.2445657353175</coordinates></Point>
+      <Point><coordinates>6.35839642365786,51.2445657353175</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2779,7 +2779,7 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Karl-Marx-Platz 12, 12043 Berlin</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.4772664824874,52.4852978185596</coordinates></Point>
+      <Point><coordinates>13.4772664824873,52.4852978185596</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2827,7 +2827,7 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Neuenfelder Straße 19, D-21109 Hamburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.0366204746706,53.5848009710065</coordinates></Point>
+      <Point><coordinates>10.0366204746705,53.5848009710065</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">

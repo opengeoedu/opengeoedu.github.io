@@ -92,37 +92,37 @@ portalMap <- function(input, output, session) {
   #   })
   # })
   # runjs("alert(document.getElementsByClassName('leaflet-marker-icon').length);")
-  observe({
-   if(length(input$map_zoom) == 1){
-     proxy <- leafletProxy("map")
-    if(input$map_zoom >= 9){
-      proxy %>% showGroup("adm6_labels")  
-    }else if(input$map_zoom < 9){
-      proxy %>% hideGroup("adm6_labels")  
-     }
-     
-    if(input$map_zoom >= 8){
-      
-      proxy %>% hideGroup("portals") %>%
-             showGroup("adm5") %>%
-             showGroup("adm6") %>%
-             showGroup("portals")
-    }else if(input$map_zoom < 8){
-      proxy %>% hideGroup("adm5") %>%
-          hideGroup("adm6")
-     }
-    if(input$map_zoom >= 7){
-      proxy %>% hideGroup("portals") %>%
-            showGroup("adm4_labels")  %>%
-            showGroup("portals")
-    }
-     if(input$map_zoom < 7){
-      proxy %>%  hideGroup("portals") %>%
-         hideGroup("adm4_labels")  %>%
-          showGroup("portals")
-    }}
-    
-  })
+#   observe({
+#    if(length(input$map_zoom) == 1){
+#      proxy <- leafletProxy("map")
+#     if(input$map_zoom >= 9){
+#       proxy %>% showGroup("adm6_labels")  
+#     }else if(input$map_zoom < 9){
+#       proxy %>% hideGroup("adm6_labels")  
+#      }
+#      
+#     if(input$map_zoom >= 8){
+#       
+#       proxy %>% hideGroup("portals") %>%
+#              showGroup("adm5") %>%
+#              showGroup("adm6") %>%
+#              showGroup("portals")
+#     }else if(input$map_zoom < 8){
+#       proxy %>% hideGroup("adm5") %>%
+#           hideGroup("adm6")
+#      }
+#     if(input$map_zoom >= 7){
+#       proxy %>% hideGroup("portals") %>%
+#             showGroup("adm4_labels")  %>%
+#             showGroup("portals")
+#     }
+#      if(input$map_zoom < 7){
+#       proxy %>%  hideGroup("portals") %>%
+#          hideGroup("adm4_labels")  %>%
+#           showGroup("portals")
+#     }}
+#     
+#   })
 }
 
 # call the module
@@ -137,7 +137,7 @@ Tabelle {data-icon="glyphicon-list"}
 =========================================================
 
 ```{r fig.height=8}
-tags$div(align="middle", style="text-align:center", id="main-filter-group",
+tags$div(align="middle", style="text-align:center", class="main-filter-group",
  bscols(widths = c(6,6),
     div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam",                   filter_checkbox("bezug_portal", "Portal-Typ", sd, ~Typ_names, inline = FALSE, allLevels = TRUE, columns = 2)
     ),
@@ -162,9 +162,28 @@ div(class="metawrapper", style="height:75%",
 ```
 
 
-Filter {data-icon="ion-settings" .hidden}
+Filter {data-icon="ion-settings" }
 =========================================================
 ```{r}
+### filtergroup 2
+sd2 <- SharedData$new(portale, group = "portals_small")
+
+tags$div(align="middle", style="text-align:center", class="main-filter-group",
+ bscols(widths = c(6,6),
+    div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam",                   filter_checkbox("bezug_portal", "Portal-Typ", sd2, ~Typ_names, inline = FALSE, allLevels = TRUE, columns = 2)
+    ),
+    div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam",                   tagList(
+          filter_checkbox("bezug_check", "Reichweite", sd2, ~Reichweite, inline = FALSE, columns = 2),                                                               tags$div(filter_select(id="country_select", "Länder-Filter: ", sd2, ~Land), style="max-width:300px")
+        )
+    )
+    )
+ )
+
+
+
+
+
+
 #make a checkbox-row according to croosstalk
 makerow <- function(value, label){
  tags$div(class="checkbox", tags$label(class="checkbox_container", list(

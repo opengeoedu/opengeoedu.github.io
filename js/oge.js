@@ -7,14 +7,18 @@ toggleFilterExclusive = function(value, obj){
 }
 
 toggleFilter = function(value, obj){
-  var filterGroup = document.getElementById("main-filter-group");
-  var checkboxes = filterGroup.getElementsByClassName("crosstalk_checkbox");
-  for (var i = 0; i < checkboxes.length; i++) {
-      var checkbox = checkboxes[i];
-      if(checkbox.value == value && checkbox.checked != obj.checked) {
-        checkbox.click();
-      }
-   }
+  var filterGroups = document.getElementsByClassName("main-filter-group");
+  for (var k = 0; k < filterGroups.length; k++) {
+    var filterGroup = filterGroups[k];
+    var checkboxes = filterGroup.getElementsByClassName("crosstalk_checkbox");
+    alert(checkboxes.length);
+    for (var i = 0; i < checkboxes.length; i++) {
+        var checkbox = checkboxes[i];
+        if(checkbox.value == value && checkbox.checked != obj.checked) {
+          checkbox.click();
+        }
+    }
+  }
 }
 
 
@@ -27,7 +31,7 @@ changeFun = function(value, obj){
       if(checkbox.value == value && checkbox.checked != obj.checked) {
         checkbox.checked = obj.checked;
       }
-   }
+  }
 
 /*var x = document.getElementsByClassName("crosstalk-input-checkboxgroup");
   for (var j = 0; j < x.length; j++) {
@@ -81,26 +85,31 @@ var x = document.getElementsByClassName("crosstalk-input-checkboxgroup");
 }
 
 
-var filterGroup = document.getElementById("main-filter-group");
-var x = filterGroup.getElementsByClassName("crosstalk-input-checkboxgroup");
-var i;
-for (i = 0; i < x.length; i++) {
-    var inputs = x[i].getElementsByTagName("input");
-    for (var j = 0; j < inputs.length; j++) {
-      input = inputs[j];
-      input.className = "crosstalk_checkbox";
-      input.nextElementSibling.className = "checkbox_label";
-      var parent = input.parentNode;
-      parent.className = (parent.className + " checkbox_container").trim();
-      var checkmark = document.createElement('span');
-      checkmark.className = "checkmark";
-      // set element as child of input
-      parent.insertBefore(checkmark, input.nextSibling);
-     // input.checked = true;
-      input.setAttribute("onchange", "changeFun('"+input.getAttribute("value")+"', this)");
-      input.click();
-    }
+var filterGroups = document.getElementsByClassName("main-filter-group");
+
+for (var k = 0; k < filterGroups.length; k++) {
+  var filterGroup = filterGroups[k];
+  var x = filterGroup.getElementsByClassName("crosstalk-input-checkboxgroup");
+  var i;
+  for (i = 0; i < x.length; i++) {
+      var inputs = x[i].getElementsByTagName("input");
+      for (var j = 0; j < inputs.length; j++) {
+        input = inputs[j];
+        input.className = "crosstalk_checkbox";
+        input.nextElementSibling.className = "checkbox_label";
+        var parent = input.parentNode;
+        parent.className = (parent.className + " checkbox_container").trim();
+        var checkmark = document.createElement('span');
+        checkmark.className = "checkmark";
+        // set element as child of input
+        parent.insertBefore(checkmark, input.nextSibling);
+      // input.checked = true;
+        input.setAttribute("onchange", "changeFun('"+input.getAttribute("value")+"', this)");
+        input.click();
+      }
+  }
 }
+  
 
 // insert opengeoedu link where logo is
 var logoNode = document.getElementsByClassName("navbar-logo")[0];
@@ -178,7 +187,7 @@ onRenderMap = function(){
    markerIcon.style.width = "5px";
    markerIcon.style.height = "5px";   
  }
- alert("test");*/
+ alert("test"); */
 };
 
 
