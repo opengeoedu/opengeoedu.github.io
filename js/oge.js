@@ -169,5 +169,18 @@ onRenderMap = function(){
   mapcontrols  = document.getElementsByClassName("search-button");
   if(mapcontrols.length >0)
       mapcontrols[0].title = "Suche nach Ort oder Name eines Portals";
+      /*
+      var markerIcons = document.getElementsByClassName("leaflet-marker-icon");
+	//alert(markerIcons.length);
+ for (i = 0; i < markerIcons.length; i++) {
+ 	var markerIcon = markerIcons[i];
+//alert(markerIcon);
+   markerIcon.style.width = "5px";
+   markerIcon.style.height = "5px";   
+ }
+ alert("test");*/
 };
+
+
+
 

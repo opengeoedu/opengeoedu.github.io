@@ -77,6 +77,9 @@ portalMap <- function(input, output, session) {
   })
   
 
+ 
+  
+
   # output$map <- renderLeaflet({
   #   withProgress(message = "Karte wird geladen...", expr = {
   #   isolate({
@@ -88,7 +91,7 @@ portalMap <- function(input, output, session) {
   #   m
   #   })
   # })
-  
+  # runjs("alert(document.getElementsByClassName('leaflet-marker-icon').length);")
   observe({
    if(length(input$map_zoom) == 1){
      proxy <- leafletProxy("map")

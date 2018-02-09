@@ -158,23 +158,56 @@ portale.gk3.shifted <- as.data.frame(portale.gk3)
 #rounded coordinates prcision
 RDIST <- 20000
 rcs <- round(coordinates(portale.gk3)/RDIST)*RDIST
-
 #find identical coordinate pairs
 rcpairs <- as.factor(paste(rcs[,"lat"], rcs[,"lon"]))
 overlaps <- levels(rcpairs)[table(rcpairs) > 1]
+point_id_groups <- sapply(overlaps, function(overlap){
+  point_ids <- which(rcpairs == overlap)
+  point_ids
+})
+
+rcs <- round((coordinates(portale.gk3)+(RDIST/2))/RDIST)*RDIST
+rcpairs <- as.factor(paste(rcs[,"lat"], rcs[,"lon"]))
+overlaps <- levels(rcpairs)[table(rcpairs) > 1]
+all_point_ids <- unlist(point_id_groups,use.names = FALSE)
 
 sapply(overlaps, function(overlap){
-  #find the ids of overlapping points
   point_ids <- which(rcpairs == overlap)
-  x0 <- mean(coordinates(portale.gk3)[point_ids[1], 1]) # approximate center of the coordinates
-  y0 <- mean(coordinates(portale.gk3)[point_ids[1], 2])
+  id_group <- point_ids[!point_ids %in% all_point_ids]
+  if(length(id_group)>1){
+  }
+    return(invisible())
+})
+
+#point_id_groups
+
+
+sapply(point_id_groups, function(point_ids){
+  #point_ids <- point_id_groups[[1]]
+  point_ids <- unlist(point_ids)
+  #find the ids of overlapping points
+  #point_ids <- which(rcpairs == overlap)
+  x0 <- mean(coordinates(portale.gk3)[point_ids, 1]) # approximate center of the coordinates
+  y0 <- mean(coordinates(portale.gk3)[point_ids, 2])
   #cat(x0, "- ",y0, "\n")
+  
   n <- length(point_ids) #number of points to be shifted
-  vec <- seq(from=0, by=2*pi/n, length.out = n)
-  r <- RDIST/4
+  vec <- 2*pi/(3*n)+seq(from=0, by=2*pi/n, length.out = n)
+  r <- max(1, n/3)*RDIST/5
   xc <- c(x0+r*sin(vec))
   yc <- c(y0+r*cos(vec))
-  portale.gk3.shifted[point_ids, c("lon","lat")] <<- data.frame(xc, yc)
+  
+  pold <- coordinates(portale.gk3)[point_ids,]#shifted_points[point_ids, c(1,2)] 
+  arcs <- mapply(function(xp, yp){
+    arc <- atan2(xp-x0, yp-y0)*360/(2*pi)
+    if(arc<0)
+      arc <- arc + 360
+    # text(xp,yp, labels = round(arc))
+    arc
+  },  xp=pold[,1],
+  yp=pold[,2]
+  )
+  portale.gk3.shifted[point_ids[order(arcs)], c("lon","lat")] <<- data.frame(xc, yc)
   return(invisible())
 })
 

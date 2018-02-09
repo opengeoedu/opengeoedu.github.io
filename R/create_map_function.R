@@ -223,7 +223,7 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
             #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
             clusterOptions = clusterOptions,
             clusterId = category,
-            labelOptions = labelOptions(noHide = FALSE),#, className = "needAbsolute",offset= c(-8, -8)),
+            labelOptions = labelOptions(textOnly = FALSE,noHide = FALSE,offset = c(3,-8)),#, className = "needAbsolute",offset= c(-8, -8)),
             data =  datagroup
           )
       return(m)
@@ -231,8 +231,8 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
     
     mapply(function(portal_typ, group_pch){
       group_data <- SharedData$new(portale[portale$Reichweite == category & portale$Typ==portal_typ,], group = crosstalk_group)
-      group_iconfile <- pchIcons(colorlf[[category]],  pch = group_pch, file_prefix = paste0(portal_typ,"_"))
-      m <<- addPortalMarker(m, group_data, group_iconfile)
+      group_iconfile <- pchIcons(colorlf[[category]],  pch = group_pch, file_prefix = paste0(portal_typ,"_"), width = 35, height = 35)
+      m <<- addPortalMarker(m, group_data, group_iconfile, iconWidth = 35, iconHeight = 35)
     }, portal_typ = table_meta$typ, group_pch = as.numeric(table_meta$typ_pch))
     
     
