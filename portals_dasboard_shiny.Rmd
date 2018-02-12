@@ -71,10 +71,43 @@ portalMap <- function(input, output, session) {
     withProgress(message = "Karte wird geladen...", expr = {
       isolate({
       setProgress(value = 1)
+    
       m
       })
     })
   })
+  
+  # sd2 <- SharedData$new(portale, group = "portale")
+  # 
+  # 
+  #  observe({
+  #     if(length(input$map_zoom) == 1){
+  #         proxy <- leafletProxy("map")
+  #     }
+  #     
+  #   isolate({
+  #   #  .data <- reactiveValues(portals = sd2$data())
+  #     if(input$map_zoom < 8 && exists("proxy")){
+  #       proxy %>% clearGroup("portale_small")
+  #       proxy <- addAllPortalMarkers(proxy,portale = sd2, "portale_small", 20, 20, "small_")
+  #     }
+  #     }
+  #   )
+  #   
+  # })
+  
+ #  
+ #  observe({
+ # 
+ #    if(input$map_zoom >= 8 && exists("proxy")){
+ # 
+ #      proxy %>% hideGroup("portals") %>%
+ #             showGroup("adm5") %>%
+ #             showGroup("adm6") %>%
+ #             showGroup("portals")
+ #      }
+ #     
+ #    })
   
 
  
@@ -166,21 +199,18 @@ Filter {data-icon="ion-settings" }
 =========================================================
 ```{r}
 ### filtergroup 2
-sd2 <- SharedData$new(portale, group = "portals_small")
-
-tags$div(align="middle", style="text-align:center", class="main-filter-group",
- bscols(widths = c(6,6),
-    div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam",                   filter_checkbox("bezug_portal", "Portal-Typ", sd2, ~Typ_names, inline = FALSE, allLevels = TRUE, columns = 2)
-    ),
-    div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam",                   tagList(
-          filter_checkbox("bezug_check", "Reichweite", sd2, ~Reichweite, inline = FALSE, columns = 2),                                                               tags$div(filter_select(id="country_select", "Länder-Filter: ", sd2, ~Land), style="max-width:300px")
-        )
-    )
-    )
- )
-
-
-
+# sd2 <- SharedData$new(portale, group = "portals_small")
+# 
+# tags$div(align="middle", style="text-align:center", class="main-filter-group",
+#  bscols(widths = c(6,6),
+#     div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam",                   filter_checkbox("bezug_portal", "Portal-Typ", sd2, ~Typ_names, inline = FALSE, allLevels = TRUE, columns = 2)
+#     ),
+#     div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam",                   tagList(
+#           filter_checkbox("bezug_check", "Reichweite", sd2, ~Reichweite, inline = FALSE, columns = 2),                                                               tags$div(filter_select(id="country_select", "Länder-Filter: ", sd2, ~Land), style="max-width:300px")
+#         )
+#     )
+#     )
+#  )
 
 
 

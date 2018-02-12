@@ -11,7 +11,7 @@ toggleFilter = function(value, obj){
   for (var k = 0; k < filterGroups.length; k++) {
     var filterGroup = filterGroups[k];
     var checkboxes = filterGroup.getElementsByClassName("crosstalk_checkbox");
-    alert(checkboxes.length);
+  //  alert(checkboxes.length);
     for (var i = 0; i < checkboxes.length; i++) {
         var checkbox = checkboxes[i];
         if(checkbox.value == value && checkbox.checked != obj.checked) {

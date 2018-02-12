@@ -45,7 +45,7 @@
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Büchsenstraße 54, 70174 Stuttgart</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.29360582274777,48.7637073565094</coordinates></Point>
+      <Point><coordinates>9.23547941661482,48.7243387557866</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -304,7 +304,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Gustav-Stresemann-Ring 11, D-65189 Wiesbaden</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.27642924356273,50.0129724570961</coordinates></Point>
+      <Point><coordinates>8.21639486153837,50.0126454837142</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -416,7 +416,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Gänsemarkt 36, 20354 Hamburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.90670290836719,53.5011821869014</coordinates></Point>
+      <Point><coordinates>9.85208718026339,53.5436252761218</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -474,7 +474,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="Land">Deutschland</SimpleData>
 		<SimpleData name="Beschreibung">Statistik-Portal der Stadt Freiburg im Breisgau (enthält u.a. die Themen „Open Data“ und „Geodaten“)</SimpleData>
 		<SimpleData name="Ort">Freiburg im Breisgau</SimpleData>
-		<SimpleData name="Typ">odp</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
 		<SimpleData name="Reichweite">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
@@ -514,7 +514,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Halle, Marktplatz 1, 06100 Halle</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.9717438614007,51.4825646549291</coordinates></Point>
+      <Point><coordinates>11.9265626696843,51.4617778958468</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -530,7 +530,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Neuenfelder Straße 19, 21109 Hamburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.0942037746393,53.5233019710051</coordinates></Point>
+      <Point><coordinates>10.1131080570549,53.4932792929453</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -546,7 +546,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Freie und Hansestadt Hamburg, Rathausmarkt 1, 20095 Hamburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.92056544733391,53.5711099265965</coordinates></Point>
+      <Point><coordinates>9.91452745767578,53.6061873896253</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -758,7 +758,7 @@ Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendun
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Lübecker Straße 287, 19059 Schwerin</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.380103935056,53.6464246553781</coordinates></Point>
+      <Point><coordinates>11.4334746726267,53.6633254016321</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -774,7 +774,7 @@ Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendun
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Meerbusch, Moerser Straße 28, 40667 Meerbusch</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.68318755287421,51.2168987468223</coordinates></Point>
+      <Point><coordinates>6.69060909251669,51.2439020931287</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -908,7 +908,7 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Münster, 48127 Münster</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.68323574873068,51.9543596836487</coordinates></Point>
+      <Point><coordinates>7.65736009798085,51.9750265067419</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1031,7 +1031,7 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Friedrichstraße 62-80, 40217 Düsseldorf</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.7805421757391,51.2547459035403</coordinates></Point>
+      <Point><coordinates>6.76849043952446,51.2053772487872</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1047,7 +1047,7 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Von-Kuhl-Str. 49, 56070 Koblenz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.5847240916508,50.3750314049713</coordinates></Point>
+      <Point><coordinates>7.6081936185783,50.3337865673694</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1063,7 +1063,7 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Schillerplatz 3 – 5, 55116 Mainz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.29231222707778,50.0744120262851</coordinates></Point>
+      <Point><coordinates>8.28957275363913,50.0961667010578</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1083,7 +1083,7 @@ Die Daten werden je zu verschiedenen Nutzungsbedingungen angeboten, einige davon
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Von der Heydt 22, 66115 Saarbrücken</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.95079331125058,49.2774313544131</coordinates></Point>
+      <Point><coordinates>6.93324434812629,49.2296501285475</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1168,7 +1168,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Düsternbrooker Weg 92, 24105 Kiel</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.1978412744925,54.3467710598184</coordinates></Point>
+      <Point><coordinates>10.1806747671163,54.3541458015196</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1184,7 +1184,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Landesamt für Vermessung und Geoinformation, Hohenwindenstr. 13 a, D-99086 Erfurt</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.047824085083,50.9605050343376</coordinates></Point>
+      <Point><coordinates>11.0596151857584,51.0394833306085</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1200,7 +1200,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Landesamt für Vermessung und Geoinformation, Hohenwindenstr. 13 a, D-99086 Erfurt</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.9740255677431,51.0018123564645</coordinates></Point>
+      <Point><coordinates>11.0844921185817,50.9735446996514</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1296,7 +1296,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Graz, Rathaus, 8011 Graz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>15.3923569890124,47.0560022336179</coordinates></Point>
+      <Point><coordinates>15.3895433117302,47.0807584702088</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1312,7 +1312,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Arnulfplatz 1, A-9021 Klagenfurt/Wörthersee</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>14.2677830536158,46.60087144741</coordinates></Point>
+      <Point><coordinates>14.2753650642675,46.5798147059266</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1328,7 +1328,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Hauptplatz 1, 4041 Linz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>14.2411757795105,48.2835451562765</coordinates></Point>
+      <Point><coordinates>14.2359385256639,48.3095356038161</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1360,7 +1360,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Landhausplatz 1, Haus 13, 3109 St. Pölten</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>15.5843256881213,48.1869434535079</coordinates></Point>
+      <Point><coordinates>15.5812879154263,48.2110657652387</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1424,7 +1424,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Hohe Warte 38, A-1190 Wien</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.355678687389,48.2485020886523</coordinates></Point>
+      <Point><coordinates>16.3342912224403,48.2532749274356</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1480,9 +1480,9 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="URL">http://statistik.at/</SimpleData>
 		<SimpleData name="Titel">Statistik Austria</SimpleData>
 		<SimpleData name="Land">Österreich</SimpleData>
-		<SimpleData name="Beschreibung">Statistiken der Bundesanstalt Statistik Österreich</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken der Bundesanstalt Statistik Österreich (Stand: 12.2.2018)</SimpleData>
 		<SimpleData name="Ort">Österreich</SimpleData>
-		<SimpleData name="Typ">odp</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
 		<SimpleData name="Reichweite">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
 		<SimpleData name="Geodaten"></SimpleData>
@@ -1504,7 +1504,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Eduard-Wallnöfer-Platz 3, 6020 Innsbruck </SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.4427180162394,47.2813310069712</coordinates></Point>
+      <Point><coordinates>11.4313644626507,47.2911452927275</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1520,7 +1520,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Römerstraße 15, A-6901 Bregenz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.7913542825612,47.518510467781</coordinates></Point>
+      <Point><coordinates>9.77964143513927,47.5281623980244</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1610,7 +1610,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Land">Schweiz</SimpleData>
 		<SimpleData name="Beschreibung">Amtliche Statistiken der Schweiz</SimpleData>
 		<SimpleData name="Ort">Schweiz</SimpleData>
-		<SimpleData name="Typ">odp</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
 		<SimpleData name="Reichweite">national</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
 		<SimpleData name="Geodaten"></SimpleData>
@@ -1712,7 +1712,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Bahnhofplatz 1, 4021 Linz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>14.3378699981377,48.3150749677081</coordinates></Point>
+      <Point><coordinates>14.3255435900626,48.3267298726952</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1728,7 +1728,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Landhausplatz 1, 3109 St. Pölten</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>15.6815394927927,48.2173093265603</coordinates></Point>
+      <Point><coordinates>15.671058372544,48.2271948291457</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1744,7 +1744,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Chiemseehof, 5010 Salzburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.0976535154104,47.8141160031521</coordinates></Point>
+      <Point><coordinates>13.0865114061646,47.8240873758516</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1760,7 +1760,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Chiemseehof, 5010 Salzburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.0026119824749,47.781491184547</coordinates></Point>
+      <Point><coordinates>13.0656988487958,47.7634477837042</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1792,7 +1792,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Europaplatz 1, A-7000 Eisenstadt </SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.5285640084301,47.849057836492</coordinates></Point>
+      <Point><coordinates>16.5770582975006,47.8638524403094</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1808,7 +1808,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Römerstraße 15, 6901 Bregenz</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.69889652207697,47.4831340764995</coordinates></Point>
+      <Point><coordinates>9.76277655278147,47.4669073639295</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1824,7 +1824,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Eduard-Wallnöfer-Platz 3, 6020 Innsbruck</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.3496289900376,47.2472977978107</coordinates></Point>
+      <Point><coordinates>11.412684269911,47.2301655673081</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1840,7 +1840,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Flatschacher Straße 70, 9021 Klagenfurt am Wörthersee</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>14.3613577605261,46.6325034462191</coordinates></Point>
+      <Point><coordinates>14.3717306958905,46.592882178837</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1856,7 +1856,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Hofgasse 16, 8010 Graz  </SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>15.4873205678303,47.0866364404339</coordinates></Point>
+      <Point><coordinates>15.477305900595,47.0971320309651</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1888,7 +1888,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Kernerplatz 10, 70182 Stuttgart</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.19443998810192,48.746363496303</coordinates></Point>
+      <Point><coordinates>9.14959826757116,48.8232355641535</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1920,7 +1920,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Südliche Fürther Straße 5, 90429 Nürnberg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.013581312259,49.4311408758284</coordinates></Point>
+      <Point><coordinates>11.0796902256287,49.4818339042823</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1936,7 +1936,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Rothenburger Straße 9, 90443 Nürn­berg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.1105722739642,49.4653791076954</coordinates></Point>
+      <Point><coordinates>11.0605253158601,49.4208238369986</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1955,7 +1955,7 @@ sowie den Kreisen, Landkreisen und kreisfreien Städten in dem Geoportal der Met
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Alter Steinweg 4, 20459 Hamburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.0138975956409,53.4716777422212</coordinates></Point>
+      <Point><coordinates>9.89528804133521,53.4755659169332</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1988,7 +1988,7 @@ Altes Portal: https://geoportal.kreis-lup.de (Stand: 9.1.2018)</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Mendelstrasse 11, 48149 Münster</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.58362051880762,51.9172514257621</coordinates></Point>
+      <Point><coordinates>7.64170965928039,51.9135221023744</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2154,7 +2154,7 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</SimpleData>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="ID">132</SimpleData>
-		<SimpleData name="URL">http://maps.thermspe4ee.de</SimpleData>
+		<SimpleData name="URL">http://maps.thermspe4ee.de/arcgis/home/</SimpleData>
 		<SimpleData name="Titel">ThermSpe4EE-Geoportal </SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
 		<SimpleData name="Beschreibung">Forschungsergebnisse des Projektes „ThermSpe4EE“ (Thermische Speicher für Erneuerbare Energien) zum möglichen thermischen Gesamtspeichervolumen der Metropolregion Rhein-Neckar, erneuerbare Energien und Statistiken zu Strom und Wärme. Beteiligt waren die geomer GmbH, die PFALZWERKE AKTIENGESELLSCHAFT, die ait-Deutschland GmbH und die TU Kaiserslautern</SimpleData>
@@ -2213,7 +2213,7 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Kronenstraße 25, 70174 Stuttgart</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.16811533273997,48.8119185849631</coordinates></Point>
+      <Point><coordinates>9.13824856661561,48.7531616564387</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2308,7 +2308,7 @@ Rachelstraße 6, 93413 Cham
 		<SimpleData name="Land">Deutschland</SimpleData>
 		<SimpleData name="Beschreibung">Frei zugängliche Daten des Lankreises Cham in Maschinenlesbarer Form, hauptsächlich aus der datenBank des Geoinformationssystems IkGIS-Cham</SimpleData>
 		<SimpleData name="Ort">Landkreis Cham</SimpleData>
-		<SimpleData name="Typ">odp</SimpleData>
+		<SimpleData name="Typ">gdi</SimpleData>
 		<SimpleData name="Reichweite">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
@@ -2330,7 +2330,7 @@ Rachelstraße 6, 93413 Cham
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Fischmarkt 1, 99084 Erfurt</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.0676602551236,51.0214944612374</coordinates></Point>
+      <Point><coordinates>10.9800832572645,50.9578126758468</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2414,7 +2414,7 @@ Rachelstraße 6, 93413 Cham
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
-		<SimpleData name="ID">149</SimpleData>
+		<SimpleData name="ID">148</SimpleData>
 		<SimpleData name="URL">http://www.metropoleruhr.de/regionalverband-ruhr/karten-geodaten.html</SimpleData>
 		<SimpleData name="Titel">Regionalverband Ruhr – Karten und Geodaten</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
@@ -2430,7 +2430,7 @@ Rachelstraße 6, 93413 Cham
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
-		<SimpleData name="ID">150</SimpleData>
+		<SimpleData name="ID">149</SimpleData>
 		<SimpleData name="URL">http://www.geonline-gis.de/portale/weinstadt.htm</SimpleData>
 		<SimpleData name="Titel">BürgerGIS Weinstadt</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
@@ -2442,11 +2442,11 @@ Rachelstraße 6, 93413 Cham
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Marktplatz 1, 71384 Weinstadt</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.26740154518579,48.8292846720131</coordinates></Point>
+      <Point><coordinates>9.25406806198949,48.8377044028615</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
-		<SimpleData name="ID">151</SimpleData>
+		<SimpleData name="ID">150</SimpleData>
 		<SimpleData name="URL">http://www.gisserver.de/aalen/</SimpleData>
 		<SimpleData name="Titel">Geodatenportal der Stadt Aalen</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
@@ -2462,7 +2462,7 @@ Rachelstraße 6, 93413 Cham
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
-		<SimpleData name="ID">152</SimpleData>
+		<SimpleData name="ID">151</SimpleData>
 		<SimpleData name="URL">http://www.giscity.de/schwaebischhall/</SimpleData>
 		<SimpleData name="Titel">Geodatenportal der Stadt Schwäbisch Hall</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
@@ -2478,7 +2478,7 @@ Rachelstraße 6, 93413 Cham
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
-		<SimpleData name="ID">153</SimpleData>
+		<SimpleData name="ID">152</SimpleData>
 		<SimpleData name="URL">https://karten.heilbronn.de/heilbronn/</SimpleData>
 		<SimpleData name="Titel">Amtlicher Stadtplan Heibronn</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
@@ -2494,7 +2494,7 @@ Rachelstraße 6, 93413 Cham
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
-		<SimpleData name="ID">154</SimpleData>
+		<SimpleData name="ID">153</SimpleData>
 		<SimpleData name="URL">https://geoportal.heilbronn.de/</SimpleData>
 		<SimpleData name="Titel">Geodatenportal der Stadt Heilbronn</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
@@ -2538,7 +2538,7 @@ Rachelstraße 6, 93413 Cham
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Dresden</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.7888028836654,51.0657683448534</coordinates></Point>
+      <Point><coordinates>13.777232904305,51.0756427608264</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2651,7 +2651,7 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">51.0504 N, 13.7373 E </SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.6866748127719,51.0339369367592</coordinates></Point>
+      <Point><coordinates>13.6825038610529,51.0581699173802</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2756,14 +2756,14 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
 		<SimpleData name="Titel">Open Data der Kieler Stadtverwaltung</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
 		<SimpleData name="Beschreibung">Kostenfreie Daten der Landeshauptstadt Kiel, veröffentlicht in maschinenlesbaren Formaten und jährlich fortgeschrieben (Stand: 30.1.2018)</SimpleData>
-		<SimpleData name="Ort"></SimpleData>
+		<SimpleData name="Ort">Kiel</SimpleData>
 		<SimpleData name="Typ">odp</SimpleData>
 		<SimpleData name="Reichweite">kommunal</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Fleethörn 9, 24103 Kiel</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.0903703882739,54.3118530984523</coordinates></Point>
+      <Point><coordinates>10.1604475227182,54.2930417797038</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2811,7 +2811,7 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Gustav-Stresemann-Ring 11, D-65189 Wiesbaden</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.20172792369303,50.0525211778748</coordinates></Point>
+      <Point><coordinates>8.18805913695183,50.0779510751649</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2827,7 +2827,7 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Neuenfelder Straße 19, D-21109 Hamburg</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.0366204746705,53.5848009710065</coordinates></Point>
+      <Point><coordinates>10.124146721402,53.5657477919031</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2835,7 +2835,7 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
 		<SimpleData name="URL">http://numis.niedersachsen.de/</SimpleData>
 		<SimpleData name="Titel">NUMIS – Das Niedersächsische Umweltportal</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
-		<SimpleData name="Beschreibung">Umweltdatenportal des Landes Niedersachsen</SimpleData>
+		<SimpleData name="Beschreibung">Umweltdatenportal des Landes Niedersachsen  (Stand: 12.02.2018) </SimpleData>
 		<SimpleData name="Ort">Niedersachsen</SimpleData>
 		<SimpleData name="Typ">umw</SimpleData>
 		<SimpleData name="Reichweite">regional</SimpleData>
@@ -2843,7 +2843,7 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Archivstraße 2, 30169 Hannover</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>9.72958500285811,52.3701230054885</coordinates></Point>
+      <Point><coordinates>9.77368476840824,52.3764179647929</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -2865,7 +2865,7 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
 	<ExtendedData><SchemaData schemaUrl="#portale">
 		<SimpleData name="ID">176</SimpleData>
 		<SimpleData name="URL">http://ec.europa.eu/eurostat/web/gisco/</SimpleData>
-		<SimpleData name="Titel">GISCO – Geographiches Informationssystem der Kommission</SimpleData>
+		<SimpleData name="Titel">GISCO – Das Geographische Informationssystem der Kommission</SimpleData>
 		<SimpleData name="Land">Luxemburg</SimpleData>
 		<SimpleData name="Beschreibung">Als permanenter Service von Eurostat stellt GISCO Geographische Informationen für den Bedarf von Eurostat und Europäischen Kommission auf drei Ebenen bereit: unionsweit, nach EU-Land, nach Region (Stand: 7.2.2018)</SimpleData>
 		<SimpleData name="Ort">Europa</SimpleData>
@@ -2876,6 +2876,422 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
 		<SimpleData name="Adresse_Herausgeber">Rue Alphonse Weicker, L-2721 Luxemburg </SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>6.12358500956571,49.6128036200975</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">177</SimpleData>
+		<SimpleData name="URL">https://www.kiel.de/de/kiel_zukunft/statistik_kieler_zahlen/index.php</SimpleData>
+		<SimpleData name="Titel">Kieler Zahlen – Die wichtigsten Daten im Überblick</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken, Berichte und Zusammenfassungen der Stadt Kiel  (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Kiel</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Fleethörn 9, 24103 Kiel</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.080002457558,54.333800077765</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">178</SimpleData>
+		<SimpleData name="URL">https://opensensemap.org/</SimpleData>
+		<SimpleData name="Titel">OpenSenseMap</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Plattform für offene Sensordaten, entwickelt für Schüler und interessierte Bürger. Die veröffentlichten Daten wurden mithilfe von sog. SenseBoxen gemessen, welche u.a. Feinstaub, Temperatur, Luftdruck und Luftfeuchte eines Standortes erfassen. (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Europa</SimpleData>
+		<SimpleData name="Typ">cc</SimpleData>
+		<SimpleData name="Reichweite">international</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
+		<SimpleData name="Geodaten">ja</SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Heisenbergstraße 2, D-48149 Münster</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.56332682490319,51.9526191766553</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">179</SimpleData>
+		<SimpleData name="URL">https://parkendd.de/</SimpleData>
+		<SimpleData name="Titel">ParkenDD</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Auf einer Web-Karte werden freie Parkplätze in verschiedenen Europäischen Städten basierend auf offenen Daten angezeigt. Standorte sind unter anderem Dresden, Frankfurt am Main, Freiburg, Hamburg, Ingolstadt und Zürich. (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Europa</SimpleData>
+		<SimpleData name="Typ">cc</SimpleData>
+		<SimpleData name="Reichweite">international</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">01277 Dresden</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.7538507003875,51.0152235360957</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">180</SimpleData>
+		<SimpleData name="URL">https://www.laiv-mv.de/Statistik/</SimpleData>
+		<SimpleData name="Titel">Statistisches Landesamt Mecklenburg-Vorpommern</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken und Berichte des Landes Mecklenburg-Vorpommern (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Meck­len­burg-Vor­pom­mern</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Lübecker Str. 287, 19059 Schwerin</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.3267753963352,53.6294996184904</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">181</SimpleData>
+		<SimpleData name="URL">https://www.statistik-bw.de/</SimpleData>
+		<SimpleData name="Titel">Statistisches Landesamt Baden‑Württemberg</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken und Berichte des Landes Baden-Württemberg (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Baden-Württemberg</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Böblinger Straße 68, 70199 Stuttgart</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.30707340183162,48.7765427729359</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">182</SimpleData>
+		<SimpleData name="URL">https://www.statistik.bayern.de</SimpleData>
+		<SimpleData name="Titel">Bayerisches Landesamt für Statistik</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken und Berichte des Freistaates Bayern (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Bayern</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Nürnberger Str. 95, 90762 Fürth </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.9890388749732,49.4621217509341</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">183</SimpleData>
+		<SimpleData name="URL">http://statistik-nord.de/</SimpleData>
+		<SimpleData name="Titel">Statistisches Amt für Hamburg und Schleswig-Holstein</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken und Berichte des Statistikamtes Nord für Hamburg und Schleswig-Holstein mit Standorten in Hamburg und Kiel (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Hamburg, Schleswig-Holstein</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Steckelhörn 12, 20457 Hamburg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.0357640158602,53.6160451650191</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">184</SimpleData>
+		<SimpleData name="URL">http://statistik-hessen.de/</SimpleData>
+		<SimpleData name="Titel">Hessisches Statistisches Landesamt</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken und Berichte des Landes Hessen (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Hessen</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Rheinstraße 35/37, 65185 Wiesbaden</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.31778198597784,50.0308360266997</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">185</SimpleData>
+		<SimpleData name="URL">http://www.statistik.niedersachsen.de/</SimpleData>
+		<SimpleData name="Titel">Landesamt für Statistik Niedersachsen</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken und Berichte des Landes Niedersachsen (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Niedersachsen</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Göttinger Chaussee 76, D-30453 Hannover</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.67141162496679,52.3410958727346</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">186</SimpleData>
+		<SimpleData name="URL">https://www.it.nrw.de</SimpleData>
+		<SimpleData name="Titel">Landesbetrieb Information und Technik Nordrhein-Westfalen (IT.NRW)</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistikstelle und IT-Dienstleister des Landes Nordrhein-Westfalen (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Nordrhein-Westfalen</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Mauerstraße 51, 40476 Düsseldorf</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.78274758941159,51.2669864916504</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">187</SimpleData>
+		<SimpleData name="URL">https://www.statistik.rlp.de</SimpleData>
+		<SimpleData name="Titel">Statistisches Landesamt Rheinland-Pfalz</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken und Berichte des Landes Rheinland-Pfalz (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Rheinland-Pfalz</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Mainzer Straße 14-16, 56130 Bad Ems </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.70449910750152,50.3708603240656</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">188</SimpleData>
+		<SimpleData name="URL">https://www.saarland.de/statistik.htm</SimpleData>
+		<SimpleData name="Titel">Statistisches Amt Saarland</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken und Berichte des Saarlandes  (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Saarland</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Virchowstraße 7, 66119 Saarbrücken</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.02687681877502,49.2672571361049</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">189</SimpleData>
+		<SimpleData name="URL">https://www.statistik.sachsen.de/</SimpleData>
+		<SimpleData name="Titel">Statistisches Landesamt des Freistaates Sachsen</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken und Berichte des Freistaates Sachsen (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Sachsen</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Macherstraße 63, 01917 Kamenz</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>14.1104003064758,51.2847393028349</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">190</SimpleData>
+		<SimpleData name="URL">http://www.statistik.sachsen-anhalt.de/</SimpleData>
+		<SimpleData name="Titel">Statistische Landesamt Sachsen-Anhalt </SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken und Berichte des Landes Sachsen-Anhalt  (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Sachsen-Anhalt</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Merseburger Straße 2, 06110 Halle/Saale</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>12.0284930036489,51.4951506212283</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">191</SimpleData>
+		<SimpleData name="URL">http://statistik.thueringen.de</SimpleData>
+		<SimpleData name="Titel">Thüringer Landesamt für Statistik (TLS)</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken und Berichte des Freistaates Thüringen  (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Thüringen</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Europaplatz 3, 99091 Erfurt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.955065362198,51.0237307412857</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">192</SimpleData>
+		<SimpleData name="URL">https://de.statista.com/</SimpleData>
+		<SimpleData name="Titel">Statista.com</SimpleData>
+		<SimpleData name="Land">Deutschland</SimpleData>
+		<SimpleData name="Beschreibung">Deutschlandweite Statistiken der Statista GmbH Deutschland  (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Deutschland</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">national</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Johannes-Brahms-Platz 1, 20355 Hamburg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.0113216735556,53.4531887043523</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">193</SimpleData>
+		<SimpleData name="URL">https://www.wien.gv.at/statistik/</SimpleData>
+		<SimpleData name="Titel">Statistik Wien</SimpleData>
+		<SimpleData name="Land">Österreich</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken der Stadt Wien  (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Wien</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Stadt Wien</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>16.4320081804789,48.2829730800223</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">194</SimpleData>
+		<SimpleData name="URL">https://www.noe.gv.at/noe/Zahlen-Fakten/Zahlen___Fakten.html</SimpleData>
+		<SimpleData name="Titel">Landes Niederösterreich | Zahlen und Fakten </SimpleData>
+		<SimpleData name="Land">Österreich</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Landes Niederösterreich (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Niederösterreich</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Landhausplatz 1, 3109 St. Pölten</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>15.6470499452994,48.167184239406</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">195</SimpleData>
+		<SimpleData name="URL">www.vorarlberg.at/statistik</SimpleData>
+		<SimpleData name="Titel">Landesstatistik Voralberg</SimpleData>
+		<SimpleData name="Land">Österreich</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Landes Voralberg (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Voralberg</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Landhaus, A-6901 Bregenz</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.69291188938071,47.507406738526</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">196</SimpleData>
+		<SimpleData name="URL">https://www.land-oberoesterreich.gv.at/12136.htm</SimpleData>
+		<SimpleData name="Titel">Land Oberösterreich – Statistik</SimpleData>
+		<SimpleData name="Land">Österreich</SimpleData>
+		<SimpleData name="Beschreibung">Einstiegspunkt zu amtlichen Statistiken und offenen Daten des Landes Oberösterreich (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Oberösterreich</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Landhausplatz 1, 4021 Linz</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>14.3030391503662,48.2663827902123</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">197</SimpleData>
+		<SimpleData name="URL">https://www.tirol.gv.at/statistik-budget/statistik/</SimpleData>
+		<SimpleData name="Titel">Landesstatistik Tirol</SimpleData>
+		<SimpleData name="Land">Österreich</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Landes Tirol (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Tirol</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Eduard-Wallnöfer-Platz 3, 6020 Innsbruck</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.3444278011835,47.2716431532239</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">198</SimpleData>
+		<SimpleData name="URL">http://www.klagenfurt.at/die-stadt/statistik.html</SimpleData>
+		<SimpleData name="Titel">Statistisches Amt Klagenfurt </SimpleData>
+		<SimpleData name="Land">Österreich</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken der Kärntener Landeshauptstadt Klagenfurt (Stand: 12.02.2018) </SimpleData>
+		<SimpleData name="Ort">Klagenfurt am Wörthersee</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Kumpfgasse 20, 9010 Klagenfurt am Wörthersee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>14.3528156484007,46.6593260726614</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">199</SimpleData>
+		<SimpleData name="URL">www.statistik.ktn.gv.at</SimpleData>
+		<SimpleData name="Titel">Landesstelle für Statistik – Land Kärnten</SimpleData>
+		<SimpleData name="Land">Österreich</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Landes Kärnten (Stand: 12.02.2018)</SimpleData>
+		<SimpleData name="Ort">Kärnten</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Arnulfplatz 1, A-9021 Klagenfurt am Wörthersee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>14.2563333760929,46.6462473407626</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">200</SimpleData>
+		<SimpleData name="URL">https://www.burgenland.at/land-politik-verwaltung/statistik-burgenland/</SimpleData>
+		<SimpleData name="Titel">Statistik Burgenland</SimpleData>
+		<SimpleData name="Land">Österreich</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Referat Statistik im Amt der Burgenländischen Landesregierung  (Stand: 12.02.2018)</SimpleData>
+		<SimpleData name="Ort">Burgenland</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Europaplatz 1, 7000 Eisenstadt</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>16.4800956066613,47.8342411123692</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">201</SimpleData>
+		<SimpleData name="URL">https://www.salzburg.gv.at/themen/statistik</SimpleData>
+		<SimpleData name="Titel">Landesstatistik Salzburg</SimpleData>
+		<SimpleData name="Land">Österreich</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Landes Salzburg (Stand: 12.02.2018)</SimpleData>
+		<SimpleData name="Ort">Salzburg</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Chiemseehof, 5010 Salzburg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>12.9981446927506,47.8058877873539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">202</SimpleData>
+		<SimpleData name="URL">http://www.statistik.steiermark.at/</SimpleData>
+		<SimpleData name="Titel">Landesstatistik Steiermark</SimpleData>
+		<SimpleData name="Land">Österreich</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Landes Steiermark (Stand: 12.02.2018)</SimpleData>
+		<SimpleData name="Ort">Steiermark</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Hofgasse 16, 8010 Graz  </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>15.4541623798029,47.0370426852654</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

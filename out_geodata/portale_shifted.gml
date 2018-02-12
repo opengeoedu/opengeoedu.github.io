@@ -7,7 +7,7 @@
   <gml:boundedBy>
     <gml:Box>
       <gml:coord><gml:X>6.082390680050003</gml:X><gml:Y>46.1569343698481</gml:Y></gml:coord>
-      <gml:coord><gml:X>16.52856400843007</gml:X><gml:Y>54.34677105981839</gml:Y></gml:coord>
+      <gml:coord><gml:X>16.57705829750056</gml:X><gml:Y>54.35414580151965</gml:Y></gml:coord>
     </gml:Box>
   </gml:boundedBy>
                                                                                                  
@@ -29,7 +29,7 @@
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.2">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.29360582274777,48.7637073565094</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.23547941661482,48.7243387557866</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>2</ogr:ID>
       <ogr:URL>http://www.geoportal-bw.de</ogr:URL>
       <ogr:Titel>GDI Baden-Württemberg</ogr:Titel>
@@ -288,7 +288,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.18">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.27642924356273,50.0129724570961</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.21639486153837,50.0126454837142</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>18</ogr:ID>
       <ogr:URL>http://destatis.de/</ogr:URL>
       <ogr:Titel>Destatis - Statistisches Bundesamt</ogr:Titel>
@@ -400,7 +400,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.25">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.90670290836719,53.5011821869014</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.85208718026339,53.5436252761218</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>25</ogr:ID>
       <ogr:URL>https://www.govdata.de/</ogr:URL>
       <ogr:Titel>GovData - das Datenportal für Deutschland</ogr:Titel>
@@ -471,7 +471,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Statistik-Portal der Stadt Freiburg im Breisgau (enthält u.a. die Themen „Open Data“ und „Geodaten“)</ogr:Beschreibung>
       <ogr:Ort>Freiburg im Breisgau</ogr:Ort>
-      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Typ>stat</ogr:Typ>
       <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
@@ -496,7 +496,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.31">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.9717438614007,51.4825646549291</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.9265626696843,51.4617778958468</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>31</ogr:ID>
       <ogr:URL>http://www.daten.halle.de</ogr:URL>
       <ogr:Titel>Halle an der Saale Open Data</ogr:Titel>
@@ -514,7 +514,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.32">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.0942037746393,53.5233019710051</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.1131080570549,53.4932792929453</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>32</ogr:ID>
       <ogr:URL>http://www.hamburg.de/gdi-hh</ogr:URL>
       <ogr:Titel>GDI Hamburg</ogr:Titel>
@@ -530,7 +530,7 @@ Dies ist der erste Schritt. Es ist geplant, zukünftig weitere Daten zur freien 
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.33">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.92056544733391,53.5711099265965</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.91452745767578,53.6061873896253</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>33</ogr:ID>
       <ogr:URL>http://daten.hamburg.de/</ogr:URL>
       <ogr:Titel>Transparenzportal Hamburg</ogr:Titel>
@@ -742,7 +742,7 @@ Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendun
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.46">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.380103935056,53.6464246553781</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.4334746726267,53.6633254016321</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>46</ogr:ID>
       <ogr:URL>http://www.geoportal-mv.de/</ogr:URL>
       <ogr:Titel>GDI Meck­len­burg-Vor­pom­mern</ogr:Titel>
@@ -758,7 +758,7 @@ Dieses Portal richtet sich sowohl an Bürger als auch an Entwickler von Anwendun
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.47">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.68318755287421,51.2168987468223</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.69060909251669,51.2439020931287</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>47</ogr:ID>
       <ogr:URL>https://opendata.meerbusch.de/</ogr:URL>
       <ogr:Titel>Meerbusch Open Data</ogr:Titel>
@@ -891,7 +891,7 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.55">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.68323574873068,51.9543596836487</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.65736009798085,51.9750265067419</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>55</ogr:ID>
       <ogr:URL>http://www.stadt-muenster.de/katasteramt/geodatenmanagement/open-data.html</ogr:URL>
       <ogr:Titel>Offene Geodaten Münster</ogr:Titel>
@@ -1015,7 +1015,7 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.62">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.7805421757391,51.2547459035403</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.76849043952446,51.2053772487872</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>62</ogr:ID>
       <ogr:URL>https://open.nrw/</ogr:URL>
       <ogr:Titel>Open Data | Open.NRW</ogr:Titel>
@@ -1031,7 +1031,7 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.63">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.5847240916508,50.3750314049713</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.6081936185783,50.3337865673694</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>63</ogr:ID>
       <ogr:URL>http://www.geoportal.rlp.de/</ogr:URL>
       <ogr:Titel>GDI Rhein­land-Pfalz</ogr:Titel>
@@ -1047,7 +1047,7 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.64">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.29231222707778,50.0744120262851</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.28957275363913,50.0961667010578</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>64</ogr:ID>
       <ogr:URL>https://daten.rlp.de/</ogr:URL>
       <ogr:Titel>Open-Government-Data-Portal Rheinland-Pfalz  (OGDP-RP)</ogr:Titel>
@@ -1063,7 +1063,7 @@ Stadt Kerpen, Gemeinde Kall, Stadt Brühl, Kreis Euskirchen, Stadt Elsdorf, Stad
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.65">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.95079331125058,49.2774313544131</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.93324434812629,49.2296501285475</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>65</ogr:ID>
       <ogr:URL>http://geoportal.saarland.de/</ogr:URL>
       <ogr:Titel>GeoPortal Saarland (GDI-SL)</ogr:Titel>
@@ -1152,7 +1152,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.70">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.1978412744925,54.3467710598184</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.1806747671163,54.3541458015196</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>70</ogr:ID>
       <ogr:URL>http://www.gdi-sh.de/</ogr:URL>
       <ogr:Titel>GDI Schleswig-Holstein</ogr:Titel>
@@ -1168,7 +1168,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.71">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.047824085083,50.9605050343376</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.0596151857584,51.0394833306085</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>71</ogr:ID>
       <ogr:URL>http://www.geoportal-th.de/</ogr:URL>
       <ogr:Titel>GDI Thüringen</ogr:Titel>
@@ -1184,7 +1184,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.72">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.9740255677431,51.0018123564645</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.0844921185817,50.9735446996514</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>72</ogr:ID>
       <ogr:URL>http://www.geoportal-th.de/de-de/downloadbereiche/downloadoffenegeodatenth%C3%BCringen.aspx</ogr:URL>
       <ogr:Titel>Download Offene Geodaten Thüringen</ogr:Titel>
@@ -1280,7 +1280,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.78">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>15.3923569890124,47.0560022336179</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>15.3895433117302,47.0807584702088</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>78</ogr:ID>
       <ogr:URL>http://data.graz.gv.at/</ogr:URL>
       <ogr:Titel>Graz Open Data</ogr:Titel>
@@ -1296,7 +1296,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.79">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.2677830536158,46.60087144741</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.2753650642675,46.5798147059266</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>79</ogr:ID>
       <ogr:URL>http://data.ktn.gv.at/</ogr:URL>
       <ogr:Titel>Kärnten Open Data</ogr:Titel>
@@ -1312,7 +1312,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.80">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.2411757795105,48.2835451562765</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.2359385256639,48.3095356038161</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>80</ogr:ID>
       <ogr:URL>http://data.linz.gv.at/</ogr:URL>
       <ogr:Titel>Linz Open Data</ogr:Titel>
@@ -1344,7 +1344,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.82">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>15.5843256881213,48.1869434535079</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>15.5812879154263,48.2110657652387</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>82</ogr:ID>
       <ogr:URL>http://data.noe.gv.at/</ogr:URL>
       <ogr:Titel>Niederösterreich (lower Austria) Open Data</ogr:Titel>
@@ -1408,7 +1408,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.86">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>16.355678687389,48.2485020886523</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>16.3342912224403,48.2532749274356</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>86</ogr:ID>
       <ogr:URL>http://zamg.ac.at/</ogr:URL>
       <ogr:Titel>Zentralanstalt für Meteorologie und Geodynamik</ogr:Titel>
@@ -1477,9 +1477,9 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:URL>http://statistik.at/</ogr:URL>
       <ogr:Titel>Statistik Austria</ogr:Titel>
       <ogr:Land>Österreich</ogr:Land>
-      <ogr:Beschreibung>Statistiken der Bundesanstalt Statistik Österreich</ogr:Beschreibung>
+      <ogr:Beschreibung>Amtliche Statistiken der Bundesanstalt Statistik Österreich (Stand: 12.2.2018)</ogr:Beschreibung>
       <ogr:Ort>Österreich</ogr:Ort>
-      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Typ>stat</ogr:Typ>
       <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
@@ -1488,7 +1488,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.91">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.4427180162394,47.2813310069712</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.4313644626507,47.2911452927275</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>91</ogr:ID>
       <ogr:URL>http://data.tirol.gv.at/</ogr:URL>
       <ogr:Titel>Tirol Data Portal</ogr:Titel>
@@ -1504,7 +1504,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.92">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.7913542825612,47.518510467781</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.77964143513927,47.5281623980244</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>92</ogr:ID>
       <ogr:URL>http://data.vorarlberg.gv.at/</ogr:URL>
       <ogr:Titel>Vorarlberg Open Data</ogr:Titel>
@@ -1607,7 +1607,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
       <ogr:Land>Schweiz</ogr:Land>
       <ogr:Beschreibung>Amtliche Statistiken der Schweiz</ogr:Beschreibung>
       <ogr:Ort>Schweiz</ogr:Ort>
-      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Typ>stat</ogr:Typ>
       <ogr:Reichweite>national</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
@@ -1696,7 +1696,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.104">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.3378699981377,48.3150749677081</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.3255435900626,48.3267298726952</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>104</ogr:ID>
       <ogr:URL>http://www.doris.at/</ogr:URL>
       <ogr:Titel>DORIS interMAP – Startseite</ogr:Titel>
@@ -1712,7 +1712,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.105">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>15.6815394927927,48.2173093265603</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>15.671058372544,48.2271948291457</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>105</ogr:ID>
       <ogr:URL>http://www.noe.gv.at/Land-Zukunft/Karten-Geoinformation.html</ogr:URL>
       <ogr:Titel>Karten und Geoinformationen - Land Niederösterreich</ogr:Titel>
@@ -1728,7 +1728,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.106">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.0976535154104,47.8141160031521</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.0865114061646,47.8240873758516</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>106</ogr:ID>
       <ogr:URL>http://www.salzburg.gv.at/sagis/</ogr:URL>
       <ogr:Titel>SAGIS - Salzburger Geographisches Informationssystem</ogr:Titel>
@@ -1744,7 +1744,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.107">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.0026119824749,47.781491184547</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.0656988487958,47.7634477837042</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>107</ogr:ID>
       <ogr:URL>http://service.salzburg.gv.at/ogd/client/</ogr:URL>
       <ogr:Titel>Open Government Data Salzburg</ogr:Titel>
@@ -1776,7 +1776,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.109">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>16.5285640084301,47.849057836492</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>16.5770582975006,47.8638524403094</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>109</ogr:ID>
       <ogr:URL>http://gis.bgld.gv.at/</ogr:URL>
       <ogr:Titel>GeoDaten Burgenland - Willkommen</ogr:Titel>
@@ -1792,7 +1792,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.110">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.69889652207697,47.4831340764995</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.76277655278147,47.4669073639295</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>110</ogr:ID>
       <ogr:URL>http://www.vorarlberg.at/lvg</ogr:URL>
       <ogr:Titel>Land Vorarlberg - Landesvermessungsamt</ogr:Titel>
@@ -1808,7 +1808,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.111">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.3496289900376,47.2472977978107</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.412684269911,47.2301655673081</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>111</ogr:ID>
       <ogr:URL>http://www.tirol.gv.at/tiris</ogr:URL>
       <ogr:Titel>tiris - Tiroler Rauminformationssystem | Land Tirol</ogr:Titel>
@@ -1824,7 +1824,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.112">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.3613577605261,46.6325034462191</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.3717306958905,46.592882178837</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>112</ogr:ID>
       <ogr:URL>http://www.kagis.ktn.gv.at/</ogr:URL>
       <ogr:Titel>GDI Kärnten – KAGIS</ogr:Titel>
@@ -1840,7 +1840,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.113">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>15.4873205678303,47.0866364404339</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>15.477305900595,47.0971320309651</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>113</ogr:ID>
       <ogr:URL>http://www.gis.steiermark.at/</ogr:URL>
       <ogr:Titel>GIS-Steiermark - Geographisches Informationssystem -  Land Steiermark</ogr:Titel>
@@ -1872,7 +1872,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.115">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.19443998810192,48.746363496303</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.14959826757116,48.8232355641535</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>115</ogr:ID>
       <ogr:URL>https://mlr.baden-wuerttemberg.de/de/unsere-themen/geodaten/open-data/</ogr:URL>
       <ogr:Titel>Open Data: Ministerium für Ländlichen Raum und Verbraucherschutz Baden-Württemberg</ogr:Titel>
@@ -1904,7 +1904,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.117">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.013581312259,49.4311408758284</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.0796902256287,49.4818339042823</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>117</ogr:ID>
       <ogr:URL>https://opendata.vag.de</ogr:URL>
       <ogr:Titel>Open Data VAG Nürnberg</ogr:Titel>
@@ -1920,7 +1920,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.118">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.1105722739642,49.4653791076954</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.0605253158601,49.4208238369986</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>118</ogr:ID>
       <ogr:URL>https://www.vgn.de/web-entwickler/open-data/</ogr:URL>
       <ogr:Titel>Open Data: VGN-Soll-Fahrpläne im GTFS-Format </ogr:Titel>
@@ -1936,7 +1936,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.119">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.0138975956409,53.4716777422212</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.89528804133521,53.4755659169332</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>119</ogr:ID>
       <ogr:URL>http://geoportal.metropolre
 gion.hamburg.de/</ogr:URL>
@@ -1972,7 +1972,7 @@ Altes Portal: https://geoportal.kreis-lup.de (Stand: 9.1.2018)</ogr:Beschreibung
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.121">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.58362051880762,51.9172514257621</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.64170965928039,51.9135221023744</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>121</ogr:ID>
       <ogr:URL>http://www.geonetzwerk-muensterland.de/</ogr:URL>
       <ogr:Titel>Geonetzwerk Münsterland</ogr:Titel>
@@ -2151,7 +2151,7 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibu
     <ogr:portale fid="portale.132">
       <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.68705470195531,49.3601235044251</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>132</ogr:ID>
-      <ogr:URL>http://maps.thermspe4ee.de</ogr:URL>
+      <ogr:URL>http://maps.thermspe4ee.de/arcgis/home/</ogr:URL>
       <ogr:Titel>ThermSpe4EE-Geoportal </ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Forschungsergebnisse des Projektes „ThermSpe4EE“ (Thermische Speicher für Erneuerbare Energien) zum möglichen thermischen Gesamtspeichervolumen der Metropolregion Rhein-Neckar, erneuerbare Energien und Statistiken zu Strom und Wärme. Beteiligt waren die geomer GmbH, die PFALZWERKE AKTIENGESELLSCHAFT, die ait-Deutschland GmbH und die TU Kaiserslautern</ogr:Beschreibung>
@@ -2197,7 +2197,7 @@ Main, der Stadt Offenbach, dem Land Hessen und  weiteren Kreisen</ogr:Beschreibu
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.135">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.16811533273997,48.8119185849631</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.13824856661561,48.7531616564387</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>135</ogr:ID>
       <ogr:URL>https://www.region-stuttgart.org/information-und-download/geoinformationen/</ogr:URL>
       <ogr:Titel>RegioRISS - Regionales Rauminformationssystem Stuttgart</ogr:Titel>
@@ -2305,7 +2305,7 @@ Rachelstraße 6, 93413 Cham
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Frei zugängliche Daten des Lankreises Cham in Maschinenlesbarer Form, hauptsächlich aus der datenBank des Geoinformationssystems IkGIS-Cham</ogr:Beschreibung>
       <ogr:Ort>Landkreis Cham</ogr:Ort>
-      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Typ>gdi</ogr:Typ>
       <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
@@ -2314,7 +2314,7 @@ Rachelstraße 6, 93413 Cham
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.142">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.0676602551236,51.0214944612374</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.9800832572645,50.9578126758468</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>142</ogr:ID>
       <ogr:URL>https://geoportal.erfurt.de</ogr:URL>
       <ogr:Titel>Geoportal der Landeshauptstadt Erfurt</ogr:Titel>
@@ -2411,7 +2411,7 @@ Rachelstraße 6, 93413 Cham
   <gml:featureMember>
     <ogr:portale fid="portale.148">
       <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.99877664418851,51.4566239522691</gml:coordinates></gml:Point></ogr:geometryProperty>
-      <ogr:ID>149</ogr:ID>
+      <ogr:ID>148</ogr:ID>
       <ogr:URL>http://www.metropoleruhr.de/regionalverband-ruhr/karten-geodaten.html</ogr:URL>
       <ogr:Titel>Regionalverband Ruhr – Karten und Geodaten</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
@@ -2426,8 +2426,8 @@ Rachelstraße 6, 93413 Cham
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.149">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.26740154518579,48.8292846720131</gml:coordinates></gml:Point></ogr:geometryProperty>
-      <ogr:ID>150</ogr:ID>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.25406806198949,48.8377044028615</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>149</ogr:ID>
       <ogr:URL>http://www.geonline-gis.de/portale/weinstadt.htm</ogr:URL>
       <ogr:Titel>BürgerGIS Weinstadt</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
@@ -2443,7 +2443,7 @@ Rachelstraße 6, 93413 Cham
   <gml:featureMember>
     <ogr:portale fid="portale.150">
       <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.093388084088,48.836083104022</gml:coordinates></gml:Point></ogr:geometryProperty>
-      <ogr:ID>151</ogr:ID>
+      <ogr:ID>150</ogr:ID>
       <ogr:URL>http://www.gisserver.de/aalen/</ogr:URL>
       <ogr:Titel>Geodatenportal der Stadt Aalen</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
@@ -2459,7 +2459,7 @@ Rachelstraße 6, 93413 Cham
   <gml:featureMember>
     <ogr:portale fid="portale.151">
       <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.73679439775015,49.112375304216</gml:coordinates></gml:Point></ogr:geometryProperty>
-      <ogr:ID>152</ogr:ID>
+      <ogr:ID>151</ogr:ID>
       <ogr:URL>http://www.giscity.de/schwaebischhall/</ogr:URL>
       <ogr:Titel>Geodatenportal der Stadt Schwäbisch Hall</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
@@ -2475,7 +2475,7 @@ Rachelstraße 6, 93413 Cham
   <gml:featureMember>
     <ogr:portale fid="portale.152">
       <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.25211148954518,49.1699004686314</gml:coordinates></gml:Point></ogr:geometryProperty>
-      <ogr:ID>153</ogr:ID>
+      <ogr:ID>152</ogr:ID>
       <ogr:URL>https://karten.heilbronn.de/heilbronn/</ogr:URL>
       <ogr:Titel>Amtlicher Stadtplan Heibronn</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
@@ -2491,7 +2491,7 @@ Rachelstraße 6, 93413 Cham
   <gml:featureMember>
     <ogr:portale fid="portale.153">
       <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.23532233285831,49.1085854123235</gml:coordinates></gml:Point></ogr:geometryProperty>
-      <ogr:ID>154</ogr:ID>
+      <ogr:ID>153</ogr:ID>
       <ogr:URL>https://geoportal.heilbronn.de/</ogr:URL>
       <ogr:Titel>Geodatenportal der Stadt Heilbronn</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
@@ -2522,7 +2522,7 @@ Rachelstraße 6, 93413 Cham
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.155">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.7888028836654,51.0657683448534</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.777232904305,51.0756427608264</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>155</ogr:ID>
       <ogr:URL>http://offenesdresden.de/</ogr:URL>
       <ogr:Titel>OffenesDresden.de</ogr:Titel>
@@ -2635,7 +2635,7 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.162">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.6866748127719,51.0339369367592</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.6825038610529,51.0581699173802</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>162</ogr:ID>
       <ogr:URL>http://www.ioer-monitor.de/startseite/</ogr:URL>
       <ogr:Titel>IÖR-Monitor</ogr:Titel>
@@ -2747,13 +2747,13 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.169">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.0903703882739,54.3118530984523</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.1604475227182,54.2930417797038</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>169</ogr:ID>
       <ogr:URL>https://www.kiel.de/de/kiel_zukunft/statistik_kieler_zahlen/open_data/</ogr:URL>
       <ogr:Titel>Open Data der Kieler Stadtverwaltung</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Kostenfreie Daten der Landeshauptstadt Kiel, veröffentlicht in maschinenlesbaren Formaten und jährlich fortgeschrieben (Stand: 30.1.2018)</ogr:Beschreibung>
-      <ogr:Ort></ogr:Ort>
+      <ogr:Ort>Kiel</ogr:Ort>
       <ogr:Typ>odp</ogr:Typ>
       <ogr:Reichweite>kommunal</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
@@ -2795,7 +2795,7 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.172">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.20172792369303,50.0525211778748</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.18805913695183,50.0779510751649</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>172</ogr:ID>
       <ogr:URL>https://www-genesis.destatis.de/</ogr:URL>
       <ogr:Titel>GENESIS-Online Portal des Statistischen Bundesamtes</ogr:Titel>
@@ -2811,7 +2811,7 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.173">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.0366204746705,53.5848009710065</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.124146721402,53.5657477919031</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>173</ogr:ID>
       <ogr:URL>http://metaver.de</ogr:URL>
       <ogr:Titel>Metaver – MetadatenVerbund</ogr:Titel>
@@ -2827,12 +2827,12 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.174">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.72958500285811,52.3701230054885</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.77368476840824,52.3764179647929</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>174</ogr:ID>
       <ogr:URL>http://numis.niedersachsen.de/</ogr:URL>
       <ogr:Titel>NUMIS – Das Niedersächsische Umweltportal</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
-      <ogr:Beschreibung>Umweltdatenportal des Landes Niedersachsen</ogr:Beschreibung>
+      <ogr:Beschreibung>Umweltdatenportal des Landes Niedersachsen  (Stand: 12.02.2018) </ogr:Beschreibung>
       <ogr:Ort>Niedersachsen</ogr:Ort>
       <ogr:Typ>umw</ogr:Typ>
       <ogr:Reichweite>regional</ogr:Reichweite>
@@ -2862,7 +2862,7 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
       <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.12358500956571,49.6128036200975</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>176</ogr:ID>
       <ogr:URL>http://ec.europa.eu/eurostat/web/gisco/</ogr:URL>
-      <ogr:Titel>GISCO – Geographiches Informationssystem der Kommission</ogr:Titel>
+      <ogr:Titel>GISCO – Das Geographische Informationssystem der Kommission</ogr:Titel>
       <ogr:Land>Luxemburg</ogr:Land>
       <ogr:Beschreibung>Als permanenter Service von Eurostat stellt GISCO Geographische Informationen für den Bedarf von Eurostat und Europäischen Kommission auf drei Ebenen bereit: unionsweit, nach EU-Land, nach Region (Stand: 7.2.2018)</ogr:Beschreibung>
       <ogr:Ort>Europa</ogr:Ort>
@@ -2871,6 +2871,422 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten>ja</ogr:Geodaten>
       <ogr:Adresse_Herausgeber>Rue Alphonse Weicker, L-2721 Luxemburg </ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.177">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.080002457558,54.333800077765</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>177</ogr:ID>
+      <ogr:URL>https://www.kiel.de/de/kiel_zukunft/statistik_kieler_zahlen/index.php</ogr:URL>
+      <ogr:Titel>Kieler Zahlen – Die wichtigsten Daten im Überblick</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken, Berichte und Zusammenfassungen der Stadt Kiel  (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Kiel</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Fleethörn 9, 24103 Kiel</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.178">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.56332682490319,51.9526191766553</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>178</ogr:ID>
+      <ogr:URL>https://opensensemap.org/</ogr:URL>
+      <ogr:Titel>OpenSenseMap</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Plattform für offene Sensordaten, entwickelt für Schüler und interessierte Bürger. Die veröffentlichten Daten wurden mithilfe von sog. SenseBoxen gemessen, welche u.a. Feinstaub, Temperatur, Luftdruck und Luftfeuchte eines Standortes erfassen. (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Europa</ogr:Ort>
+      <ogr:Typ>cc</ogr:Typ>
+      <ogr:Reichweite>international</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten>ja</ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Heisenbergstraße 2, D-48149 Münster</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.179">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>13.7538507003875,51.0152235360957</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>179</ogr:ID>
+      <ogr:URL>https://parkendd.de/</ogr:URL>
+      <ogr:Titel>ParkenDD</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Auf einer Web-Karte werden freie Parkplätze in verschiedenen Europäischen Städten basierend auf offenen Daten angezeigt. Standorte sind unter anderem Dresden, Frankfurt am Main, Freiburg, Hamburg, Ingolstadt und Zürich. (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Europa</ogr:Ort>
+      <ogr:Typ>cc</ogr:Typ>
+      <ogr:Reichweite>international</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>01277 Dresden</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.180">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.3267753963352,53.6294996184904</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>180</ogr:ID>
+      <ogr:URL>https://www.laiv-mv.de/Statistik/</ogr:URL>
+      <ogr:Titel>Statistisches Landesamt Mecklenburg-Vorpommern</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken und Berichte des Landes Mecklenburg-Vorpommern (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Meck­len­burg-Vor­pom­mern</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Lübecker Str. 287, 19059 Schwerin</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.181">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.30707340183162,48.7765427729359</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>181</ogr:ID>
+      <ogr:URL>https://www.statistik-bw.de/</ogr:URL>
+      <ogr:Titel>Statistisches Landesamt Baden‑Württemberg</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken und Berichte des Landes Baden-Württemberg (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Baden-Württemberg</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Böblinger Straße 68, 70199 Stuttgart</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.182">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.9890388749732,49.4621217509341</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>182</ogr:ID>
+      <ogr:URL>https://www.statistik.bayern.de</ogr:URL>
+      <ogr:Titel>Bayerisches Landesamt für Statistik</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken und Berichte des Freistaates Bayern (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Bayern</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Nürnberger Str. 95, 90762 Fürth </ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.183">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.0357640158602,53.6160451650191</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>183</ogr:ID>
+      <ogr:URL>http://statistik-nord.de/</ogr:URL>
+      <ogr:Titel>Statistisches Amt für Hamburg und Schleswig-Holstein</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken und Berichte des Statistikamtes Nord für Hamburg und Schleswig-Holstein mit Standorten in Hamburg und Kiel (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Hamburg, Schleswig-Holstein</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Steckelhörn 12, 20457 Hamburg</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.184">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.31778198597784,50.0308360266997</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>184</ogr:ID>
+      <ogr:URL>http://statistik-hessen.de/</ogr:URL>
+      <ogr:Titel>Hessisches Statistisches Landesamt</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken und Berichte des Landes Hessen (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Hessen</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Rheinstraße 35/37, 65185 Wiesbaden</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.185">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.67141162496679,52.3410958727346</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>185</ogr:ID>
+      <ogr:URL>http://www.statistik.niedersachsen.de/</ogr:URL>
+      <ogr:Titel>Landesamt für Statistik Niedersachsen</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken und Berichte des Landes Niedersachsen (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Niedersachsen</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Göttinger Chaussee 76, D-30453 Hannover</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.186">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.78274758941159,51.2669864916504</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>186</ogr:ID>
+      <ogr:URL>https://www.it.nrw.de</ogr:URL>
+      <ogr:Titel>Landesbetrieb Information und Technik Nordrhein-Westfalen (IT.NRW)</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistikstelle und IT-Dienstleister des Landes Nordrhein-Westfalen (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Nordrhein-Westfalen</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Mauerstraße 51, 40476 Düsseldorf</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.187">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.70449910750152,50.3708603240656</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>187</ogr:ID>
+      <ogr:URL>https://www.statistik.rlp.de</ogr:URL>
+      <ogr:Titel>Statistisches Landesamt Rheinland-Pfalz</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken und Berichte des Landes Rheinland-Pfalz (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Rheinland-Pfalz</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Mainzer Straße 14-16, 56130 Bad Ems </ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.188">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.02687681877502,49.2672571361049</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>188</ogr:ID>
+      <ogr:URL>https://www.saarland.de/statistik.htm</ogr:URL>
+      <ogr:Titel>Statistisches Amt Saarland</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken und Berichte des Saarlandes  (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Saarland</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Virchowstraße 7, 66119 Saarbrücken</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.189">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.1104003064758,51.2847393028349</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>189</ogr:ID>
+      <ogr:URL>https://www.statistik.sachsen.de/</ogr:URL>
+      <ogr:Titel>Statistisches Landesamt des Freistaates Sachsen</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken und Berichte des Freistaates Sachsen (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Sachsen</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Macherstraße 63, 01917 Kamenz</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.190">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>12.0284930036489,51.4951506212283</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>190</ogr:ID>
+      <ogr:URL>http://www.statistik.sachsen-anhalt.de/</ogr:URL>
+      <ogr:Titel>Statistische Landesamt Sachsen-Anhalt </ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken und Berichte des Landes Sachsen-Anhalt  (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Sachsen-Anhalt</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Merseburger Straße 2, 06110 Halle/Saale</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.191">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.955065362198,51.0237307412857</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>191</ogr:ID>
+      <ogr:URL>http://statistik.thueringen.de</ogr:URL>
+      <ogr:Titel>Thüringer Landesamt für Statistik (TLS)</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken und Berichte des Freistaates Thüringen  (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Thüringen</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Europaplatz 3, 99091 Erfurt</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.192">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>10.0113216735556,53.4531887043523</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>192</ogr:ID>
+      <ogr:URL>https://de.statista.com/</ogr:URL>
+      <ogr:Titel>Statista.com</ogr:Titel>
+      <ogr:Land>Deutschland</ogr:Land>
+      <ogr:Beschreibung>Deutschlandweite Statistiken der Statista GmbH Deutschland  (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Deutschland</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Johannes-Brahms-Platz 1, 20355 Hamburg</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.193">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>16.4320081804789,48.2829730800223</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>193</ogr:ID>
+      <ogr:URL>https://www.wien.gv.at/statistik/</ogr:URL>
+      <ogr:Titel>Statistik Wien</ogr:Titel>
+      <ogr:Land>Österreich</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken der Stadt Wien  (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Wien</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Stadt Wien</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.194">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>15.6470499452994,48.167184239406</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>194</ogr:ID>
+      <ogr:URL>https://www.noe.gv.at/noe/Zahlen-Fakten/Zahlen___Fakten.html</ogr:URL>
+      <ogr:Titel>Landes Niederösterreich | Zahlen und Fakten </ogr:Titel>
+      <ogr:Land>Österreich</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Landes Niederösterreich (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Niederösterreich</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Landhausplatz 1, 3109 St. Pölten</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.195">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.69291188938071,47.507406738526</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>195</ogr:ID>
+      <ogr:URL>www.vorarlberg.at/statistik</ogr:URL>
+      <ogr:Titel>Landesstatistik Voralberg</ogr:Titel>
+      <ogr:Land>Österreich</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Landes Voralberg (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Voralberg</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Landhaus, A-6901 Bregenz</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.196">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.3030391503662,48.2663827902123</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>196</ogr:ID>
+      <ogr:URL>https://www.land-oberoesterreich.gv.at/12136.htm</ogr:URL>
+      <ogr:Titel>Land Oberösterreich – Statistik</ogr:Titel>
+      <ogr:Land>Österreich</ogr:Land>
+      <ogr:Beschreibung>Einstiegspunkt zu amtlichen Statistiken und offenen Daten des Landes Oberösterreich (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Oberösterreich</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Landhausplatz 1, 4021 Linz</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.197">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>11.3444278011835,47.2716431532239</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>197</ogr:ID>
+      <ogr:URL>https://www.tirol.gv.at/statistik-budget/statistik/</ogr:URL>
+      <ogr:Titel>Landesstatistik Tirol</ogr:Titel>
+      <ogr:Land>Österreich</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Landes Tirol (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Tirol</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Eduard-Wallnöfer-Platz 3, 6020 Innsbruck</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.198">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.3528156484007,46.6593260726614</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>198</ogr:ID>
+      <ogr:URL>http://www.klagenfurt.at/die-stadt/statistik.html</ogr:URL>
+      <ogr:Titel>Statistisches Amt Klagenfurt </ogr:Titel>
+      <ogr:Land>Österreich</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken der Kärntener Landeshauptstadt Klagenfurt (Stand: 12.02.2018) </ogr:Beschreibung>
+      <ogr:Ort>Klagenfurt am Wörthersee</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Kumpfgasse 20, 9010 Klagenfurt am Wörthersee</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.199">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>14.2563333760929,46.6462473407626</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>199</ogr:ID>
+      <ogr:URL>www.statistik.ktn.gv.at</ogr:URL>
+      <ogr:Titel>Landesstelle für Statistik – Land Kärnten</ogr:Titel>
+      <ogr:Land>Österreich</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Landes Kärnten (Stand: 12.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Kärnten</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Arnulfplatz 1, A-9021 Klagenfurt am Wörthersee</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.200">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>16.4800956066613,47.8342411123692</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>200</ogr:ID>
+      <ogr:URL>https://www.burgenland.at/land-politik-verwaltung/statistik-burgenland/</ogr:URL>
+      <ogr:Titel>Statistik Burgenland</ogr:Titel>
+      <ogr:Land>Österreich</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Referat Statistik im Amt der Burgenländischen Landesregierung  (Stand: 12.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Burgenland</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Europaplatz 1, 7000 Eisenstadt</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.201">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>12.9981446927506,47.8058877873539</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>201</ogr:ID>
+      <ogr:URL>https://www.salzburg.gv.at/themen/statistik</ogr:URL>
+      <ogr:Titel>Landesstatistik Salzburg</ogr:Titel>
+      <ogr:Land>Österreich</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Landes Salzburg (Stand: 12.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Salzburg</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Chiemseehof, 5010 Salzburg</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.202">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>15.4541623798029,47.0370426852654</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>202</ogr:ID>
+      <ogr:URL>http://www.statistik.steiermark.at/</ogr:URL>
+      <ogr:Titel>Landesstatistik Steiermark</ogr:Titel>
+      <ogr:Land>Österreich</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Landes Steiermark (Stand: 12.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Steiermark</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Hofgasse 16, 8010 Graz  </ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
 </ogr:FeatureCollection>

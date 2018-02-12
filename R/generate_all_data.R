@@ -26,7 +26,7 @@ source("R/data_processing.R")
 
 source("R/portal_prerendering.R")
 # cache the R objects that are consumed by the shiny application:
-save("m", "portale","sd", "sd_table","table_meta","statistics_html", "country_json", file = "out/prerendered_content.RData")
+save("m", "portale","sd", "sd_table","table_meta","statistics_html", "country_json", "pchIcons","addAllPortalMarkers","addPortalMarker",file = "out/prerendered_content.RData")
 
 # in interactive sessions test-render the map
 if(interactive()) {

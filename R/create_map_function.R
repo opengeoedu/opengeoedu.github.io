@@ -48,6 +48,41 @@ pchIcons <- function(col, width = 35, height = 35, pch = 24, file_prefix="gdi-ic
 }
 
 
+##function to add a set of markers as one layer
+addPortalMarker <- function(m, datagroup, clusterOptions, iconfiles, iconWidth = 30, iconHeight = 30, group = "portals", clusterId = NULL){
+  #print(inherits(datagroup, "SharedData"))
+  #print(dim(datagroup))
+  if( (!inherits(datagroup, "SharedData") && dim(datagroup)[1]>0) || (inherits(datagroup, "SharedData") && dim(datagroup$data())[1]>0)){
+    m <-addMarkers(
+      m,
+      ~lon,
+      ~lat,
+      popup = ~popup,
+      popupOptions = popupOptions(closeOnClick = TRUE),
+      group = group,
+      icon =  ~ icons(
+        iconUrl = iconfiles,
+        iconWidth = iconWidth,
+        iconHeight = iconHeight
+      ),
+      #color =  colorlf[[clusterId]],
+      label = ~label,
+      options = markerOptions(),
+      #options = markerOptions(alt = group$searchmeta),
+      #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
+      clusterOptions = clusterOptions,
+      clusterId = clusterId,
+      labelOptions = labelOptions(textOnly = FALSE,noHide = FALSE,offset = c(3,-8)),#, className = "needAbsolute",offset= c(-8, -8)),
+      data =  datagroup
+    )
+  }
+  return(m)
+}
+
+# function initialized by createMap
+addAllPortalMarkers <- NULL
+
+
 createMap <- function(portale, table_meta, crosstalk_group = "portale", clustering = TRUE, layerControls = TRUE, polygon_fill_color = "#696969", polygon_fill_opacity = 0.2) {
   categories <- table_meta$reichw
   colorlf <- table_meta$reichw_col
@@ -184,71 +219,48 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
   #  htmlwidgets::onRender("alert('test after Rendering');")
      htmlwidgets::onRender("onRenderMap()")
       #addGeoJSON("data/bounds/Germany_AL2.GeoJson")
+  
+  addAllPortalMarkers <<- function(m, portale, groupname, iconWidth, iconHeight, icon_prefix_extension =""){
 
-
-  sapply(categories, function(category) {
-    cf <- paste0(
-      "function (cluster) {
-      var childCount = cluster.getChildCount();",
-      "var c = '",
-      colorlf[[category]],
-      "';",
-      "return new L.DivIcon({ html: '<div style=\"background-color:'+c+'\"><span>' + childCount + '</span></div>', className: 'marker-cluster', iconSize: new L.Point(40, 40) });
-  }"
-    )
-
+      sapply(categories, function(category) {
+        cf <- paste0(
+          "function (cluster) {
+          var childCount = cluster.getChildCount();",
+          "var c = '",
+          colorlf[[category]],
+          "';",
+          "return new L.DivIcon({ html: '<div style=\"background-color:'+c+'\"><span>' + childCount + '</span></div>', className: 'marker-cluster', iconSize: new L.Point(40, 40) });
+      }"
+        )
     
+        clusterOptions <- NULL
+        if(clustering)
+          clusterOptions <- markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE)
+          #markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE)
+        
+        
+        mapply(function(portal_typ, group_pch){
+          group_data <- SharedData$new(portale[portale$Reichweite == category & portale$Typ==portal_typ,], group = groupname)
+          group_iconfile <- pchIcons(colorlf[[category]],  pch = group_pch, file_prefix = paste0(portal_typ,"_",icon_prefix_extension), width = iconWidth, height = iconHeight)
+          m <<- addPortalMarker(m, group_data, clusterOptions, group_iconfile, iconWidth = iconWidth, iconHeight = iconHeight, group = groupname, clusterId = category)
+          
+          # group_data <- SharedData$new(portale[portale$Reichweite == category & portale$Typ==portal_typ,], group = crosstalk_group)
+          # group_iconfile <- pchIcons(colorlf[[category]],  pch = group_pch, file_prefix = paste0(portal_typ,"_"), width = 35, height = 35)
+          # m <<- addPortalMarker(m, group_data, group_iconfile, iconWidth = 35, iconHeight = 35, group = "portals")
+          
+          # group_data <- SharedData$new(portale[portale$Reichweite == category & portale$Typ==portal_typ,], group = "portals_small")
+          # group_iconfile <- pchIcons(colorlf[[category]],  pch = group_pch, file_prefix = paste0(portal_typ,"_small_"), width = 20, height = 20)
+          # m <<- addPortalMarker(m, group_data, group_iconfile, iconWidth = 20, iconHeight = 20, group = "portals_small")
+        #  m <<- addPortalMarker(m, portale[portale$Reichweite == category & portale$Typ==portal_typ,], group_iconfile, iconWidth = 20, iconHeight = 20, group = "portals_small")
+        }, portal_typ = table_meta$typ, group_pch = as.numeric(table_meta$typ_pch))
+        
+        invisible()
+      })
+    return(m)
+  }
+  
+  m <- addAllPortalMarkers(m, portale = portale, "portale", 35, 35)
 
-
-
-    clusterOptions <- NULL
-    if(clustering)
-      clusterOptions <- markerClusterOptions(iconCreateFunction = JS(cf), removeOutsideVisibleBounds = FALSE)
-      #markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE)
-    
-    ##function to add a set of markers as one layer
-    addPortalMarker <- function(m, datagroup, iconfiles, iconWidth = 30, iconHeight = 30, group = "portals"){
-      #print(inherits(datagroup, "SharedData"))
-      #print(dim(datagroup))
-      if( (!inherits(datagroup, "SharedData") && dim(datagroup)[1]>0) || (inherits(datagroup, "SharedData") && dim(datagroup$data())[1]>0))
-        m <-addMarkers(
-            m,
-            ~lon,
-            ~lat,
-            popup = ~popup,
-            popupOptions = popupOptions(closeOnClick = TRUE),
-            group = group,
-            icon =  ~ icons(
-              iconUrl = iconfiles,
-              iconWidth = iconWidth,
-              iconHeight = iconHeight
-            ),
-            #color =  colorlf[[category]],
-            label = ~label,
-            options = markerOptions(),
-            #options = markerOptions(alt = group$searchmeta),
-            #  clusterOptions = markerClusterOptions(iconCreateFunction = JS(cf), spiderfyOnMaxZoom = TRUE, freezeAtZoom = 8, zoomToBoundsOnClick = TRUE, showCoverageOnHover = FALSE),
-            clusterOptions = clusterOptions,
-            clusterId = category,
-            labelOptions = labelOptions(textOnly = FALSE,noHide = FALSE,offset = c(3,-8)),#, className = "needAbsolute",offset= c(-8, -8)),
-            data =  datagroup
-          )
-      return(m)
-    }
-    
-    mapply(function(portal_typ, group_pch){
-      group_data <- SharedData$new(portale[portale$Reichweite == category & portale$Typ==portal_typ,], group = crosstalk_group)
-      group_iconfile <- pchIcons(colorlf[[category]],  pch = group_pch, file_prefix = paste0(portal_typ,"_"), width = 35, height = 35)
-      m <<- addPortalMarker(m, group_data, group_iconfile, iconWidth = 35, iconHeight = 35, group = "portals")
-      
-      group_data <- SharedData$new(portale[portale$Reichweite == category & portale$Typ==portal_typ,], group = "portals_small")
-      group_iconfile <- pchIcons(colorlf[[category]],  pch = group_pch, file_prefix = paste0(portal_typ,"_small_"), width = 20, height = 20)
-      m <<- addPortalMarker(m, group_data, group_iconfile, iconWidth = 20, iconHeight = 20, group = "portals_small")
-    #  m <<- addPortalMarker(m, portale[portale$Reichweite == category & portale$Typ==portal_typ,], group_iconfile, iconWidth = 20, iconHeight = 20, group = "portals_small")
-    }, portal_typ = table_meta$typ, group_pch = as.numeric(table_meta$typ_pch))
-    
-    invisible()
-  })
   
 
   if(layerControls)
@@ -270,11 +282,12 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
   #   return(allRecords[1])
   # }
 
-  m <- addSearchFeatures(m, targetGroups = "portals", options = searchFeaturesOptions(openPopup = TRUE, propertyName = "label"))
-  
- m <- hideGroup(m, "portals") %>%
-    groupOptions("portals", zoomLevels = 8:18) %>% 
-    groupOptions("portals_small", zoomLevels = 1:7)
+  m <- addSearchFeatures(m, targetGroups = "portale", options = searchFeaturesOptions(openPopup = TRUE, propertyName = "label"))
+ 
+# zoom-level depended rendering of small/large icons doesn't work well (yet)   
+ #m <- hideGroup(m, "portale") %>%
+#    groupOptions("portale", zoomLevels = 8:18) %>% 
+#    groupOptions("portale_small", zoomLevels = 1:7)
     
   return(m)
 }
