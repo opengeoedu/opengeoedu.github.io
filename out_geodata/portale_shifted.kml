@@ -393,7 +393,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
 		<SimpleData name="Titel">Welt 2000 Airports/waypoints</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
 		<SimpleData name="Beschreibung">„WELT2000 ist eine freie Datenbank mit Daten von Flugplätzen und Außenlandefeldern weltweit. Die Daten sind Basis vieler Geräte und Programme für den Luftsport. WELT2000 wird von Luftsportlern für Luftsportler gemacht.“ (Quelle: WELT2000, abgerufen am 26.10.2017)</SimpleData>
-		<SimpleData name="Ort">Deutschland</SimpleData>
+		<SimpleData name="Ort">Weltweit</SimpleData>
 		<SimpleData name="Typ">odp</SimpleData>
 		<SimpleData name="Reichweite">international</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
@@ -917,7 +917,7 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
 		<SimpleData name="Titel">Iati Registry</SimpleData>
 		<SimpleData name="Land">Deutschland</SimpleData>
 		<SimpleData name="Beschreibung">Das internationale Datenportal der „International Aid Transparency Initiative“ (IATI) enthält offene Daten zur Entwicklungszusammenarbeit verschiedener Länder. Zu den Datenanbietern gehört unter anderem das Das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)</SimpleData>
-		<SimpleData name="Ort">Berlin</SimpleData>
+		<SimpleData name="Ort">Weltweit</SimpleData>
 		<SimpleData name="Typ">odp</SimpleData>
 		<SimpleData name="Reichweite">international</SimpleData>
 		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
@@ -1376,7 +1376,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Wien</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.4678396678265,48.2285736109866</coordinates></Point>
+      <Point><coordinates>16.4692910307612,48.2379120660029</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1488,7 +1488,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">A-Guglgasse 13, 1110 Wien </SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.3778871827833,48.2130835456193</coordinates></Point>
+      <Point><coordinates>16.3861728020161,48.1601569073092</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1552,7 +1552,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Rue des Gazomètres 7, CH-1211 Genève 8</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.08878252009858,46.195220326608</coordinates></Point>
+      <Point><coordinates>6.07619099062603,46.212024378041</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1568,7 +1568,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">route de la Chapelle 1, CH-1212 Grand-Lancy 2</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.15951515629763,46.1569343698481</coordinates></Point>
+      <Point><coordinates>6.19819137433012,46.1670980409584</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1584,7 +1584,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">CH-1211 Geneva 23</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.17192680911645,46.2186274807076</coordinates></Point>
+      <Point><coordinates>6.1695837562583,46.2319392339373</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1616,7 +1616,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Espace de l'Europe 10, CH-2010 Neuchâtel</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.94218174857059,46.9985357528722</coordinates></Point>
+      <Point><coordinates>6.96975696019612,47.024527235729</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1632,7 +1632,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Archivstrasse 24, 3003 Bern</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.40401433883821,46.9155713869014</coordinates></Point>
+      <Point><coordinates>7.3691413422947,46.8817027135264</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1648,7 +1648,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten"></SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadthausquai 17, CH-8001 Zürich</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.54137760184294,47.3692542031299</coordinates></Point>
+      <Point><coordinates>8.4907539272829,47.3789956876179</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1776,7 +1776,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Stadt Wien</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>16.4429142758905,48.1687792425303</coordinates></Point>
+      <Point><coordinates>16.4858198125053,48.1712465648369</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -1872,7 +1872,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
 		<SimpleData name="Geodaten">ja</SimpleData>
 		<SimpleData name="Adresse_Herausgeber">Seftigenstrasse 264, CH-3084 Wabern</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.49392426267517,46.9527710849789</coordinates></Point>
+      <Point><coordinates>7.4712479786068,46.8616367811947</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#portale">
@@ -3292,6 +3292,683 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
 		<SimpleData name="Adresse_Herausgeber">Hofgasse 16, 8010 Graz  </SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>15.4541623798029,47.0370426852654</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">203</SimpleData>
+		<SimpleData name="URL">https://www.offenerhaushalt.at/</SimpleData>
+		<SimpleData name="Titel">Offener Haushalt</SimpleData>
+		<SimpleData name="Land">Österreich</SimpleData>
+		<SimpleData name="Beschreibung">Finanzdaten aus dem öffentlichen Sektor Österreichs (Stand: 12.02.2018)</SimpleData>
+		<SimpleData name="Ort">Österreich</SimpleData>
+		<SimpleData name="Typ">odp</SimpleData>
+		<SimpleData name="Reichweite">national</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">nein</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Guglgasse 13, 1110 Wien</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>16.3695139672593,48.2268144201096</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">204</SimpleData>
+		<SimpleData name="URL">https://statistik.zh.ch</SimpleData>
+		<SimpleData name="Titel">Statistisches Amt des Kantons Zürich </SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Kantons Zürich. (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Zürich</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Neumühlequai 10, 8090 Zürich</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.57679224249992,47.4006585129635</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">205</SimpleData>
+		<SimpleData name="URL">https://statistik.tg.ch/</SimpleData>
+		<SimpleData name="Titel">Dienststelle für Statistik des Kantons Thurgau</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Kantons Thurgau. (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Thurgau</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Zürcherstrasse 177, 8510 Frauenfeld</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.91660404057639,47.5227093583866</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">206</SimpleData>
+		<SimpleData name="URL">https://ogd.tg.ch/</SimpleData>
+		<SimpleData name="Titel">Open Government Data Thurgau</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Offene Verwaltungsdaten des Kantons Thurgau. (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Thurgau</SimpleData>
+		<SimpleData name="Typ">odp</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Zürcherstrasse 177, 8510 Frauenfeld
+</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.84601572785168,47.5626915551309</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">207</SimpleData>
+		<SimpleData name="URL">https://geoinformation.tg.ch/</SimpleData>
+		<SimpleData name="Titel">Amt für Geoinformation Thurgau</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Zugang zum Geoinformationssystem ThurGIS sowie u.a. Informationen zum Kataster, Publikationen und SwissGeoLab. (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Thurgau</SimpleData>
+		<SimpleData name="Typ">gdi</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Promenadenstrasse 8, 8510 Frauenfeld</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.93250065104881,47.5840872103085</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">208</SimpleData>
+		<SimpleData name="URL">https://www.statistik.sg.ch/</SimpleData>
+		<SimpleData name="Titel">Öffentliche Statistik Kanton St.Gallen</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Kantons St. Gallen (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">St. Gallen</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">9001 St.Gallen</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.37817673165062,47.4651052426914</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">209</SimpleData>
+		<SimpleData name="URL">https://www.lustat.ch/</SimpleData>
+		<SimpleData name="Titel">LUSTAT Statistik Luzern</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Kantons Luzern (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Luzern</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Burgerstrasse 22, 6002 Luzern</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.3479191977746,47.067707449293</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">210</SimpleData>
+		<SimpleData name="URL">https://www.lustat.ch/statistikportal-stadt-luzern</SimpleData>
+		<SimpleData name="Titel">Statistikportal der Stadt Luzern</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken der Stadt Luzern (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Luzern</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Burgerstrasse 22, 6002 Luzern</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.25721710633191,47.031175102413</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">211</SimpleData>
+		<SimpleData name="URL">https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html</SimpleData>
+		<SimpleData name="Titel">Cercle Indicateurs</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">„Der Cercle Indicateurs ist eine Plattform für die Entwicklung und Anwendung von Nachhaltigkeitsindikatoren für Kantone und Städte.“ (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Schweiz</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">national</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Espace de l'Europe 10, CH-2010 Neuchâtel</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.95628148590976,46.9629113518985</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">212</SimpleData>
+		<SimpleData name="URL">https://staedteverband.ch/de/Info/Dokumentation/Statistik_der_Schweizer_Stadte</SimpleData>
+		<SimpleData name="Titel">Statistik der Schweizer Städte</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">
+„Die «Statistik der Schweizer Städte» ist ein Gemeinschaftswerk des Bundesamtes für Statistik und des Städteverbandes, das jeweils im ersten Trimester des Jahres erscheint.“ (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Schweiz</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">national</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">teilweise</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Monbijoustrasse 8, CH-3001 Bern</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.32823168767466,46.9489326593276</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">213</SimpleData>
+		<SimpleData name="URL">https://www.be.ch/portal/de/veroeffentlichungen/statistiken.html</SimpleData>
+		<SimpleData name="Titel">Statistikportal – Kanton Bern</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Kantons Bern (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Bern</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Postgasse 68, 3000 Bern 8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.48447968869594,47.0250599446005</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">214</SimpleData>
+		<SimpleData name="URL">https://www.geo.apps.be.ch</SimpleData>
+		<SimpleData name="Titel">Geoportal des Kantons Bern</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Offizielles Geoportal des Kantons Bern mit Geodaten, -diensten, -metadaten und Karten (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Bern</SimpleData>
+		<SimpleData name="Typ">gdi</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Reiterstrasse 11, CH- 3011 Bern</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.55787992300505,46.9038020563941</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">215</SimpleData>
+		<SimpleData name="URL">https://www.ag.ch/statistik</SimpleData>
+		<SimpleData name="Titel">Statistik Kanton Aargau</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Kantons Aargau (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Aargau</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Bahnhofstrasse 2, 5001 Aarau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.09870480132492,47.3614135031394</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">216</SimpleData>
+		<SimpleData name="URL">www.statistik.bl.ch</SimpleData>
+		<SimpleData name="Titel">Statistisches Amt des Kantons Basel-Landschaft</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Kantons Basel-Landschaft (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Basel-Landschaft</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Rufsteinweg 4, 4410 Liestal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.68744731072078,47.4741680306778</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">217</SimpleData>
+		<SimpleData name="URL">http://www.fin.be.ch/fin/de/index/finanzen/finanzen/statistik.html</SimpleData>
+		<SimpleData name="Titel">Öffentliche Statistik der Finanzdirektion Bern</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Zugang zum zentralen Statistikportal, Bevölkerungsstatistik und amtlichen Finanzstatistiken des Kantons Bern (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Bern</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Münsterplatz 12, 3011 Bern</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.37949981935832,47.012764283485</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">218</SimpleData>
+		<SimpleData name="URL">http://www.statistik.bs.ch/</SimpleData>
+		<SimpleData name="Titel">Statistisches Amt des Kantons Basel-Stadt</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Kantons Basel-Stadt (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Basel-Stadt</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Binningerstrasse 6, CH-4001 Basel</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.6160090958989,47.5133844723903</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">219</SimpleData>
+		<SimpleData name="URL">https://www.zg.ch/behoerden/baudirektion/statistikfachstelle</SimpleData>
+		<SimpleData name="Titel">Statistik Kanton Zug</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Kantons Zug (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Zug</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Aabachstrasse 5, 6300 Zug</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.51125950181111,47.175875102986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">220</SimpleData>
+		<SimpleData name="URL">https://www.fr.ch/sstat/de/pub/index.cfm</SimpleData>
+		<SimpleData name="Titel">Amt für Statistik (StatA) – Kanton Freiburg </SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Kantons Freiburg (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Freiburg</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Bd de Pérolles 25, 1701 Freiburg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.1526392002099,46.7992266027195</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">221</SimpleData>
+		<SimpleData name="URL">www.ur.ch/statistik</SimpleData>
+		<SimpleData name="Titel">Fachstelle für Statistik – Kanton Uri</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Kantons Uri (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Uri</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Rathausplatz 1, 6460 Altdorf</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.64395659417526,46.8818263527542</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">222</SimpleData>
+		<SimpleData name="URL">www.statistik.gr.ch</SimpleData>
+		<SimpleData name="Titel">Statistischer Atlas Graubünden</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Visualisierung amtlicher Statistiken des Kantons Graubünden mit Web-Karte, Tabellenansicht und Grafiken (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Graubünden</SimpleData>
+		<SimpleData name="Typ">gdi</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Reichsgasse 35, 7001 Chur</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.57925528321405,46.8678763197318</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">223</SimpleData>
+		<SimpleData name="URL">https://www.gr.ch/DE/institutionen/verwaltung/dvs/awt/statistik/Seiten/default.aspx</SimpleData>
+		<SimpleData name="Titel">Statistik und Register – Amt für Wirtschaft und Tourismus Graubünden</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Kantons Graubünden (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Graubünden</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Reichsgasse 35, 7001 Chur</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.48806290664042,46.8323203436027</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">224</SimpleData>
+		<SimpleData name="URL">http://www.nw.ch/de/portrait/portraitstatistik/</SimpleData>
+		<SimpleData name="Titel">Portraitstatistik des Kantons Nidwalden</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken zur Kantonalen Verwaltung, Einwohnern, Wirtschaft und Toursimus sowie Bildung von Nidwalden</SimpleData>
+		<SimpleData name="Ort">Nidwalden</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Dorfplatz 2, 6371 Stans</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.36621564334747,46.9573725028237</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">225</SimpleData>
+		<SimpleData name="URL">https://www.ai.ch/themen/staat-und-recht/statistik</SimpleData>
+		<SimpleData name="Titel">Statistik – Kanton Appenzell Innerrhoden</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Statistikbroschüre und jährliche Geschäftsberichte des Kantons (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Appenzell Innerrhoden</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Marktgasse 2, 9050 Appenzell</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.36514402559527,47.3133042954416</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">226</SimpleData>
+		<SimpleData name="URL">https://www.geoportal.ch/ktai</SimpleData>
+		<SimpleData name="Titel">Geoportal Appenzell Innerrhoden</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Webkarten und amtliche Geodaten des Kantons Appenzell Innerrhoden. (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Appenzell Innerrhoden</SimpleData>
+		<SimpleData name="Typ">gdi</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Gaiserstrasse 8, 9050 Appenzell</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.45708241045017,47.3489525894537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">227</SimpleData>
+		<SimpleData name="URL">https://www.geoportal.ch/</SimpleData>
+		<SimpleData name="Titel">Geoportal – Publikationsportal für amtliche Geodaten</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Gemeinschaftliches Geoportal von Organisationen der Schweizer Kantone, Gemeinden und öffentlicher Verwaltung, betrieben durch die Geoinfo IT AG Herisgau (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Schweiz</SimpleData>
+		<SimpleData name="Typ">gdi</SimpleData>
+		<SimpleData name="Reichweite">national</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Kasernenstrasse 69, 9100 Herisau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.26520736894867,47.380662016201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">228</SimpleData>
+		<SimpleData name="URL">https://www.geoportal.ch/ktar</SimpleData>
+		<SimpleData name="Titel">Geoportal Appenzell Ausserrhoden</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Webkarten und amtliche Geodaten des Kantons Appenzell Ausserrhoden. (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Appenzell Ausserrhoden</SimpleData>
+		<SimpleData name="Typ">gdi</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Kasernenstrasse 17a, 9100 Herisau</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.27642305324152,47.4507404343011</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">229</SimpleData>
+		<SimpleData name="URL">https://www.geoportal.ch/ktbl</SimpleData>
+		<SimpleData name="Titel">Geoportal Kanton Baselland</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Webkarten und amtliche Geodaten des Kantons Baselland. (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Baselland</SimpleData>
+		<SimpleData name="Typ">gdi</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Mühlemattstrasse 36, 4410 Liestal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.70189191473381,47.5357017662837</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">230</SimpleData>
+		<SimpleData name="URL">https://www.geoportal.ch/ktso</SimpleData>
+		<SimpleData name="Titel">Geoportal Kanton Solothurn</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Webkarten und amtliche Geodaten des Kantons Solothurn. (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Solothurn</SimpleData>
+		<SimpleData name="Typ">gdi</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Solothurn</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.58317251236053,47.2268568607981</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">231</SimpleData>
+		<SimpleData name="URL">https://www.geoportal.ch/ktsg</SimpleData>
+		<SimpleData name="Titel">Geoportal Kanton St. Galen
+</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Webkarten und amtliche Geodaten des Kantons St. Gallen. (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">St. Gallen</SimpleData>
+		<SimpleData name="Typ">gdi</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Lämmlisbrunnenstrasse 54, 9001 St. Gallen</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.42965223051593,47.4038766297641</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">232</SimpleData>
+		<SimpleData name="URL">https://www.vs.ch/de/web/acf/statistique</SimpleData>
+		<SimpleData name="Titel">Kantonales Amt für Statistik – Wallis</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken zur Bevölkerung, Erwerbsleben, Landesindex der Konsumentenpreise, Tourismus, Mobilität und Verkehr, Bau- und Wohnungswesen und Finanzausgleich (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Wallis</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Place de la Planta 3, CH-1950 Sion</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.35841080045504,46.2331359022619</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">233</SimpleData>
+		<SimpleData name="URL">http://www.stat.vd.ch/</SimpleData>
+		<SimpleData name="Titel">Statistique Vaud</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Kantons Vaud (französischsprachig) (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Vaud</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Rue de la Paix 6, 1014 Lausanne</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.6359847909476,46.519349302482</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">234</SimpleData>
+		<SimpleData name="URL">https://statistik.so.ch</SimpleData>
+		<SimpleData name="Titel">Statistikportal Solothurn</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Kantons Solothurn (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Solothurn</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Barfüssergasse 24, 4509 Solothurn</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.49274116332301,47.1897229855188</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">234</SimpleData>
+		<SimpleData name="URL">http://www.sh.ch/index.php?id=235</SimpleData>
+		<SimpleData name="Titel">Wirtschaft, Statistik und Tourismus Schaffhausen</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistik-Webseite des Kantons Schaffhausen  (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Schaffhausen</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Mühlentalstrasse 105, 8201 Schaffhausen</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.62958369287971,47.7044142533705</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">235</SimpleData>
+		<SimpleData name="URL">https://www.llv.li/#/11480/amt-fur-statistik</SimpleData>
+		<SimpleData name="Titel">Amt für Statistik (AS) Liechtenstein</SimpleData>
+		<SimpleData name="Land">Liechtenstein</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Fürstentums Liechtenstein</SimpleData>
+		<SimpleData name="Ort">Liechtenstein</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">national</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Äulestrasse 51, 9490 Vaduz</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.52185430298738,47.1390802029049</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">236</SimpleData>
+		<SimpleData name="URL">http://www.statistik-obwalden.ch/</SimpleData>
+		<SimpleData name="Titel">Obwalden in Zahlen</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Statistiken herausgegeben von der Obwaldner Kantonalbank und des Volkswirtschaftsdepartments</SimpleData>
+		<SimpleData name="Ort">Obwalden</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Rütistrasse 8, 6060 Sarnen</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.24165210149853,46.8926923027775</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">237</SimpleData>
+		<SimpleData name="URL">www.ne.ch/stat </SimpleData>
+		<SimpleData name="Titel">Office cantonal de la statistique Neuchâtel</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Kantons Neuenburg (französischsprachig) (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Neuenburg</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Rue de la Collégiale 12, 2001 Neuchâtel</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.88501661944638,47.0016776247434</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">238</SimpleData>
+		<SimpleData name="URL">www.ti.ch/ustat </SimpleData>
+		<SimpleData name="Titel">Statistikamt des Kantons Tessin</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Kantons Neuenburg (auf Italienisch) (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Tessin</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Via Bellinzona 31, 6512 Giubiasco
+</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.01324880241534,46.1770663021698</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">239</SimpleData>
+		<SimpleData name="URL">https://www.ge.ch/statistique/</SimpleData>
+		<SimpleData name="Titel">Kantonales Statistikamt Genf – OCSTAT</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Amtliche Statistiken des Kantons Genf (auf Französisch) (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Genf</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">regional</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Route des Acacias 82, 1227 Acacias
+</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.10489588649924,46.1472087100961</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">240</SimpleData>
+		<SimpleData name="URL">http://www.statistik.stadt.sg.ch/</SimpleData>
+		<SimpleData name="Titel">St. Galen – Die Stadt in Zahlen</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Statistische Übersichten zur Stadt St. Galen (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">St. Gallen</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Davidstr. 35, 9001 St. Gallen</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.35982130711905,47.3517319606753</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">241</SimpleData>
+		<SimpleData name="URL">http://www.statistik.winterthur.ch/</SimpleData>
+		<SimpleData name="Titel">Statistik – Stadt Winterthur</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Portraitstatistik zur Stadt Winterthur (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Winterthur</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Pionierstrasse 7, 8402 Winterthur</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71952410204799,47.4980452032172</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">242</SimpleData>
+		<SimpleData name="URL">http://www.bern.ch/statistik</SimpleData>
+		<SimpleData name="Titel">Statistik Stadt Bern</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Portraitstatistik zur Stadt Bern (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Bern</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Junkerngasse 47, 3000 Bern 8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.56388089529587,46.9765292025295</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#portale">
+		<SimpleData name="ID">243</SimpleData>
+		<SimpleData name="URL">http://www.stadt-zuerich.ch/statistik</SimpleData>
+		<SimpleData name="Titel">Statistik Stadt Zürich</SimpleData>
+		<SimpleData name="Land">Schweiz</SimpleData>
+		<SimpleData name="Beschreibung">Portraitstatistik zur Stadt Zürich (Stand: 13.02.2018)</SimpleData>
+		<SimpleData name="Ort">Zürich</SimpleData>
+		<SimpleData name="Typ">stat</SimpleData>
+		<SimpleData name="Reichweite">kommunal</SimpleData>
+		<SimpleData name="Staatlich_Öffentlich">ja</SimpleData>
+		<SimpleData name="Geodaten"></SimpleData>
+		<SimpleData name="Adresse_Herausgeber">Napfgasse 6, 8001 Zürich</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.5613633708013,47.3392310066237</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

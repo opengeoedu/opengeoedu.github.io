@@ -29,7 +29,7 @@ sd_table <- SharedData$new(portale[c("Link","Beschreibung","Ort","Reichweite")],
 load("data/auxiliary.RData")
 load("data/cities-geonames-deatch.RData")
 
-options(DT.options = list(language = list(url = '//cdn.datatables.net/plug-ins/1.10.15/i18n/German.json', responsive = TRUE,  bPaginate = TRUE, autoWidth = TRUE, scrollX=TRUE)))
+
 source("R/create_map_function.R")
 
 #Column {data-width=650}
@@ -53,7 +53,7 @@ sel <- which(!(portale$Land %in% c("Deutschland", "Österreich", "Schweiz")))
 # create simplified categories for the statistics
 Land <- as.character(portale$Land)
 Land[sel] <- "länderübergreifend"
-Land <- factor(Land, levels = c("Deutschland", "Österreich","Schweiz", "länderübergreifend"), ordered = TRUE)
+Land <- factor(Land, levels = c("Deutschland", "Österreich","Schweiz", "länderübergreifend / Sonstige"), ordered = TRUE)
 Typ <- portale$Typ_names
 #levels(Typ) <- stringr::str_replace(string = levels(Typ), pattern = "GDI", replacement = "GDI / Geoportal")
 ftab <- ftable(data.frame(Typ = Typ, Land = Land, Reichweite = portale$Reichweite))
@@ -101,7 +101,7 @@ m <- createMap(portale,
 
 ## json map for country-wise selection (select box)
 
-country_options <- list("Deutschland", "Österreich", "Schweiz")
+country_options <- list("Deutschland", "Liechtenstein", "Österreich", "Schweiz")
 country_chr <- as.character(portale$Land)
 country_map <- sapply(country_options, function(country){
   out <- list(which(stringr::str_detect(country, country_chr) | portale$Land == "Europa" | portale$Reichweite == "international"))

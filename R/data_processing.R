@@ -39,7 +39,7 @@ for(i in 1:dim(portale)[1]){
         }else{
           query <- paste0("q=",address)
         }
-        .url <- paste0("http://nominatim.openstreetmap.org/search?",URLencode(query),"&format=xml&country_codes=de,ch,at&email=",EMAIL,"&country=",portale[i,]$Land)
+        .url <- paste0("http://nominatim.openstreetmap.org/search?",URLencode(query),"&format=xml&country_codes=de,ch,at,li&email=",EMAIL,"&country=",portale[i,]$Land)
         success <- TRUE
         desc <- NULL
         tryCatch({

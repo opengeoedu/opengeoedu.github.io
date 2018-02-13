@@ -190,6 +190,18 @@ onRenderMap = function(){
  alert("test"); */
 };
 
+/*
+$.fn.dataTable.enum( [ 'international', 'national', 'regional','kommunal' ] );
+$('#portals_table').DataTable();
+*/
 
-
+$.fn.dataTable.ext.type.order['range-order-pre'] = function ( d ) {
+  switch ( d ) {
+      case 'international':    return 1;
+      case 'national': return 2;
+      case 'regional':   return 3;
+      case 'kommunal':   return 4;
+  }
+  return 0;
+};
 

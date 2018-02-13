@@ -41,6 +41,9 @@ shiny::addResourcePath("out_geodata", file.path(getwd(), "out_geodata"))
 shiny::addResourcePath("out", file.path(getwd(), "out"))
 shiny::addResourcePath("data", file.path(getwd(), "data"))
 shiny::addResourcePath("js", file.path(getwd(), "js"))
+
+options(DT.options = list(language = list(url = '//cdn.datatables.net/plug-ins/1.10.15/i18n/German.json', responsive = TRUE,  bPaginate = TRUE, autoWidth = TRUE, scrollX=TRUE)))
+
 #-----------------------------------------------------------------------
 ```
 
@@ -187,15 +190,30 @@ htmltools::tags$script(id="country_select_map", type= "application/json",
 
 div(class="metawrapper", style="height:75%",
 #div(style="height:100%",
-  htmltools::tagList(DT::datatable(sd_table, escape = FALSE, extensions = c("Responsive"), options = list(columnDefs= list(list(responsivePriority= 12000, targets=2)))))
+  htmltools::tagList(
+    DT::datatable(sd_table, escape = FALSE, extensions = c("Responsive"), 
+                  options = list(
+                    columnDefs= list(list(responsivePriority= 12000, targets=2),
+                                     list(type="range-order", targets=-1)),
+                    order = list(list(4, 'asc'), list(3, 'asc'))
+                    )
+                  ), elementId = "portals_table"
+    )
 )
 #)
+#tags$script(type = "text/javascript", href = "//cdn.datatables.net/plug-ins/1.10.16/sorting/enum.js")
+
+ # tags$script(type = "text/javascript", "
+  #            $.fn.dataTable.enum( [ 'international', 'national', 'regional','kommunal' ] );
+   #            $('#portals_table').DataTable();
+    #          ")
+
 
 
 ```
 
 
-Filter {data-icon="ion-settings" }
+Filter {data-icon="ion-settings" .hidden}
 =========================================================
 ```{r}
 ### filtergroup 2

@@ -6,11 +6,11 @@
      xmlns:gml="http://www.opengis.net/gml">
   <gml:boundedBy>
     <gml:Box>
-      <gml:coord><gml:X>6.082390680050003</gml:X><gml:Y>46.1569343698481</gml:Y></gml:coord>
+      <gml:coord><gml:X>6.076190990626026</gml:X><gml:Y>46.14720871009614</gml:Y></gml:coord>
       <gml:coord><gml:X>16.57705829750056</gml:X><gml:Y>54.35414580151965</gml:Y></gml:coord>
     </gml:Box>
   </gml:boundedBy>
-                                                                                                 
+                                                                                                
   <gml:featureMember>
     <ogr:portale fid="portale.1">
       <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.08292769902552,50.7761914050729</gml:coordinates></gml:Point></ogr:geometryProperty>
@@ -390,7 +390,7 @@ Dabei werden die Daten teilweise manuell eingestellt oder gelangen automatisiert
       <ogr:Titel>Welt 2000 Airports/waypoints</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>„WELT2000 ist eine freie Datenbank mit Daten von Flugplätzen und Außenlandefeldern weltweit. Die Daten sind Basis vieler Geräte und Programme für den Luftsport. WELT2000 wird von Luftsportlern für Luftsportler gemacht.“ (Quelle: WELT2000, abgerufen am 26.10.2017)</ogr:Beschreibung>
-      <ogr:Ort>Deutschland</ogr:Ort>
+      <ogr:Ort>Weltweit</ogr:Ort>
       <ogr:Typ>odp</ogr:Typ>
       <ogr:Reichweite>international</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
@@ -914,7 +914,7 @@ Nach und nach werden wir den Bestand an offenen Daten erweitern und so eine Grun
       <ogr:Titel>Iati Registry</ogr:Titel>
       <ogr:Land>Deutschland</ogr:Land>
       <ogr:Beschreibung>Das internationale Datenportal der „International Aid Transparency Initiative“ (IATI) enthält offene Daten zur Entwicklungszusammenarbeit verschiedener Länder. Zu den Datenanbietern gehört unter anderem das Das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)</ogr:Beschreibung>
-      <ogr:Ort>Berlin</ogr:Ort>
+      <ogr:Ort>Weltweit</ogr:Ort>
       <ogr:Typ>odp</ogr:Typ>
       <ogr:Reichweite>international</ogr:Reichweite>
       <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
@@ -1360,7 +1360,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.83">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>16.4678396678265,48.2285736109866</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>16.4692910307612,48.2379120660029</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>83</ogr:ID>
       <ogr:URL>http://basemap.at/</ogr:URL>
       <ogr:Titel>Austrian Ogd Basemap</ogr:Titel>
@@ -1472,7 +1472,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.90">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>16.3778871827833,48.2130835456193</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>16.3861728020161,48.1601569073092</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>90</ogr:ID>
       <ogr:URL>http://statistik.at/</ogr:URL>
       <ogr:Titel>Statistik Austria</ogr:Titel>
@@ -1536,7 +1536,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.94">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.08878252009858,46.195220326608</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.07619099062603,46.212024378041</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>94</ogr:ID>
       <ogr:URL>http://ge.ch/sitg/sitg_catalog/sitg_donnees</ogr:URL>
       <ogr:Titel>Sitg Geneva's Territorial Information System</ogr:Titel>
@@ -1552,7 +1552,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.95">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.15951515629763,46.1569343698481</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.19819137433012,46.1670980409584</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>95</ogr:ID>
       <ogr:URL>http://data.tpg.ch/</ogr:URL>
       <ogr:Titel>Open Data TPG</ogr:Titel>
@@ -1568,7 +1568,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.96">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.17192680911645,46.2186274807076</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.1695837562583,46.2319392339373</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>96</ogr:ID>
       <ogr:URL>http://opendata.cern.ch/</ogr:URL>
       <ogr:Titel>Cern Open Data</ogr:Titel>
@@ -1600,7 +1600,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.98">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.94218174857059,46.9985357528722</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.96975696019612,47.024527235729</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>98</ogr:ID>
       <ogr:URL>http://www.bfs.admin.ch/</ogr:URL>
       <ogr:Titel>Bundesamt für Statistik</ogr:Titel>
@@ -1616,7 +1616,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.99">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.40401433883821,46.9155713869014</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.3691413422947,46.8817027135264</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>99</ogr:ID>
       <ogr:URL>https://opendata.swiss</ogr:URL>
       <ogr:Titel>opendata.swiss</ogr:Titel>
@@ -1632,7 +1632,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.100">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.54137760184294,47.3692542031299</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.4907539272829,47.3789956876179</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>100</ogr:ID>
       <ogr:URL>https://data.stadt-zuerich.ch/</ogr:URL>
       <ogr:Titel>Zürich Open Data</ogr:Titel>
@@ -1760,7 +1760,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.108">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>16.4429142758905,48.1687792425303</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>16.4858198125053,48.1712465648369</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>108</ogr:ID>
       <ogr:URL>http://www.wien.gv.at/viennagis/</ogr:URL>
       <ogr:Titel>ViennaGIS - das Geografische Informationssystem der Stadt Wien</ogr:Titel>
@@ -1856,7 +1856,7 @@ Die Webseite verweist auf diverse Datenbestände, die zukünftig erschlossen wer
   </gml:featureMember>
   <gml:featureMember>
     <ogr:portale fid="portale.114">
-      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.49392426267517,46.9527710849789</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.4712479786068,46.8616367811947</gml:coordinates></gml:Point></ogr:geometryProperty>
       <ogr:ID>114</ogr:ID>
       <ogr:URL>https://www.geo.admin.ch/</ogr:URL>
       <ogr:Titel>https://www.geo.admin.ch/ - das Geoportal des Bundes (Schweiz)</ogr:Titel>
@@ -3287,6 +3287,683 @@ Bildungseinrichtungen, Energie/Geothermie, Flurstückssuche, Kleindenkmale, Fahr
       <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
       <ogr:Geodaten></ogr:Geodaten>
       <ogr:Adresse_Herausgeber>Hofgasse 16, 8010 Graz  </ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.203">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>16.3695139672593,48.2268144201096</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>203</ogr:ID>
+      <ogr:URL>https://www.offenerhaushalt.at/</ogr:URL>
+      <ogr:Titel>Offener Haushalt</ogr:Titel>
+      <ogr:Land>Österreich</ogr:Land>
+      <ogr:Beschreibung>Finanzdaten aus dem öffentlichen Sektor Österreichs (Stand: 12.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Österreich</ogr:Ort>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>nein</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Guglgasse 13, 1110 Wien</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.204">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.57679224249992,47.4006585129635</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>204</ogr:ID>
+      <ogr:URL>https://statistik.zh.ch</ogr:URL>
+      <ogr:Titel>Statistisches Amt des Kantons Zürich </ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Kantons Zürich. (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Zürich</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Neumühlequai 10, 8090 Zürich</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.205">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.91660404057639,47.5227093583866</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>205</ogr:ID>
+      <ogr:URL>https://statistik.tg.ch/</ogr:URL>
+      <ogr:Titel>Dienststelle für Statistik des Kantons Thurgau</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Kantons Thurgau. (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Thurgau</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Zürcherstrasse 177, 8510 Frauenfeld</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.206">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.84601572785168,47.5626915551309</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>206</ogr:ID>
+      <ogr:URL>https://ogd.tg.ch/</ogr:URL>
+      <ogr:Titel>Open Government Data Thurgau</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Offene Verwaltungsdaten des Kantons Thurgau. (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Thurgau</ogr:Ort>
+      <ogr:Typ>odp</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Zürcherstrasse 177, 8510 Frauenfeld
+</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.207">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.93250065104881,47.5840872103085</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>207</ogr:ID>
+      <ogr:URL>https://geoinformation.tg.ch/</ogr:URL>
+      <ogr:Titel>Amt für Geoinformation Thurgau</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Zugang zum Geoinformationssystem ThurGIS sowie u.a. Informationen zum Kataster, Publikationen und SwissGeoLab. (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Thurgau</ogr:Ort>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Promenadenstrasse 8, 8510 Frauenfeld</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.208">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.37817673165062,47.4651052426914</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>208</ogr:ID>
+      <ogr:URL>https://www.statistik.sg.ch/</ogr:URL>
+      <ogr:Titel>Öffentliche Statistik Kanton St.Gallen</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Kantons St. Gallen (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>St. Gallen</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>9001 St.Gallen</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.209">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.3479191977746,47.067707449293</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>209</ogr:ID>
+      <ogr:URL>https://www.lustat.ch/</ogr:URL>
+      <ogr:Titel>LUSTAT Statistik Luzern</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Kantons Luzern (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Luzern</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Burgerstrasse 22, 6002 Luzern</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.210">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.25721710633191,47.031175102413</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>210</ogr:ID>
+      <ogr:URL>https://www.lustat.ch/statistikportal-stadt-luzern</ogr:URL>
+      <ogr:Titel>Statistikportal der Stadt Luzern</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken der Stadt Luzern (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Luzern</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Burgerstrasse 22, 6002 Luzern</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.211">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.95628148590976,46.9629113518985</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>211</ogr:ID>
+      <ogr:URL>https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html</ogr:URL>
+      <ogr:Titel>Cercle Indicateurs</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>„Der Cercle Indicateurs ist eine Plattform für die Entwicklung und Anwendung von Nachhaltigkeitsindikatoren für Kantone und Städte.“ (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Schweiz</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Espace de l'Europe 10, CH-2010 Neuchâtel</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.212">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.32823168767466,46.9489326593276</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>212</ogr:ID>
+      <ogr:URL>https://staedteverband.ch/de/Info/Dokumentation/Statistik_der_Schweizer_Stadte</ogr:URL>
+      <ogr:Titel>Statistik der Schweizer Städte</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>
+„Die «Statistik der Schweizer Städte» ist ein Gemeinschaftswerk des Bundesamtes für Statistik und des Städteverbandes, das jeweils im ersten Trimester des Jahres erscheint.“ (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Schweiz</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>teilweise</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Monbijoustrasse 8, CH-3001 Bern</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.213">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.48447968869594,47.0250599446005</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>213</ogr:ID>
+      <ogr:URL>https://www.be.ch/portal/de/veroeffentlichungen/statistiken.html</ogr:URL>
+      <ogr:Titel>Statistikportal – Kanton Bern</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Kantons Bern (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Bern</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Postgasse 68, 3000 Bern 8</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.214">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.55787992300505,46.9038020563941</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>214</ogr:ID>
+      <ogr:URL>https://www.geo.apps.be.ch</ogr:URL>
+      <ogr:Titel>Geoportal des Kantons Bern</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Offizielles Geoportal des Kantons Bern mit Geodaten, -diensten, -metadaten und Karten (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Bern</ogr:Ort>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Reiterstrasse 11, CH- 3011 Bern</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.215">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.09870480132492,47.3614135031394</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>215</ogr:ID>
+      <ogr:URL>https://www.ag.ch/statistik</ogr:URL>
+      <ogr:Titel>Statistik Kanton Aargau</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Kantons Aargau (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Aargau</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Bahnhofstrasse 2, 5001 Aarau</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.216">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.68744731072078,47.4741680306778</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>216</ogr:ID>
+      <ogr:URL>www.statistik.bl.ch</ogr:URL>
+      <ogr:Titel>Statistisches Amt des Kantons Basel-Landschaft</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Kantons Basel-Landschaft (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Basel-Landschaft</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Rufsteinweg 4, 4410 Liestal</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.217">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.37949981935832,47.012764283485</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>217</ogr:ID>
+      <ogr:URL>http://www.fin.be.ch/fin/de/index/finanzen/finanzen/statistik.html</ogr:URL>
+      <ogr:Titel>Öffentliche Statistik der Finanzdirektion Bern</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Zugang zum zentralen Statistikportal, Bevölkerungsstatistik und amtlichen Finanzstatistiken des Kantons Bern (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Bern</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Münsterplatz 12, 3011 Bern</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.218">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.6160090958989,47.5133844723903</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>218</ogr:ID>
+      <ogr:URL>http://www.statistik.bs.ch/</ogr:URL>
+      <ogr:Titel>Statistisches Amt des Kantons Basel-Stadt</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Kantons Basel-Stadt (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Basel-Stadt</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Binningerstrasse 6, CH-4001 Basel</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.219">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.51125950181111,47.175875102986</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>219</ogr:ID>
+      <ogr:URL>https://www.zg.ch/behoerden/baudirektion/statistikfachstelle</ogr:URL>
+      <ogr:Titel>Statistik Kanton Zug</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Kantons Zug (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Zug</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Aabachstrasse 5, 6300 Zug</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.220">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.1526392002099,46.7992266027195</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>220</ogr:ID>
+      <ogr:URL>https://www.fr.ch/sstat/de/pub/index.cfm</ogr:URL>
+      <ogr:Titel>Amt für Statistik (StatA) – Kanton Freiburg </ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Kantons Freiburg (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Freiburg</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Bd de Pérolles 25, 1701 Freiburg</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.221">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.64395659417526,46.8818263527542</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>221</ogr:ID>
+      <ogr:URL>www.ur.ch/statistik</ogr:URL>
+      <ogr:Titel>Fachstelle für Statistik – Kanton Uri</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Kantons Uri (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Uri</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Rathausplatz 1, 6460 Altdorf</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.222">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.57925528321405,46.8678763197318</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>222</ogr:ID>
+      <ogr:URL>www.statistik.gr.ch</ogr:URL>
+      <ogr:Titel>Statistischer Atlas Graubünden</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Visualisierung amtlicher Statistiken des Kantons Graubünden mit Web-Karte, Tabellenansicht und Grafiken (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Graubünden</ogr:Ort>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Reichsgasse 35, 7001 Chur</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.223">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.48806290664042,46.8323203436027</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>223</ogr:ID>
+      <ogr:URL>https://www.gr.ch/DE/institutionen/verwaltung/dvs/awt/statistik/Seiten/default.aspx</ogr:URL>
+      <ogr:Titel>Statistik und Register – Amt für Wirtschaft und Tourismus Graubünden</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Kantons Graubünden (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Graubünden</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Reichsgasse 35, 7001 Chur</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.224">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.36621564334747,46.9573725028237</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>224</ogr:ID>
+      <ogr:URL>http://www.nw.ch/de/portrait/portraitstatistik/</ogr:URL>
+      <ogr:Titel>Portraitstatistik des Kantons Nidwalden</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken zur Kantonalen Verwaltung, Einwohnern, Wirtschaft und Toursimus sowie Bildung von Nidwalden</ogr:Beschreibung>
+      <ogr:Ort>Nidwalden</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Dorfplatz 2, 6371 Stans</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.225">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.36514402559527,47.3133042954416</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>225</ogr:ID>
+      <ogr:URL>https://www.ai.ch/themen/staat-und-recht/statistik</ogr:URL>
+      <ogr:Titel>Statistik – Kanton Appenzell Innerrhoden</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Statistikbroschüre und jährliche Geschäftsberichte des Kantons (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Appenzell Innerrhoden</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Marktgasse 2, 9050 Appenzell</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.226">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.45708241045017,47.3489525894537</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>226</ogr:ID>
+      <ogr:URL>https://www.geoportal.ch/ktai</ogr:URL>
+      <ogr:Titel>Geoportal Appenzell Innerrhoden</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Webkarten und amtliche Geodaten des Kantons Appenzell Innerrhoden. (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Appenzell Innerrhoden</ogr:Ort>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Gaiserstrasse 8, 9050 Appenzell</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.227">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.26520736894867,47.380662016201</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>227</ogr:ID>
+      <ogr:URL>https://www.geoportal.ch/</ogr:URL>
+      <ogr:Titel>Geoportal – Publikationsportal für amtliche Geodaten</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Gemeinschaftliches Geoportal von Organisationen der Schweizer Kantone, Gemeinden und öffentlicher Verwaltung, betrieben durch die Geoinfo IT AG Herisgau (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Schweiz</ogr:Ort>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Kasernenstrasse 69, 9100 Herisau</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.228">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.27642305324152,47.4507404343011</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>228</ogr:ID>
+      <ogr:URL>https://www.geoportal.ch/ktar</ogr:URL>
+      <ogr:Titel>Geoportal Appenzell Ausserrhoden</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Webkarten und amtliche Geodaten des Kantons Appenzell Ausserrhoden. (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Appenzell Ausserrhoden</ogr:Ort>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Kasernenstrasse 17a, 9100 Herisau</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.229">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.70189191473381,47.5357017662837</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>229</ogr:ID>
+      <ogr:URL>https://www.geoportal.ch/ktbl</ogr:URL>
+      <ogr:Titel>Geoportal Kanton Baselland</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Webkarten und amtliche Geodaten des Kantons Baselland. (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Baselland</ogr:Ort>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Mühlemattstrasse 36, 4410 Liestal</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.230">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.58317251236053,47.2268568607981</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>230</ogr:ID>
+      <ogr:URL>https://www.geoportal.ch/ktso</ogr:URL>
+      <ogr:Titel>Geoportal Kanton Solothurn</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Webkarten und amtliche Geodaten des Kantons Solothurn. (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Solothurn</ogr:Ort>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Solothurn</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.231">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.42965223051593,47.4038766297641</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>231</ogr:ID>
+      <ogr:URL>https://www.geoportal.ch/ktsg</ogr:URL>
+      <ogr:Titel>Geoportal Kanton St. Galen
+</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Webkarten und amtliche Geodaten des Kantons St. Gallen. (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>St. Gallen</ogr:Ort>
+      <ogr:Typ>gdi</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Lämmlisbrunnenstrasse 54, 9001 St. Gallen</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.232">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.35841080045504,46.2331359022619</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>232</ogr:ID>
+      <ogr:URL>https://www.vs.ch/de/web/acf/statistique</ogr:URL>
+      <ogr:Titel>Kantonales Amt für Statistik – Wallis</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken zur Bevölkerung, Erwerbsleben, Landesindex der Konsumentenpreise, Tourismus, Mobilität und Verkehr, Bau- und Wohnungswesen und Finanzausgleich (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Wallis</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Place de la Planta 3, CH-1950 Sion</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.233">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.6359847909476,46.519349302482</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>233</ogr:ID>
+      <ogr:URL>http://www.stat.vd.ch/</ogr:URL>
+      <ogr:Titel>Statistique Vaud</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Kantons Vaud (französischsprachig) (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Vaud</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Rue de la Paix 6, 1014 Lausanne</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.234">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.49274116332301,47.1897229855188</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>234</ogr:ID>
+      <ogr:URL>https://statistik.so.ch</ogr:URL>
+      <ogr:Titel>Statistikportal Solothurn</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Kantons Solothurn (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Solothurn</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Barfüssergasse 24, 4509 Solothurn</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.235">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.62958369287971,47.7044142533705</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>234</ogr:ID>
+      <ogr:URL>http://www.sh.ch/index.php?id=235</ogr:URL>
+      <ogr:Titel>Wirtschaft, Statistik und Tourismus Schaffhausen</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistik-Webseite des Kantons Schaffhausen  (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Schaffhausen</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Mühlentalstrasse 105, 8201 Schaffhausen</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.236">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.52185430298738,47.1390802029049</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>235</ogr:ID>
+      <ogr:URL>https://www.llv.li/#/11480/amt-fur-statistik</ogr:URL>
+      <ogr:Titel>Amt für Statistik (AS) Liechtenstein</ogr:Titel>
+      <ogr:Land>Liechtenstein</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Fürstentums Liechtenstein</ogr:Beschreibung>
+      <ogr:Ort>Liechtenstein</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>national</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Äulestrasse 51, 9490 Vaduz</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.237">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.24165210149853,46.8926923027775</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>236</ogr:ID>
+      <ogr:URL>http://www.statistik-obwalden.ch/</ogr:URL>
+      <ogr:Titel>Obwalden in Zahlen</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Statistiken herausgegeben von der Obwaldner Kantonalbank und des Volkswirtschaftsdepartments</ogr:Beschreibung>
+      <ogr:Ort>Obwalden</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Rütistrasse 8, 6060 Sarnen</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.238">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.88501661944638,47.0016776247434</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>237</ogr:ID>
+      <ogr:URL>www.ne.ch/stat </ogr:URL>
+      <ogr:Titel>Office cantonal de la statistique Neuchâtel</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Kantons Neuenburg (französischsprachig) (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Neuenburg</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Rue de la Collégiale 12, 2001 Neuchâtel</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.239">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.01324880241534,46.1770663021698</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>238</ogr:ID>
+      <ogr:URL>www.ti.ch/ustat </ogr:URL>
+      <ogr:Titel>Statistikamt des Kantons Tessin</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Kantons Neuenburg (auf Italienisch) (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Tessin</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Via Bellinzona 31, 6512 Giubiasco
+</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.240">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>6.10489588649924,46.1472087100961</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>239</ogr:ID>
+      <ogr:URL>https://www.ge.ch/statistique/</ogr:URL>
+      <ogr:Titel>Kantonales Statistikamt Genf – OCSTAT</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Amtliche Statistiken des Kantons Genf (auf Französisch) (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Genf</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>regional</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Route des Acacias 82, 1227 Acacias
+</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.241">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>9.35982130711905,47.3517319606753</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>240</ogr:ID>
+      <ogr:URL>http://www.statistik.stadt.sg.ch/</ogr:URL>
+      <ogr:Titel>St. Galen – Die Stadt in Zahlen</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Statistische Übersichten zur Stadt St. Galen (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>St. Gallen</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Davidstr. 35, 9001 St. Gallen</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.242">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.71952410204799,47.4980452032172</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>241</ogr:ID>
+      <ogr:URL>http://www.statistik.winterthur.ch/</ogr:URL>
+      <ogr:Titel>Statistik – Stadt Winterthur</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Portraitstatistik zur Stadt Winterthur (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Winterthur</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Pionierstrasse 7, 8402 Winterthur</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.243">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>7.56388089529587,46.9765292025295</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>242</ogr:ID>
+      <ogr:URL>http://www.bern.ch/statistik</ogr:URL>
+      <ogr:Titel>Statistik Stadt Bern</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Portraitstatistik zur Stadt Bern (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Bern</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Junkerngasse 47, 3000 Bern 8</ogr:Adresse_Herausgeber>
+    </ogr:portale>
+  </gml:featureMember>
+  <gml:featureMember>
+    <ogr:portale fid="portale.244">
+      <ogr:geometryProperty><gml:Point srsName="EPSG:4326"><gml:coordinates>8.5613633708013,47.3392310066237</gml:coordinates></gml:Point></ogr:geometryProperty>
+      <ogr:ID>243</ogr:ID>
+      <ogr:URL>http://www.stadt-zuerich.ch/statistik</ogr:URL>
+      <ogr:Titel>Statistik Stadt Zürich</ogr:Titel>
+      <ogr:Land>Schweiz</ogr:Land>
+      <ogr:Beschreibung>Portraitstatistik zur Stadt Zürich (Stand: 13.02.2018)</ogr:Beschreibung>
+      <ogr:Ort>Zürich</ogr:Ort>
+      <ogr:Typ>stat</ogr:Typ>
+      <ogr:Reichweite>kommunal</ogr:Reichweite>
+      <ogr:Staatlich_Öffentlich>ja</ogr:Staatlich_Öffentlich>
+      <ogr:Geodaten></ogr:Geodaten>
+      <ogr:Adresse_Herausgeber>Napfgasse 6, 8001 Zürich</ogr:Adresse_Herausgeber>
     </ogr:portale>
   </gml:featureMember>
 </ogr:FeatureCollection>
