@@ -189,7 +189,7 @@ padding-right: 10px;
 
 .legend_toggle {
  display: none;
-}
+} 
 
 
 @media screen and (min-width: 0px) and (max-width: 768px){
@@ -209,7 +209,7 @@ padding-right: 10px;
     display: block;
   }
 
-  .legend_div:hover .legend_toggle {
+  .legend_div:hover  .legend_toggle {
     display: none;
   }
 }
