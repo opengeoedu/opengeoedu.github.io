@@ -115,9 +115,9 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
   
   htmlLegend <- 
     tags$div(class="legend_div",  htmltools::tagList(
-    div(class="legend_toggle info", `aria-haspopup`="true", style="width:40px; height:40px; text-align:center",icon("info", "fa-2x")),
-    tags$div(class = "legend_map info legend leaflet-control", `aria-label`="submenu", `aria-hidden` = "true",
-                         div(style = "margin-bottom:3px", tags$strong("Legende")),
+    div(class="legend_toggle info leaflet-control-layers", `aria-haspopup`="true", style="width:40px; height:40px; text-align:center",icon("info", "fa-2x")),
+    tags$div(class = "legend_map info legend leaflet-control leaflet-control-layers-list", `aria-label`="submenu", `aria-hidden` = "true",
+                         div(style = "margin-bottom:3px", tags$strong("Legende")), class="leaflet-control-layers-base",
                          htmltools::tagList(
                           type_legend_entries,
                            #optionally include controls in legend (would have to be synchronized with other controls on the map)
