@@ -74,7 +74,7 @@ padding-right: 10px;
 
 @media screen and (min-width: 401px) and (max-width: 500px) {
 	.statwrapper{
-		#display: inline-block;
+		/*display: inline-block; */
 		overflow-x: scroll; 
 		width: 390px;
 		font-size: 9pt;
@@ -84,9 +84,9 @@ padding-right: 10px;
 
 @media screen and (min-width: 500px) and (max-width: 600px){
 	.statwrapper{
-		#display: inline-block;
+		/*display: inline-block;*/
 		overflow-x: scroll; 
-		width: 490px
+		width: 490px;
 		font-size: 10pt;
 	}
 }
@@ -129,12 +129,12 @@ padding-right: 10px;
 .checkbox_container:hover input ~ .checkmark {
   background-color: #ccc;
 }
-}
+
 
 /* When the checkbox is checked, add a blue background */
-.checkbox_container input:checked ~ .checkmark {
-  background-color: #2196F3;
-}
+ /*.checkbox_container input:checked ~ .checkmark {
+ background-color: #2196F3; 
+}*/
 
 /* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
@@ -144,10 +144,10 @@ padding-right: 10px;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
-.checkmark: {
+.checkmark {
   content: "";
   position: absolute;
-  display: none;
+  /*display: none;*/
 }
 
 .checkbox_container input:checked ~ .checkmark:after {
@@ -205,11 +205,11 @@ padding-right: 10px;
 	}
 
 
-	.legend_div:hover .legend_map {
+	.legend_div:hover, .legend_div:active .legend_map {
 		display: block;
 	}
 
-	.legend_div:hover .legend_toggle {
+	.legend_div:hover, .legend_div:active .legend_toggle {
 		display: none;
 	}
 }

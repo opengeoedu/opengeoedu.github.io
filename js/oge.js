@@ -178,6 +178,16 @@ onRenderMap = function(){
   mapcontrols  = document.getElementsByClassName("search-button");
   if(mapcontrols.length >0)
       mapcontrols[0].title = "Suche nach Ort oder Name eines Portals";
+
+     /* var mapicons = document.getElementsByClassName("leaflet-marker-icon");
+     // alert(mapicons[1].getAttributeNode("height"));
+     for (var i; i < mapicons.length; i++){
+      mapicons[i].style.width = "10px";
+      mapicons[i].style.height="10px";
+     }*/
+     /*mapicons[1].setAttribute("height", "500px");
+     mapicons[1].setAttribute("width", "500px");
+     alert(mapicons[1].getAttribute("height"));
       /*
       var markerIcons = document.getElementsByClassName("leaflet-marker-icon");
 	//alert(markerIcons.length);
@@ -204,4 +214,5 @@ $.fn.dataTable.ext.type.order['range-order-pre'] = function ( d ) {
   }
   return 0;
 };
+
 

@@ -28,7 +28,9 @@ library(crosstalk)
 library(shiny)
 library(shinyjs)
 
-if(FALSE) { #for debugging purposes, you might want to enable this script that pre-renders map (m), statistics (flext) and data table (portale), otherwise the data is loaded from a file where these intermnediate objects are cached for performance reasons, i.e. reducing the number of packages and data loaded into the app
+DEBUG = FALSE
+
+if(DEBUG) { #for debugging purposes, you might want to enable this script that pre-renders map (m), statistics (flext) and data table (portale), otherwise the data is loaded from a file where these intermnediate objects are cached for performance reasons, i.e. reducing the number of packages and data loaded into the app
   source("R/portal_prerendering.R")
 } else {
   load("out/prerendered_content.RData")
@@ -67,18 +69,47 @@ portalMapUI <- function(id) {
 #    setProgress(value = 1)
 #})
 
+smallActive <- FALSE
+largeActive <- FALSE
 
 # Server function
 portalMap <- function(input, output, session) {
+ 
   output$map <- renderLeaflet({
     withProgress(message = "Karte wird geladen...", expr = {
       isolate({
       setProgress(value = 1)
-    
+      ## uncomment this when new leaflet-package is released:
+     # m <- addAllPortalMarkers(m = m, portale = portale, groupname = "portale", 35, 35, "") %>% 
+    #  showGroup("portale")
       m
       })
     })
   })
+  
+#  sd2 <- SharedData$new(portale, group = "portale")
+
+##### USE THIS CODE WHEN NEW LEAFLET PACKAGE IS RELEASED:
+# 
+#    observe({
+#       if(length(input$map_zoom) == 1){
+#           proxy <- leafletProxy("map")
+#       }
+#        if(input$map_zoom < 8 && exists("proxy") && !smallActive){
+#            proxy %>% clearGroup("portale")
+#            proxy <- addAllPortalMarkers(m = proxy, portale = portale, groupname = "portale", 20, 20, "small_")
+#            smallActive <<- TRUE
+#            largeActive <<- FALSE
+#            proxy %>% showGroup("portale")
+#        } else if(input$map_zoom >= 8 && exists("proxy") && !largeActive){
+#            proxy %>% clearGroup("portale")
+#            proxy <- addAllPortalMarkers(m = proxy, portale = portale, groupname = "portale", 35, 35, "")
+#            largeActive <<- TRUE
+#            smallActive <<- FALSE
+#            proxy %>% showGroup("portale")
+#        }
+#   })
+###########################################################
   
   # sd2 <- SharedData$new(portale, group = "portale")
   # 
@@ -172,7 +203,7 @@ callModule(portalMap, "oge")
 Tabelle {data-icon="glyphicon-list"}
 =========================================================
 
-```{r fig.height=8}
+```{r fig.height=8.5}
 tags$div(align="middle", style="text-align:center", class="main-filter-group",
  bscols(widths = c(6,6),
     div(style="display:inline-block; text-align:left",title="Aktivierte Datenfilter sind sowohl auf der Karte als auch in der Tabelle wirksam",                   filter_checkbox("bezug_portal", "Portal-Typ", sd, ~Typ_names, inline = FALSE, allLevels = TRUE, columns = 2)
@@ -197,7 +228,7 @@ div(class="metawrapper", style="height:75%",
                                      list(type="range-order", targets=-1)),
                     order = list(list(4, 'asc'), list(3, 'asc'))
                     )
-                  ), elementId = "portals_table"
+                  , elementId = "portals_table")
     )
 )
 #)
@@ -442,6 +473,13 @@ shinyApp(
     
   }
 )
+
+
+if(DEBUG){
+  library(containerit)
+  df <- dockerfile(maintainer = "OpenGeoEdu", image = "rocker/spatial")
+  write(df, file = "out/Dockerfile")
+}
 
 ```
 

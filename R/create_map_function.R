@@ -186,12 +186,12 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
     addFullscreenControl() %>%
     addPolygons(data = g6bounds, color = "grey", fillColor = polygon_fill_color, weight = 1, group = "adm6",fill=TRUE,label = g6bounds$localname, fillOpacity = 0) %>%
     #addLabelOnlyMarkers(data = gCentroid(geometry(g6bounds), byid = TRUE), label = g6bounds$localname, group = "adm6_labels", labelOptions = labeladm6opts) %>%
-    addPolygons(data = s6bounds, color = "grey", fillColor = polygon_fill_color, weight = 1, group  = "adm6",label = s6bounds$localname,fill=TRUE, fillOpacity = 0) %>%
+    #addPolygons(data = s6bounds, color = "grey", fillColor = polygon_fill_color, weight = 1, group  = "adm6",label = s6bounds$localname,fill=TRUE, fillOpacity = 0) %>%
     #addLabelOnlyMarkers(data = gCentroid(geometry(s6bounds), byid = TRUE), label = s6bounds$localname, group = "adm6_labels", labelOptions = labeladm6opts) %>%
     addPolygons(data = a6bounds, color = "grey", fillColor = polygon_fill_color, weight = 1,label = a6bounds$localname, group = "adm6",fill=TRUE, fillOpacity = 0) %>%
     #addLabelOnlyMarkers(data = gCentroid(geometry(a6bounds), byid = TRUE), label = a6bounds$localname, group = "adm6_labels", labelOptions = labeladm6opts) %>%
     addPolygons(data = g5bounds, color = "grey", fillColor = polygon_fill_color, weight = 1.5,label = g5bounds$localname, group = "adm5",fill=FALSE) %>%
-    addPolygons(data = s5bounds, color = "grey", fillColor = polygon_fill_color, weight = 1.5,label = s5bounds$localname, group  = "adm5", fill=TRUE, fillOpacity = 0) %>%
+    #addPolygons(data = s5bounds, color = "grey", fillColor = polygon_fill_color, weight = 1.5,label = s5bounds$localname, group  = "adm5", fill=TRUE, fillOpacity = 0) %>%
     addPolygons(data = g4bounds, color = "grey", fillColor = polygon_fill_color, weight = 2, label = g4bounds$localname, group = "adm4", fill=TRUE, fillOpacity = polygon_fill_opacity) %>%
     addPolygons(data = s4bounds, color = "grey", fillColor = polygon_fill_color, weight = 2, label = s4bounds$localname, group  = "adm4", fill=TRUE, fillOpacity = polygon_fill_opacity) %>%
     addPolygons(data = a4bounds, color = "grey", fillColor = polygon_fill_color, weight = 2, label = a4bounds$localname, group = "adm4", fill=TRUE, fillOpacity = polygon_fill_opacity) %>%
@@ -221,6 +221,7 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
       #addGeoJSON("data/bounds/Germany_AL2.GeoJson")
   
   addAllPortalMarkers <<- function(m, portale, groupname, iconWidth, iconHeight, icon_prefix_extension =""){
+    print(paste(sapply(list(m,portale,groupname,iconWidth,iconHeight, icon_prefix_extension), class), collapse = " "))
 
       sapply(categories, function(category) {
         cf <- paste0(
@@ -240,8 +241,10 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
         
         
         mapply(function(portal_typ, group_pch){
+          
           group_data <- SharedData$new(portale[portale$Reichweite == category & portale$Typ==portal_typ,], group = groupname)
           group_iconfile <- pchIcons(colorlf[[category]],  pch = group_pch, file_prefix = paste0(portal_typ,"_",icon_prefix_extension), width = iconWidth, height = iconHeight)
+         
           m <<- addPortalMarker(m, group_data, clusterOptions, group_iconfile, iconWidth = iconWidth, iconHeight = iconHeight, group = groupname, clusterId = category)
           
           # group_data <- SharedData$new(portale[portale$Reichweite == category & portale$Typ==portal_typ,], group = crosstalk_group)
@@ -256,6 +259,7 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
         
         invisible()
       })
+
     return(m)
   }
   

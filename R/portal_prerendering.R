@@ -52,8 +52,8 @@ tab_colors <- colorP(10)
 sel <- which(!(portale$Land %in% c("Deutschland", "Österreich", "Schweiz")))
 # create simplified categories for the statistics
 Land <- as.character(portale$Land)
-Land[sel] <- "länderübergreifend"
-Land <- factor(Land, levels = c("Deutschland", "Österreich","Schweiz", "länderübergreifend / Sonstige"), ordered = TRUE)
+Land[sel] <- "Sonstige"
+Land <- factor(Land, levels = c("Deutschland", "Österreich","Schweiz", "Sonstige"), ordered = TRUE)
 Typ <- portale$Typ_names
 #levels(Typ) <- stringr::str_replace(string = levels(Typ), pattern = "GDI", replacement = "GDI / Geoportal")
 ftab <- ftable(data.frame(Typ = Typ, Land = Land, Reichweite = portale$Reichweite))
