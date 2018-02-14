@@ -205,13 +205,13 @@ padding-right: 10px;
 	}
 
 
-	.legend_div:hover, .legend_div:active .legend_map {
-		display: block;
-	}
+  .legend_div:hover .legend_map {
+    display: block;
+  }
 
-	.legend_div:hover, .legend_div:active .legend_toggle {
-		display: none;
-	}
+  .legend_div:hover .legend_toggle {
+    display: none;
+  }
 }
 
 
