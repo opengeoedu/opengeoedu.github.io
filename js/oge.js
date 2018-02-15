@@ -179,6 +179,20 @@ onRenderMap = function(){
   if(mapcontrols.length >0)
       mapcontrols[0].title = "Suche nach Ort oder Name eines Portals";
 
+
+ var clickables = document.getElementsByClassName("polygonShape");
+ for (var index = 0; index < clickables.length; index++) {
+   clickables[index].addEventListener("click", 
+      function(){   
+          var buttons = document.getElementsByClassName("leaflet-popup-close-button");
+          for (var index = 0; index < buttons.length; index++) {
+            buttons[index].click();
+            
+          };
+        }
+     );   
+ }
+
      /* var mapicons = document.getElementsByClassName("leaflet-marker-icon");
      // alert(mapicons[1].getAttributeNode("height"));
      for (var i; i < mapicons.length; i++){
@@ -214,5 +228,24 @@ $.fn.dataTable.ext.type.order['range-order-pre'] = function ( d ) {
   }
   return 0;
 };
+
+
+//$(document).on('click', function (e) {
+  /*if ($(e.target).closest("#CONTAINER").length === 0) {
+      $("#CONTAINER").hide();
+  }*/
+
+
+  //alert("HI!!");
+//});
+
+
+  /*var buttons = document.getElementsByClassName("leaflet-popup-close-button");
+  for (var index = 0; index < buttons.length; index++) {
+     buttons[index].click();
+    
+  }*/
+//  $(".leaflet-popup-close-button")[0].click();
+
 
 

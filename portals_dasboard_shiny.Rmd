@@ -58,8 +58,9 @@ Karte {data-icon="glyphicon-globe"}
 
 ```{r}
 portalMapUI <- function(id) {
+  
   ns <- NS(id)
-  tagList(leafletOutput(ns("map")))
+  shiny::tagList(leafletOutput(ns("map")))
 }
 
 #m <- NULL
@@ -87,6 +88,15 @@ portalMap <- function(input, output, session) {
     })
   })
   
+ 
+   # observe({
+   #    proxy <- leafletProxy("map")
+   #    click<-input$map_shape_click
+   #    if(is.null(click))
+   #          return()
+   #    #clearPopups seems not to work, so far
+   #    proxy %>% clearPopups() 
+   # })
 #  sd2 <- SharedData$new(portale, group = "portale")
 
 ##### USE THIS CODE WHEN NEW LEAFLET PACKAGE IS RELEASED:

@@ -185,29 +185,29 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
     addControl(htmlLegend ,position = "topright", className="") %>%
     addResetMapButton() %>%
     addFullscreenControl() %>%
-    addPolygons(data = g6bounds, color = "grey", fillColor = polygon_fill_color, weight = 1, group = "adm6",fill=TRUE,label = g6bounds$localname, fillOpacity = 0) %>%
+    addPolygons(data = g6bounds, color = "grey", fillColor = polygon_fill_color, weight = 1, group = "adm6",fill=TRUE,label = g6bounds$localname, fillOpacity = 0, options = pathOptions(clickable = TRUE, className = "polygonShape")) %>%
     #addLabelOnlyMarkers(data = gCentroid(geometry(g6bounds), byid = TRUE), label = g6bounds$localname, group = "adm6_labels", labelOptions = labeladm6opts) %>%
     #addPolygons(data = s6bounds, color = "grey", fillColor = polygon_fill_color, weight = 1, group  = "adm6",label = s6bounds$localname,fill=TRUE, fillOpacity = 0) %>%
     #addLabelOnlyMarkers(data = gCentroid(geometry(s6bounds), byid = TRUE), label = s6bounds$localname, group = "adm6_labels", labelOptions = labeladm6opts) %>%
-    addPolygons(data = a6bounds, color = "grey", fillColor = polygon_fill_color, weight = 1,label = a6bounds$localname, group = "adm6",fill=TRUE, fillOpacity = 0) %>%
+    addPolygons(data = a6bounds, color = "grey", fillColor = polygon_fill_color, weight = 1,label = a6bounds$localname, group = "adm6",fill=TRUE, fillOpacity = 0, options = pathOptions(clickable = TRUE, className = "polygonShape")) %>%
     #addLabelOnlyMarkers(data = gCentroid(geometry(a6bounds), byid = TRUE), label = a6bounds$localname, group = "adm6_labels", labelOptions = labeladm6opts) %>%
-    addPolygons(data = g5bounds, color = "grey", fillColor = polygon_fill_color, weight = 1.5,label = g5bounds$localname, group = "adm5",fill=FALSE) %>%
+    addPolygons(data = g5bounds, color = "grey", fillColor = polygon_fill_color, weight = 1.5,label = g5bounds$localname, group = "adm5",fill=FALSE, options = pathOptions(clickable = TRUE, className = "polygonShape")) %>%
     #addPolygons(data = s5bounds, color = "grey", fillColor = polygon_fill_color, weight = 1.5,label = s5bounds$localname, group  = "adm5", fill=TRUE, fillOpacity = 0) %>%
-    addPolygons(data = g4bounds, color = "grey", fillColor = polygon_fill_color, weight = 2, label = g4bounds$localname, group = "adm4", fill=TRUE, fillOpacity = polygon_fill_opacity) %>%
-    addPolygons(data = s4bounds, color = "grey", fillColor = polygon_fill_color, weight = 2, label = s4bounds$localname, group  = "adm4", fill=TRUE, fillOpacity = polygon_fill_opacity) %>%
-    addPolygons(data = a4bounds, color = "grey", fillColor = polygon_fill_color, weight = 2, label = a4bounds$localname, group = "adm4", fill=TRUE, fillOpacity = polygon_fill_opacity) %>%
-    addLabelOnlyMarkers(data = gPointOnSurface(geometry(g4bounds), byid = TRUE), label = g4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
-    addLabelOnlyMarkers(data = gPointOnSurface(geometry(a4bounds), byid = TRUE), label = a4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
+    addPolygons(data = g4bounds, color = "grey", fillColor = polygon_fill_color, weight = 2, label = g4bounds$localname, group = "adm4", fill=TRUE, fillOpacity = polygon_fill_opacity, options = pathOptions(clickable = TRUE, className = "polygonShape")) %>%
+    addPolygons(data = s4bounds, color = "grey", fillColor = polygon_fill_color, weight = 2, label = s4bounds$localname, group  = "adm4", fill=TRUE, fillOpacity = polygon_fill_opacity, options = pathOptions(clickable = TRUE, className = "polygonShape")) %>%
+    addPolygons(data = a4bounds, color = "grey", fillColor = polygon_fill_color, weight = 2, label = a4bounds$localname, group = "adm4", fill=TRUE, fillOpacity = polygon_fill_opacity, options = pathOptions(clickable = TRUE, className = "polygonShape")) %>%
+    addLabelOnlyMarkers(data = gPointOnSurface(geometry(g4bounds), byid = TRUE), label = g4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts, options = markerOptions(clickable = FALSE)) %>%
+    addLabelOnlyMarkers(data = gPointOnSurface(geometry(a4bounds), byid = TRUE), label = a4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts, options = markerOptions(clickable = FALSE)) %>%
     #addLabelOnlyMarkers(data = gCentroid(geometry(s4bounds), byid = TRUE), label = s4bounds$localname, group = "adm4_labels", labelOptions = labeladm4opts) %>%
-    addPolygons(data = g2bounds,weight = 2, color= "black",group = "adm2", fill = FALSE) %>%
-    addPolygons(data = s2bounds,weight = 2, color= "black",group  = "adm2", fill = FALSE) %>%
-    addPolygons(data = a2bounds,weight = 2, color= "black",group = "adm2", fill = FALSE) %>%
-    addLabelOnlyMarkers(data=pplc, label = pplc$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE, textsize = "10pt")) %>%
-    addLabelOnlyMarkers(data=ppla, label = ppla$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE, textsize = "10pt"), group = "adm4_labels") %>%
-    addLabelOnlyMarkers(data=ppl, label = ppl$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE, textsize = "10pt"), group = "adm6_labels") %>%
-    addCircleMarkers(data=pplc, color = "red",radius=1) %>%
-    addCircleMarkers(data=ppla, color = "black", radius=1, group = "adm4_labels") %>%
-    addCircleMarkers(data=ppl, color = polygon_fill_color ,radius=1, group = "adm6_labels") %>%
+    addPolygons(data = g2bounds,weight = 2, color= "black",group = "adm2", fill = FALSE, options = pathOptions(clickable = FALSE)) %>%
+    addPolygons(data = s2bounds,weight = 2, color= "black",group  = "adm2", fill = FALSE, options = pathOptions(clickable = FALSE)) %>%
+    addPolygons(data = a2bounds,weight = 2, color= "black",group = "adm2", fill = FALSE, options = pathOptions(clickable = FALSE)) %>%
+    addLabelOnlyMarkers(data=pplc, label = pplc$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE, textsize = "10pt", style = "color:#03F"), options = markerOptions(clickable = FALSE)) %>%
+    addLabelOnlyMarkers(data=ppla, label = ppla$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE, textsize = "10pt", style = "color:#03F"), group = "adm4_labels", options = markerOptions(clickable = FALSE)) %>%
+    addLabelOnlyMarkers(data=ppl, label = ppl$name, labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, zoomAnimation = FALSE, textsize = "10pt", style = "color:#03F"), group = "adm6_labels", options = markerOptions(clickable = FALSE)) %>%
+    addCircleMarkers(data=pplc, color = "red",radius=1, options = markerOptions(clickable = FALSE)) %>%
+    addCircleMarkers(data=ppla, color = "black", radius=1, group = "adm4_labels", options = markerOptions(clickable = FALSE)) %>%
+    addCircleMarkers(data=ppl, color = polygon_fill_color ,radius=1, group = "adm6_labels", options = markerOptions(clickable = FALSE)) %>%
     #addCircleMarkers(data=pplc, color = "red",radius=1, group = "adm2_labels", options = markerOptions(clickable = FALSE),label = pplc$name, labelOptions = labelOptions(noHide = TRUE, zoomAnimation = FALSE, textsize = 13, className = "ppl_label" )) %>%
     #addCircleMarkers(data=ppla, color = "black", radius=1, group = "adm4_labels", options = markerOptions(clickable = FALSE, zIndexOffset = -500), label = ppla$name, labelOptions = labelOptions(noHide = TRUE, zoomAnimation = FALSE, style = "z-index: -1")) %>%
     #addCircleMarkers(data=ppl, color = polygon_fill_color ,radius=1, group = "adm6_labels", options = markerOptions(clickable = FALSE, zIndexOffset = -500), label = ppl$name, labelOptions = labelOptions(noHide = TRUE, zoomAnimation = FALSE, style = "z-index: -1")) %>%
@@ -219,6 +219,7 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
     leaflet.extras::enableTileCaching()  %>% 
   #  htmlwidgets::onRender("alert('test after Rendering');")
      htmlwidgets::onRender("onRenderMap()")
+    
       #addGeoJSON("data/bounds/Germany_AL2.GeoJson")
   
   addAllPortalMarkers <<- function(m, portale, groupname, iconWidth, iconHeight, icon_prefix_extension =""){
@@ -287,7 +288,7 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
   #   return(allRecords[1])
   # }
 
-  m <- addSearchFeatures(m, targetGroups = "portale", options = searchFeaturesOptions(openPopup = TRUE, propertyName = "label"))
+  m <- addSearchFeatures(m, targetGroups = "portale", options = searchFeaturesOptions(openPopup = TRUE, propertyName = "label", textPlaceholder = "Suche Portal...", textCancel="Abbruch", textErr = "Portal nicht gefunden", zoom="10", hideMarkerOnCollapse=TRUE))
  
 # zoom-level depended rendering of small/large icons doesn't work well (yet)   
  #m <- hideGroup(m, "portale") %>%
