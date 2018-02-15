@@ -1,14 +1,11 @@
-FROM rocker/geospatial:3.4.2
+FROM rocker/geospatial
+LABEL maintainer="OpenGeoEdu"
 RUN apt-get update && apt-get install -y \
 	gdebi-core && \
-	wget https://download3.rstudio.org/ubuntu-12.04/x86_64/shiny-server-1.5.5.872-amd64.deb && \
-	gdebi -n shiny-server-1.5.5.872-amd64.deb
-
-RUN ["install2.r", "-r 'https://cloud.r-project.org'", "RColorBrewer", "htmltools", "flexdashboard", "Rcpp", "knitr", "magrittr", "xtable", "R6", "stringr", "yaml", "rprojroot", "digest", "shiny", "shinyjs","rgeos","htmlwidgets", "evaluate", "mime", "rmarkdown", "stringi", "backports", "jsonlite", "markdown", "httpuv", "remotes"]
-RUN ["installGithub.r", "bhaskarvk/leaflet.extras@23de9ea", "rstudio/crosstalk@d8f29eb", "rstudio/DT@ea15ab9", "rstudio/leaflet@d489e2c", "hadley/lazyeval@c155c3d"]
-
-RUN ["install2.r", "-r 'https://cloud.r-project.org'", "rtable", "ReporteRs"]
-
+	wget https://download3.rstudio.org/ubuntu-12.04/x86_64/shiny-server-1.5.6.875-amd64.deb && \
+	gdebi -n shiny-server-1.5.6.875-amd64.deb
+RUN ["install2.r", "-r 'https://cloud.r-project.org'", "rtable", "ReporteRs", "ReporteRsjars", "xtable", "RColorBrewer", "rgeos", "sp", "shinyjs", "htmltools", "purrr", "rJava", "lattice", "yaml", "base64enc", "rlang", "R.oo", "pillar", "glue", "R.utils", "gdtools", "lambda.r", "uuid", "stringr", "futile.logger", "R.methodsS3", "zip", "htmlwidgets", "evaluate", "knitr", "httpuv", "markdown", "Rcpp", "backports", "jsonlite", "mime", "png", "digest", "stringi", "rprojroot", "magrittr", "lazyeval", "tibble", "futile.options", "tidyr", "xml2", "rvg", "rmarkdown", "officer", "R6", "remotes"]
+RUN ["installGithub.r", "bhaskarvk/leaflet.extras@23de9ea", "rstudio/crosstalk@0a3b8f4", "rstudio/DT@a314d79", "rstudio/flexdashboard@89d711c", "rstudio/leaflet@d489e2c", "rstudio/shiny@39a7f63"]
 EXPOSE 80
 
 COPY shiny-server.sh /usr/bin/shiny-server.sh

@@ -1,14 +1,17 @@
 if(FALSE){
   #install necessary packages
   install.packages("devtools") #install packages from github
-  install.packages("leafletR") #(optional) leaflet package
+#  install.packages("leafletR") #(optional) leaflet package
   #install.packages("leaflet")
   install.packages("rgdal")
+  install.packages("rgeos")
+  install.packages("geosphere")
   install.packages("htmltools")
   install.packages("htmlwidgets")
+  install.packages("digest")
 
   devtools::install_github("rstudio/leaflet") #another leaflet package
-  
+  devtools::install_github("rstudio/shiny")
 #  devtools::install_github("schloerke/leaflet",ref = "barret/v1x")
  
   devtools::install_github("rstudio/crosstalk")
@@ -17,6 +20,10 @@ if(FALSE){
   devtools::install_github('bhaskarvk/leaflet.extras')
   install.packages("rmarkdown")
   install.packages("xml2")
+  install.packages("shinyjs")
+  
+  install.packages("jsonlite")
+  install.packages(c("rtable", "ReportRs"))
   #system dependencies: libssl-dev  libcurl4-openssl-dev  pandoc
 }
 
