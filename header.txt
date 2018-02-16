@@ -1,0 +1,38 @@
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="author" content="Matthias Hinz">
+<meta name="publisher" content="Universität Rostock">
+<meta name="copyright" content="OpenGeoEdu">
+<meta name='language' content='de'>
+<meta name='url' content='https://portal.opengeoedu.de'>
+
+<meta property="og:description" content="Kartenübersicht zu offenen Datenportalen in Deutschland, Österreich und der Schweiz." />
+<meta property="og:title" content="Das OpenGeoEdu Portal der Datenportale" />
+<meta property="og:image" content="https://portal.opengeoedu.de/img/screenshot.jpg"/>
+<meta property="og:description" content="Kartenübersicht zu offenen Datenportalen in Deutschland, Österreich und der Schweiz. " />
+<meta property="og:url" content="https://portal.opengeoedu.de" />
+
+<meta name="DC.Title" content="OpenGeoEdu">
+<meta name="DC.Creator" content="Axel Lorenzen-Zabel">
+<meta name="DC.Rights" content="OpenGeoEdu">
+<meta name="DC.Publisher" content="Universität Rostock">
+<meta name="DC.Date" content="2018-02-13">
+<meta name="DC.Subject" content="Open Data, Open Government Data, Geodateninfrastruktur, Geoportal, Statistik, Umwelt, Citizen Science, Datenkatalog">
+<meta name="DC.Description" content="Kartenübersicht zu offenen Datenportalen in Deutschland, Österreich und der Schweiz.">
+<meta name="DC.Coverage" content="2018">
+<meta name="DC.Coverage" content="Eurpäische Union, Deutschland, Österreich, Schweiz">
+<meta name="DC.Language" content="de">
+<meta name="DC.Type" content="Interactive Resource">
+<meta name="DC.Format" content="text/html">
+<meta name="keywords" lang="de" content="offene Daten, OpenGeoEdu, offene Verwaltungsdaten, Umweltdaten, Geodateninfrastrukturen, Statistikdaten">
+<meta name="keywords" lang="en" content="open data, OpenGeoEdu, Open Government Data, Spatial Data Infrastructure, statistics, citizen science, environmental data">
+
+<link rel="icon" type="img/jpeg" href="https://portal.opengeoedu.de/img/icon.jpg" sizes="32x32">
+<link rel="icon" type="img/jpeg" href="https://portal.opengeoedu.de/img/icon.jpg" sizes="96x96">
+
+
+
+
+
+
+
