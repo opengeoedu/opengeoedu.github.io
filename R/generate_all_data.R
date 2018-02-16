@@ -12,8 +12,8 @@ if(FALSE){
 
   devtools::install_github("rstudio/leaflet") #another leaflet package
   devtools::install_github("rstudio/shiny")
-#  devtools::install_github("schloerke/leaflet",ref = "barret/v1x")
- 
+  #devtools::install_github("schloerke/leaflet",ref = "barret/v1x")
+  devtools::install_github("rstudio/rmarkdown")
   devtools::install_github("rstudio/crosstalk")
   devtools::install_github("rstudio/DT")
   devtools::install_github("rstudio/flexdashboard")

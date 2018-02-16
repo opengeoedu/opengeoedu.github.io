@@ -2,6 +2,8 @@
 title: "OpenDataPortal"
 output: 
   flexdashboard::flex_dashboard:
+    #source_code: "https://github.com/opengeoedu/opengeoedu.github.io/"
+    social: [ "menu" ]
     orientation: rows
     vertical_layout: fill
     logo: oge_logo/icon_scaled.jpg
@@ -10,6 +12,9 @@ output:
     css: ['css/dashboard.css', 'css/navbar.css']
     includes:
       after_body: footer.html
+      in_header: header.txt
+    navbar:
+      - { title: "Impressum", href: "https://www.auf.uni-rostock.de/footer/impressum/", align: right , target: "_blank"}
   # source_code: https://github.com/opengeoedu/opengeoedu.github.io
 runtime: shiny
 
@@ -39,12 +44,14 @@ if(DEBUG) { #for debugging purposes, you might want to enable this script that p
 library(shiny)
 library(shinyjs)
 shiny::addResourcePath("icontemp", file.path(getwd(), "icontemp"))
+shiny::addResourcePath("img", file.path(getwd(), "img"))
 shiny::addResourcePath("out_geodata", file.path(getwd(), "out_geodata"))
 shiny::addResourcePath("out", file.path(getwd(), "out"))
 shiny::addResourcePath("data", file.path(getwd(), "data"))
 shiny::addResourcePath("js", file.path(getwd(), "js"))
 
 options(DT.options = list(language = list(url = '//cdn.datatables.net/plug-ins/1.10.15/i18n/German.json', responsive = TRUE,  bPaginate = TRUE, autoWidth = TRUE, scrollX=TRUE)))
+
 
 #-----------------------------------------------------------------------
 ```
@@ -70,8 +77,8 @@ portalMapUI <- function(id) {
 #    setProgress(value = 1)
 #})
 
-smallActive <- FALSE
-largeActive <- FALSE
+#smallActive <- FALSE
+#largeActive <- FALSE
 
 # Server function
 portalMap <- function(input, output, session) {
@@ -95,7 +102,8 @@ portalMap <- function(input, output, session) {
    #    if(is.null(click))
    #          return()
    #    #clearPopups seems not to work, so far
-   #    proxy %>% clearPopups() 
+   #    proxy %>% clearPopups()
+   #    print("popups should be cleared now!")
    # })
 #  sd2 <- SharedData$new(portale, group = "portale")
 
@@ -487,7 +495,7 @@ shinyApp(
 
 if(DEBUG){
   library(containerit)
-  df <- dockerfile(maintainer = "OpenGeoEdu", image = "rocker/spatial")
+  df <- dockerfile(maintainer = "OpenGeoEdu", image = "rocker/geospatial")
   write(df, file = "out/Dockerfile")
 }
 

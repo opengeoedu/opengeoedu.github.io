@@ -158,6 +158,8 @@ updateSelectTool = function(){
 
 }
 onRenderMap = function(){
+
+
   var mapcontrols = document.getElementsByClassName("leaflet-control-zoom-in");
   if( mapcontrols .length >0)
       mapcontrols[0].title = "Vergrößern";
@@ -246,6 +248,5 @@ $.fn.dataTable.ext.type.order['range-order-pre'] = function ( d ) {
     
   }*/
 //  $(".leaflet-popup-close-button")[0].click();
-
 
 
