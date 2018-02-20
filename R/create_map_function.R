@@ -4,10 +4,12 @@ library(RColorBrewer)
 library(crosstalk)
 library(rgeos)
 
+# for createing svgs for each portal type:
+#mapply(function(pchnum, prefix){pchIcons(img_format = "svg", pch = pchnum, col="black", file_prefix = prefix)}, pchnum=as.numeric(table_meta$typ_pch), prefix = paste0(table_meta$typ,"_"))
 
 # helper function that creates triangular icon files in differnet colors in folder tempicon
 # use point symbols from base R graphics as icons
-pchIcons <- function(col, width = 35, height = 35, pch = 24, file_prefix="gdi-icon-",plotOnly = FALSE,...) {
+pchIcons <- function(col, width = 35, height = 35, pch = 24, file_prefix="gdi-icon-",plotOnly = FALSE, img_format = "png", ...) {
   #see https://github.com/mylesmharrison/colorRampPaletteAlpha
   addalpha <- function(colors, alpha=1.0) {
     r <- col2rgb(colors, alpha=T)
@@ -29,14 +31,23 @@ pchIcons <- function(col, width = 35, height = 35, pch = 24, file_prefix="gdi-ic
   for (i in seq_len(n)) {
     #f = tempfile(tmpdir = "icontemp", fileext = '.png')
     col_transp <- addalpha(col[i], 0.3)
-    f <- paste0("icontemp/",file_prefix,stringr::str_replace(col[i],"#",""),".png")
+
     if(!dir.exists("icontemp")){
       cat("Created directory 'icontemp' in order to store icon files. You can remove this folder manually after the output was created: \n\t",path.expand("./icontemp"))
       dir.create("icontemp")
     }
     
-    file.create(f)
-    png(f, width = width, height = height, bg = 'transparent')
+    if(img_format == "png"){
+      f <- paste0("icontemp/",file_prefix,stringr::str_replace(col[i],"#",""),".png")
+      file.create(f)
+      png(f, width = width, height = height, bg = 'transparent')
+
+    } else if(img_format == "svg"){
+      f <- paste0("icontemp/",file_prefix,stringr::str_replace(col[i],"#",""),".svg")
+      file.create(f)
+      svg(f, width = 1, height = 1, bg = 'transparent', pointsize = 30)
+    }
+
     par(mar = c(0, 0, 0, 0))
     plot.new()
     #points(.5, .5, pch = 17, cex = min(width, height) / 8, ..., col=col)

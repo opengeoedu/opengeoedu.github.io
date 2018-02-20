@@ -61,6 +61,9 @@ ftab <- ftable(data.frame(Typ = Typ, Land = Land, Reichweite = portale$Reichweit
 #statistics per country:
 country_stat <- paste0("(",paste(c("DE","AU","CH", "Sonst"),summary(Land), sep = ": ",collapse = ", "),")")
 
+#table_font <- "Helvetica, Arial, Geneva, sans-serif"
+.Options$`ReporteRs-default-font` <- "Helvetica, Arial, Geneva, sans-serif"
+#body.text.props = textProperties(font.family = table_font), header.text.props = textProperties(font.weight = "bold", font.family = table_font)
 flext <- as.FlexTable(ftab) %>%
   addFooterRow(paste("Datenportale insgesamt:",dim(portale)[1], country_stat), colspan = 6) %>%
   setZebraStyle(even = tab_colors[2], odd = 'white' ) %>%
