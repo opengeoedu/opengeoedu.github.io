@@ -502,4 +502,4 @@ if(DEBUG){
 ```
 
   
-<script src="/js/oge.js"> </script>
+<script src="js/oge.js"> </script>
