@@ -1,3 +1,5 @@
+<html>
+    <head>
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="author" content="Matthias Hinz">
@@ -11,6 +13,8 @@
 <meta property="og:image" content="https://portal.opengeoedu.de/img/screenshot.jpg"/>
 <meta property="og:description" content="Kartenübersicht zu offenen Datenportalen in Deutschland, Österreich und der Schweiz. " />
 <meta property="og:url" content="https://portal.opengeoedu.de" />
+
+
 
 <meta name="DC.Title" content="OpenGeoEdu">
 <meta name="DC.Creator" content="Axel Lorenzen-Zabel">
@@ -30,4 +34,53 @@
 <link rel="icon" type="img/jpeg" href="https://portal.opengeoedu.de/img/icon.jpg" sizes="32x32">
 <link rel="icon" type="img/jpeg" href="https://portal.opengeoedu.de/img/icon.jpg" sizes="96x96">
 
+		<!-- cookieconsent -->
+		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"
+		/>
+		<script async src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+		<script>
+			window.addEventListener("load", function () {
+				window.cookieconsent.initialise({
+					"palette": {
+						"popup": {
+							"background": "#009de0"
+						},
+						"button": {
+							"background": "#a1bf35"
+						}
+					},
+					"theme": "edgeless",
+					"content": {
+						"message": "OpenGeoEdu verwendet Cookies, um sicherzustellen, dass Sie unsere Website optimal nutzen können.",
+						"dismiss": "Ok! Her mit den Keksen! 🍪",
+						"link": "Impressum",
+						"href": "https://www.auf.uni-rostock.de/footer/impressum/"
+					}
+				})
+			});
+        </script>
+        
+        <!-- Matomo -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://www.opengeoedu.de/analytics/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', '6']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <noscript><p><img src="https://www.opengeoedu.de/analytics/piwik.php?idsite=6&rec=1" style="border:0;" alt="" /></p></noscript>
+  <!-- End Matomo Code -->
 
+    </head>
+    <title>OpenDataPortal: &Ouml;ffentliche Datenportale im Deutschland, &Ouml;sterreich und der Schweiz</title>
+    <body>
+        <iframe src="https://portal.opengeoedu.de/portal" frameborder="0" style="overflow: hidden; height: 100%;
+        width: 100%; position: absolute; padding:0; left:0; top:0; margin:0; border:0ch" height="100%" width="100%"></iframe>
+    </body>
+</html>
