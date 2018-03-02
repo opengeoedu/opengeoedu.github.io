@@ -3,7 +3,7 @@ title: "OpenDataPortal"
 output: 
   flexdashboard::flex_dashboard:
     #source_code: "https://github.com/opengeoedu/opengeoedu.github.io/"
-    social: [ "menu" ]
+    #social: [ "menu"] #doesn't work with iframe parent
     orientation: rows
     vertical_layout: fill
     logo: oge_logo/icon_scaled.jpg
@@ -12,7 +12,7 @@ output:
     css: ['css/dashboard.css', 'css/navbar.css']
     includes:
       after_body: footer.html
-      in_header: header.txt
+     # in_header: header.txt
     navbar:
       - { title: "Impressum", href: "https://www.auf.uni-rostock.de/footer/impressum/", align: right , target: "_blank"}
   # source_code: https://github.com/opengeoedu/opengeoedu.github.io
