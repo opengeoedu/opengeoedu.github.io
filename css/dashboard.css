@@ -3,12 +3,13 @@ body {
   font-family: Helvetica, Arial, Geneva, sans-serif;
 }
 
-body p {
+body p, h4 {
 max-width: 900px;
 text-align: justify;
 padding-left: 10px;
 padding-right: 10px;
 }
+
 
 .navbar-logo{
   padding-top: 1px;

@@ -13,8 +13,8 @@ output:
     includes:
       after_body: footer.html
      # in_header: header.txt
-    navbar:
-      - { title: "Impressum", href: "https://www.auf.uni-rostock.de/footer/impressum/", align: right , target: "_blank"}
+   # navbar:
+    #  - { title: "Impressum", href: "https://www.auf.uni-rostock.de/footer/impressum/", align: right , target: "_blank"}
   # source_code: https://github.com/opengeoedu/opengeoedu.github.io
 runtime: shiny
 
@@ -501,5 +501,28 @@ if(DEBUG){
 
 ```
 
+Impressum
+=========================================================
+
+#### Herausgeber:  
+
+Professur für Geodäsie und Geoinformatik  
+Universität Rostock  
+18051 Rostock  
+Tel. 03824983200  
+Fax. 03814983202  
+Email: info@opengeoedu.de  
+
+<hr/>
+
+#### Haftungsausschluss  
+
+Trotz intensiver und sorgfältiger Kontrolle haften die Herausgeber nicht für Richtigkeit, Aktualität und Vollständigkeit ihrer Webseiten. Wir weisen ausdrücklich darauf hin, dass die Inhalte sämtlicher Webseiten, die über externe Links auf der Webseite erreichbar sind, ausschließlich von den Betreibern dieser Webseiten verantwortet werden. Jegliche Haftung für die Inhalte entsprechend verlinkter Seiten ist damit ausgeschlossen.
+
+<hr/>  
+
+#### Urheberrechte  
   
+Sämtliche Urheberrechte an Texten, Bildern, Tabellen und grafischen Darstellungen, die auf den Webseiten öffentlich gemacht werden, liegen - soweit nicht anders kenntlich gemacht - bei der Universität Rostock. Jegliche, auch auszugsweise Verwendung und Verbreitung in jedweder medialen Form bedarf der ausdrücklichen schriftlichen Genehmigung durch die Universität Rostock.
+
 <script src="js/oge.js"> </script>
