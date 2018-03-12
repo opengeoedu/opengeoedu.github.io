@@ -107,7 +107,7 @@ m <- createMap(portale,
 country_options <- list("Deutschland", "Liechtenstein", "Österreich", "Schweiz")
 country_chr <- as.character(portale$Land)
 country_map <- sapply(country_options, function(country){
-  out <- list(which(stringr::str_detect(country, country_chr) | portale$Land == "Europa" | portale$Reichweite == "international"))
+  out <- list(which(stringr::str_detect(country_chr, country) | portale$Land == "Europa" | portale$Reichweite == "international"))
   names(out) <- country
   out
 })
