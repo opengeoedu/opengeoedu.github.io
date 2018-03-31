@@ -31,8 +31,3 @@
 <link rel="icon" type="img/jpeg" href="https://portal.opengeoedu.de/img/icon.jpg" sizes="96x96">
 
 
-
-
-
-
-

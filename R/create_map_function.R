@@ -102,7 +102,7 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
   
   create_legend_entry <- function(iconpath, entryname, iconwidth = "25px"){
     htmltools::tagList(
-      tag("nobr",list(tags$input(type="checkbox", class="crosstalk_checkbox", value=entryname, checked=TRUE, onChange = paste0("toggleFilter('",entryname,"', this)"))  ,tags$img(src=paste0("/",iconpath), width=iconwidth), 
+      tag("nobr",list(tags$input(type="checkbox", class="crosstalk_checkbox", value=entryname, checked=TRUE, onChange = paste0("toggleFilter('",entryname,"', this)"))  ,tags$img(src=paste0(iconpath), width=iconwidth), 
                       tags$span(entryname))), 
       tags$br(clear="all"))
   }

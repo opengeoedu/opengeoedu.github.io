@@ -1,4 +1,3 @@
-document.title = "OpenDataPortal: Öffentliche Datenportale im Deutschland, Österreich und der Schweiz";
 document.body.style.background = "#E2F4FB"//"#E3EBF3";
 
 // Filter only one value of the "select"-"group"
