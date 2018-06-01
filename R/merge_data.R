@@ -136,5 +136,23 @@ write.csv(portale2, "data/portale_geocoded2.csv")
 #   getCurlHandle("--user-agent" = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.112 Safari/534.30")
 # 
 # x <- "https://www.govdata.de/"
+last <- function(x) { return( tail(x, n = 1) ) }
+
+outputDir <- "data/user_input"
+files <- list.files(outputDir, full.names = TRUE)
+files <- files[stringr::str_detect(files,"^((?!Beispiel).)*\\.csv$")];files
+#if(length(files)==0)
+#  return(NULL)
+data <- lapply(files, read.csv, stringsAsFactors = FALSE) 
+# Concatenate all data together into one data.frame
+data <- do.call(rbind, data)
+names(data)[8] <- "Staatlich_Öffentlich"
+names(data)
+data <- data[names(data)!="Autor"]
 
 
+portale <- read.csv("data/portale_geocoded4.csv", as.is = TRUE)
+data$ID = (last(portale$ID)+1):(last(portale$ID)+dim(data)[1])
+names(portale)
+portale2 <- merge(portale, data, all = TRUE)
+write.csv(portale2, file = "data/portale_geocoded4.csv", row.names = FALSE)

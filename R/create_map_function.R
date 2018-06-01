@@ -106,8 +106,6 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
                       tags$span(entryname))), 
       tags$br(clear="all"))
   }
-  #test:
-  #create_legend_entry("test/test","Hi")
   
   type_legend_entries <-
     mapply(
@@ -176,7 +174,7 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
   m <-
     leaflet(data = portale_shared, options = leafletOptions(minZoom = 4, maxZoom = 12, preferCanvas = TRUE))  %>%
     # map view and max bounds
-    #fitBounds(5.86,43,17.16,55.1) %>%
+    fitBounds(5.86,45.5,15,55.1) %>%
     #setView(10.8418, 50.5, zoom = 6)  %>%
     #setMaxBounds(2,10,22,60) %>%
     #Background map:
