@@ -340,7 +340,7 @@ tags$div(align="middle", style="text-align:center",
 Metadaten {data-icon="glyphicon-download"}
 =========================================================
 
-Die dargestellten Geodaten zu den Open Data Portalen und GDIs in Deutschland, Österreich und Schweiz können in verschiedenen Dateiformaten heruntergeladen werden. Beachten Sie, dass die Koordinaten sich überlappender Punkte zwecks besserer Darstellung leicht verschoben wurden. Alle Koordinaten sind in Längen- und Breitengraden angegeben (Tabellenspalten mit Namen "lon" und "lat") und beziehen sich auf das Datum WGS84.
+Die dargestellten Geodaten zu den Open Data Portalen und GDIs in Deutschland, Österreich und Schweiz können in verschiedenen Dateiformaten heruntergeladen werden. Beachten Sie, dass die Koordinaten sich überlappender Punkte zwecks besserer Darstellung leicht verschoben wurden. Alle Koordinaten sind in Längen- und Breitengraden angegeben (Tabellenspalten mit Namen "lon" und "lat") und beziehen sich auf das Datum WGS84. Die eventuell aktivierten Auswahl-Filter wirken sich nicht auf den Download-Bereich aus. Alle Einträge und Metadaten sind vollschändig im jeweiligen Download enthalten.
 
 * [CSV Tabelle](out_geodata/portale_shifted.csv)
 * [geojson](out_geodata/portale_shifted.geojson)
@@ -528,5 +528,16 @@ Trotz intensiver und sorgfältiger Kontrolle haften die Herausgeber nicht für R
 #### Urheberrechte  
   
 Sämtliche Urheberrechte an Texten, Bildern, Tabellen und grafischen Darstellungen, die auf den Webseiten öffentlich gemacht werden, liegen - soweit nicht anders kenntlich gemacht - bei der Universität Rostock. Jegliche, auch auszugsweise Verwendung und Verbreitung in jedweder medialen Form bedarf der ausdrücklichen schriftlichen Genehmigung durch die Universität Rostock.
+
+#### Datenschutzerklärung
+
+<a href https://www.uni-rostock.de/footer/datenschutz/" target="_blank">Datenschutzerklärung </a>
+
+#### Piwik/Matomo Opt-out
+
+<iframe src="https://www.opengeoedu.de/analytics/index.php?module=CoreAdminHome&action=optOut&language=de" frameborder="0"
+style="all: initial; height: 20vh; width:100%; max-width: 900px">
+</iframe>
+
 
 <script src="js/oge.js"> </script>

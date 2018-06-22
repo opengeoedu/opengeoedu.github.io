@@ -45,23 +45,26 @@
 		<script>
 			window.addEventListener("load", function () {
 				window.cookieconsent.initialise({
-					"palette": {
-						"popup": {
-							"background": "#009de0"
-						},
-						"button": {
-							"background": "#a1bf35"
-						}
+				"palette": {
+					"popup": {
+						"background": "#009de0"
 					},
-					"theme": "edgeless",
-					"content": {
-						"message": "OpenGeoEdu verwendet Cookies, um sicherzustellen, dass Sie unsere Website optimal nutzen können.",
-						"dismiss": "Ok! Her mit den Keksen! 🍪",
-						"link": "Impressum",
-						"href": "https://www.auf.uni-rostock.de/footer/impressum/"
+					"button": {
+						"background": "#a1bf35"
 					}
-				})
-			});
+				},
+				"position": "bottom-left",
+				"theme": "edgeless",
+				"type": "opt-in",
+				"content": {
+					"message": "OpenGeoEdu verwendet Cookies, um sicherzustellen, dass Sie unsere Website optimal nutzen können.",
+					"dismiss": "Nein Danke",
+					"allow": "Ok! Her mit den Keksen! 🍪",
+					"link": "Datenschutz",
+					"href": "https://www.uni-rostock.de/footer/datenschutz/",
+				}
+			})
+		});
         </script>
         
         <!-- Matomo -->
