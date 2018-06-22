@@ -176,7 +176,7 @@ createMap <- function(portale, table_meta, crosstalk_group = "portale", clusteri
     # map view and max bounds
     fitBounds(5.86,45.5,15,55.1) %>%
     #setView(10.8418, 50.5, zoom = 6)  %>%
-    #setMaxBounds(2,10,22,60) %>%
+    setMaxBounds(2,40,22,65) %>%
     #Background map:
     #  addProviderTiles(providers$Stamen.TonerBackground) %>%
     # addProviderTiles(providers$Esri.WorldGrayCanvas) %>%
