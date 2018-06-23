@@ -139,6 +139,8 @@ library(rgdal)
 library(sp)
 library(geosphere)
 
+if(!dir.exists("out_geodata"))
+  dir.create("out_geodata")
 portale.sp <- portale
 coordinates(portale.sp) <- ~lon + lat
 proj4string(portale.sp) <- CRS("+proj=longlat +datum=WGS84")

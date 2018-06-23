@@ -80,8 +80,8 @@ flext[,1, newpar = TRUE] <- paste0("(",sapply(summary(portale$Typ), function(x) 
 
 flext[,2] <- paste0(" (",as.numeric(rowSums(as.matrix(ftab))),")")
 
-
-
+if(!dir.exists("out"))
+  dir.create("out")
 
 statdoc <- docx() %>%
   addTitle("Übersicht über das Open Data Suchportal", level = 1 ) %>%
