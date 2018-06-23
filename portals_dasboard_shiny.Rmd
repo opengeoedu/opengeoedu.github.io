@@ -368,6 +368,8 @@ tags$div(class = "statwrapper", HTML(statistics_html))
 # for rendering the original flextable-object (reacitvely):
 #tags$div(class = "statwrapper", renderFlexTable(flext))
 ```
+<a href="out/verzeichnis_statistik.docx" download><button class="btn"><i class="fa fa-download"></i> Download Statistik (.docx)</button></a>
+<a href="out/verzeichnis_haeufigkeitsverteilung.csv" download><button class="btn"><i class="fa fa-download"></i> Download Haufigkeitsverteilung (.csv)</button></a>
 
 Neuer Eintrag / Korrektur {data-icon="ion-compose"}
 =========================================================

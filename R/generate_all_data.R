@@ -34,6 +34,8 @@ library(htmlwidgets)
 
 source("R/data_processing.R")
 
+source("R/generate_stats.R")
+
 source("R/portal_prerendering.R")
 # cache the R objects that are consumed by the shiny application:
 save("m", "portale","sd", "sd_table","table_meta","statistics_html", "country_json", "pchIcons","addAllPortalMarkers","addPortalMarker",file = "out/prerendered_content.RData")
