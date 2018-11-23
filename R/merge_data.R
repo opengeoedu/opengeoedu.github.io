@@ -26,7 +26,7 @@ url_exists <- function(x) {
   return(success)
 }
 
-portale <- read.csv("data/portale_geocoded.csv")
+portale <- read.csv("data/portale_geocoded4.csv")
 portale$URL <- url_normalize(portale$URL)
 
 ogidata <- read.csv("data/open-data-sources.csv", sep = ";")
@@ -38,10 +38,14 @@ german_data$Land <- str_replace(german_data$Land, "Switzerland", "Schweiz")
 
 uext <- sapply(german_data$URL, url_exists)
 
+
+
 #show unavailable urls and write them in a separate table
 german_data[!uext,c("URL","Name", "has_issue")]
 error_data <- german_data[!uext,]
 write.csv(x = error_data, file = "data/unavailable-sources.csv")
+
+uext <- sapply(portale$URL, url_exists)
 
 #filter the available data
 german_data <- german_data[uext,]
