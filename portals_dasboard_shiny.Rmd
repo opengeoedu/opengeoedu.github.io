@@ -371,6 +371,9 @@ tags$div(class = "statwrapper", HTML(statistics_html))
 <a href="out/verzeichnis_statistik.docx" download><button class="btn"><i class="fa fa-download"></i> Download Statistik (.docx)</button></a>
 <a href="out/verzeichnis_haeufigkeitsverteilung.csv" download><button class="btn"><i class="fa fa-download"></i> Download Haufigkeitsverteilung (.csv)</button></a>
 
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Die hier bereitgestellten Metadaten sind lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>. Bitte [kontaktieren](http://www.opengeoedu.de/kontakt) Sie das OpenGeoEdu-Team bei diesbezüglichen Fragen oder falls die Daten auf eine andere Weise nutzen möchten.
+
+
 Neuer Eintrag / Korrektur {data-icon="ion-compose"}
 =========================================================
 ```{r out.height="800px"}

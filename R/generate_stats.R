@@ -1,3 +1,4 @@
+library(htmltools)
 portale <- read.csv("data/portale_geocoded4.csv")
 table_meta <- jsonlite::read_json("data/table_meta.json", simplifyVector = TRUE)
 
@@ -8,8 +9,9 @@ portale$Typ_names <- portale$Typ
 levels(portale$Typ_names) <- table_meta$typ_names
 
 #Statistik über die eingetragenen Datenportale:
+
 library(rtable)
-library(ReporteRs)
+#library(ReporteRs)
 #library(flextable)
 #blue table (matching the design color)
 colorP <- colorRampPalette(colors = c("white","#009de0"))
