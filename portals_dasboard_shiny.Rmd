@@ -455,7 +455,7 @@ sendEmail <- function(data){
                   html = TRUE,
                   inline = TRUE,
                   subject = subject,
-                  smtp = list(host.name=host.name, port=as.numeric(port))
+                  smtp = list(host.name=host.name, port=as.numeric(email_config$port))
         )
         
         
