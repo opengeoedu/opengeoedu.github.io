@@ -448,15 +448,17 @@ sendEmail <- function(data){
         
         email_config = read_json("config/email1.conf",simplifyVector = TRUE)
         attach(email_config)
-        send.mail(from=from,
-                  to=email,
-                  encoding = "utf-8",
-                  body = paste(message, collapse = "\n"),
-                  html = TRUE,
-                  inline = TRUE,
-                  subject = subject,
-                  smtp = list(host.name=host.name, port=as.numeric(email_config$port))
-        )
+        if(str_detect(email, "^.*@.*\\..*$")){
+           try(send.mail(from=from,
+                      to=email,
+                      encoding = "utf-8",
+                      body = paste(message, collapse = "\n"),
+                      html = TRUE,
+                      inline = TRUE,
+                      subject = subject,
+                      smtp = list(host.name=host.name, port=as.numeric(email_config$port))
+            ))
+        }
         
         
         table <- FlexTable(
@@ -477,7 +479,7 @@ sendEmail <- function(data){
                   tags$p("das OpenDataPortal"),
                   collapse="\n")
         
-        send.mail(from="OpenDataPortal (noreply) <portal@opengeoedu.de>",
+        try(send.mail(from="OpenDataPortal (noreply) <portal@opengeoedu.de>",
                   to=from,
                   encoding = "utf-8",
                   body = paste(message, collapse = "\n"),
@@ -485,7 +487,7 @@ sendEmail <- function(data){
                   inline = TRUE,
                   subject = "Neuer Eintrag",
                   smtp = list(host.name=host.name, port=as.numeric(email_config$port))
-        )
+        ))
        # sendmail_options("message-content-type" = "html", message_content_type = "html")
         #mailControl=list(smtpServer=host.name, smtpPortSMTP=port, "message-content-type" = "html")
         #sendmail(from=from,
