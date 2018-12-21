@@ -9,7 +9,7 @@ if(FALSE){
   install.packages("htmltools")
   install.packages("htmlwidgets")
   install.packages("digest")
-
+  #devtools::install_github("o2r-project/containerit")
   devtools::install_github("rstudio/leaflet") #another leaflet package
   devtools::install_github("rstudio/shiny")
   #devtools::install_github("schloerke/leaflet",ref = "barret/v1x")
@@ -25,6 +25,8 @@ if(FALSE){
   install.packages("jsonlite")
   install.packages(c("rtable", "ReportRs"))
   #system dependencies: libssl-dev  libcurl4-openssl-dev  pandoc
+  
+ # devtools::install_github("rstudio/leaflet@d489e2c")
 }
 
 library(leaflet)

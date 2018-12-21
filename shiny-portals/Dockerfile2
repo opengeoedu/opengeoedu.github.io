@@ -1,0 +1,2 @@
+FROM shinyapp
+RUN ["installGithub.r", "rpremraj/mailR@4c119d0d9ba7e1589fcf97491ecd6840b17948ad"]
