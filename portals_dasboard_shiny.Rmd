@@ -484,7 +484,7 @@ sendEmail <- function(data){
                   html = TRUE,
                   inline = TRUE,
                   subject = "Neuer Eintrag",
-                  smtp = list(host.name=host.name, port=as.numeric(port))
+                  smtp = list(host.name=host.name, port=as.numeric(email_config$port))
         )
        # sendmail_options("message-content-type" = "html", message_content_type = "html")
         #mailControl=list(smtpServer=host.name, smtpPortSMTP=port, "message-content-type" = "html")
