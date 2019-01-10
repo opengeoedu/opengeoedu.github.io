@@ -398,6 +398,7 @@ saveData <- function(data) {
   )
 }
 
+# automated emails will only work with email-templates and server setup configured
 sendEmail <- function(data){
   require(mailR)
   require(jsonlite)
@@ -425,9 +426,12 @@ sendEmail <- function(data){
   names(data) <- nms
   data[["Typ"]] <- table_meta$typ_names[which(table_meta$typ == data[["Typ"]])]
 
-    if(file.exists("config/email1.conf")){
+    if(file.exists("config/email1.conf") && file.exists("config/message.html") ){
            # shinyjs::alert("Try sending mail!")
+      
+      ## Send confirmation Email
         message <-  readLines("config/message.html")
+        ## create visual summary table of the submission:
         table <- FlexTable(
           as.data.frame(data[!names(data) %in% c("Email", "Autor","Newsletter","Einverstaendnis")]), 
           add.rownames = TRUE, 
@@ -437,6 +441,7 @@ sendEmail <- function(data){
         table[,1] <- textBold()
         html_table <- as.html(table)
         summary_text <- html_table
+        ## Add Email-Newsletter notification to confirmation email
         if(newsletter){
           summary_text <- paste0(summary_text,
                  tags$br(), 
@@ -461,6 +466,26 @@ sendEmail <- function(data){
         }
         
         
+        
+        ## Mail to OGE-TEAM
+        
+        ##thanks mailto: (template for confirmation after mergin submission)
+        thanks_mailto <- ""
+        if(file.exists("config/thanks_message.txt")){
+          thanks_message <-  readLines("config/thanks_message.txt") %>%
+            str_replace("\\[AUTOR\\]", autor) %>%
+            str_replace("\\[BEITRAG\\]", data[["Titel"]])
+           thanks_message <- tags$a(href=
+                                      #paste0("mailto:",autor," <",email,">",
+                                      paste0("mailto:",email,
+                                            "?subject=[OpenGeoEdu] Ihr Beitrag wurde veröffentlicht",
+                                            "&body=",thanks_message
+                                            ),
+                                    "Nach Veröffentlichung Dank-Email verfassen!")
+          thanks_mailto <- tags$p("PS:", thanks_message)
+        }
+
+        
         table <- FlexTable(
           as.data.frame(data), 
           add.rownames = TRUE, 
@@ -477,15 +502,21 @@ sendEmail <- function(data){
                   tags$p("Bitte kontrollieren Sie die Angaben."),
                   tags$p("Es grüßt"),
                   tags$p("das OpenDataPortal"),
+                  thanks_mailto,
                   collapse="\n")
         
+        ## personalize email subject if autor is given
+        vonautor <- ""
+        if (!is.na(autor) && autor != ''){
+          vonautor <- paste(" von",autor)
+        }
         try(send.mail(from="OpenDataPortal (noreply) <portal@opengeoedu.de>",
                   to=from,
                   encoding = "utf-8",
                   body = paste(message, collapse = "\n"),
                   html = TRUE,
                   inline = TRUE,
-                  subject = "Neuer Eintrag",
+                  subject = paste0("Neuer Eintrag",vonautor),
                   smtp = list(host.name=host.name, port=as.numeric(email_config$port))
         ))
        # sendmail_options("message-content-type" = "html", message_content_type = "html")
