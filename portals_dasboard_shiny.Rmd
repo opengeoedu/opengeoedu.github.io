@@ -32,11 +32,15 @@ library(htmltools)
 library(crosstalk)
 library(shiny)
 library(shinyjs)
+library(jsonlite) #for loading email conf
+library(mailR)
+library(ReporteRs)
 
 DEBUG = FALSE
 
 if(DEBUG) { #for debugging purposes, you might want to enable this script that pre-renders map (m), statistics (flext) and data table (portale), otherwise the data is loaded from a file where these intermnediate objects are cached for performance reasons, i.e. reducing the number of packages and data loaded into the app
   source("R/portal_prerendering.R")
+  source("R/generate_stats.R")
 } else {
   load("out/prerendered_content.RData")
 }
@@ -371,6 +375,9 @@ tags$div(class = "statwrapper", HTML(statistics_html))
 <a href="out/verzeichnis_statistik.docx" download><button class="btn"><i class="fa fa-download"></i> Download Statistik (.docx)</button></a>
 <a href="out/verzeichnis_haeufigkeitsverteilung.csv" download><button class="btn"><i class="fa fa-download"></i> Download Haufigkeitsverteilung (.csv)</button></a>
 
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Die hier bereitgestellten Metadaten sind lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>. Bitte [kontaktieren](http://www.opengeoedu.de/kontakt) Sie das OpenGeoEdu-Team bei diesbezüglichen Fragen oder falls die Daten auf eine andere Weise nutzen möchten.
+
+
 Neuer Eintrag / Korrektur {data-icon="ion-compose"}
 =========================================================
 ```{r out.height="800px"}
@@ -391,13 +398,152 @@ saveData <- function(data) {
   )
 }
 
+# automated emails will only work with email-templates and server setup configured
+sendEmail <- function(data){
+  require(mailR)
+  require(jsonlite)
+  require(stringr)
+  
+  email <- data[["Email"]]
+  autor <- data[["Autor"]]
+  newsletter <- as.logical(data[["Newsletter"]])
+  # print(summary(data))
+  # print(data)
+  # print(names(data))
+  # print(class(data))
+  # dnames <- names(data)
+  # data <- t(data.frame(data))
+  # colnames(data) <- dnames
+  #data <- data[,!colnames(data) %in% c("Email", "Autor")]
+  #print(data)
+  
+  #shinyjs::alert(dim(data)[1])
+  #data <- t(data)
+  #data <- data[!names(data) %in% c("Email", "Autor")]
+  nms <- names(data)
+  nms <- str_replace(nms,"^Oeffentlich$","&Ouml;ffentlich")
+  nms <- str_replace(nms,"^Adresse_Herausgeber$","Adresse / Koordinaten des Herausgebers")
+  names(data) <- nms
+  data[["Typ"]] <- table_meta$typ_names[which(table_meta$typ == data[["Typ"]])]
+
+    if(file.exists("config/email1.conf") && file.exists("config/message.html") ){
+           # shinyjs::alert("Try sending mail!")
+      
+      ## Send confirmation Email
+        message <-  readLines("config/message.html")
+        ## create visual summary table of the submission:
+        table <- FlexTable(
+          as.data.frame(data[!names(data) %in% c("Email", "Autor","Newsletter","Einverstaendnis")]), 
+          add.rownames = TRUE, 
+          header.columns = FALSE,
+          body.cell.props = cellProperties(padding = 5)
+          )
+        table[,1] <- textBold()
+        html_table <- as.html(table)
+        summary_text <- html_table
+        ## Add Email-Newsletter notification to confirmation email
+        if(newsletter){
+          summary_text <- paste0(summary_text,
+                 tags$br(), 
+                 tags$b("Ihrem Wunsch gemäß werden wir Ihre E-Mail-Adresse dem Newsletter-Verteiler von OpenGeoEdu hinzufügen. Mit einer kurzen Nachricht an info@opengeoedu.de können diese jederzeit wieder austragen lassen.")
+                 )
+        }
+        message <- str_replace(message, "\\[ZUSAMMENFASSUNG\\]", summary_text)
+        message <- str_replace(message, "\\[ANREDE\\]", paste0("Guten Tag ",autor,","))
+        
+        email_config = read_json("config/email1.conf",simplifyVector = TRUE)
+        attach(email_config)
+        if(str_detect(email, "^.*@.*\\..*$")){
+           try(send.mail(from=from,
+                      to=email,
+                      encoding = "utf-8",
+                      body = paste(message, collapse = "\n"),
+                      html = TRUE,
+                      inline = TRUE,
+                      subject = subject,
+                      smtp = list(host.name=host.name, port=as.numeric(email_config$port))
+            ))
+        }
+        
+        
+        
+        ## Mail to OGE-TEAM
+        
+        ##thanks mailto: (template for confirmation after mergin submission)
+        thanks_mailto <- ""
+        if(file.exists("config/thanks_message.txt")){
+          thanks_message <-  readLines("config/thanks_message.txt") %>%
+            str_replace("\\[AUTOR\\]", autor) %>%
+            str_replace("\\[BEITRAG\\]", data[["Titel"]])
+           thanks_message <- tags$a(href=
+                                      #paste0("mailto:",autor," <",email,">",
+                                      paste0("mailto:",email,
+                                            "?subject=[OpenGeoEdu] Ihr Beitrag wurde veröffentlicht",
+                                            "&body=",thanks_message
+                                            ),
+                                    "Nach Veröffentlichung Dank-Email verfassen!")
+          thanks_mailto <- tags$p("PS:", thanks_message)
+        }
+
+        
+        table <- FlexTable(
+          as.data.frame(data), 
+          add.rownames = TRUE, 
+          header.columns = FALSE,
+          body.cell.props = cellProperties(padding = 5)
+          )
+        
+        table[,1] <- textBold()
+        html_table <- as.html(table)
+        message <- paste0(
+                  "Liebes OpenGeoEdu-Team,",
+                  tags$p("ein Nutzer hat einen Neuen Beitrag zum OpenDataPortal eingesendet."),
+                  html_table,
+                  tags$p("Bitte kontrollieren Sie die Angaben."),
+                  tags$p("Es grüßt"),
+                  tags$p("das OpenDataPortal"),
+                  thanks_mailto,
+                  collapse="\n")
+        
+        ## personalize email subject if autor is given
+        vonautor <- ""
+        if (!is.na(autor) && autor != ''){
+          vonautor <- paste(" von",autor)
+        }
+        try(send.mail(from="OpenDataPortal (noreply) <portal@opengeoedu.de>",
+                  to=from,
+                  encoding = "utf-8",
+                  body = paste(message, collapse = "\n"),
+                  html = TRUE,
+                  inline = TRUE,
+                  subject = paste0("Neuer Eintrag",vonautor),
+                  smtp = list(host.name=host.name, port=as.numeric(email_config$port))
+        ))
+       # sendmail_options("message-content-type" = "html", message_content_type = "html")
+        #mailControl=list(smtpServer=host.name, smtpPortSMTP=port, "message-content-type" = "html")
+        #sendmail(from=from,
+        #         to=test_to,
+         #        subject=subject,
+          #       msg=message,
+           #      control=mailControl, 
+            #     verbose=TRUE)
+        detach(email_config, unload = TRUE)
+        rm(email_config)
+    }
+}
+
 loadData <- function() {
   # Read all the files into a list
   files <- list.files(outputDir, full.names = TRUE)
   files <- files[stringr::str_detect(files,"\\.csv$")]
   if(length(files)==0)
     return(NULL)
-  data <- lapply(files, read.csv, stringsAsFactors = FALSE) 
+  data <- lapply(files, 
+                 function(file){
+                    entry <- read.csv(file, stringsAsFactors = FALSE)
+                    entry <- entry[!colnames(entry) %in% c("Email", "Einverstaendnis","Newsletter")] #exclude colums from being displayed
+                    entry
+                 }) 
   # Concatenate all data together into one data.frame
   data <- do.call(rbind, data)
   data
@@ -438,8 +584,14 @@ shinyApp(
           choiceValues =
             table_meta$staatl, inline = TRUE,
       ), title = "Portal eintragen / editieren",
-      
-       textInput("Autor", label = "Kontakt (Optional)", placeholder = "Ihr Name / E-Mail"),
+       tags$hr(),
+       textInput("Autor", label = "Kontakt (Optional)", placeholder = "Ihr Name"),
+      #tags$input(id="Email",name="Email", type="Email", placeholder="Ihre E-Mail-Adresse"),
+      textInput("Email",NULL, placeholder = "Ihre E-Mail-Adresse"),
+      checkboxInput("Einverstaendnis", "Ich willige hiermit in die Verarbeitung meiner personenbezogenen Daten ein. Diese dient ausschließlich zur Kontaktaufnahme im Rahmen des Projektes OpenGeoEdu der Universität Rostock"),
+      "\t(Siehe ", tags$a("Datenschutzerklärung", href="https://www.uni-rostock.de/footer/datenschutz/"),")",
+      checkboxInput("Newsletter", "Ich bin am Newsletter interessiert."),
+      tags$hr(),
       tags$head(
             tags$style(HTML('#submit{background-color:#009de0;; color: white;} #submit:hover{background-color:#e7e7e7; color: black;} '))
       ),
@@ -469,19 +621,28 @@ shinyApp(
     
       # Whenever a field is filled, aggregate all form data
     formData <- reactive({
-      data <- sapply(c("Titel","URL","Typ","Beschreibung","Reichweite", "Adresse_Herausgeber", "Ort", "Oeffentlich", "Autor"), function(x) input[[x]])
+      data <- sapply(c("Titel","URL","Typ","Beschreibung","Reichweite", "Adresse_Herausgeber", "Ort", "Oeffentlich", "Autor", "Email","Einverstaendnis", "Newsletter"), function(x) input[[x]])
       data
     })
     
     # When the Submit button is clicked, save the form data
     observeEvent(input$submit, {
-      saveData(formData())
-      shinyjs::alert("Vielen Dank!\nIhre Anfrage wurde gesendet und wird bald bearbeitet.")
-      shinyjs::reset("submit-form")
-      output$responses <- DT::renderDataTable({
-        input$submit
-        loadData()
-    }, extensions = "Responsive")   
+      formdata <- formData()
+
+      if((formdata["Email"] !=""|| formdata["Autor"] != "")  
+         && !as.logical(formdata["Einverstaendnis"])){
+           shinyjs::alert("Hinweis: Bitte bestätigen Sie die Einverständniserklärung damit wir die von Ihnen eingegebenen personenbezogenen Angaben (Name/E-Mail) vearbeiten können.\n\nFalls Sie Ihren Beitrag anonym einsenden möchten, entfernen Sie bitte die betreffenden Angaben aus Formular.")
+      }else{
+          saveData(formdata)
+          sendEmail(formdata)
+          shinyjs::alert("Vielen Dank!\nIhre Anfrage wurde gesendet und wird bald bearbeitet.")
+          shinyjs::reset("submit-form")
+          output$responses <- DT::renderDataTable({
+            input$submit
+            loadData()
+        }, extensions = "Responsive")   
+      }
+    
     })
     
     observeEvent(input$reset, {
@@ -502,7 +663,7 @@ shinyApp(
 if(DEBUG){
   library(containerit)
   df <- dockerfile(maintainer = "OpenGeoEdu", image = "rocker/geospatial")
-  write(df, file = "out/Dockerfile")
+  write(df, file = "out/Dockerfile2")
 }
 
 ```

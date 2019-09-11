@@ -1,0 +1,30 @@
+
+Listening on http://127.0.0.1:40971
+
+
+
+processing file: portals_dasboard_shiny.Rmd
+
+Attaching package: 'DT'
+
+The following objects are masked from 'package:shiny':
+
+    dataTableOutput, renderDataTable
+
+
+Attaching package: 'shinyjs'
+
+The following object is masked from 'package:shiny':
+
+    runExample
+
+The following objects are masked from 'package:methods':
+
+    removeClass, show
+
+output file: /tmp/Rtmposa2Nv/portals_dasboard_shiny.knit.md
+
+
+Output created: /tmp/Rtmposa2Nv/file2e48d8ad0d.html
+
+Execution halted
