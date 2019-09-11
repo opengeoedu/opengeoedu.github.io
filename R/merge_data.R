@@ -152,7 +152,7 @@ data <- lapply(files, read.csv, stringsAsFactors = FALSE)
 data <- do.call(rbind, data)
 names(data)[8] <- "Staatlich_Öffentlich"
 names(data)
-data <- data[names(data)!="Autor"]
+#data <- data[names(data)!="Autor"]
 
 
 portale <- read.csv("data/portale_geocoded4.csv", as.is = TRUE)
