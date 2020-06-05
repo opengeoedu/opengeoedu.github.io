@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="de">
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" type="text/css" href="DataTables/datatables.min.css"/>
+
+        <script type="text/javascript" src="DataTables/datatables.min.js"></script>
+        
+         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+           integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+           crossorigin=""/>
+        
+        
+         <!-- Make sure you put this AFTER Leaflet's CSS -->
+         <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+           integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+           crossorigin=""></script>
+        
+        <link rel="stylesheet" type="text/css" href="Leaflet.markercluster-1.4.1/dist/MarkerCluster.Default.css"/>
+
+        <script type="text/javascript" src="Leaflet.markercluster-1.4.1/dist/leaflet.markercluster.js"></script>
+            <script type="text/javascript" src="leaflet-markercluster.placementstrategies.js"></script>
+        <script type="text/javascript" src="Leaflet.FeatureGroup.SubGroup/src/subgroup.js"></script>
+        
+        <style>
+            #mapid { height: 500px; }
+        </style>
+    </head>
+    <body>
+        <div id="mapid"></div>
+        <table id="mytable" class="display"></table>
+              <table id="mytable2" class="display"></table>
+
+    </body>
+    <script>
+        var mymap = L.map('mapid', {maxZoom: 10, minZoom: 0}).setView([50.5,10.8418,], 6);//.fitBounds(5.86,45.5,15,55.1);
+        
+        var basemap = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/light_nolabels/{z}/{x}/{y}.png', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cartodb.com/attributions">CartoDB</a>',
+            maxZoom: 18,
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1
+        }).addTo(mymap);
+        var lastcluster = null; 
+        
+        
+        $(document).ready(function() {
+            $.getJSON( "table_meta.json", function(table_meta ) {
+                        var overlayMaps = {};
+                        var icons = {};
+                        var parentMarkerGroup = L.markerClusterGroup({
+                                spiderLegPolylineOptions: {weight: 0},
+                                  clockHelpingCircleOptions: {weight: .7, opacity: 1, color: 'black', fillOpacity: 0, dashArray: '10 5'},
+
+                                  elementsPlacementStrategy: 'clock',
+                                  helpingCircles: true,
+
+                                  spiderfyDistanceSurplus: 25,
+                                  spiderfyDistanceMultiplier: 1,
+
+                                  elementsMultiplier: 1.4,
+                                  firstCircleElements: 8,
+                                  spiderfyOnMaxZoom: true,
+                                  zoomToBoundsOnClick: false,
+                                showCoverageOnHover: false
+                                //elementsPlacementStrategy: 'clock'
+                            }).addTo(mymap);
+                     
+                            parentMarkerGroup.on('clusterclick', function (a) {
+
+                                if(a.layer._group._spiderfied == null){
+                                    if(lastcluster != null && lastcluster.layer._group._spiderfied != null){
+                                        lastcluster.layer.unspiderfy();
+                                    }
+                                    a.layer.spiderfy();
+                                   // a.layer.is_spiderfied = true;
+                                }else{
+                                   // a.layer.unspiderfy();
+                                   // a.layer.is_spiderfied = false;
+                                }
+                                 lastcluster = a;
+                                 
+		                     });
+                
+                        for(var i = 0; i < table_meta["typ"].length; i++){
+                            var markers = overlayMaps[table_meta["typ_names"][i]] = [];
+
+                             for(var j = 0; j < table_meta["reichw"].length; j++){
+                                 icons[table_meta["typ"][i]+table_meta["reichw"][j]] = L.icon({
+                                        iconUrl: 'icontemp/'+table_meta["typ"][i]+table_meta["reichw_col"][j].replace("#","_")+'.png',
+                                        iconSize: [30, 30],
+                                        iconAnchor: [15, 15],
+                                        popupAnchor: [0,0]
+                                 });
+                             }
+                        }
+                
+                        $.ajax({url: "http://portalopengeoedu.auf.uni-rostock.de:3000/portale", success: function(result){
+                            for(var i = 0; i < result.length; i ++){
+                                var portal = result[i];
+                                var marker = L.marker([portal["lat"],portal["lon"]],{icon: icons[portal["typ"]+portal["reichweite"]]});
+                                marker.bindPopup("<a href=\""+portal["url"]+ "\" target=\"_blank\">"+portal["titel"]+"</a><br/>"+portal["beschreibung"], {autoClose:true});
+                                marker.bindTooltip(portal["titel"]);
+                                var index = table_meta["typ"].indexOf(portal["typ"]);
+                               // console.log(index);
+                                //console.log(table_meta["typ_names"][index]);
+                                overlayMaps[table_meta["typ_names"][index]].push(marker);
+                               // marker.addTo(mymap);
+                               // mymap.addLayer(marker);
+                                  //  marker.on('mouseover', function (e) {
+                                  //      this.openPopup();
+                                  //  });
+                                   // marker.on('mouseout', function (e) {
+                                        //this.closePopup();
+                                   // });
+                               
+                            }
+                           for(var i = 0; i < table_meta["typ"].length; i++){
+                               console.log(overlayMaps[table_meta["typ_names"][i]]);
+                               overlayMaps[table_meta["typ_names"][i]] = L.featureGroup.subGroup(parentMarkerGroup, overlayMaps[table_meta["typ_names"][i]]);
+                            //overlayMaps[i] = L.layer(overlayMaps[i]);
+                            //  overlayMaps[i].addTo(mymap);
+                             mymap.addLayer(overlayMaps[table_meta["typ_names"][i]]);
+                             
+                        }
+                        
+                        console.log(icons);
+                        console.log(overlayMaps);
+                            
+                            var baseLayers = {
+                                "Carto": basemap,                     
+                            };
+                            console.log(baseLayers);
+                            
+                       L.control.layers({}, overlayMaps, {collapsed: false}).addTo(mymap);
+                        //    mymap.addLayer(overlayMaps);
+                        
+
+                            
+                           /*var overlayMaps = {
+                                "Cities": cities
+                           };
+
+                            L.control.layers(overlayMaps).addTo(mymap);*/
+                            }
+                        });
+            });
+            
+            
+            
+            
+             $('#mytable').DataTable( {
+                  "ajax": {
+                    "url": "http://portalopengeoedu.auf.uni-rostock.de:3000/portale",
+                    "dataSrc": "",
+                    cache:"false"
+
+                  },                 
+                    columns:[{data: 'id', title: 'Id'},
+                        {data: 'url', title: 'Url'},
+                        {data: 'titel', title: 'Titel'},
+                        {data: 'beschreibung', title: 'Beschreibung', width: "800px"},
+                        {data: 'ort', title: 'Ort'},
+                        {data: 'typ', title: 'Typ'},
+                        {data: 'reichweite', title: 'Reichweite'},
+                        {data: 'staatlich_öffentlich', title: 'Staatlich / Öffentlich'},
+                       // {data: 'adresse_herausgeber', title: 'Adresse_herausgeber'},
+                        {data: 'land', title: 'Land'},
+                        {data: 'lat', title: 'Lat'},
+                        {data: 'lon', title: 'Lon'},
+                        {data: 'ckan_url', title: 'Ckan_url'},
+                        {data: 'dcat_url', title: 'Dcat_url'},
+                        {data: 'n_daten', title: 'N_daten'},
+                        {data: 'other_api', title: 'Other_api'}
+                        //{data: 'geometry', title: 'Geometry'}
+                            ],
+                 responsive: "true"
+             }
+            ).columns.adjust()
+            .responsive.recalc();;
+        } );
+    </script>
+</html>

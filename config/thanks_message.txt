@@ -1,0 +1,1 @@
+Guten Tag [AUTOR],%0D%0A%0D%0Aihr Beitrag ([BEITRAG]) zum OpenDataPortal wurde von uns bearbeitet und ist jetzt online verfügbar (https://portal.opengeoedu.de).%0D%0ANoch einmal vielen Dank für Ihre Mithilfe!%0D%0A%0D%0Amit freundlichen Grüßen%0D%0A%0D%0Adas OpenGeoEdu-Team

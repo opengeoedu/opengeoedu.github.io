@@ -45,9 +45,17 @@ saveData <- function(data) {
 loadData <- function() {
   # Read all the files into a list
   files <- list.files(outputDir, full.names = TRUE)
+  print(files)
+  files <- files[stringr::str_detect(files,".*/Edits_.*_.*\\.csv$")]
+  print(files)
   if(length(files)==0)
     return(NULL)
-  data <- lapply(files, read.csv, stringsAsFactors = FALSE)
+  data <- lapply(files, 
+                 function(file){
+                    entry <- read.csv(file, stringsAsFactors = FALSE)
+                   # entry <- entry[!colnames(entry) %in% c("Email", "Einverstaendnis","Newsletter")] #exclude colums from being displayed
+                    entry
+                 }) 
   # Concatenate all data together into one data.frame
   data <- do.call(rbind, data)
   data
@@ -66,9 +74,10 @@ loadData <- function() {
   )
   server <- function(input, output) {
     output$value <- renderText({
-      req(input$go)
+      #req(input$go)
       pwd <- isolate(input$password)
-      if(pwd == "match"){
+     # if( pwd == "match"){
+      if(TRUE ){
         hide(id = "mx",anim = TRUE)
         access <<- TRUE
          output$responses <- DT::renderDataTable({loadData()})
