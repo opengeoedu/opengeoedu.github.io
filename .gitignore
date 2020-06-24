@@ -6,3 +6,4 @@ out/
 out_geodata/
 icontemp/
 .metadata
+.env

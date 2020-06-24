@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  portal:
+    image: shinyapp:2
+    ports:
+      - "80:80"
+      - "8787:8787"
+    volumes:
+      - ".:/srv/shiny-server"
+      - "./shiny-portals/shinylog:/var/log/shiny-server/"
+    command: bash -c "echo 'rstudio:$PASSWORD' | chpasswd && rstudio-server start && /usr/bin/shiny-server.sh"

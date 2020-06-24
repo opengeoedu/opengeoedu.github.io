@@ -454,15 +454,17 @@ sendEmail <- function(data){
         email_config = read_json("config/email1.conf",simplifyVector = TRUE)
         attach(email_config)
         if(str_detect(email, "^.*@.*\\..*$")){
-           try(send.mail(from=from,
+           tryCatch(send.mail(from=from,
                       to=email,
                       encoding = "utf-8",
+                      authenticate = TRUE,
                       body = paste(message, collapse = "\n"),
                       html = TRUE,
                       inline = TRUE,
                       subject = subject,
-                      smtp = list(host.name=host.name, port=as.numeric(email_config$port))
-            ))
+                      smtp = list(host.name=host.name, port=as.numeric(email_config$port), tls=TRUE, ssl=FALSE, user.name=from, passwd=pwd)
+            ), error=function(e){shinyjs::alert(e)}
+              )
         }
         
         
@@ -510,14 +512,16 @@ sendEmail <- function(data){
         if (!is.na(autor) && autor != ''){
           vonautor <- paste(" von",autor)
         }
-        try(send.mail(from="OpenDataPortal (noreply) <portal@opengeoedu.de>",
+        tryCatch(send.mail(from="OpenDataPortal (noreply) <portal@opengeoedu.de>",
                   to=from,
                   encoding = "utf-8",
+                  authenticate = TRUE,
                   body = paste(message, collapse = "\n"),
                   html = TRUE,
                   inline = TRUE,
                   subject = paste0("Neuer Eintrag",vonautor),
-                  smtp = list(host.name=host.name, port=as.numeric(email_config$port))
+                  smtp = list(host.name=host.name, port=as.numeric(email_config$port), tls=TRUE, ssl=FALSE, user.name=from, passwd=pwd),
+                  error=function(e){shinyjs::alert(e)}
         ))
        # sendmail_options("message-content-type" = "html", message_content_type = "html")
         #mailControl=list(smtpServer=host.name, smtpPortSMTP=port, "message-content-type" = "html")
